@@ -1,16 +1,16 @@
-import TeamInfoTool from "./TeamInfoTool/TITindex";
+import NbaHome from "./NbaHome/NbaHome"; // we’ll create this wrapper below
 
 interface Props {
   selectedTool: string;
   selectedTeamId: number | null;
 }
 
-const ToolGrid = ({ selectedTool, selectedTeamId }: Props) => {
-  if (selectedTool === "Team Info") return <TeamInfoTool />;
-  if (selectedTool === "Matchup History")
-    return <div>Coming Soon: Matchup History</div>;
+const ToolGrid = ({ selectedTool }: Props) => {
+  if (selectedTool === "NBA Home") return <NbaHome />;
+  if (selectedTool === "Today’s Trends")
+    return <div>Coming Soon: Today’s Trends</div>;
   if (selectedTool === "Forecasting")
-    return <div>Coming Soon: Forecasting Tool</div>;
+    return <div>Coming Soon: Forecasting</div>;
   return null;
 };
 

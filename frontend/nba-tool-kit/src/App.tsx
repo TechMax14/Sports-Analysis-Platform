@@ -1,48 +1,18 @@
-import { Grid, GridItem, HStack, Show } from "@chakra-ui/react";
-import NavBar from "./components/NavBar";
-import ToolGrid from "./components/ToolGrid";
-import ToolSelector from "./components/ToolSelector";
-import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import NbaShell from "./pages/NbaShell";
+import NflShell from "./pages/NflShell";
+import MlbShell from "./pages/MlbShell";
 
-function App() {
-  const [selectedTool, setSelectedTool] = useState("Team Info");
-  const [selectedTeamId, setSelectedTeamId] = useState<number | null>(null);
-
+export default function App() {
   return (
-    <Grid
-      templateAreas={{
-        base: `"nav" "main"`,
-        lg: `"nav nav" "sidepan main"`,
-      }}
-      templateRows={{
-        base: "auto 1fr", // navbar takes auto height, main fills the rest
-        lg: "auto 1fr",
-      }}
-      templateColumns={{
-        base: "1fr",
-        lg: "200px 1fr",
-      }}
-      height="100vh" //
-    >
-      <GridItem area="nav" bg="gray.900" padding={3}>
-        <NavBar />
-      </GridItem>
-
-      <Show above="lg">
-        <GridItem area="sidepan" bg="gray.800" paddingX={5} paddingY={4}>
-          <ToolSelector
-            selectedTool={selectedTool}
-            onSelectTool={setSelectedTool}
-            onSelectTeamId={setSelectedTeamId}
-          />
-        </GridItem>
-      </Show>
-
-      <GridItem area="main" bg="gray.700" padding={6} overflowY="auto">
-        <ToolGrid selectedTool={selectedTool} selectedTeamId={selectedTeamId} />
-      </GridItem>
-    </Grid>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="nba/*" element={<NbaShell />} />
+        <Route path="nfl/*" element={<NflShell />} />
+        <Route path="mlb/*" element={<MlbShell />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
