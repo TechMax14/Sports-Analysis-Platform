@@ -9,7 +9,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="nba/*" element={<NbaShell />} />
         <Route path="nfl/*" element={<NflShell />} />
         <Route path="mlb/*" element={<MlbShell />} />
