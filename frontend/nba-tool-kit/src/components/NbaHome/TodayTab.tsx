@@ -5,6 +5,7 @@ import apiClient from "../../services/api-client";
 interface Game {
   GAME_ID: string;
   MATCHUP: string;
+  GAME_TIME_EST: string;
   STATUS: "FINAL" | "UPCOMING" | "POSTPONED";
   HOME_TEAM: string;
   AWAY_TEAM: string;
@@ -75,6 +76,9 @@ export default function TodayTab() {
           >
             <Text fontWeight="bold" fontSize="lg" mb={2}>
               {g.MATCHUP}
+            </Text>
+            <Text fontSize="sm" color="gray.400" mb={2}>
+              {g.GAME_TIME_EST} ET
             </Text>
             {g.STATUS === "UPCOMING" && (
               <Badge colorScheme="yellow" fontSize="sm">

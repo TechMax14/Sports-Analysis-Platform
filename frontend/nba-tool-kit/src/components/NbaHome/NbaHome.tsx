@@ -7,13 +7,13 @@ import LeadersTab from "./StatLeadersTab";
 
 export default function NbaHome() {
   return (
-    <Tabs colorScheme="teal" isFitted>
+    <Tabs colorScheme="teal" isFitted isLazy defaultIndex={0}>
       <TabList>
         <Tab>Matchups</Tab>
         <Tab>Schedule</Tab>
         <Tab>Standings</Tab>
         <Tab>Teams</Tab>
-        <Tab>Stats Leaders</Tab>
+        <Tab>Stat Leaders</Tab>
       </TabList>
       <TabPanels>
         <TabPanel>

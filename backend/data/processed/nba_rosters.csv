@@ -1,6 +1,8 @@
 TeamID,SEASON,PLAYER,NUM,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PLAYER_ID,HOW_ACQUIRED,TEAM_ID,TEAM_NAME
 1610612737,2025,Asa Newell,14,F,6-10,220,20.0,R,Georgia,1642854,Draft Rights Traded from NOP on 06/25/25,1610612737,Atlanta Hawks
+1610612737,2025,CJ McCollum,3,G,6-3,190,34.0,12,Lehigh,203468,Traded from WAS on 01/09/26,1610612737,Atlanta Hawks
 1610612737,2025,Caleb Houstan,33,G,6-8,205,23.0,3,Michigan,1631216,Signed on 08/19/25,1610612737,Atlanta Hawks
+1610612737,2025,Corey Kispert,24,F,6-6,224,26.0,4,Gonzaga,1630557,Traded from WAS on 01/09/26,1610612737,Atlanta Hawks
 1610612737,2025,Dyson Daniels,5,G,6-7,199,22.0,3,NBA G League Ignite,1630700,Traded from NOP on 07/06/24,1610612737,Atlanta Hawks
 1610612737,2025,Jalen Johnson,1,F,6-8,219,24.0,4,Duke,1630552,#20 Pick in 2021 Draft,1610612737,Atlanta Hawks
 1610612737,2025,Keaton Wallace,2,G,6-3,185,26.0,1,Texas-San Antonio,1630811,Signed on 09/29/23,1610612737,Atlanta Hawks
@@ -12,7 +14,6 @@ TeamID,SEASON,PLAYER,NUM,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PLAYER_ID,HOW_ACQ
 1610612737,2025,Nikola Đurišić,22,G,6-8,214,21.0,R,Mega Basket,1642365,Draft Rights Traded from MIA on 06/27/24,1610612737,Atlanta Hawks
 1610612737,2025,Onyeka Okongwu,17,F-C,6-10,240,25.0,5,Southern California,1630168,#6 Pick in 2020 Draft,1610612737,Atlanta Hawks
 1610612737,2025,RayJ Dennis,10,G,6-1,180,24.0,1,Baylor,1642484,Signed on 12/31/25,1610612737,Atlanta Hawks
-1610612737,2025,Trae Young,11,G,6-2,164,27.0,7,Oklahoma,1629027,Draft Rights Traded from DAL on 06/21/18,1610612737,Atlanta Hawks
 1610612737,2025,Vit Krejci,27,G,6-8,195,25.0,4,Zaragoza,1630249,Signed on 12/22/23,1610612737,Atlanta Hawks
 1610612737,2025,Zaccharie Risacher,10,F,6-8,200,20.0,1,JL Bourg-en-Bresse,1642258,#1 Pick in 2024 Draft,1610612737,Atlanta Hawks
 1610612738,2025,Amari Williams,77,F-C,6-11,250,23.0,R,Kentucky,1642873,Draft Rights Traded from ORL on 06/26/25,1610612738,Boston Celtics
@@ -510,9 +511,7 @@ TeamID,SEASON,PLAYER,NUM,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PLAYER_ID,HOW_ACQ
 1610612764,2025,Anthony Gill,16,F,6-7,230,33.0,5,Virginia,1630264,Signed on 11/30/20,1610612764,Washington Wizards
 1610612764,2025,Bilal Coulibaly,0,G,6-7,195,21.0,2,Metropolitans 92,1641731,Draft Rights Traded from IND on 06/23/23,1610612764,Washington Wizards
 1610612764,2025,Bub Carrington,7,G,6-4,190,20.0,1,Pittsburgh,1642267,Draft Rights Traded from POR on 07/06/24,1610612764,Washington Wizards
-1610612764,2025,CJ McCollum,3,G,6-3,190,34.0,12,Lehigh,203468,Traded from NOP on 07/06/25,1610612764,Washington Wizards
 1610612764,2025,Cam Whitmore,1,F,6-6,230,21.0,2,Villanova,1641715,Traded from HOU on 07/06/25,1610612764,Washington Wizards
-1610612764,2025,Corey Kispert,24,F,6-6,224,26.0,4,Gonzaga,1630557,#15 Pick in 2021 Draft,1610612764,Washington Wizards
 1610612764,2025,Jamir Watkins,5,F,6-6,210,24.0,R,Florida State,1642364,#43 Pick in 2025 Draft,1610612764,Washington Wizards
 1610612764,2025,Justin Champagnie,9,G-F,6-6,206,24.0,4,Pittsburgh,1630551,Signed on 02/22/24,1610612764,Washington Wizards
 1610612764,2025,Khris Middleton,22,F,6-7,222,34.0,13,Texas A&M,203114,Traded from MIL on 02/06/25,1610612764,Washington Wizards
@@ -520,6 +519,7 @@ TeamID,SEASON,PLAYER,NUM,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PLAYER_ID,HOW_ACQ
 1610612764,2025,Malaki Branham,8,F,6-4,180,22.0,3,Ohio State,1631103,Traded from SAS on 07/09/25,1610612764,Washington Wizards
 1610612764,2025,Marvin Bagley III,35,F,6-10,235,26.0,7,Duke,1628963,Signed on 07/10/25,1610612764,Washington Wizards
 1610612764,2025,Sharife Cooper,13,G,6-0,176,24.0,1,Auburn,1630536,Signed on 09/19/25,1610612764,Washington Wizards
+1610612764,2025,Trae Young,11,G,6-2,164,27.0,7,Oklahoma,1629027,Traded from ATL on 01/09/26,1610612764,Washington Wizards
 1610612764,2025,Tre Johnson,12,G,6-5,190,19.0,R,Texas,1642848,#6 Pick in 2025 Draft,1610612764,Washington Wizards
 1610612764,2025,Tristan Vukcevic,00,F,7-0,220,22.0,2,Real Madrid,1641774,#42 Pick in 2023 Draft,1610612764,Washington Wizards
 1610612764,2025,Will Riley,27,F,6-9,180,19.0,R,Illinois-Urbana-Champaign,1642860,Draft Rights Traded from UTA on 06/25/25,1610612764,Washington Wizards

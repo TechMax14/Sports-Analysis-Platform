@@ -9,12 +9,22 @@ from src.utils.response import csv_resp
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
+# ----------  LOAD GAMES HELPER  ----------
+def load_games_df() -> pd.DataFrame:
+    """
+    Loads the cached NBA games schedule.
+
+    GAME_DATE_EST is already normalized to YYYY-MM-DD and
+    GAME_TIME_EST is a display-ready tipoff time in US/Eastern.
+    """
+    return pd.read_csv(CSV["nba_games"])
+
 # ----------  HEALTH CHECK  ----------
 @app.get("/api/health")
 def health():
     return jsonify({k: v.exists() for k, v in CSV.items()})
 
-# ----------  SINGLE-DAY SCHEDULE  ----------
+# ----------  SINGLE-DAY MATCHUPS  ----------
 @app.route("/api/schedule/daily")
 def daily_schedule():
     """
@@ -24,21 +34,39 @@ def daily_schedule():
     """
     target = request.args.get("date") or date.today().isoformat()  # "YYYY-MM-DD"
     try:
-        df = pd.read_csv(CSV["nba_games"])
-        # strip the time part -> "YYYY-MM-DD"
-        df["GAME_DATE_EST"] = (
-            pd.to_datetime(df["GAME_DATE_EST"], utc=True)
-            .dt.tz_convert("US/Eastern")
-            .dt.date
-            .astype(str)
-        )
+        df = load_games_df()
         day_df = df[df["GAME_DATE_EST"] == target].copy()
+        day_df = day_df.sort_values(["GAME_DATE_EST", "GAME_ID"])
         day_df = day_df.where(pd.notnull(day_df), None)
         return jsonify(day_df.to_dict(orient="records"))
     except Exception as e:
         print("daily_schedule error:", e)
         return jsonify([])
     
+# ---------- SCHEDULE (DATE RANGE) ----------
+@app.route("/api/schedule/range")
+def schedule_range():
+    """
+    Query params:
+      - start=YYYY-MM-DD
+      - end=YYYY-MM-DD
+
+    Returns all games where GAME_DATE_EST is between start and end (inclusive).
+    """
+    start = request.args.get("start")
+    end = request.args.get("end")
+    if not start or not end:
+        return jsonify([])
+    try:
+        df = load_games_df()
+        out = df[(df["GAME_DATE_EST"] >= start) & (df["GAME_DATE_EST"] <= end)].copy()
+        out = out.sort_values(["GAME_DATE_EST", "GAME_ID"])
+        out = out.where(pd.notnull(out), None)
+        return jsonify(out.to_dict(orient="records"))
+    except Exception as e:
+        print("schedule_range error:", e)
+        return jsonify([])
+
 # ----------  STANDINGS  ----------
 @app.route("/api/standings")
 def standings():
