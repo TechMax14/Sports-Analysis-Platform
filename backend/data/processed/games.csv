@@ -1,0 +1,1307 @@
+GAME_DATE_EST,GAME_ID,MATCHUP,HOME_TEAM,AWAY_TEAM,HOME_PTS,AWAY_PTS,STATUS,WL
+2025-10-02T12:00:00Z,0012500008,76ers @ Knicks,Knicks,76ers,99,84,Final,F
+2025-10-03T22:00:00Z,0012500001,Suns @ Lakers,Lakers,Suns,81,103,Final,F
+2025-10-03T05:30:00Z,0012500009,United @ Pelicans,Pelicans,United,107,97,Final               ,
+2025-10-04T11:00:00Z,0012500010,Knicks @ 76ers,76ers,Knicks,104,113,Final,F
+2025-10-04T23:00:00Z,0012500011,Phoenix @ Pelicans,Pelicans,Phoenix,127,92,Final               ,
+2025-10-04T20:00:00Z,0012500026,Jerusalem B.C. @ Nets,Nets,Jerusalem B.C.,123,88,Final               ,
+2025-10-04T20:00:00Z,0012500027,Magic @ Heat,Heat,Magic,118,126,Final,F
+2025-10-04T21:00:00Z,0012500028,Timberwolves @ Nuggets,Nuggets,Timberwolves,116,126,Final,F
+2025-10-05T17:00:00Z,0012500029,Thunder @ Hornets,Hornets,Thunder,114,135,Final,F
+2025-10-05T20:30:00Z,0012500030,Lakers @ Warriors,Warriors,Lakers,111,103,Final,F
+2025-10-06T19:30:00Z,0012500002,Bucks @ Heat,Heat,Bucks,93,103,Final,F
+2025-10-06T20:00:00Z,0012500014,Hawks @ Rockets,Rockets,Hawks,122,113,Final,F
+2025-10-06T20:00:00Z,0012500031,Pistons @ Grizzlies,Grizzlies,Pistons,112,128,Final,F
+2025-10-06T20:00:00Z,0012500032,Loong-Lions @ Spurs,Spurs,Loong-Lions,119,88,Final,F
+2025-10-06T20:30:00Z,0012500033,Thunder @ Mavericks,Mavericks,Thunder,106,89,Final,F
+2025-10-06T22:00:00Z,0012500034,Nuggets @ Raptors,Raptors,Nuggets,108,112,Final,F
+2025-10-07T19:00:00Z,0012500035,Bulls @ Cavaliers,Cavaliers,Bulls,117,118,Final,F
+2025-10-07T20:00:00Z,0012500036,Pacers @ Timberwolves,Timberwolves,Pacers,134,135,Final/OT,
+2025-10-08T19:30:00Z,0012500003,Spurs @ Heat,Heat,Spurs,107,112,Final,F
+2025-10-08T22:00:00Z,0012500015,Trail Blazers @ Warriors,Warriors,Trail Blazers,129,123,Final,F
+2025-10-08T22:00:00Z,0012500016,Raptors @ Kings,Kings,Raptors,122,130,Final,F
+2025-10-08T20:00:00Z,0012500037,Jazz @ Rockets,Rockets,Jazz,140,127,Final,F
+2025-10-08T20:00:00Z,0012500038,Celtics @ Grizzlies,Grizzlies,Celtics,103,121,Final,F
+2025-10-09T19:30:00Z,0012500039,Timberwolves @ Knicks,Knicks,Timberwolves,100,95,Final/OT,
+2025-10-09T20:00:00Z,0012500040,Cavaliers @ Bulls,Bulls,Cavaliers,119,112,Final,F
+2025-10-09T20:00:00Z,0012500041,Pistons @ Bucks,Bucks,Pistons,117,111,Final,F
+2025-10-09T20:00:00Z,0012500042,Hornets @ Thunder,Thunder,Hornets,122,116,Final,F
+2025-10-09T22:30:00Z,0012500043,Loong-Lions @ Clippers,Clippers,Loong-Lions,142,95,Final,F
+2025-10-10T08:00:00Z,0012500012,Suns @ Nets,Nets,Suns,127,132,Final/OT,
+2025-10-10T22:00:00Z,0012500017,Kings @ Trail Blazers,Trail Blazers,Kings,124,123,Final,F
+2025-10-10T19:00:00Z,0012500044,Celtics @ Raptors,Raptors,Celtics,107,105,Final,F
+2025-10-10T20:00:00Z,0012500045,Jazz @ Spurs,Spurs,Jazz,134,130,Final/OT,
+2025-10-10T19:00:00Z,0012500070,Magic @ 76ers,76ers,Magic,98,128,Final,F
+2025-10-11T20:00:00Z,0012500018,Hawks @ Grizzlies,Grizzlies,Hawks,116,122,Final,F
+2025-10-11T19:00:00Z,0012500046,Thunder @ Pacers,Pacers,Thunder,116,101,Final,F
+2025-10-11T20:30:00Z,0012500047,Hornets @ Mavericks,Mavericks,Hornets,116,120,Final,F
+2025-10-12T21:30:00Z,0012500004,Warriors @ Lakers,Lakers,Warriors,126,116,Final,F
+2025-10-12T07:00:00Z,0012500013,Nets @ Suns,Suns,Nets,109,111,Final,F
+2025-10-12T15:00:00Z,0012500048,Raptors @ Wizards,Wizards,Raptors,112,113,Final,F
+2025-10-12T18:00:00Z,0012500049,Heat @ Magic,Magic,Heat,120,104,Final,F
+2025-10-12T19:00:00Z,0012500050,Cavaliers @ Celtics,Celtics,Cavaliers,138,107,Final,F
+2025-10-12T19:00:00Z,0012500051,Bucks @ Bulls,Bulls,Bucks,121,127,Final,F
+2025-10-12T21:30:00Z,0012500052,Nuggets @ Clippers,Clippers,Nuggets,94,102,Final,F
+2025-10-13T18:00:00Z,0012500019,Heat @ Hawks,Hawks,Heat,119,118,Final/OT,
+2025-10-13T19:00:00Z,0012500053,Spurs @ Pacers,Pacers,Spurs,108,124,Final,F
+2025-10-13T19:30:00Z,0012500054,Wizards @ Knicks,Knicks,Wizards,103,120,Final,F
+2025-10-13T20:00:00Z,0012500055,Loong-Lions @ Timberwolves,Timberwolves,Loong-Lions,134,74,Final,F
+2025-10-13T21:00:00Z,0012500056,Mavericks @ Jazz,Jazz,Mavericks,101,114,Final,F
+2025-10-14T20:00:00Z,0012500020,Rockets @ Pelicans,Pelicans,Rockets,128,130,Final,F
+2025-10-14T22:00:00Z,0012500021,Warriors @ Trail Blazers,Trail Blazers,Warriors,111,118,Final,F
+2025-10-14T19:00:00Z,0012500057,Pistons @ Cavaliers,Cavaliers,Pistons,118,100,Final,F
+2025-10-14T20:00:00Z,0012500058,Thunder @ Bucks,Bucks,Thunder,112,116,Final,F
+2025-10-14T21:00:00Z,0012500059,Bulls @ Nuggets,Nuggets,Bulls,124,117,Final,F
+2025-10-14T22:00:00Z,0012500060,Lakers @ Suns,Suns,Lakers,113,104,Final,F
+2025-10-15T22:30:00Z,0012500005,Mavericks @ Lakers,Lakers,Mavericks,94,121,Final,F
+2025-10-15T22:00:00Z,0012500022,Clippers @ Kings,Kings,Clippers,91,109,Final,F
+2025-10-15T19:00:00Z,0012500061,Grizzlies @ Hornets,Hornets,Grizzlies,145,116,Final,F
+2025-10-15T19:30:00Z,0012500062,Raptors @ Celtics,Celtics,Raptors,110,108,Final,F
+2025-10-16T19:00:00Z,0012500023,Pelicans @ Magic,Magic,Pelicans,132,125,Final,F
+2025-10-16T19:30:00Z,0012500024,Rockets @ Hawks,Hawks,Rockets,115,133,Final,F
+2025-10-16T21:00:00Z,0012500025,Trail Blazers @ Jazz,Jazz,Trail Blazers,132,129,Final,F
+2025-10-16T19:00:00Z,0012500063,Wizards @ Pistons,Pistons,Wizards,119,98,Final,F
+2025-10-16T20:00:00Z,0012500064,Timberwolves @ Bulls,Bulls,Timberwolves,126,120,Final,F
+2025-10-17T20:00:00Z,0012500006,Grizzlies @ Heat,Heat,Grizzlies,125,141,Final,F
+2025-10-17T22:30:00Z,0012500007,Kings @ Lakers,Lakers,Kings,116,117,Final,F
+2025-10-17T19:00:00Z,0012500065,Nets @ Raptors,Raptors,Nets,119,114,Final,F
+2025-10-17T19:30:00Z,0012500066,Hornets @ Knicks,Knicks,Hornets,113,108,Final,F
+2025-10-17T20:00:00Z,0012500067,Nuggets @ Thunder,Thunder,Nuggets,94,91,Final,F
+2025-10-17T20:00:00Z,0012500068,Pacers @ Spurs,Spurs,Pacers,133,104,Final,F
+2025-10-17T22:00:00Z,0012500069,Clippers @ Warriors,Warriors,Clippers,103,106,Final,F
+2025-10-17T19:00:00Z,0012500071,Timberwolves @ 76ers,76ers,Timberwolves,126,110,Final,F
+2025-10-21T19:30:00Z,0022500001,Rockets @ Thunder,Thunder,Rockets,125,124,Final/OT2,
+2025-10-21T22:00:00Z,0022500002,Warriors @ Lakers,Lakers,Warriors,109,119,Final,F
+2025-10-22T19:00:00Z,0022500003,Cavaliers @ Knicks,Knicks,Cavaliers,119,111,Final,F
+2025-10-22T21:30:00Z,0022500004,Spurs @ Mavericks,Mavericks,Spurs,92,125,Final,F
+2025-10-22T19:00:00Z,0022500080,Nets @ Hornets,Hornets,Nets,136,117,Final,F
+2025-10-22T19:00:00Z,0022500081,Heat @ Magic,Magic,Heat,125,121,Final,F
+2025-10-22T19:30:00Z,0022500082,Raptors @ Hawks,Hawks,Raptors,118,138,Final,F
+2025-10-22T19:30:00Z,0022500083,76ers @ Celtics,Celtics,76ers,116,117,Final,F
+2025-10-22T20:00:00Z,0022500084,Pistons @ Bulls,Bulls,Pistons,115,111,Final,F
+2025-10-22T20:00:00Z,0022500085,Pelicans @ Grizzlies,Grizzlies,Pelicans,128,122,Final,F
+2025-10-22T20:00:00Z,0022500086,Wizards @ Bucks,Bucks,Wizards,133,120,Final,F
+2025-10-22T21:00:00Z,0022500087,Clippers @ Jazz,Jazz,Clippers,129,108,Final,F
+2025-10-22T22:00:00Z,0022500088,Kings @ Suns,Suns,Kings,120,116,Final,F
+2025-10-22T22:00:00Z,0022500089,Timberwolves @ Trail Blazers,Trail Blazers,Timberwolves,114,118,Final,F
+2025-10-23T19:30:00Z,0022500005,Thunder @ Pacers,Pacers,Thunder,135,141,Final/OT2,
+2025-10-23T22:00:00Z,0022500006,Nuggets @ Warriors,Warriors,Nuggets,137,131,Final/OT,
+2025-10-24T19:30:00Z,0022500018,Celtics @ Knicks,Knicks,Celtics,105,95,Final,F
+2025-10-24T22:00:00Z,0022500019,Timberwolves @ Lakers,Lakers,Timberwolves,128,110,Final,F
+2025-10-24T19:00:00Z,0022500090,Hawks @ Magic,Magic,Hawks,107,111,Final,F
+2025-10-24T19:30:00Z,0022500091,Cavaliers @ Nets,Nets,Cavaliers,124,131,Final,F
+2025-10-24T18:30:00Z,0022500092,Bucks @ Raptors,Raptors,Bucks,116,122,Final,F
+2025-10-24T20:00:00Z,0022500093,Pistons @ Rockets,Rockets,Pistons,111,115,Final,F
+2025-10-24T20:00:00Z,0022500094,Heat @ Grizzlies,Grizzlies,Heat,114,146,Final,F
+2025-10-24T20:00:00Z,0022500095,Spurs @ Pelicans,Pelicans,Spurs,116,120,Final/OT,
+2025-10-24T20:30:00Z,0022500096,Wizards @ Mavericks,Mavericks,Wizards,107,117,Final,F
+2025-10-24T22:00:00Z,0022500097,Warriors @ Trail Blazers,Trail Blazers,Warriors,139,119,Final,F
+2025-10-24T22:00:00Z,0022500098,Jazz @ Kings,Kings,Jazz,105,104,Final,F
+2025-10-24T22:30:00Z,0022500099,Suns @ Clippers,Clippers,Suns,129,102,Final,F
+2025-10-25T19:00:00Z,0022500100,Bulls @ Magic,Magic,Bulls,98,110,Final,F
+2025-10-25T19:30:00Z,0022500101,Thunder @ Hawks,Hawks,Thunder,100,117,Final,F
+2025-10-25T19:30:00Z,0022500102,Hornets @ 76ers,76ers,Hornets,125,121,Final,F
+2025-10-25T20:00:00Z,0022500103,Pacers @ Grizzlies,Grizzlies,Pacers,128,103,Final,F
+2025-10-25T21:00:00Z,0022500104,Suns @ Nuggets,Nuggets,Suns,133,111,Final,F
+2025-10-26T14:00:00Z,0022500105,Nets @ Spurs,Spurs,Nets,118,107,Final,F
+2025-10-26T15:30:00Z,0022500106,Celtics @ Pistons,Pistons,Celtics,119,113,Final,F
+2025-10-26T18:00:00Z,0022500107,Bucks @ Cavaliers,Cavaliers,Bucks,118,113,Final,F
+2025-10-26T18:00:00Z,0022500108,Knicks @ Heat,Heat,Knicks,115,107,Final,F
+2025-10-26T18:00:00Z,0022500109,Hornets @ Wizards,Wizards,Hornets,113,139,Final,F
+2025-10-26T19:00:00Z,0022500110,Pacers @ Timberwolves,Timberwolves,Pacers,114,110,Final,F
+2025-10-26T19:30:00Z,0022500111,Raptors @ Mavericks,Mavericks,Raptors,139,129,Final,F
+2025-10-26T21:00:00Z,0022500112,Trail Blazers @ Clippers,Clippers,Trail Blazers,114,107,Final,F
+2025-10-26T21:00:00Z,0022500113,Lakers @ Kings,Kings,Lakers,120,127,Final,F
+2025-10-27T19:00:00Z,0022500007,Cavaliers @ Pistons,Pistons,Cavaliers,95,116,Final,F
+2025-10-27T21:30:00Z,0022500008,Nuggets @ Timberwolves,Timberwolves,Nuggets,114,127,Final,F
+2025-10-27T19:00:00Z,0022500114,Magic @ 76ers,76ers,Magic,136,124,Final,F
+2025-10-27T20:00:00Z,0022500115,Hawks @ Bulls,Bulls,Hawks,128,123,Final,F
+2025-10-27T20:00:00Z,0022500116,Nets @ Rockets,Rockets,Nets,137,109,Final,F
+2025-10-27T20:00:00Z,0022500117,Celtics @ Pelicans,Pelicans,Celtics,90,122,Final,F
+2025-10-27T20:00:00Z,0022500118,Raptors @ Spurs,Spurs,Raptors,121,103,Final,F
+2025-10-27T20:30:00Z,0022500119,Thunder @ Mavericks,Mavericks,Thunder,94,101,Final,F
+2025-10-27T21:00:00Z,0022500120,Suns @ Jazz,Jazz,Suns,138,134,Final/OT,
+2025-10-27T22:00:00Z,0022500121,Grizzlies @ Warriors,Warriors,Grizzlies,131,118,Final,F
+2025-10-27T22:30:00Z,0022500122,Trail Blazers @ Lakers,Lakers,Trail Blazers,108,122,Final,F
+2025-10-28T19:00:00Z,0022500123,76ers @ Wizards,Wizards,76ers,134,139,Final/OT,
+2025-10-28T19:30:00Z,0022500124,Hornets @ Heat,Heat,Hornets,144,117,Final,F
+2025-10-28T20:00:00Z,0022500125,Knicks @ Bucks,Bucks,Knicks,121,111,Final,F
+2025-10-28T20:00:00Z,0022500126,Kings @ Thunder,Thunder,Kings,107,101,Final,F
+2025-10-28T23:00:00Z,0022500127,Clippers @ Warriors,Warriors,Clippers,98,79,Final,F
+2025-10-29T19:00:00Z,0022500128,Cavaliers @ Celtics,Celtics,Cavaliers,125,105,Final,F
+2025-10-29T19:00:00Z,0022500129,Magic @ Pistons,Pistons,Magic,135,116,Final,F
+2025-10-29T19:30:00Z,0022500130,Hawks @ Nets,Nets,Hawks,112,117,Final,F
+2025-10-29T18:30:00Z,0022500131,Rockets @ Raptors,Raptors,Rockets,121,139,Final,F
+2025-10-29T20:00:00Z,0022500132,Kings @ Bulls,Bulls,Kings,126,113,Final,F
+2025-10-29T20:30:00Z,0022500133,Pacers @ Mavericks,Mavericks,Pacers,107,105,Final,F
+2025-10-29T21:00:00Z,0022500134,Pelicans @ Nuggets,Nuggets,Pelicans,122,88,Final,F
+2025-10-29T21:00:00Z,0022500135,Trail Blazers @ Jazz,Jazz,Trail Blazers,134,136,Final,F
+2025-10-29T21:30:00Z,0022500136,Lakers @ Timberwolves,Timberwolves,Lakers,115,116,Final,F
+2025-10-29T22:00:00Z,0022500137,Grizzlies @ Suns,Suns,Grizzlies,113,114,Final,F
+2025-10-30T19:00:00Z,0022500138,Magic @ Hornets,Hornets,Magic,107,123,Final,F
+2025-10-30T20:00:00Z,0022500139,Warriors @ Bucks,Bucks,Warriors,120,110,Final,F
+2025-10-30T20:00:00Z,0022500140,Wizards @ Thunder,Thunder,Wizards,127,108,Final,F
+2025-10-30T20:30:00Z,0022500141,Heat @ Spurs,Spurs,Heat,107,101,Final,F
+2025-10-31T19:00:00Z,0022500020,Hawks @ Pacers,Pacers,Hawks,108,128,Final,F
+2025-10-31T19:00:00Z,0022500021,Celtics @ 76ers,76ers,Celtics,108,109,Final,F
+2025-10-31T19:30:00Z,0022500022,Raptors @ Cavaliers,Cavaliers,Raptors,101,112,Final,F
+2025-10-31T20:00:00Z,0022500023,Knicks @ Bulls,Bulls,Knicks,135,125,Final,F
+2025-10-31T21:30:00Z,0022500024,Lakers @ Grizzlies,Grizzlies,Lakers,112,117,Final,F
+2025-10-31T22:00:00Z,0022500025,Jazz @ Suns,Suns,Jazz,118,96,Final,F
+2025-10-31T22:00:00Z,0022500026,Nuggets @ Trail Blazers,Trail Blazers,Nuggets,109,107,Final,F
+2025-10-31T22:30:00Z,0022500027,Pelicans @ Clippers,Clippers,Pelicans,126,124,Final,F
+2025-11-01T17:00:00Z,0022500142,Kings @ Bucks,Bucks,Kings,133,135,Final,F
+2025-11-01T18:00:00Z,0022500143,Timberwolves @ Hornets,Hornets,Timberwolves,105,122,Final,F
+2025-11-01T19:00:00Z,0022500144,Warriors @ Pacers,Pacers,Warriors,114,109,Final,F
+2025-11-01T19:00:00Z,0022500145,Magic @ Wizards,Wizards,Magic,94,125,Final,F
+2025-11-01T20:00:00Z,0022500146,Rockets @ Celtics,Celtics,Rockets,101,128,Final,F
+2025-11-01T22:00:00Z,0022500147,Mavericks @ Pistons,Pistons,Mavericks,122,110,Final,F
+2025-11-02T15:30:00Z,0022500148,Pelicans @ Thunder,Thunder,Pelicans,137,106,Final,F
+2025-11-02T18:00:00Z,0022500149,76ers @ Nets,Nets,76ers,105,129,Final,F
+2025-11-02T18:00:00Z,0022500150,Jazz @ Hornets,Hornets,Jazz,126,103,Final,F
+2025-11-02T18:00:00Z,0022500151,Hawks @ Cavaliers,Cavaliers,Hawks,117,109,Final,F
+2025-11-02T18:00:00Z,0022500152,Grizzlies @ Raptors,Raptors,Grizzlies,117,104,Final,F
+2025-11-02T19:00:00Z,0022500153,Bulls @ Knicks,Knicks,Bulls,128,116,Final,F
+2025-11-02T20:00:00Z,0022500154,Spurs @ Suns,Suns,Spurs,130,118,Final,F
+2025-11-02T21:30:00Z,0022500155,Heat @ Lakers,Lakers,Heat,130,120,Final,F
+2025-11-03T19:00:00Z,0022500156,Timberwolves @ Nets,Nets,Timberwolves,109,125,Final,F
+2025-11-03T19:00:00Z,0022500157,Bucks @ Pacers,Pacers,Bucks,115,117,Final,F
+2025-11-03T19:30:00Z,0022500158,Jazz @ Celtics,Celtics,Jazz,103,105,Final,F
+2025-11-03T19:30:00Z,0022500159,Wizards @ Knicks,Knicks,Wizards,119,102,Final,F
+2025-11-03T20:00:00Z,0022500160,Mavericks @ Rockets,Rockets,Mavericks,110,102,Final,F
+2025-11-03T20:00:00Z,0022500161,Pistons @ Grizzlies,Grizzlies,Pistons,106,114,Final,F
+2025-11-03T21:00:00Z,0022500162,Kings @ Nuggets,Nuggets,Kings,130,124,Final,F
+2025-11-03T22:00:00Z,0022500163,Lakers @ Trail Blazers,Trail Blazers,Lakers,115,123,Final,F
+2025-11-03T22:30:00Z,0022500164,Heat @ Clippers,Clippers,Heat,119,120,Final,F
+2025-11-04T19:30:00Z,0022500165,Bucks @ Raptors,Raptors,Bucks,128,100,Final,F
+2025-11-04T20:00:00Z,0022500166,Magic @ Hawks,Hawks,Magic,127,112,Final,F
+2025-11-04T20:00:00Z,0022500167,76ers @ Bulls,Bulls,76ers,113,111,Final,F
+2025-11-04T20:00:00Z,0022500168,Hornets @ Pelicans,Pelicans,Hornets,116,112,Final,F
+2025-11-04T22:00:00Z,0022500169,Suns @ Warriors,Warriors,Suns,118,107,Final,F
+2025-11-04T23:00:00Z,0022500170,Thunder @ Clippers,Clippers,Thunder,107,126,Final,F
+2025-11-05T19:00:00Z,0022500171,76ers @ Cavaliers,Cavaliers,76ers,132,121,Final,F
+2025-11-05T19:00:00Z,0022500172,Jazz @ Pistons,Pistons,Jazz,114,103,Final,F
+2025-11-05T19:00:00Z,0022500173,Nets @ Pacers,Pacers,Nets,103,112,Final,F
+2025-11-05T19:30:00Z,0022500174,Wizards @ Celtics,Celtics,Wizards,136,107,Final,F
+2025-11-05T19:30:00Z,0022500175,Timberwolves @ Knicks,Knicks,Timberwolves,137,114,Final,F
+2025-11-05T20:00:00Z,0022500176,Rockets @ Grizzlies,Grizzlies,Rockets,109,124,Final,F
+2025-11-05T20:30:00Z,0022500177,Pelicans @ Mavericks,Mavericks,Pelicans,99,101,Final,F
+2025-11-05T21:00:00Z,0022500178,Heat @ Nuggets,Nuggets,Heat,122,112,Final,F
+2025-11-05T22:00:00Z,0022500179,Spurs @ Lakers,Lakers,Spurs,118,116,Final,F
+2025-11-05T22:00:00Z,0022500180,Thunder @ Trail Blazers,Trail Blazers,Thunder,121,119,Final,F
+2025-11-05T22:00:00Z,0022500181,Warriors @ Kings,Kings,Warriors,121,116,Final,F
+2025-11-06T21:00:00Z,0022500182,Clippers @ Suns,Suns,Clippers,115,102,Final,F
+2025-11-07T19:00:00Z,0022500028,Celtics @ Magic,Magic,Celtics,123,110,Final,F
+2025-11-07T19:00:00Z,0022500029,Cavaliers @ Wizards,Wizards,Cavaliers,115,148,Final,F
+2025-11-07T19:30:00Z,0022500030,Raptors @ Hawks,Hawks,Raptors,97,109,Final,F
+2025-11-07T19:30:00Z,0022500031,Pistons @ Nets,Nets,Pistons,107,125,Final,F
+2025-11-07T19:30:00Z,0022500032,Rockets @ Spurs,Spurs,Rockets,121,110,Final,F
+2025-11-07T20:00:00Z,0022500033,Hornets @ Heat,Heat,Hornets,126,108,Final,F
+2025-11-07T20:00:00Z,0022500034,Mavericks @ Grizzlies,Grizzlies,Mavericks,118,104,Final,F
+2025-11-07T20:00:00Z,0022500035,Bulls @ Bucks,Bucks,Bulls,126,110,Final,F
+2025-11-07T20:00:00Z,0022500036,Jazz @ Timberwolves,Timberwolves,Jazz,137,97,Final,F
+2025-11-07T22:00:00Z,0022500037,Warriors @ Nuggets,Nuggets,Warriors,129,104,Final,F
+2025-11-07T22:00:00Z,0022500038,Thunder @ Kings,Kings,Thunder,101,132,Final,F
+2025-11-08T19:00:00Z,0022500183,Mavericks @ Wizards,Wizards,Mavericks,105,111,Final,F
+2025-11-08T19:30:00Z,0022500184,Raptors @ 76ers,76ers,Raptors,130,120,Final,F
+2025-11-08T20:00:00Z,0022500185,Lakers @ Hawks,Hawks,Lakers,122,102,Final,F
+2025-11-08T20:00:00Z,0022500186,Bulls @ Cavaliers,Cavaliers,Bulls,128,122,Final,F
+2025-11-08T20:00:00Z,0022500187,Trail Blazers @ Heat,Heat,Trail Blazers,136,131,Final,F
+2025-11-08T20:00:00Z,0022500188,Pelicans @ Spurs,Spurs,Pelicans,126,119,Final,F
+2025-11-08T21:00:00Z,0022500189,Pacers @ Nuggets,Nuggets,Pacers,117,100,Final,F
+2025-11-08T22:30:00Z,0022500190,Suns @ Clippers,Clippers,Suns,103,114,Final,F
+2025-11-09T15:30:00Z,0022500191,Rockets @ Bucks,Bucks,Rockets,115,122,Final,F
+2025-11-09T18:00:00Z,0022500192,Nets @ Knicks,Knicks,Nets,134,98,Final,F
+2025-11-09T18:00:00Z,0022500193,Celtics @ Magic,Magic,Celtics,107,111,Final,F
+2025-11-09T18:00:00Z,0022500194,Thunder @ Grizzlies,Grizzlies,Thunder,100,114,Final,F
+2025-11-09T19:30:00Z,0022500195,Pistons @ 76ers,76ers,Pistons,108,111,Final,F
+2025-11-09T20:30:00Z,0022500196,Pacers @ Warriors,Warriors,Pacers,114,83,Final,F
+2025-11-09T21:00:00Z,0022500197,Timberwolves @ Kings,Kings,Timberwolves,117,144,Final,F
+2025-11-10T19:00:00Z,0022500198,Lakers @ Hornets,Hornets,Lakers,111,121,Final,F
+2025-11-10T19:00:00Z,0022500199,Wizards @ Pistons,Pistons,Wizards,137,135,Final/OT,
+2025-11-10T19:00:00Z,0022500200,Trail Blazers @ Magic,Magic,Trail Blazers,115,112,Final,F
+2025-11-10T19:30:00Z,0022500201,Cavaliers @ Heat,Heat,Cavaliers,140,138,Final/OT,
+2025-11-10T20:00:00Z,0022500202,Spurs @ Bulls,Bulls,Spurs,117,121,Final,F
+2025-11-10T20:30:00Z,0022500203,Bucks @ Mavericks,Mavericks,Bucks,114,116,Final,F
+2025-11-10T21:00:00Z,0022500204,Pelicans @ Suns,Suns,Pelicans,121,98,Final,F
+2025-11-10T21:00:00Z,0022500205,Timberwolves @ Jazz,Jazz,Timberwolves,113,120,Final,F
+2025-11-10T22:30:00Z,0022500206,Hawks @ Clippers,Clippers,Hawks,102,105,Final,F
+2025-11-11T19:30:00Z,0022500207,Raptors @ Nets,Nets,Raptors,109,119,Final,F
+2025-11-11T19:30:00Z,0022500208,Grizzlies @ Knicks,Knicks,Grizzlies,133,120,Final,F
+2025-11-11T20:00:00Z,0022500209,Celtics @ 76ers,76ers,Celtics,102,100,Final,F
+2025-11-11T20:00:00Z,0022500210,Warriors @ Thunder,Thunder,Warriors,126,102,Final,F
+2025-11-11T21:00:00Z,0022500211,Pacers @ Jazz,Jazz,Pacers,152,128,Final,F
+2025-11-11T23:00:00Z,0022500212,Nuggets @ Kings,Kings,Nuggets,108,122,Final,F
+2025-11-12T19:00:00Z,0022500213,Bucks @ Hornets,Hornets,Bucks,111,100,Final,F
+2025-11-12T19:00:00Z,0022500214,Bulls @ Pistons,Pistons,Bulls,124,113,Final,F
+2025-11-12T19:00:00Z,0022500215,Magic @ Knicks,Knicks,Magic,107,124,Final,F
+2025-11-12T19:30:00Z,0022500216,Grizzlies @ Celtics,Celtics,Grizzlies,131,95,Final,F
+2025-11-12T19:30:00Z,0022500217,Cavaliers @ Heat,Heat,Cavaliers,116,130,Final,F
+2025-11-12T20:00:00Z,0022500218,Wizards @ Rockets,Rockets,Wizards,135,112,Final,F
+2025-11-12T20:00:00Z,0022500219,Trail Blazers @ Pelicans,Pelicans,Trail Blazers,117,125,Final,F
+2025-11-12T20:00:00Z,0022500220,Warriors @ Spurs,Spurs,Warriors,120,125,Final,F
+2025-11-12T20:30:00Z,0022500221,Suns @ Mavericks,Mavericks,Suns,114,123,Final,F
+2025-11-12T21:30:00Z,0022500222,Lakers @ Thunder,Thunder,Lakers,121,92,Final,F
+2025-11-12T22:00:00Z,0022500223,Hawks @ Kings,Kings,Hawks,100,133,Final,F
+2025-11-12T22:30:00Z,0022500224,Nuggets @ Clippers,Clippers,Nuggets,116,130,Final,F
+2025-11-13T19:00:00Z,0022500225,Raptors @ Cavaliers,Cavaliers,Raptors,113,126,Final,F
+2025-11-13T21:00:00Z,0022500226,Pacers @ Suns,Suns,Pacers,133,98,Final,F
+2025-11-13T21:00:00Z,0022500227,Hawks @ Jazz,Jazz,Hawks,122,132,Final,F
+2025-11-14T19:00:00Z,0022500039,Heat @ Knicks,Knicks,Heat,140,132,Final,F
+2025-11-14T19:00:00Z,0022500040,Nets @ Magic,Magic,Nets,105,98,Final,F
+2025-11-14T19:30:00Z,0022500041,76ers @ Pistons,Pistons,76ers,114,105,Final,F
+2025-11-14T20:00:00Z,0022500042,Trail Blazers @ Rockets,Rockets,Trail Blazers,140,116,Final,F
+2025-11-14T20:00:00Z,0022500043,Hornets @ Bucks,Bucks,Hornets,147,134,Final/OT,
+2025-11-14T20:00:00Z,0022500044,Kings @ Timberwolves,Timberwolves,Kings,124,110,Final,F
+2025-11-14T20:00:00Z,0022500045,Lakers @ Pelicans,Pelicans,Lakers,104,118,Final,F
+2025-11-14T20:30:00Z,0022500046,Clippers @ Mavericks,Mavericks,Clippers,127,133,Final/OT2,
+2025-11-14T21:30:00Z,0022500047,Warriors @ Spurs,Spurs,Warriors,108,109,Final,F
+2025-11-15T17:00:00Z,0022500228,Grizzlies @ Cavaliers,Cavaliers,Grizzlies,108,100,Final,F
+2025-11-15T19:00:00Z,0022500229,Thunder @ Hornets,Hornets,Thunder,96,109,Final,F
+2025-11-15T19:00:00Z,0022500230,Raptors @ Pacers,Pacers,Raptors,111,129,Final,F
+2025-11-15T20:00:00Z,0022500231,Lakers @ Bucks,Bucks,Lakers,95,119,Final,F
+2025-11-15T20:00:00Z,0022500232,Nuggets @ Timberwolves,Timberwolves,Nuggets,112,123,Final,F
+2025-11-16T15:30:00Z,0022500233,Clippers @ Celtics,Celtics,Clippers,121,118,Final,F
+2025-11-16T16:00:00Z,0022500234,Kings @ Spurs,Spurs,Kings,123,110,Final,F
+2025-11-16T18:00:00Z,0022500235,Nets @ Wizards,Wizards,Nets,106,129,Final,F
+2025-11-16T19:00:00Z,0022500236,Magic @ Rockets,Rockets,Magic,117,113,Final/OT,
+2025-11-16T19:00:00Z,0022500237,Warriors @ Pelicans,Pelicans,Warriors,106,124,Final,F
+2025-11-16T19:30:00Z,0022500238,Trail Blazers @ Mavericks,Mavericks,Trail Blazers,138,133,Final/OT,
+2025-11-16T20:00:00Z,0022500239,Hawks @ Suns,Suns,Hawks,122,124,Final,F
+2025-11-16T20:00:00Z,0022500240,Bulls @ Jazz,Jazz,Bulls,150,147,Final/OT2,
+2025-11-17T19:00:00Z,0022500241,Bucks @ Cavaliers,Cavaliers,Bucks,118,106,Final,F
+2025-11-17T19:00:00Z,0022500242,Pacers @ Pistons,Pistons,Pacers,127,112,Final,F
+2025-11-17T19:00:00Z,0022500243,Clippers @ 76ers,76ers,Clippers,110,108,Final,F
+2025-11-17T19:30:00Z,0022500244,Knicks @ Heat,Heat,Knicks,115,113,Final,F
+2025-11-17T19:30:00Z,0022500245,Hornets @ Raptors,Raptors,Hornets,110,108,Final,F
+2025-11-17T20:00:00Z,0022500246,Mavericks @ Timberwolves,Timberwolves,Mavericks,120,96,Final,F
+2025-11-17T20:00:00Z,0022500247,Thunder @ Pelicans,Pelicans,Thunder,109,126,Final,F
+2025-11-17T21:00:00Z,0022500248,Bulls @ Nuggets,Nuggets,Bulls,127,130,Final,F
+2025-11-18T19:00:00Z,0022500249,Warriors @ Magic,Magic,Warriors,121,113,Final,F
+2025-11-18T19:30:00Z,0022500250,Celtics @ Nets,Nets,Celtics,99,113,Final,F
+2025-11-18T19:30:00Z,0022500251,Pistons @ Hawks,Hawks,Pistons,112,120,Final,F
+2025-11-18T20:00:00Z,0022500252,Grizzlies @ Spurs,Spurs,Grizzlies,111,101,Final,F
+2025-11-18T22:30:00Z,0022500253,Jazz @ Lakers,Lakers,Jazz,140,126,Final,F
+2025-11-18T23:00:00Z,0022500254,Suns @ Trail Blazers,Trail Blazers,Suns,110,127,Final,F
+2025-11-19T19:00:00Z,0022500255,Rockets @ Cavaliers,Cavaliers,Rockets,104,114,Final,F
+2025-11-19T19:00:00Z,0022500256,Hornets @ Pacers,Pacers,Hornets,127,118,Final,F
+2025-11-19T19:30:00Z,0022500257,Warriors @ Heat,Heat,Warriors,110,96,Final,F
+2025-11-19T19:00:00Z,0022500258,Raptors @ 76ers,76ers,Raptors,112,121,Final,F
+2025-11-19T20:00:00Z,0022500259,Wizards @ Timberwolves,Timberwolves,Wizards,120,109,Final,F
+2025-11-19T20:00:00Z,0022500260,Nuggets @ Pelicans,Pelicans,Nuggets,118,125,Final,F
+2025-11-19T20:00:00Z,0022500261,Kings @ Thunder,Thunder,Kings,113,99,Final,F
+2025-11-19T21:30:00Z,0022500262,Knicks @ Mavericks,Mavericks,Knicks,111,113,Final,F
+2025-11-19T22:00:00Z,0022500263,Bulls @ Trail Blazers,Trail Blazers,Bulls,121,122,Final,F
+2025-11-20T19:00:00Z,0022500264,Clippers @ Magic,Magic,Clippers,129,101,Final,F
+2025-11-20T20:00:00Z,0022500265,Kings @ Grizzlies,Grizzlies,Kings,137,96,Final,F
+2025-11-20T20:00:00Z,0022500266,76ers @ Bucks,Bucks,76ers,114,123,Final/OT,
+2025-11-20T20:00:00Z,0022500267,Hawks @ Spurs,Spurs,Hawks,135,126,Final,F
+2025-11-21T19:00:00Z,0022500048,Pacers @ Cavaliers,Cavaliers,Pacers,120,109,Final,F
+2025-11-21T19:30:00Z,0022500049,Nets @ Celtics,Celtics,Nets,105,113,Final,F
+2025-11-21T19:30:00Z,0022500050,Wizards @ Raptors,Raptors,Wizards,140,110,Final,F
+2025-11-21T20:00:00Z,0022500051,Heat @ Bulls,Bulls,Heat,107,143,Final,F
+2025-11-21T20:30:00Z,0022500052,Pelicans @ Mavericks,Mavericks,Pelicans,118,115,Final,F
+2025-11-21T21:00:00Z,0022500053,Timberwolves @ Suns,Suns,Timberwolves,114,113,Final,F
+2025-11-21T21:30:00Z,0022500054,Nuggets @ Rockets,Rockets,Nuggets,109,112,Final,F
+2025-11-21T22:00:00Z,0022500055,Thunder @ Jazz,Jazz,Thunder,112,144,Final,F
+2025-11-21T22:00:00Z,0022500056,Trail Blazers @ Warriors,Warriors,Trail Blazers,123,127,Final,F
+2025-11-22T13:00:00Z,0022500268,Clippers @ Hornets,Hornets,Clippers,116,131,Final,F
+2025-11-22T17:00:00Z,0022500269,Knicks @ Magic,Magic,Knicks,133,121,Final,F
+2025-11-22T19:00:00Z,0022500270,Hawks @ Pelicans,Pelicans,Hawks,98,115,Final,F
+2025-11-22T20:00:00Z,0022500271,Wizards @ Bulls,Bulls,Wizards,121,120,Final,F
+2025-11-22T20:00:00Z,0022500272,Pistons @ Bucks,Bucks,Pistons,116,129,Final,F
+2025-11-22T20:30:00Z,0022500273,Grizzlies @ Mavericks,Mavericks,Grizzlies,96,102,Final,F
+2025-11-22T22:00:00Z,0022500274,Kings @ Nuggets,Nuggets,Kings,123,128,Final,F
+2025-11-23T13:00:00Z,0022500275,Heat @ 76ers,76ers,Heat,117,127,Final,F
+2025-11-23T18:00:00Z,0022500276,Hornets @ Hawks,Hawks,Hornets,113,110,Final,F
+2025-11-23T18:00:00Z,0022500277,Magic @ Celtics,Celtics,Magic,138,129,Final,F
+2025-11-23T18:00:00Z,0022500278,Clippers @ Cavaliers,Cavaliers,Clippers,120,105,Final,F
+2025-11-23T18:00:00Z,0022500279,Nets @ Raptors,Raptors,Nets,119,109,Final,F
+2025-11-23T19:00:00Z,0022500280,Trail Blazers @ Thunder,Thunder,Trail Blazers,122,95,Final,F
+2025-11-23T20:00:00Z,0022500281,Spurs @ Suns,Suns,Spurs,111,102,Final,F
+2025-11-23T20:00:00Z,0022500282,Lakers @ Jazz,Jazz,Lakers,106,108,Final,F
+2025-11-24T19:00:00Z,0022500283,Pistons @ Pacers,Pacers,Pistons,117,122,Final,F
+2025-11-24T19:00:00Z,0022500284,Cavaliers @ Raptors,Raptors,Cavaliers,110,99,Final,F
+2025-11-24T19:30:00Z,0022500285,Knicks @ Nets,Nets,Knicks,100,113,Final,F
+2025-11-24T19:30:00Z,0022500286,Mavericks @ Heat,Heat,Mavericks,106,102,Final,F
+2025-11-24T20:00:00Z,0022500287,Nuggets @ Grizzlies,Grizzlies,Nuggets,115,125,Final,F
+2025-11-24T20:00:00Z,0022500288,Trail Blazers @ Bucks,Bucks,Trail Blazers,103,115,Final,F
+2025-11-24T20:00:00Z,0022500289,Bulls @ Pelicans,Pelicans,Bulls,143,130,Final,F
+2025-11-24T21:30:00Z,0022500290,Rockets @ Suns,Suns,Rockets,92,114,Final,F
+2025-11-24T22:00:00Z,0022500291,Jazz @ Warriors,Warriors,Jazz,134,117,Final,F
+2025-11-24T22:00:00Z,0022500292,Timberwolves @ Kings,Kings,Timberwolves,117,112,Final/OT,
+2025-11-25T19:00:00Z,0022500057,Hawks @ Wizards,Wizards,Hawks,132,113,Final,F
+2025-11-25T20:00:00Z,0022500058,Magic @ 76ers,76ers,Magic,103,144,Final,F
+2025-11-25T23:00:00Z,0022500059,Clippers @ Lakers,Lakers,Clippers,135,118,Final,F
+2025-11-26T17:00:00Z,0022500060,Pistons @ Celtics,Celtics,Pistons,117,114,Final,F
+2025-11-26T19:00:00Z,0022500061,Knicks @ Hornets,Hornets,Knicks,101,129,Final,F
+2025-11-26T19:30:00Z,0022500062,Bucks @ Heat,Heat,Bucks,106,103,Final,F
+2025-11-26T19:30:00Z,0022500063,Pacers @ Raptors,Raptors,Pacers,97,95,Final,F
+2025-11-26T19:30:00Z,0022500064,Timberwolves @ Thunder,Thunder,Timberwolves,113,105,Final,F
+2025-11-26T20:00:00Z,0022500065,Grizzlies @ Pelicans,Pelicans,Grizzlies,128,133,Final/OT,
+2025-11-26T22:00:00Z,0022500066,Rockets @ Warriors,Warriors,Rockets,100,104,Final,F
+2025-11-26T22:00:00Z,0022500067,Spurs @ Trail Blazers,Trail Blazers,Spurs,102,115,Final,F
+2025-11-26T22:00:00Z,0022500068,Suns @ Kings,Kings,Suns,100,112,Final,F
+2025-11-28T19:30:00Z,0022500069,Cavaliers @ Hawks,Hawks,Cavaliers,130,123,Final,F
+2025-11-28T19:30:00Z,0022500070,76ers @ Nets,Nets,76ers,103,115,Final,F
+2025-11-28T19:30:00Z,0022500071,Bulls @ Hornets,Hornets,Bulls,123,116,Final,F
+2025-11-28T19:30:00Z,0022500072,Magic @ Pistons,Pistons,Magic,109,112,Final,F
+2025-11-28T19:30:00Z,0022500073,Wizards @ Pacers,Pacers,Wizards,119,86,Final,F
+2025-11-28T19:30:00Z,0022500074,Bucks @ Knicks,Knicks,Bucks,118,109,Final,F
+2025-11-28T21:30:00Z,0022500075,Suns @ Thunder,Thunder,Suns,123,119,Final,F
+2025-11-28T21:30:00Z,0022500076,Spurs @ Nuggets,Nuggets,Spurs,136,139,Final,F
+2025-11-28T21:30:00Z,0022500077,Kings @ Jazz,Jazz,Kings,128,119,Final,F
+2025-11-28T22:00:00Z,0022500078,Mavericks @ Lakers,Lakers,Mavericks,129,119,Final,F
+2025-11-28T22:00:00Z,0022500079,Grizzlies @ Clippers,Clippers,Grizzlies,107,112,Final,F
+2025-11-29T17:00:00Z,0022500293,Celtics @ Timberwolves,Timberwolves,Celtics,119,115,Final,F
+2025-11-29T18:00:00Z,0022500294,Raptors @ Hornets,Hornets,Raptors,118,111,Final/OT,
+2025-11-29T19:30:00Z,0022500295,Bulls @ Pacers,Pacers,Bulls,103,101,Final,F
+2025-11-29T20:00:00Z,0022500296,Pistons @ Heat,Heat,Pistons,135,138,Final,F
+2025-11-29T20:00:00Z,0022500297,Nets @ Bucks,Bucks,Nets,116,99,Final,F
+2025-11-29T20:30:00Z,0022500298,Pelicans @ Warriors,Warriors,Pelicans,104,96,Final,F
+2025-11-29T21:00:00Z,0022500299,Nuggets @ Suns,Suns,Nuggets,112,130,Final,F
+2025-11-29T22:00:00Z,0022500300,Mavericks @ Clippers,Clippers,Mavericks,110,114,Final,F
+2025-11-30T15:00:00Z,0022500301,Rockets @ Jazz,Jazz,Rockets,101,129,Final,F
+2025-11-30T18:00:00Z,0022500302,Celtics @ Cavaliers,Cavaliers,Celtics,115,117,Final,F
+2025-11-30T18:00:00Z,0022500303,Raptors @ Knicks,Knicks,Raptors,116,94,Final,F
+2025-11-30T18:00:00Z,0022500304,Hawks @ 76ers,76ers,Hawks,134,142,Final/OT2,
+2025-11-30T18:00:00Z,0022500305,Thunder @ Trail Blazers,Trail Blazers,Thunder,115,123,Final,F
+2025-11-30T19:00:00Z,0022500306,Spurs @ Timberwolves,Timberwolves,Spurs,125,112,Final,F
+2025-11-30T21:00:00Z,0022500307,Grizzlies @ Kings,Kings,Grizzlies,107,115,Final,F
+2025-11-30T21:30:00Z,0022500308,Pelicans @ Lakers,Lakers,Pelicans,133,121,Final,F
+2025-12-01T19:00:00Z,0022500309,Hawks @ Pistons,Pistons,Hawks,99,98,Final,F
+2025-12-01T19:00:00Z,0022500310,Cavaliers @ Pacers,Pacers,Cavaliers,119,135,Final,F
+2025-12-01T19:00:00Z,0022500311,Bucks @ Wizards,Wizards,Bucks,129,126,Final,F
+2025-12-01T19:30:00Z,0022500312,Hornets @ Nets,Nets,Hornets,116,103,Final,F
+2025-12-01T19:30:00Z,0022500313,Clippers @ Heat,Heat,Clippers,140,123,Final,F
+2025-12-01T19:30:00Z,0022500314,Bulls @ Magic,Magic,Bulls,125,120,Final,F
+2025-12-01T21:00:00Z,0022500315,Mavericks @ Nuggets,Nuggets,Mavericks,121,131,Final,F
+2025-12-01T21:00:00Z,0022500316,Rockets @ Jazz,Jazz,Rockets,133,125,Final,F
+2025-12-01T22:00:00Z,0022500317,Suns @ Lakers,Lakers,Suns,108,125,Final,F
+2025-12-02T19:00:00Z,0022500318,Wizards @ 76ers,76ers,Wizards,121,102,Final,F
+2025-12-02T19:30:00Z,0022500319,Trail Blazers @ Raptors,Raptors,Trail Blazers,121,118,Final,F
+2025-12-02T20:00:00Z,0022500320,Knicks @ Celtics,Celtics,Knicks,123,117,Final,F
+2025-12-02T20:00:00Z,0022500321,Timberwolves @ Pelicans,Pelicans,Timberwolves,142,149,Final/OT,
+2025-12-02T20:00:00Z,0022500322,Grizzlies @ Spurs,Spurs,Grizzlies,126,119,Final,F
+2025-12-02T23:00:00Z,0022500323,Thunder @ Warriors,Warriors,Thunder,112,124,Final,F
+2025-12-03T19:00:00Z,0022500324,Trail Blazers @ Cavaliers,Cavaliers,Trail Blazers,110,122,Final,F
+2025-12-03T19:00:00Z,0022500325,Nuggets @ Pacers,Pacers,Nuggets,120,135,Final,F
+2025-12-03T19:00:00Z,0022500326,Spurs @ Magic,Magic,Spurs,112,114,Final,F
+2025-12-03T19:30:00Z,0022500327,Clippers @ Hawks,Hawks,Clippers,92,115,Final,F
+2025-12-03T19:30:00Z,0022500328,Hornets @ Knicks,Knicks,Hornets,119,104,Final,F
+2025-12-03T20:00:00Z,0022500329,Nets @ Bulls,Bulls,Nets,103,113,Final,F
+2025-12-03T20:00:00Z,0022500330,Kings @ Rockets,Rockets,Kings,121,95,Final,F
+2025-12-03T20:00:00Z,0022500331,Pistons @ Bucks,Bucks,Pistons,113,109,Final,F
+2025-12-03T20:30:00Z,0022500332,Heat @ Mavericks,Mavericks,Heat,118,108,Final,F
+2025-12-04T19:00:00Z,0022500333,Warriors @ 76ers,76ers,Warriors,99,98,Final,F
+2025-12-04T19:00:00Z,0022500334,Celtics @ Wizards,Wizards,Celtics,101,146,Final,F
+2025-12-04T19:30:00Z,0022500335,Jazz @ Nets,Nets,Jazz,110,123,Final,F
+2025-12-04T19:30:00Z,0022500336,Lakers @ Raptors,Raptors,Lakers,120,123,Final,F
+2025-12-04T20:00:00Z,0022500337,Timberwolves @ Pelicans,Pelicans,Timberwolves,116,125,Final,F
+2025-12-05T19:00:00Z,0022500338,Lakers @ Celtics,Celtics,Lakers,126,105,Final,F
+2025-12-05T19:00:00Z,0022500339,Heat @ Magic,Magic,Heat,106,105,Final,F
+2025-12-05T19:30:00Z,0022500340,Nuggets @ Hawks,Hawks,Nuggets,133,134,Final,F
+2025-12-05T19:30:00Z,0022500341,Spurs @ Cavaliers,Cavaliers,Spurs,130,117,Final,F
+2025-12-05T19:30:00Z,0022500342,Trail Blazers @ Pistons,Pistons,Trail Blazers,122,116,Final,F
+2025-12-05T19:30:00Z,0022500343,Jazz @ Knicks,Knicks,Jazz,146,112,Final,F
+2025-12-05T19:30:00Z,0022500344,Hornets @ Raptors,Raptors,Hornets,86,111,Final,F
+2025-12-05T20:00:00Z,0022500345,Pacers @ Bulls,Bulls,Pacers,105,120,Final,F
+2025-12-05T20:00:00Z,0022500346,Suns @ Rockets,Rockets,Suns,117,98,Final,F
+2025-12-05T20:00:00Z,0022500347,Clippers @ Grizzlies,Grizzlies,Clippers,107,98,Final,F
+2025-12-05T20:00:00Z,0022500348,76ers @ Bucks,Bucks,76ers,101,116,Final,F
+2025-12-05T21:30:00Z,0022500349,Mavericks @ Thunder,Thunder,Mavericks,132,111,Final,F
+2025-12-06T17:00:00Z,0022500350,Pelicans @ Nets,Nets,Pelicans,119,101,Final,F
+2025-12-06T19:00:00Z,0022500351,Hawks @ Wizards,Wizards,Hawks,116,131,Final,F
+2025-12-06T19:30:00Z,0022500352,Warriors @ Cavaliers,Cavaliers,Warriors,94,99,Final,F
+2025-12-06T19:30:00Z,0022500353,Bucks @ Pistons,Pistons,Bucks,124,112,Final,F
+2025-12-06T20:00:00Z,0022500354,Kings @ Heat,Heat,Kings,111,127,Final,F
+2025-12-06T20:00:00Z,0022500355,Clippers @ Timberwolves,Timberwolves,Clippers,109,106,Final,F
+2025-12-06T20:30:00Z,0022500356,Rockets @ Mavericks,Mavericks,Rockets,122,109,Final,F
+2025-12-07T12:00:00Z,0022500357,Magic @ Knicks,Knicks,Magic,106,100,Final,F
+2025-12-07T15:30:00Z,0022500358,Celtics @ Raptors,Raptors,Celtics,113,121,Final,F
+2025-12-07T18:00:00Z,0022500359,Nuggets @ Hornets,Hornets,Nuggets,106,115,Final,F
+2025-12-07T18:00:00Z,0022500360,Trail Blazers @ Grizzlies,Grizzlies,Trail Blazers,119,96,Final,F
+2025-12-07T19:00:00Z,0022500361,Warriors @ Bulls,Bulls,Warriors,91,123,Final,F
+2025-12-07T19:30:00Z,0022500362,Lakers @ 76ers,76ers,Lakers,108,112,Final,F
+2025-12-07T20:00:00Z,0022500363,Thunder @ Jazz,Jazz,Thunder,101,131,Final,F
+2025-12-08T19:00:00Z,0022500364,Kings @ Pacers,Pacers,Kings,116,105,Final,F
+2025-12-08T19:30:00Z,0022500365,Suns @ Timberwolves,Timberwolves,Suns,105,108,Final,F
+2025-12-08T20:00:00Z,0022500366,Spurs @ Pelicans,Pelicans,Spurs,132,135,Final,F
+2025-12-09T18:00:00Z,0022501201,Heat @ Magic,Magic,Heat,117,108,Final,F
+2025-12-09T20:30:00Z,0022501202,Knicks @ Raptors,Raptors,Knicks,101,117,Final,F
+2025-12-10T19:30:00Z,0022501203,Suns @ Thunder,Thunder,Suns,138,89,Final,F
+2025-12-10T22:00:00Z,0022501204,Spurs @ Lakers,Lakers,Spurs,119,132,Final,F
+2025-12-11T20:00:00Z,0022501205,Clippers @ Rockets,Rockets,Clippers,115,113,Final,F
+2025-12-11T20:00:00Z,0022501206,Celtics @ Bucks,Bucks,Celtics,116,101,Final,F
+2025-12-11T20:00:00Z,0022501207,Trail Blazers @ Pelicans,Pelicans,Trail Blazers,143,120,Final,F
+2025-12-11T22:00:00Z,0022501208,Nuggets @ Kings,Kings,Nuggets,105,136,Final,F
+2025-12-12T19:00:00Z,0022501209,Bulls @ Hornets,Hornets,Bulls,126,129,Final,F
+2025-12-12T19:00:00Z,0022501210,Hawks @ Pistons,Pistons,Hawks,142,115,Final,F
+2025-12-12T19:00:00Z,0022501211,Pacers @ 76ers,76ers,Pacers,115,105,Final,F
+2025-12-12T19:00:00Z,0022501212,Cavaliers @ Wizards,Wizards,Cavaliers,126,130,Final,F
+2025-12-12T20:00:00Z,0022501213,Jazz @ Grizzlies,Grizzlies,Jazz,126,130,Final,F
+2025-12-12T20:30:00Z,0022501214,Nets @ Mavericks,Mavericks,Nets,119,111,Final,F
+2025-12-12T22:00:00Z,0022501215,Timberwolves @ Warriors,Warriors,Timberwolves,120,127,Final,F
+2025-12-13T17:30:00Z,0022501229,Knicks @ Magic,Magic,Knicks,120,132,Final,F
+2025-12-13T21:00:00Z,0022501230,Spurs @ Thunder,Thunder,Spurs,109,111,Final,F
+2025-12-14T15:00:00Z,0022501216,Wizards @ Pacers,Pacers,Wizards,89,108,Final,F
+2025-12-14T18:00:00Z,0022501217,76ers @ Hawks,Hawks,76ers,120,117,Final,F
+2025-12-14T15:30:00Z,0022501218,Hornets @ Cavaliers,Cavaliers,Hornets,111,119,Final/OT,
+2025-12-14T18:00:00Z,0022501219,Bucks @ Nets,Nets,Bucks,127,82,Final,F
+2025-12-14T19:00:00Z,0022501220,Kings @ Timberwolves,Timberwolves,Kings,117,103,Final,F
+2025-12-14T21:00:00Z,0022501221,Warriors @ Trail Blazers,Trail Blazers,Warriors,136,131,Final,F
+2025-12-14T19:00:00Z,0022501223,Pelicans @ Bulls,Bulls,Pelicans,104,114,Final,F
+2025-12-14T20:00:00Z,0022501228,Lakers @ Suns,Suns,Lakers,114,116,Final,F
+2025-12-15T19:00:00Z,0022501222,Pistons @ Celtics,Celtics,Pistons,105,112,Final,F
+2025-12-15T21:00:00Z,0022501224,Mavericks @ Jazz,Jazz,Mavericks,140,133,Final/OT,
+2025-12-15T21:30:00Z,0022501225,Rockets @ Nuggets,Nuggets,Rockets,128,125,Final/OT,
+2025-12-15T22:30:00Z,0022501226,Grizzlies @ Clippers,Clippers,Grizzlies,103,121,Final,F
+2025-12-15T19:30:00Z,0022501227,Raptors @ Heat,Heat,Raptors,96,106,Final,F
+2025-12-16T20:30:00Z,0062500001,Spurs @ Knicks,Knicks,Spurs,124,113,Final,F
+2025-12-17T20:00:00Z,0022500367,Cavaliers @ Bulls,Bulls,Cavaliers,127,111,Final,F
+2025-12-17T20:00:00Z,0022500368,Grizzlies @ Timberwolves,Timberwolves,Grizzlies,110,116,Final,F
+2025-12-18T20:00:00Z,0022500369,Clippers @ Thunder,Thunder,Clippers,122,101,Final,F
+2025-12-18T20:00:00Z,0022500370,Wizards @ Spurs,Spurs,Wizards,119,94,Final,F
+2025-12-18T19:00:00Z,0022500371,Hawks @ Hornets,Hornets,Hawks,133,126,Final,F
+2025-12-18T19:00:00Z,0022500372,Knicks @ Pacers,Pacers,Knicks,113,114,Final,F
+2025-12-18T19:30:00Z,0022500373,Heat @ Nets,Nets,Heat,95,106,Final,F
+2025-12-18T20:00:00Z,0022500374,Raptors @ Bucks,Bucks,Raptors,105,111,Final,F
+2025-12-18T20:00:00Z,0022500375,Rockets @ Pelicans,Pelicans,Rockets,133,128,Final/OT,
+2025-12-18T20:30:00Z,0022500376,Pistons @ Mavericks,Mavericks,Pistons,116,114,Final/OT,
+2025-12-18T21:00:00Z,0022500377,Magic @ Nuggets,Nuggets,Magic,126,115,Final,F
+2025-12-18T21:00:00Z,0022500378,Warriors @ Suns,Suns,Warriors,99,98,Final,F
+2025-12-18T21:00:00Z,0022500379,Lakers @ Jazz,Jazz,Lakers,135,143,Final,F
+2025-12-18T22:00:00Z,0022500380,Kings @ Trail Blazers,Trail Blazers,Kings,134,133,Final/OT,
+2025-12-19T19:00:00Z,0022500381,Heat @ Celtics,Celtics,Heat,129,116,Final,F
+2025-12-19T19:00:00Z,0022500382,76ers @ Knicks,Knicks,76ers,107,116,Final,F
+2025-12-19T19:30:00Z,0022500383,Spurs @ Hawks,Hawks,Spurs,98,126,Final,F
+2025-12-19T19:30:00Z,0022500384,Bulls @ Cavaliers,Cavaliers,Bulls,125,136,Final,F
+2025-12-19T21:30:00Z,0022500385,Thunder @ Timberwolves,Timberwolves,Thunder,112,107,Final,F
+2025-12-20T17:00:00Z,0022500386,Rockets @ Nuggets,Nuggets,Rockets,101,115,Final,F
+2025-12-20T19:00:00Z,0022500387,Mavericks @ 76ers,76ers,Mavericks,121,114,Final,F
+2025-12-20T19:00:00Z,0022500388,Celtics @ Raptors,Raptors,Celtics,96,112,Final,F
+2025-12-20T19:00:00Z,0022500389,Pacers @ Pelicans,Pelicans,Pacers,128,109,Final,F
+2025-12-20T19:30:00Z,0022500390,Hornets @ Pistons,Pistons,Hornets,112,86,Final,F
+2025-12-20T20:00:00Z,0022500391,Wizards @ Grizzlies,Grizzlies,Wizards,122,130,Final,F
+2025-12-20T20:30:00Z,0022500392,Suns @ Warriors,Warriors,Suns,119,116,Final,F
+2025-12-20T21:30:00Z,0022500393,Magic @ Jazz,Jazz,Magic,127,128,Final/OT,
+2025-12-20T22:00:00Z,0022500394,Trail Blazers @ Kings,Kings,Trail Blazers,93,98,Final,F
+2025-12-20T22:30:00Z,0022500395,Lakers @ Clippers,Clippers,Lakers,103,88,Final,F
+2025-12-21T15:30:00Z,0022500396,Bulls @ Hawks,Hawks,Bulls,150,152,Final,F
+2025-12-21T18:00:00Z,0022500397,Raptors @ Nets,Nets,Raptors,96,81,Final,F
+2025-12-21T18:00:00Z,0022500398,Heat @ Knicks,Knicks,Heat,132,125,Final,F
+2025-12-21T19:00:00Z,0022500399,Spurs @ Wizards,Wizards,Spurs,113,124,Final,F
+2025-12-21T19:00:00Z,0022500400,Bucks @ Timberwolves,Timberwolves,Bucks,103,100,Final,F
+2025-12-21T22:00:00Z,0022500401,Rockets @ Kings,Kings,Rockets,125,124,Final/OT,
+2025-12-22T19:00:00Z,0022500402,Hornets @ Cavaliers,Cavaliers,Hornets,139,132,Final,F
+2025-12-22T19:30:00Z,0022500403,Pacers @ Celtics,Celtics,Pacers,103,95,Final,F
+2025-12-22T20:00:00Z,0022500404,Mavericks @ Pelicans,Pelicans,Mavericks,119,113,Final,F
+2025-12-22T21:00:00Z,0022500405,Jazz @ Nuggets,Nuggets,Jazz,135,112,Final,F
+2025-12-22T21:30:00Z,0022500406,Grizzlies @ Thunder,Thunder,Grizzlies,119,103,Final,F
+2025-12-22T22:00:00Z,0022500407,Magic @ Warriors,Warriors,Magic,120,97,Final,F
+2025-12-22T22:00:00Z,0022500408,Pistons @ Trail Blazers,Trail Blazers,Pistons,102,110,Final,F
+2025-12-23T19:00:00Z,0022500409,Wizards @ Hornets,Hornets,Wizards,126,109,Final,F
+2025-12-23T19:00:00Z,0022500410,Nets @ 76ers,76ers,Nets,106,114,Final,F
+2025-12-23T19:30:00Z,0022500411,Bulls @ Hawks,Hawks,Bulls,123,126,Final,F
+2025-12-23T19:30:00Z,0022500412,Pelicans @ Cavaliers,Cavaliers,Pelicans,141,118,Final,F
+2025-12-23T19:30:00Z,0022500413,Bucks @ Pacers,Pacers,Bucks,94,111,Final,F
+2025-12-23T19:30:00Z,0022500414,Raptors @ Heat,Heat,Raptors,91,112,Final,F
+2025-12-23T20:00:00Z,0022500415,Nuggets @ Mavericks,Mavericks,Nuggets,131,130,Final,F
+2025-12-23T20:00:00Z,0022500416,Knicks @ Timberwolves,Timberwolves,Knicks,115,104,Final,F
+2025-12-23T20:30:00Z,0022500417,Thunder @ Spurs,Spurs,Thunder,130,110,Final,F
+2025-12-23T21:00:00Z,0022500418,Lakers @ Suns,Suns,Lakers,132,108,Final,F
+2025-12-23T21:00:00Z,0022500419,Grizzlies @ Jazz,Jazz,Grizzlies,128,137,Final,F
+2025-12-23T22:00:00Z,0022500420,Magic @ Trail Blazers,Trail Blazers,Magic,106,110,Final,F
+2025-12-23T22:00:00Z,0022500421,Pistons @ Kings,Kings,Pistons,127,136,Final,F
+2025-12-23T22:30:00Z,0022500422,Rockets @ Clippers,Clippers,Rockets,128,108,Final,F
+2025-12-25T12:00:00Z,0022500009,Cavaliers @ Knicks,Knicks,Cavaliers,126,124,Final,F
+2025-12-25T14:30:00Z,0022500010,Spurs @ Thunder,Thunder,Spurs,102,117,Final,F
+2025-12-25T17:00:00Z,0022500011,Mavericks @ Warriors,Warriors,Mavericks,126,116,Final,F
+2025-12-25T20:00:00Z,0022500012,Rockets @ Lakers,Lakers,Rockets,96,119,Final,F
+2025-12-25T22:30:00Z,0022500013,Timberwolves @ Nuggets,Nuggets,Timberwolves,142,138,Final/OT,
+2025-12-26T19:00:00Z,0022500423,Heat @ Hawks,Hawks,Heat,111,126,Final,F
+2025-12-26T19:00:00Z,0022500424,Hornets @ Magic,Magic,Hornets,105,120,Final,F
+2025-12-26T19:00:00Z,0022500425,Raptors @ Wizards,Wizards,Raptors,138,117,Final,F
+2025-12-26T19:00:00Z,0022500426,Celtics @ Pacers,Pacers,Celtics,122,140,Final,F
+2025-12-26T19:30:00Z,0022500427,76ers @ Bulls,Bulls,76ers,109,102,Final,F
+2025-12-26T20:00:00Z,0022500428,Bucks @ Grizzlies,Grizzlies,Bucks,125,104,Final,F
+2025-12-26T20:00:00Z,0022500429,Suns @ Pelicans,Pelicans,Suns,108,115,Final,F
+2025-12-26T21:30:00Z,0022500430,Pistons @ Jazz,Jazz,Pistons,131,129,Final,F
+2025-12-26T22:00:00Z,0022500431,Clippers @ Trail Blazers,Trail Blazers,Clippers,103,119,Final,F
+2025-12-27T17:00:00Z,0022500432,Mavericks @ Kings,Kings,Mavericks,113,107,Final,F
+2025-12-27T19:00:00Z,0022500433,Nuggets @ Magic,Magic,Nuggets,127,126,Final,F
+2025-12-27T19:00:00Z,0022500434,Suns @ Pelicans,Pelicans,Suns,114,123,Final,F
+2025-12-27T20:00:00Z,0022500435,Knicks @ Hawks,Hawks,Knicks,125,128,Final,F
+2025-12-27T20:00:00Z,0022500436,Pacers @ Heat,Heat,Pacers,142,116,Final,F
+2025-12-27T20:00:00Z,0022500437,Bucks @ Bulls,Bulls,Bucks,103,112,Final,F
+2025-12-27T20:00:00Z,0022500438,Cavaliers @ Rockets,Rockets,Cavaliers,117,100,Final,F
+2025-12-27T20:00:00Z,0022500439,Nets @ Timberwolves,Timberwolves,Nets,107,123,Final,F
+2025-12-27T20:00:00Z,0022500440,Jazz @ Spurs,Spurs,Jazz,114,127,Final,F
+2025-12-28T15:30:00Z,0022500441,Warriors @ Raptors,Raptors,Warriors,141,127,Final/OT,
+2025-12-28T15:30:00Z,0022500442,76ers @ Thunder,Thunder,76ers,129,104,Final,F
+2025-12-28T18:00:00Z,0022500443,Grizzlies @ Wizards,Wizards,Grizzlies,116,112,Final,F
+2025-12-28T18:00:00Z,0022500444,Celtics @ Trail Blazers,Trail Blazers,Celtics,114,108,Final,F
+2025-12-28T21:00:00Z,0022500445,Pistons @ Clippers,Clippers,Pistons,112,99,Final,F
+2025-12-28T21:30:00Z,0022500446,Kings @ Lakers,Lakers,Kings,125,101,Final,F
+2025-12-29T19:00:00Z,0022500447,Bucks @ Hornets,Hornets,Bucks,113,123,Final,F
+2025-12-29T19:00:00Z,0022500448,Suns @ Wizards,Wizards,Suns,101,115,Final,F
+2025-12-29T19:30:00Z,0022500449,Warriors @ Nets,Nets,Warriors,107,120,Final,F
+2025-12-29T19:30:00Z,0022500450,Nuggets @ Heat,Heat,Nuggets,147,123,Final,F
+2025-12-29T19:30:00Z,0022500451,Magic @ Raptors,Raptors,Magic,107,106,Final,F
+2025-12-29T20:00:00Z,0022500452,Timberwolves @ Bulls,Bulls,Timberwolves,101,136,Final,F
+2025-12-29T20:00:00Z,0022500453,Pacers @ Rockets,Rockets,Pacers,126,119,Final,F
+2025-12-29T20:00:00Z,0022500454,Knicks @ Pelicans,Pelicans,Knicks,125,130,Final,F
+2025-12-29T20:00:00Z,0022500455,Hawks @ Thunder,Thunder,Hawks,140,129,Final,F
+2025-12-29T20:00:00Z,0022500456,Cavaliers @ Spurs,Spurs,Cavaliers,101,113,Final,F
+2025-12-29T22:30:00Z,0022500457,Mavericks @ Trail Blazers,Trail Blazers,Mavericks,125,122,Final,F
+2025-12-30T20:00:00Z,0022500458,76ers @ Grizzlies,Grizzlies,76ers,136,139,Final/OT,
+2025-12-30T21:00:00Z,0022500459,Celtics @ Jazz,Jazz,Celtics,119,129,Final,F
+2025-12-30T22:30:00Z,0022500460,Pistons @ Lakers,Lakers,Pistons,106,128,Final,F
+2025-12-30T23:00:00Z,0022500461,Kings @ Clippers,Clippers,Kings,131,90,Final,F
+2025-12-31T13:00:00Z,0022500462,Warriors @ Hornets,Hornets,Warriors,125,132,Final,F
+2025-12-31T15:00:00Z,0022500463,Timberwolves @ Hawks,Hawks,Timberwolves,126,102,Final,F
+2025-12-31T15:00:00Z,0022500464,Magic @ Pacers,Pacers,Magic,110,112,Final,F
+2025-12-31T15:30:00Z,0022500465,Suns @ Cavaliers,Cavaliers,Suns,129,113,Final,F
+2025-12-31T19:00:00Z,0022500466,Pelicans @ Bulls,Bulls,Pelicans,134,118,Final,F
+2025-12-31T19:00:00Z,0022500467,Knicks @ Spurs,Spurs,Knicks,134,132,Final,F
+2025-12-31T19:30:00Z,0022500468,Nuggets @ Raptors,Raptors,Nuggets,103,106,Final,F
+2025-12-31T20:00:00Z,0022500469,Wizards @ Bucks,Bucks,Wizards,113,114,Final,F
+2025-12-31T20:00:00Z,0022500470,Trail Blazers @ Thunder,Thunder,Trail Blazers,124,95,Final,F
+2026-01-01T18:00:00Z,0022500471,Rockets @ Nets,Nets,Rockets,96,120,Final,F
+2026-01-01T19:00:00Z,0022500472,Heat @ Pistons,Pistons,Heat,112,118,Final,F
+2026-01-01T20:30:00Z,0022500473,76ers @ Mavericks,Mavericks,76ers,108,123,Final,F
+2026-01-01T22:00:00Z,0022500474,Celtics @ Kings,Kings,Celtics,106,120,Final,F
+2026-01-01T22:30:00Z,0022500475,Jazz @ Clippers,Clippers,Jazz,118,101,Final,F
+2026-01-02T19:00:00Z,0022500476,Spurs @ Pacers,Pacers,Spurs,113,123,Final,F
+2026-01-02T19:00:00Z,0022500477,Nets @ Wizards,Wizards,Nets,119,99,Final,F
+2026-01-02T19:30:00Z,0022500478,Nuggets @ Cavaliers,Cavaliers,Nuggets,113,108,Final,F
+2026-01-02T19:30:00Z,0022500479,Hawks @ Knicks,Knicks,Hawks,99,111,Final,F
+2026-01-02T20:00:00Z,0022500480,Magic @ Bulls,Bulls,Magic,121,114,Final,F
+2026-01-02T20:00:00Z,0022500481,Hornets @ Bucks,Bucks,Hornets,122,121,Final,F
+2026-01-02T20:00:00Z,0022500482,Trail Blazers @ Pelicans,Pelicans,Trail Blazers,109,122,Final,F
+2026-01-02T21:00:00Z,0022500483,Kings @ Suns,Suns,Kings,129,102,Final,F
+2026-01-02T22:00:00Z,0022500484,Thunder @ Warriors,Warriors,Thunder,94,131,Final,F
+2026-01-02T22:30:00Z,0022500485,Grizzlies @ Lakers,Lakers,Grizzlies,128,121,Final,F
+2026-01-03T17:00:00Z,0022500486,Timberwolves @ Heat,Heat,Timberwolves,115,125,Final,F
+2026-01-03T19:30:00Z,0022500487,76ers @ Knicks,Knicks,76ers,119,130,Final,F
+2026-01-03T19:30:00Z,0022500488,Hawks @ Raptors,Raptors,Hawks,134,117,Final,F
+2026-01-03T20:00:00Z,0022500489,Hornets @ Bulls,Bulls,Hornets,99,112,Final,F
+2026-01-03T20:00:00Z,0022500490,Trail Blazers @ Spurs,Spurs,Trail Blazers,110,115,Final,F
+2026-01-03T20:30:00Z,0022500491,Rockets @ Mavericks,Mavericks,Rockets,110,104,Final,F
+2026-01-03T22:00:00Z,0022500492,Jazz @ Warriors,Warriors,Jazz,123,114,Final,F
+2026-01-03T22:30:00Z,0022500493,Celtics @ Clippers,Clippers,Celtics,115,146,Final,F
+2026-01-04T14:00:00Z,0022500494,Pistons @ Cavaliers,Cavaliers,Pistons,110,114,Final,F
+2026-01-04T15:00:00Z,0022500495,Pacers @ Magic,Magic,Pacers,135,127,Final,F
+2026-01-04T15:30:00Z,0022500496,Nuggets @ Nets,Nets,Nuggets,127,115,Final,F
+2026-01-04T18:00:00Z,0022500497,Pelicans @ Heat,Heat,Pelicans,125,106,Final,F
+2026-01-04T18:00:00Z,0022500498,Timberwolves @ Wizards,Wizards,Timberwolves,115,141,Final,F
+2026-01-04T20:00:00Z,0022500499,Thunder @ Suns,Suns,Thunder,108,105,Final,F
+2026-01-04T21:00:00Z,0022500500,Bucks @ Kings,Kings,Bucks,98,115,Final,F
+2026-01-04T21:30:00Z,0022500501,Grizzlies @ Lakers,Lakers,Grizzlies,120,114,Final,F
+2026-01-05T19:00:00Z,0022500502,Knicks @ Pistons,Pistons,Knicks,121,90,Final,F
+2026-01-05T19:30:00Z,0022500503,Bulls @ Celtics,Celtics,Bulls,115,101,Final,F
+2026-01-05T19:30:00Z,0022500504,Hawks @ Raptors,Raptors,Hawks,118,100,Final,F
+2026-01-05T20:00:00Z,0022500505,Suns @ Rockets,Rockets,Suns,100,97,Final,F
+2026-01-05T20:00:00Z,0022500506,Hornets @ Thunder,Thunder,Hornets,97,124,Final,F
+2026-01-05T20:30:00Z,0022500507,Nuggets @ 76ers,76ers,Nuggets,124,125,Final/OT,
+2026-01-05T22:00:00Z,0022500508,Warriors @ Clippers,Clippers,Warriors,103,102,Final,F
+2026-01-05T22:00:00Z,0022500509,Jazz @ Trail Blazers,Trail Blazers,Jazz,137,117,Final,F
+2026-01-06T19:00:00Z,0022500510,Cavaliers @ Pacers,Pacers,Cavaliers,116,120,Final,F
+2026-01-06T19:00:00Z,0022500511,Magic @ Wizards,Wizards,Magic,120,112,Final,F
+2026-01-06T20:00:00Z,0022500512,Spurs @ Grizzlies,Grizzlies,Spurs,106,105,Final,F
+2026-01-06T20:00:00Z,0022500513,Heat @ Timberwolves,Timberwolves,Heat,122,94,Final,F
+2026-01-06T20:00:00Z,0022500514,Lakers @ Pelicans,Pelicans,Lakers,103,111,Final,F
+2026-01-06T23:00:00Z,0022500515,Mavericks @ Kings,Kings,Mavericks,98,100,Final,F
+2026-01-07T19:00:00Z,0022500516,Raptors @ Hornets,Hornets,Raptors,96,97,Final,F
+2026-01-07T19:00:00Z,0022500517,Bulls @ Pistons,Pistons,Bulls,108,93,Final,F
+2026-01-07T19:00:00Z,0022500518,Wizards @ 76ers,76ers,Wizards,131,110,Final,F
+2026-01-07T19:30:00Z,0022500519,Pelicans @ Hawks,Hawks,Pelicans,117,100,Final,F
+2026-01-07T19:00:00Z,0022500520,Nuggets @ Celtics,Celtics,Nuggets,110,114,Final,F
+2026-01-07T19:30:00Z,0022500521,Magic @ Nets,Nets,Magic,103,104,Final/OT,
+2026-01-07T19:30:00Z,0022500522,Clippers @ Knicks,Knicks,Clippers,123,111,Final,F
+2026-01-07T21:30:00Z,0022500523,Lakers @ Spurs,Spurs,Lakers,107,91,Final,F
+2026-01-07T20:00:00Z,0022500524,Suns @ Grizzlies,Grizzlies,Suns,98,117,Final,F
+2026-01-07T20:00:00Z,0022500525,Jazz @ Thunder,Thunder,Jazz,129,125,Final/OT,
+2026-01-07T22:00:00Z,0022500526,Bucks @ Warriors,Warriors,Bucks,120,113,Final,F
+2026-01-07T22:00:00Z,0022500527,Rockets @ Trail Blazers,Trail Blazers,Rockets,103,102,Final,F
+2026-01-08T19:00:00Z,0022500528,Pacers @ Hornets,Hornets,Pacers,0,0,1st Qtr             ,
+2026-01-08T20:00:00Z,0022500529,Heat @ Bulls,Bulls,Heat,0,0,8:00 pm ET,
+2026-01-08T20:00:00Z,0022500530,Cavaliers @ Timberwolves,Timberwolves,Cavaliers,0,0,8:00 pm ET,
+2026-01-08T21:00:00Z,0022500531,Mavericks @ Jazz,Jazz,Mavericks,0,0,9:00 pm ET,
+2026-01-09T19:00:00Z,0022500532,Raptors @ Celtics,Celtics,Raptors,0,0,7:00 pm ET,
+2026-01-09T19:00:00Z,0022500533,76ers @ Magic,Magic,76ers,0,0,7:00 pm ET,
+2026-01-09T19:00:00Z,0022500534,Pelicans @ Wizards,Wizards,Pelicans,0,0,7:00 pm ET,
+2026-01-09T19:30:00Z,0022500535,Clippers @ Nets,Nets,Clippers,0,0,7:30 pm ET,
+2026-01-09T20:00:00Z,0022500536,Thunder @ Grizzlies,Grizzlies,Thunder,0,0,8:00 pm ET,
+2026-01-09T21:00:00Z,0022500537,Hawks @ Nuggets,Nuggets,Hawks,0,0,9:00 pm ET,
+2026-01-09T21:00:00Z,0022500538,Knicks @ Suns,Suns,Knicks,0,0,9:00 pm ET,
+2026-01-09T22:00:00Z,0022500539,Kings @ Warriors,Warriors,Kings,0,0,10:00 pm ET,
+2026-01-09T22:00:00Z,0022500540,Rockets @ Trail Blazers,Trail Blazers,Rockets,0,0,10:00 pm ET,
+2026-01-09T22:30:00Z,0022500541,Bucks @ Lakers,Lakers,Bucks,0,0,10:30 pm ET,
+2026-01-10T13:00:00Z,0022500542,Timberwolves @ Cavaliers,Cavaliers,Timberwolves,0,0,1:00 pm ET,
+2026-01-10T19:00:00Z,0022500543,Heat @ Pacers,Pacers,Heat,0,0,7:00 pm ET,
+2026-01-10T19:30:00Z,0022500544,Clippers @ Pistons,Pistons,Clippers,0,0,7:30 pm ET,
+2026-01-10T20:00:00Z,0022500545,Spurs @ Celtics,Celtics,Spurs,0,0,8:00 pm ET,
+2026-01-10T20:00:00Z,0022500546,Mavericks @ Bulls,Bulls,Mavericks,0,0,8:00 pm ET,
+2026-01-10T21:30:00Z,0022500547,Hornets @ Jazz,Jazz,Hornets,0,0,9:30 pm ET,
+2026-01-11T15:00:00Z,0022500548,Pelicans @ Magic,Magic,Pelicans,0,0,3:00 pm ET,
+2026-01-11T15:30:00Z,0022500549,Nets @ Grizzlies,Grizzlies,Nets,0,0,3:30 pm ET,
+2026-01-11T18:00:00Z,0022500550,76ers @ Raptors,Raptors,76ers,0,0,6:00 pm ET,
+2026-01-11T18:00:00Z,0022500551,Knicks @ Trail Blazers,Trail Blazers,Knicks,0,0,6:00 pm ET,
+2026-01-11T19:00:00Z,0022500552,Spurs @ Timberwolves,Timberwolves,Spurs,0,0,7:00 pm ET,
+2026-01-11T19:00:00Z,0022500553,Heat @ Thunder,Thunder,Heat,0,0,7:00 pm ET,
+2026-01-11T20:00:00Z,0022500554,Bucks @ Nuggets,Nuggets,Bucks,0,0,8:00 pm ET,
+2026-01-11T20:00:00Z,0022500555,Wizards @ Suns,Suns,Wizards,0,0,8:00 pm ET,
+2026-01-11T20:30:00Z,0022500556,Hawks @ Warriors,Warriors,Hawks,0,0,8:30 pm ET,
+2026-01-11T21:00:00Z,0022500557,Rockets @ Kings,Kings,Rockets,0,0,9:00 pm ET,
+2026-01-12T19:00:00Z,0022500558,Jazz @ Cavaliers,Cavaliers,Jazz,0,0,7:00 pm ET,
+2026-01-12T19:30:00Z,0022500559,Celtics @ Pacers,Pacers,Celtics,0,0,7:30 pm ET,
+2026-01-12T19:30:00Z,0022500560,76ers @ Raptors,Raptors,76ers,0,0,7:30 pm ET,
+2026-01-12T20:30:00Z,0022500561,Nets @ Mavericks,Mavericks,Nets,0,0,8:30 pm ET,
+2026-01-12T22:00:00Z,0022500562,Lakers @ Kings,Kings,Lakers,0,0,10:00 pm ET,
+2026-01-12T22:30:00Z,0022500563,Hornets @ Clippers,Clippers,Hornets,0,0,10:30 pm ET,
+2026-01-13T19:30:00Z,0022500564,Suns @ Heat,Heat,Suns,0,0,7:30 pm ET,
+2026-01-13T20:00:00Z,0022500565,Bulls @ Rockets,Rockets,Bulls,0,0,8:00 pm ET,
+2026-01-13T20:00:00Z,0022500566,Timberwolves @ Bucks,Bucks,Timberwolves,0,0,8:00 pm ET,
+2026-01-13T20:00:00Z,0022500567,Nuggets @ Pelicans,Pelicans,Nuggets,0,0,8:00 pm ET,
+2026-01-13T20:00:00Z,0022500568,Spurs @ Thunder,Thunder,Spurs,0,0,8:00 pm ET,
+2026-01-13T22:30:00Z,0022500569,Hawks @ Lakers,Lakers,Hawks,0,0,10:30 pm ET,
+2026-01-13T23:00:00Z,0022500570,Trail Blazers @ Warriors,Warriors,Trail Blazers,0,0,11:00 pm ET,
+2026-01-14T19:00:00Z,0022500571,Raptors @ Pacers,Pacers,Raptors,0,0,7:00 pm ET,
+2026-01-14T19:00:00Z,0022500572,Cavaliers @ 76ers,76ers,Cavaliers,0,0,7:00 pm ET,
+2026-01-14T20:00:00Z,0022500573,Jazz @ Bulls,Bulls,Jazz,0,0,8:00 pm ET,
+2026-01-14T20:00:00Z,0022500574,Nets @ Pelicans,Pelicans,Nets,0,0,8:00 pm ET,
+2026-01-14T21:30:00Z,0022500575,Nuggets @ Mavericks,Mavericks,Nuggets,0,0,9:30 pm ET,
+2026-01-14T22:00:00Z,0022500576,Knicks @ Kings,Kings,Knicks,0,0,10:00 pm ET,
+2026-01-14T22:30:00Z,0022500577,Wizards @ Clippers,Clippers,Wizards,0,0,10:30 pm ET,
+2026-01-15T14:00:00Z,0022500578,Grizzlies @ Magic,Magic,Grizzlies,0,0,2:00 pm ET,
+2026-01-15T19:00:00Z,0022500579,Suns @ Pistons,Pistons,Suns,0,0,7:00 pm ET,
+2026-01-15T19:30:00Z,0022500580,Celtics @ Heat,Heat,Celtics,0,0,7:30 pm ET,
+2026-01-15T19:30:00Z,0022500581,Thunder @ Rockets,Rockets,Thunder,0,0,7:30 pm ET,
+2026-01-15T20:00:00Z,0022500582,Bucks @ Spurs,Spurs,Bucks,0,0,8:00 pm ET,
+2026-01-15T20:30:00Z,0022500583,Jazz @ Mavericks,Mavericks,Jazz,0,0,8:30 pm ET,
+2026-01-15T22:00:00Z,0022500584,Knicks @ Warriors,Warriors,Knicks,0,0,10:00 pm ET,
+2026-01-15T22:00:00Z,0022500585,Hawks @ Trail Blazers,Trail Blazers,Hawks,0,0,10:00 pm ET,
+2026-01-15T22:30:00Z,0022500586,Hornets @ Lakers,Lakers,Hornets,0,0,10:30 pm ET,
+2026-01-16T19:30:00Z,0022500587,Bulls @ Nets,Nets,Bulls,0,0,7:30 pm ET,
+2026-01-16T19:00:00Z,0022500588,Pelicans @ Pacers,Pacers,Pelicans,0,0,7:00 pm ET,
+2026-01-16T19:00:00Z,0022500589,Cavaliers @ 76ers,76ers,Cavaliers,0,0,7:00 pm ET,
+2026-01-16T19:30:00Z,0022500590,Clippers @ Raptors,Raptors,Clippers,0,0,7:30 pm ET,
+2026-01-16T21:30:00Z,0022500591,Timberwolves @ Rockets,Rockets,Timberwolves,0,0,9:30 pm ET,
+2026-01-16T22:00:00Z,0022500592,Wizards @ Kings,Kings,Wizards,0,0,10:00 pm ET,
+2026-01-17T17:00:00Z,0022500593,Jazz @ Mavericks,Mavericks,Jazz,0,0,5:00 pm ET,
+2026-01-17T19:30:00Z,0022500594,Celtics @ Hawks,Hawks,Celtics,0,0,7:30 pm ET,
+2026-01-17T19:30:00Z,0022500595,Pacers @ Pistons,Pistons,Pacers,0,0,7:30 pm ET,
+2026-01-17T19:30:00Z,0022500596,Suns @ Knicks,Knicks,Suns,0,0,7:30 pm ET,
+2026-01-17T20:00:00Z,0022500597,Thunder @ Heat,Heat,Thunder,0,0,8:00 pm ET,
+2026-01-17T20:00:00Z,0022500598,Timberwolves @ Spurs,Spurs,Timberwolves,0,0,8:00 pm ET,
+2026-01-17T20:30:00Z,0022500599,Hornets @ Warriors,Warriors,Hornets,0,0,8:30 pm ET,
+2026-01-17T21:00:00Z,0022500600,Wizards @ Nuggets,Nuggets,Wizards,0,0,9:00 pm ET,
+2026-01-17T22:00:00Z,0022500601,Lakers @ Trail Blazers,Trail Blazers,Lakers,0,0,10:00 pm ET,
+2026-01-18T12:00:00Z,0022500602,Magic @ Grizzlies,Grizzlies,Magic,0,0,12:00 pm ET,
+2026-01-18T19:00:00Z,0022500603,Nets @ Bulls,Bulls,Nets,0,0,7:00 pm ET,
+2026-01-18T19:00:00Z,0022500604,Pelicans @ Rockets,Rockets,Pelicans,0,0,7:00 pm ET,
+2026-01-18T20:00:00Z,0022500605,Hornets @ Nuggets,Nuggets,Hornets,0,0,8:00 pm ET,
+2026-01-18T21:00:00Z,0022500606,Trail Blazers @ Kings,Kings,Trail Blazers,0,0,9:00 pm ET,
+2026-01-18T21:30:00Z,0022500607,Raptors @ Lakers,Lakers,Raptors,0,0,9:30 pm ET,
+2026-01-19T13:00:00Z,0022500014,Bucks @ Hawks,Hawks,Bucks,0,0,1:00 pm ET,
+2026-01-19T14:30:00Z,0022500015,Thunder @ Cavaliers,Cavaliers,Thunder,0,0,2:30 pm ET,
+2026-01-19T17:00:00Z,0022500016,Mavericks @ Knicks,Knicks,Mavericks,0,0,5:00 pm ET,
+2026-01-19T20:00:00Z,0022500017,Celtics @ Pistons,Pistons,Celtics,0,0,8:00 pm ET,
+2026-01-19T15:00:00Z,0022500608,Clippers @ Wizards,Wizards,Clippers,0,0,3:00 pm ET,
+2026-01-19T19:00:00Z,0022500609,Pacers @ 76ers,76ers,Pacers,0,0,7:00 pm ET,
+2026-01-19T19:30:00Z,0022500610,Suns @ Nets,Nets,Suns,0,0,7:30 pm ET,
+2026-01-19T17:00:00Z,0022500611,Jazz @ Spurs,Spurs,Jazz,0,0,5:00 pm ET,
+2026-01-19T22:00:00Z,0022500612,Heat @ Warriors,Warriors,Heat,0,0,10:00 pm ET,
+2026-01-20T19:00:00Z,0022500613,Suns @ 76ers,76ers,Suns,0,0,7:00 pm ET,
+2026-01-20T20:00:00Z,0022500614,Clippers @ Bulls,Bulls,Clippers,0,0,8:00 pm ET,
+2026-01-20T20:00:00Z,0022500615,Spurs @ Rockets,Rockets,Spurs,0,0,8:00 pm ET,
+2026-01-20T21:00:00Z,0022500616,Timberwolves @ Jazz,Jazz,Timberwolves,0,0,9:00 pm ET,
+2026-01-20T22:00:00Z,0022500617,Lakers @ Nuggets,Nuggets,Lakers,0,0,10:00 pm ET,
+2026-01-20T22:00:00Z,0022500618,Raptors @ Warriors,Warriors,Raptors,0,0,10:00 pm ET,
+2026-01-20T22:00:00Z,0022500619,Heat @ Kings,Kings,Heat,0,0,10:00 pm ET,
+2026-01-21T19:00:00Z,0022500620,Cavaliers @ Hornets,Hornets,Cavaliers,0,0,7:00 pm ET,
+2026-01-21T19:30:00Z,0022500621,Pacers @ Celtics,Celtics,Pacers,0,0,7:30 pm ET,
+2026-01-21T19:30:00Z,0022500622,Nets @ Knicks,Knicks,Nets,0,0,7:30 pm ET,
+2026-01-21T20:00:00Z,0022500623,Hawks @ Grizzlies,Grizzlies,Hawks,0,0,8:00 pm ET,
+2026-01-21T20:00:00Z,0022500624,Pistons @ Pelicans,Pelicans,Pistons,0,0,8:00 pm ET,
+2026-01-21T21:30:00Z,0022500625,Thunder @ Bucks,Bucks,Thunder,0,0,9:30 pm ET,
+2026-01-21T22:00:00Z,0022500626,Raptors @ Kings,Kings,Raptors,0,0,10:00 pm ET,
+2026-01-22T19:00:00Z,0022500627,Hornets @ Magic,Magic,Hornets,0,0,7:00 pm ET,
+2026-01-22T19:00:00Z,0022500628,Rockets @ 76ers,76ers,Rockets,0,0,7:00 pm ET,
+2026-01-22T19:00:00Z,0022500629,Nuggets @ Wizards,Wizards,Nuggets,0,0,7:00 pm ET,
+2026-01-22T19:30:00Z,0022500630,Warriors @ Mavericks,Mavericks,Warriors,0,0,7:30 pm ET,
+2026-01-22T20:00:00Z,0022500631,Bulls @ Timberwolves,Timberwolves,Bulls,0,0,8:00 pm ET,
+2026-01-22T21:00:00Z,0022500632,Spurs @ Jazz,Jazz,Spurs,0,0,9:00 pm ET,
+2026-01-22T22:00:00Z,0022500633,Lakers @ Clippers,Clippers,Lakers,0,0,10:00 pm ET,
+2026-01-22T22:00:00Z,0022500634,Heat @ Trail Blazers,Trail Blazers,Heat,0,0,10:00 pm ET,
+2026-01-23T19:00:00Z,0022500635,Rockets @ Pistons,Pistons,Rockets,0,0,7:00 pm ET,
+2026-01-23T19:30:00Z,0022500636,Suns @ Hawks,Hawks,Suns,0,0,7:30 pm ET,
+2026-01-23T19:30:00Z,0022500637,Celtics @ Nets,Nets,Celtics,0,0,7:30 pm ET,
+2026-01-23T19:30:00Z,0022500638,Kings @ Cavaliers,Cavaliers,Kings,0,0,7:30 pm ET,
+2026-01-23T20:00:00Z,0022500639,Pelicans @ Grizzlies,Grizzlies,Pelicans,0,0,8:00 pm ET,
+2026-01-23T21:30:00Z,0022500640,Nuggets @ Bucks,Bucks,Nuggets,0,0,9:30 pm ET,
+2026-01-23T20:00:00Z,0022500641,Pacers @ Thunder,Thunder,Pacers,0,0,8:00 pm ET,
+2026-01-23T22:00:00Z,0022500642,Raptors @ Trail Blazers,Trail Blazers,Raptors,0,0,10:00 pm ET,
+2026-01-24T15:00:00Z,0022500643,Knicks @ 76ers,76ers,Knicks,0,0,3:00 pm ET,
+2026-01-24T17:30:00Z,0022500644,Warriors @ Timberwolves,Timberwolves,Warriors,0,0,5:30 pm ET,
+2026-01-24T18:00:00Z,0022500645,Wizards @ Hornets,Hornets,Wizards,0,0,6:00 pm ET,
+2026-01-24T19:00:00Z,0022500646,Cavaliers @ Magic,Magic,Cavaliers,0,0,7:00 pm ET,
+2026-01-24T20:00:00Z,0022500647,Celtics @ Bulls,Bulls,Celtics,0,0,8:00 pm ET,
+2026-01-24T20:30:00Z,0022500648,Lakers @ Mavericks,Mavericks,Lakers,0,0,8:30 pm ET,
+2026-01-24T21:30:00Z,0022500649,Heat @ Jazz,Jazz,Heat,0,0,9:30 pm ET,
+2026-01-25T15:00:00Z,0022500650,Kings @ Pistons,Pistons,Kings,0,0,3:00 pm ET,
+2026-01-25T15:30:00Z,0022500651,Nuggets @ Grizzlies,Grizzlies,Nuggets,0,0,3:30 pm ET,
+2026-01-25T19:00:00Z,0022500652,Mavericks @ Bucks,Bucks,Mavericks,0,0,7:00 pm ET,
+2026-01-25T19:00:00Z,0022500653,Raptors @ Thunder,Thunder,Raptors,0,0,7:00 pm ET,
+2026-01-25T19:00:00Z,0022500654,Pelicans @ Spurs,Spurs,Pelicans,0,0,7:00 pm ET,
+2026-01-25T20:00:00Z,0022500655,Heat @ Suns,Suns,Heat,0,0,8:00 pm ET,
+2026-01-25T21:00:00Z,0022500656,Nets @ Clippers,Clippers,Nets,0,0,9:00 pm ET,
+2026-01-26T19:00:00Z,0022500657,76ers @ Hornets,Hornets,76ers,0,0,7:00 pm ET,
+2026-01-26T19:00:00Z,0022500658,Magic @ Cavaliers,Cavaliers,Magic,0,0,7:00 pm ET,
+2026-01-26T19:30:00Z,0022500659,Pacers @ Hawks,Hawks,Pacers,0,0,7:30 pm ET,
+2026-01-26T20:00:00Z,0022500660,Trail Blazers @ Celtics,Celtics,Trail Blazers,0,0,8:00 pm ET,
+2026-01-26T20:00:00Z,0022500661,Lakers @ Bulls,Bulls,Lakers,0,0,8:00 pm ET,
+2026-01-26T20:00:00Z,0022500662,Grizzlies @ Rockets,Rockets,Grizzlies,0,0,8:00 pm ET,
+2026-01-26T21:30:00Z,0022500663,Warriors @ Timberwolves,Timberwolves,Warriors,0,0,9:30 pm ET,
+2026-01-27T19:00:00Z,0022500664,Trail Blazers @ Wizards,Wizards,Trail Blazers,0,0,7:00 pm ET,
+2026-01-27T19:30:00Z,0022500665,Kings @ Knicks,Knicks,Kings,0,0,7:30 pm ET,
+2026-01-27T20:00:00Z,0022500666,Bucks @ 76ers,76ers,Bucks,0,0,8:00 pm ET,
+2026-01-27T20:00:00Z,0022500667,Pelicans @ Thunder,Thunder,Pelicans,0,0,8:00 pm ET,
+2026-01-27T21:00:00Z,0022500668,Pistons @ Nuggets,Nuggets,Pistons,0,0,9:00 pm ET,
+2026-01-27T21:00:00Z,0022500669,Nets @ Suns,Suns,Nets,0,0,9:00 pm ET,
+2026-01-27T22:00:00Z,0022500670,Clippers @ Jazz,Jazz,Clippers,0,0,10:00 pm ET,
+2026-01-28T19:00:00Z,0022500671,Lakers @ Cavaliers,Cavaliers,Lakers,0,0,7:00 pm ET,
+2026-01-28T19:00:00Z,0022500672,Bulls @ Pacers,Pacers,Bulls,0,0,7:00 pm ET,
+2026-01-28T19:30:00Z,0022500673,Hawks @ Celtics,Celtics,Hawks,0,0,7:30 pm ET,
+2026-01-28T19:30:00Z,0022500674,Magic @ Heat,Heat,Magic,0,0,7:30 pm ET,
+2026-01-28T19:30:00Z,0022500675,Knicks @ Raptors,Raptors,Knicks,0,0,7:30 pm ET,
+2026-01-28T20:00:00Z,0022500676,Hornets @ Grizzlies,Grizzlies,Hornets,0,0,8:00 pm ET,
+2026-01-28T20:30:00Z,0022500677,Timberwolves @ Mavericks,Mavericks,Timberwolves,0,0,8:30 pm ET,
+2026-01-28T21:00:00Z,0022500678,Warriors @ Jazz,Jazz,Warriors,0,0,9:00 pm ET,
+2026-01-28T21:30:00Z,0022500679,Spurs @ Rockets,Rockets,Spurs,0,0,9:30 pm ET,
+2026-01-29T19:00:00Z,0022500680,Kings @ 76ers,76ers,Kings,0,0,7:00 pm ET,
+2026-01-29T19:00:00Z,0022500681,Bucks @ Wizards,Wizards,Bucks,0,0,7:00 pm ET,
+2026-01-29T20:00:00Z,0022500682,Rockets @ Hawks,Hawks,Rockets,0,0,8:00 pm ET,
+2026-01-29T20:30:00Z,0022500683,Hornets @ Mavericks,Mavericks,Hornets,0,0,8:30 pm ET,
+2026-01-29T21:00:00Z,0022500684,Nets @ Nuggets,Nuggets,Nets,0,0,9:00 pm ET,
+2026-01-29T21:00:00Z,0022500685,Pistons @ Suns,Suns,Pistons,0,0,9:00 pm ET,
+2026-01-29T21:30:00Z,0022500686,Thunder @ Timberwolves,Timberwolves,Thunder,0,0,9:30 pm ET,
+2026-01-30T19:00:00Z,0022500687,Raptors @ Magic,Magic,Raptors,0,0,7:00 pm ET,
+2026-01-30T19:00:00Z,0022500688,Lakers @ Wizards,Wizards,Lakers,0,0,7:00 pm ET,
+2026-01-30T19:30:00Z,0022500689,Kings @ Celtics,Celtics,Kings,0,0,7:30 pm ET,
+2026-01-30T19:30:00Z,0022500690,Trail Blazers @ Knicks,Knicks,Trail Blazers,0,0,7:30 pm ET,
+2026-01-30T19:30:00Z,0022500691,Grizzlies @ Pelicans,Pelicans,Grizzlies,0,0,7:30 pm ET,
+2026-01-30T20:00:00Z,0022500692,Bulls @ Heat,Heat,Bulls,0,0,8:00 pm ET,
+2026-01-30T21:00:00Z,0022500693,Cavaliers @ Suns,Suns,Cavaliers,0,0,9:00 pm ET,
+2026-01-30T21:30:00Z,0022500694,Nets @ Jazz,Jazz,Nets,0,0,9:30 pm ET,
+2026-01-30T21:00:00Z,0022500695,Clippers @ Nuggets,Nuggets,Clippers,0,0,9:00 pm ET,
+2026-01-30T22:00:00Z,0022500696,Pistons @ Warriors,Warriors,Pistons,0,0,10:00 pm ET,
+2026-01-31T15:00:00Z,0022500697,Spurs @ Hornets,Hornets,Spurs,0,0,3:00 pm ET,
+2026-01-31T19:00:00Z,0022500698,Hawks @ Pacers,Pacers,Hawks,0,0,7:00 pm ET,
+2026-01-31T19:30:00Z,0022500699,Pelicans @ 76ers,76ers,Pelicans,0,0,7:30 pm ET,
+2026-01-31T20:00:00Z,0022500700,Timberwolves @ Grizzlies,Grizzlies,Timberwolves,0,0,8:00 pm ET,
+2026-01-31T20:30:00Z,0022500701,Mavericks @ Rockets,Rockets,Mavericks,0,0,8:30 pm ET,
+2026-02-01T15:30:00Z,0022500702,Bucks @ Celtics,Celtics,Bucks,0,0,3:30 pm ET,
+2026-02-01T16:00:00Z,0022500703,Magic @ Spurs,Spurs,Magic,0,0,4:00 pm ET,
+2026-02-01T18:00:00Z,0022500704,Nets @ Pistons,Pistons,Nets,0,0,6:00 pm ET,
+2026-02-01T18:00:00Z,0022500705,Bulls @ Heat,Heat,Bulls,0,0,6:00 pm ET,
+2026-02-01T18:00:00Z,0022500706,Jazz @ Raptors,Raptors,Jazz,0,0,6:00 pm ET,
+2026-02-01T18:00:00Z,0022500707,Kings @ Wizards,Wizards,Kings,0,0,6:00 pm ET,
+2026-02-01T19:00:00Z,0022500708,Lakers @ Knicks,Knicks,Lakers,0,0,7:00 pm ET,
+2026-02-01T20:00:00Z,0022500709,Clippers @ Suns,Suns,Clippers,0,0,8:00 pm ET,
+2026-02-01T21:00:00Z,0022500710,Cavaliers @ Trail Blazers,Trail Blazers,Cavaliers,0,0,9:00 pm ET,
+2026-02-01T21:30:00Z,0022500711,Thunder @ Nuggets,Nuggets,Thunder,0,0,9:30 pm ET,
+2026-02-02T19:00:00Z,0022500712,Pelicans @ Hornets,Hornets,Pelicans,0,0,7:00 pm ET,
+2026-02-02T19:00:00Z,0022500713,Rockets @ Pacers,Pacers,Rockets,0,0,7:00 pm ET,
+2026-02-02T19:30:00Z,0022500714,Timberwolves @ Grizzlies,Grizzlies,Timberwolves,0,0,7:30 pm ET,
+2026-02-02T22:00:00Z,0022500715,76ers @ Clippers,Clippers,76ers,0,0,10:00 pm ET,
+2026-02-03T19:00:00Z,0022500716,Nuggets @ Pistons,Pistons,Nuggets,0,0,7:00 pm ET,
+2026-02-03T19:00:00Z,0022500717,Jazz @ Pacers,Pacers,Jazz,0,0,7:00 pm ET,
+2026-02-03T19:00:00Z,0022500718,Knicks @ Wizards,Wizards,Knicks,0,0,7:00 pm ET,
+2026-02-03T19:30:00Z,0022500719,Lakers @ Nets,Nets,Lakers,0,0,7:30 pm ET,
+2026-02-03T19:30:00Z,0022500720,Hawks @ Heat,Heat,Hawks,0,0,7:30 pm ET,
+2026-02-03T20:00:00Z,0022500721,Celtics @ Mavericks,Mavericks,Celtics,0,0,8:00 pm ET,
+2026-02-03T20:00:00Z,0022500722,Bulls @ Bucks,Bucks,Bulls,0,0,8:00 pm ET,
+2026-02-03T20:00:00Z,0022500723,Magic @ Thunder,Thunder,Magic,0,0,8:00 pm ET,
+2026-02-03T22:00:00Z,0022500724,76ers @ Warriors,Warriors,76ers,0,0,10:00 pm ET,
+2026-02-03T23:00:00Z,0022500725,Suns @ Trail Blazers,Trail Blazers,Suns,0,0,11:00 pm ET,
+2026-02-04T19:00:00Z,0022500726,Nuggets @ Knicks,Knicks,Nuggets,0,0,7:00 pm ET,
+2026-02-04T19:30:00Z,0022500727,Timberwolves @ Raptors,Raptors,Timberwolves,0,0,7:30 pm ET,
+2026-02-04T20:00:00Z,0022500728,Celtics @ Rockets,Rockets,Celtics,0,0,8:00 pm ET,
+2026-02-04T20:00:00Z,0022500729,Pelicans @ Bucks,Bucks,Pelicans,0,0,8:00 pm ET,
+2026-02-04T21:30:00Z,0022500730,Thunder @ Spurs,Spurs,Thunder,0,0,9:30 pm ET,
+2026-02-04T22:00:00Z,0022500731,Grizzlies @ Kings,Kings,Grizzlies,0,0,10:00 pm ET,
+2026-02-04T22:30:00Z,0022500732,Cavaliers @ Clippers,Clippers,Cavaliers,0,0,10:30 pm ET,
+2026-02-05T19:00:00Z,0022500733,Wizards @ Pistons,Pistons,Wizards,0,0,7:00 pm ET,
+2026-02-05T19:00:00Z,0022500734,Nets @ Magic,Magic,Nets,0,0,7:00 pm ET,
+2026-02-05T19:30:00Z,0022500735,Jazz @ Hawks,Hawks,Jazz,0,0,7:30 pm ET,
+2026-02-05T19:30:00Z,0022500736,Bulls @ Raptors,Raptors,Bulls,0,0,7:30 pm ET,
+2026-02-05T20:00:00Z,0022500737,Hornets @ Rockets,Rockets,Hornets,0,0,8:00 pm ET,
+2026-02-05T20:30:00Z,0022500738,Spurs @ Mavericks,Mavericks,Spurs,0,0,8:30 pm ET,
+2026-02-05T21:00:00Z,0022500739,Warriors @ Suns,Suns,Warriors,0,0,9:00 pm ET,
+2026-02-05T22:00:00Z,0022500740,76ers @ Lakers,Lakers,76ers,0,0,10:00 pm ET,
+2026-02-06T19:30:00Z,0022500741,Heat @ Celtics,Celtics,Heat,0,0,7:30 pm ET,
+2026-02-06T19:30:00Z,0022500742,Knicks @ Pistons,Pistons,Knicks,0,0,7:30 pm ET,
+2026-02-06T20:00:00Z,0022500743,Pacers @ Bucks,Bucks,Pacers,0,0,8:00 pm ET,
+2026-02-06T20:00:00Z,0022500744,Pelicans @ Timberwolves,Timberwolves,Pelicans,0,0,8:00 pm ET,
+2026-02-06T22:00:00Z,0022500745,Grizzlies @ Trail Blazers,Trail Blazers,Grizzlies,0,0,10:00 pm ET,
+2026-02-06T22:00:00Z,0022500746,Clippers @ Kings,Kings,Clippers,0,0,10:00 pm ET,
+2026-02-07T15:00:00Z,0022500747,Wizards @ Nets,Nets,Wizards,0,0,3:00 pm ET,
+2026-02-07T15:30:00Z,0022500748,Rockets @ Thunder,Thunder,Rockets,0,0,3:30 pm ET,
+2026-02-07T18:00:00Z,0022500749,Mavericks @ Spurs,Spurs,Mavericks,0,0,6:00 pm ET,
+2026-02-07T19:00:00Z,0022500750,Jazz @ Magic,Magic,Jazz,0,0,7:00 pm ET,
+2026-02-07T19:30:00Z,0022500751,Hornets @ Hawks,Hawks,Hornets,0,0,7:30 pm ET,
+2026-02-07T20:00:00Z,0022500752,Nuggets @ Bulls,Bulls,Nuggets,0,0,8:00 pm ET,
+2026-02-07T20:30:00Z,0022500753,Warriors @ Lakers,Lakers,Warriors,0,0,8:30 pm ET,
+2026-02-07T21:00:00Z,0022500754,76ers @ Suns,Suns,76ers,0,0,9:00 pm ET,
+2026-02-07T22:00:00Z,0022500755,Grizzlies @ Trail Blazers,Trail Blazers,Grizzlies,0,0,10:00 pm ET,
+2026-02-07T22:00:00Z,0022500756,Cavaliers @ Kings,Kings,Cavaliers,0,0,10:00 pm ET,
+2026-02-08T12:30:00Z,0022500757,Knicks @ Celtics,Celtics,Knicks,0,0,12:30 pm ET,
+2026-02-08T14:00:00Z,0022500758,Heat @ Wizards,Wizards,Heat,0,0,2:00 pm ET,
+2026-02-08T15:00:00Z,0022500759,Pacers @ Raptors,Raptors,Pacers,0,0,3:00 pm ET,
+2026-02-08T15:00:00Z,0022500760,Clippers @ Timberwolves,Timberwolves,Clippers,0,0,3:00 pm ET,
+2026-02-09T19:00:00Z,0022500761,Pistons @ Hornets,Hornets,Pistons,0,0,7:00 pm ET,
+2026-02-09T19:30:00Z,0022500762,Bulls @ Nets,Nets,Bulls,0,0,7:30 pm ET,
+2026-02-09T19:30:00Z,0022500763,Jazz @ Heat,Heat,Jazz,0,0,7:30 pm ET,
+2026-02-09T19:30:00Z,0022500764,Bucks @ Magic,Magic,Bucks,0,0,7:30 pm ET,
+2026-02-09T20:00:00Z,0022500765,Hawks @ Timberwolves,Timberwolves,Hawks,0,0,8:00 pm ET,
+2026-02-09T20:00:00Z,0022500766,Kings @ Pelicans,Pelicans,Kings,0,0,8:00 pm ET,
+2026-02-09T21:00:00Z,0022500767,Cavaliers @ Nuggets,Nuggets,Cavaliers,0,0,9:00 pm ET,
+2026-02-09T22:00:00Z,0022500768,Grizzlies @ Warriors,Warriors,Grizzlies,0,0,10:00 pm ET,
+2026-02-09T22:00:00Z,0022500769,Thunder @ Lakers,Lakers,Thunder,0,0,10:00 pm ET,
+2026-02-09T22:00:00Z,0022500770,76ers @ Trail Blazers,Trail Blazers,76ers,0,0,10:00 pm ET,
+2026-02-10T19:30:00Z,0022500771,Pacers @ Knicks,Knicks,Pacers,0,0,7:30 pm ET,
+2026-02-10T20:00:00Z,0022500772,Clippers @ Rockets,Rockets,Clippers,0,0,8:00 pm ET,
+2026-02-10T21:00:00Z,0022500773,Mavericks @ Suns,Suns,Mavericks,0,0,9:00 pm ET,
+2026-02-10T22:30:00Z,0022500774,Spurs @ Lakers,Lakers,Spurs,0,0,10:30 pm ET,
+2026-02-11T19:00:00Z,0022500775,Hawks @ Hornets,Hornets,Hawks,0,0,7:00 pm ET,
+2026-02-11T19:00:00Z,0022500776,Wizards @ Cavaliers,Cavaliers,Wizards,0,0,7:00 pm ET,
+2026-02-11T19:00:00Z,0022500777,Bucks @ Magic,Magic,Bucks,0,0,7:00 pm ET,
+2026-02-11T19:30:00Z,0022500778,Bulls @ Celtics,Celtics,Bulls,0,0,7:30 pm ET,
+2026-02-11T19:30:00Z,0022500779,Pacers @ Nets,Nets,Pacers,0,0,7:30 pm ET,
+2026-02-11T19:30:00Z,0022500780,Knicks @ 76ers,76ers,Knicks,0,0,7:30 pm ET,
+2026-02-11T19:30:00Z,0022500781,Pistons @ Raptors,Raptors,Pistons,0,0,7:30 pm ET,
+2026-02-11T20:00:00Z,0022500782,Clippers @ Rockets,Rockets,Clippers,0,0,8:00 pm ET,
+2026-02-11T20:00:00Z,0022500783,Trail Blazers @ Timberwolves,Timberwolves,Trail Blazers,0,0,8:00 pm ET,
+2026-02-11T20:00:00Z,0022500784,Heat @ Pelicans,Pelicans,Heat,0,0,8:00 pm ET,
+2026-02-11T21:00:00Z,0022500785,Thunder @ Suns,Suns,Thunder,0,0,9:00 pm ET,
+2026-02-11T21:00:00Z,0022500786,Kings @ Jazz,Jazz,Kings,0,0,9:00 pm ET,
+2026-02-11T22:00:00Z,0022500787,Grizzlies @ Nuggets,Nuggets,Grizzlies,0,0,10:00 pm ET,
+2026-02-11T22:00:00Z,0022500788,Spurs @ Warriors,Warriors,Spurs,0,0,10:00 pm ET,
+2026-02-12T19:30:00Z,0022500789,Bucks @ Thunder,Thunder,Bucks,0,0,7:30 pm ET,
+2026-02-12T21:00:00Z,0022500790,Trail Blazers @ Jazz,Jazz,Trail Blazers,0,0,9:00 pm ET,
+2026-02-12T22:00:00Z,0022500791,Mavericks @ Lakers,Lakers,Mavericks,0,0,10:00 pm ET,
+2026-02-15T00:00:00Z,0032500011,,,,0,0,TBD,
+2026-02-15T00:00:00Z,0032500021,,,,0,0,TBD,
+2026-02-15T00:00:00Z,0032500031,,,,0,0,TBD,
+2026-02-15T00:00:00Z,0032500041,,,,0,0,TBD,
+2026-02-19T19:00:00Z,0022500792,Rockets @ Hornets,Hornets,Rockets,0,0,7:00 pm ET,
+2026-02-19T19:00:00Z,0022500793,Nets @ Cavaliers,Cavaliers,Nets,0,0,7:00 pm ET,
+2026-02-19T19:00:00Z,0022500794,Hawks @ 76ers,76ers,Hawks,0,0,7:00 pm ET,
+2026-02-19T19:00:00Z,0022500795,Pacers @ Wizards,Wizards,Pacers,0,0,7:00 pm ET,
+2026-02-19T19:30:00Z,0022500796,Pistons @ Knicks,Knicks,Pistons,0,0,7:30 pm ET,
+2026-02-19T20:00:00Z,0022500797,Raptors @ Bulls,Bulls,Raptors,0,0,8:00 pm ET,
+2026-02-19T20:30:00Z,0022500798,Suns @ Spurs,Spurs,Suns,0,0,8:30 pm ET,
+2026-02-19T22:00:00Z,0022500799,Celtics @ Warriors,Warriors,Celtics,0,0,10:00 pm ET,
+2026-02-19T22:00:00Z,0022500800,Magic @ Kings,Kings,Magic,0,0,10:00 pm ET,
+2026-02-19T22:30:00Z,0022500801,Nuggets @ Clippers,Clippers,Nuggets,0,0,10:30 pm ET,
+2026-02-20T19:00:00Z,0022500802,Cavaliers @ Hornets,Hornets,Cavaliers,0,0,7:00 pm ET,
+2026-02-20T19:00:00Z,0022500803,Pacers @ Wizards,Wizards,Pacers,0,0,7:00 pm ET,
+2026-02-20T19:00:00Z,0022500804,Jazz @ Grizzlies,Grizzlies,Jazz,0,0,7:00 pm ET,
+2026-02-20T19:30:00Z,0022500805,Heat @ Hawks,Hawks,Heat,0,0,7:30 pm ET,
+2026-02-20T19:30:00Z,0022500806,Mavericks @ Timberwolves,Timberwolves,Mavericks,0,0,7:30 pm ET,
+2026-02-20T20:00:00Z,0022500807,Bucks @ Pelicans,Pelicans,Bucks,0,0,8:00 pm ET,
+2026-02-20T20:00:00Z,0022500808,Nets @ Thunder,Thunder,Nets,0,0,8:00 pm ET,
+2026-02-20T22:00:00Z,0022500809,Clippers @ Lakers,Lakers,Clippers,0,0,10:00 pm ET,
+2026-02-20T22:00:00Z,0022500810,Nuggets @ Trail Blazers,Trail Blazers,Nuggets,0,0,10:00 pm ET,
+2026-02-21T17:00:00Z,0022500811,Magic @ Suns,Suns,Magic,0,0,5:00 pm ET,
+2026-02-21T19:00:00Z,0022500812,76ers @ Pelicans,Pelicans,76ers,0,0,7:00 pm ET,
+2026-02-21T20:00:00Z,0022500813,Grizzlies @ Heat,Heat,Grizzlies,0,0,8:00 pm ET,
+2026-02-21T20:00:00Z,0022500814,Pistons @ Bulls,Bulls,Pistons,0,0,8:00 pm ET,
+2026-02-21T20:00:00Z,0022500815,Kings @ Spurs,Spurs,Kings,0,0,8:00 pm ET,
+2026-02-21T20:30:00Z,0022500816,Rockets @ Knicks,Knicks,Rockets,0,0,8:30 pm ET,
+2026-02-22T13:00:00Z,0022500817,Cavaliers @ Thunder,Thunder,Cavaliers,0,0,1:00 pm ET,
+2026-02-22T15:30:00Z,0022500818,Nets @ Hawks,Hawks,Nets,0,0,3:30 pm ET,
+2026-02-22T15:30:00Z,0022500819,Raptors @ Bucks,Bucks,Raptors,0,0,3:30 pm ET,
+2026-02-22T15:30:00Z,0022500820,Nuggets @ Warriors,Warriors,Nuggets,0,0,3:30 pm ET,
+2026-02-22T17:00:00Z,0022500821,Mavericks @ Pacers,Pacers,Mavericks,0,0,5:00 pm ET,
+2026-02-22T18:00:00Z,0022500822,Hornets @ Wizards,Wizards,Hornets,0,0,6:00 pm ET,
+2026-02-22T18:30:00Z,0022500823,Celtics @ Lakers,Lakers,Celtics,0,0,6:30 pm ET,
+2026-02-22T19:00:00Z,0022500824,76ers @ Timberwolves,Timberwolves,76ers,0,0,7:00 pm ET,
+2026-02-22T20:00:00Z,0022500825,Knicks @ Bulls,Bulls,Knicks,0,0,8:00 pm ET,
+2026-02-22T20:00:00Z,0022500826,Trail Blazers @ Suns,Suns,Trail Blazers,0,0,8:00 pm ET,
+2026-02-22T21:00:00Z,0022500827,Magic @ Clippers,Clippers,Magic,0,0,9:00 pm ET,
+2026-02-23T19:00:00Z,0022500828,Spurs @ Pistons,Pistons,Spurs,0,0,7:00 pm ET,
+2026-02-23T20:00:00Z,0022500829,Kings @ Grizzlies,Grizzlies,Kings,0,0,8:00 pm ET,
+2026-02-23T21:30:00Z,0022500830,Jazz @ Rockets,Rockets,Jazz,0,0,9:30 pm ET,
+2026-02-24T19:00:00Z,0022500831,76ers @ Pacers,Pacers,76ers,0,0,7:00 pm ET,
+2026-02-24T19:30:00Z,0022500832,Wizards @ Hawks,Hawks,Wizards,0,0,7:30 pm ET,
+2026-02-24T19:30:00Z,0022500833,Mavericks @ Nets,Nets,Mavericks,0,0,7:30 pm ET,
+2026-02-24T19:30:00Z,0022500834,Thunder @ Raptors,Raptors,Thunder,0,0,7:30 pm ET,
+2026-02-24T20:00:00Z,0022500835,Knicks @ Cavaliers,Cavaliers,Knicks,0,0,8:00 pm ET,
+2026-02-24T20:00:00Z,0022500836,Hornets @ Bulls,Bulls,Hornets,0,0,8:00 pm ET,
+2026-02-24T20:00:00Z,0022500837,Heat @ Bucks,Bucks,Heat,0,0,8:00 pm ET,
+2026-02-24T20:00:00Z,0022500838,Warriors @ Pelicans,Pelicans,Warriors,0,0,8:00 pm ET,
+2026-02-24T21:00:00Z,0022500839,Celtics @ Suns,Suns,Celtics,0,0,9:00 pm ET,
+2026-02-24T22:30:00Z,0022500840,Magic @ Lakers,Lakers,Magic,0,0,10:30 pm ET,
+2026-02-24T23:00:00Z,0022500841,Timberwolves @ Trail Blazers,Trail Blazers,Timberwolves,0,0,11:00 pm ET,
+2026-02-25T19:00:00Z,0022500842,Thunder @ Pistons,Pistons,Thunder,0,0,7:00 pm ET,
+2026-02-25T19:30:00Z,0022500843,Spurs @ Raptors,Raptors,Spurs,0,0,7:30 pm ET,
+2026-02-25T19:30:00Z,0022500844,Warriors @ Grizzlies,Grizzlies,Warriors,0,0,7:30 pm ET,
+2026-02-25T20:00:00Z,0022500845,Kings @ Rockets,Rockets,Kings,0,0,8:00 pm ET,
+2026-02-25T20:00:00Z,0022500846,Cavaliers @ Bucks,Bucks,Cavaliers,0,0,8:00 pm ET,
+2026-02-25T22:00:00Z,0022500847,Celtics @ Nuggets,Nuggets,Celtics,0,0,10:00 pm ET,
+2026-02-26T19:00:00Z,0022500848,Hornets @ Pacers,Pacers,Hornets,0,0,7:00 pm ET,
+2026-02-26T19:00:00Z,0022500849,Heat @ 76ers,76ers,Heat,0,0,7:00 pm ET,
+2026-02-26T19:30:00Z,0022500850,Wizards @ Hawks,Hawks,Wizards,0,0,7:30 pm ET,
+2026-02-26T19:30:00Z,0022500851,Spurs @ Nets,Nets,Spurs,0,0,7:30 pm ET,
+2026-02-26T19:30:00Z,0022500852,Rockets @ Magic,Magic,Rockets,0,0,7:30 pm ET,
+2026-02-26T20:00:00Z,0022500853,Trail Blazers @ Bulls,Bulls,Trail Blazers,0,0,8:00 pm ET,
+2026-02-26T20:30:00Z,0022500854,Kings @ Mavericks,Mavericks,Kings,0,0,8:30 pm ET,
+2026-02-26T21:00:00Z,0022500855,Lakers @ Suns,Suns,Lakers,0,0,9:00 pm ET,
+2026-02-26T21:00:00Z,0022500856,Pelicans @ Jazz,Jazz,Pelicans,0,0,9:00 pm ET,
+2026-02-26T22:00:00Z,0022500857,Timberwolves @ Clippers,Clippers,Timberwolves,0,0,10:00 pm ET,
+2026-02-27T19:00:00Z,0022500858,Cavaliers @ Pistons,Pistons,Cavaliers,0,0,7:00 pm ET,
+2026-02-27T19:30:00Z,0022500859,Nets @ Celtics,Celtics,Nets,0,0,7:30 pm ET,
+2026-02-27T20:00:00Z,0022500860,Knicks @ Bucks,Bucks,Knicks,0,0,8:00 pm ET,
+2026-02-27T20:30:00Z,0022500861,Grizzlies @ Mavericks,Mavericks,Grizzlies,0,0,8:30 pm ET,
+2026-02-27T21:30:00Z,0022500862,Nuggets @ Thunder,Thunder,Nuggets,0,0,9:30 pm ET,
+2026-02-28T13:00:00Z,0022500863,Trail Blazers @ Hornets,Hornets,Trail Blazers,0,0,1:00 pm ET,
+2026-02-28T15:00:00Z,0022500864,Rockets @ Heat,Heat,Rockets,0,0,3:00 pm ET,
+2026-02-28T19:00:00Z,0022500865,Raptors @ Wizards,Wizards,Raptors,0,0,7:00 pm ET,
+2026-02-28T20:30:00Z,0022500866,Lakers @ Warriors,Warriors,Lakers,0,0,8:30 pm ET,
+2026-02-28T21:30:00Z,0022500867,Pelicans @ Jazz,Jazz,Pelicans,0,0,9:30 pm ET,
+2026-03-01T13:00:00Z,0022500868,Spurs @ Knicks,Knicks,Spurs,0,0,1:00 pm ET,
+2026-03-01T15:30:00Z,0022500869,Cavaliers @ Nets,Nets,Cavaliers,0,0,3:30 pm ET,
+2026-03-01T15:30:00Z,0022500870,Bucks @ Bulls,Bulls,Bucks,0,0,3:30 pm ET,
+2026-03-01T15:30:00Z,0022500871,Timberwolves @ Nuggets,Nuggets,Timberwolves,0,0,3:30 pm ET,
+2026-03-01T17:00:00Z,0022500872,Grizzlies @ Pacers,Pacers,Grizzlies,0,0,5:00 pm ET,
+2026-03-01T18:00:00Z,0022500873,Trail Blazers @ Hawks,Hawks,Trail Blazers,0,0,6:00 pm ET,
+2026-03-01T18:00:00Z,0022500874,76ers @ Celtics,Celtics,76ers,0,0,6:00 pm ET,
+2026-03-01T18:00:00Z,0022500875,Pistons @ Magic,Magic,Pistons,0,0,6:00 pm ET,
+2026-03-01T20:00:00Z,0022500876,Thunder @ Mavericks,Mavericks,Thunder,0,0,8:00 pm ET,
+2026-03-01T21:00:00Z,0022500877,Pelicans @ Clippers,Clippers,Pelicans,0,0,9:00 pm ET,
+2026-03-01T21:30:00Z,0022500878,Kings @ Lakers,Lakers,Kings,0,0,9:30 pm ET,
+2026-03-02T19:00:00Z,0022500879,Rockets @ Wizards,Wizards,Rockets,0,0,7:00 pm ET,
+2026-03-02T19:30:00Z,0022500880,Celtics @ Bucks,Bucks,Celtics,0,0,7:30 pm ET,
+2026-03-02T21:00:00Z,0022500881,Nuggets @ Jazz,Jazz,Nuggets,0,0,9:00 pm ET,
+2026-03-02T22:00:00Z,0022500882,Clippers @ Warriors,Warriors,Clippers,0,0,10:00 pm ET,
+2026-03-03T19:00:00Z,0022500883,Mavericks @ Hornets,Hornets,Mavericks,0,0,7:00 pm ET,
+2026-03-03T19:00:00Z,0022500884,Pistons @ Cavaliers,Cavaliers,Pistons,0,0,7:00 pm ET,
+2026-03-03T19:00:00Z,0022500885,Wizards @ Magic,Magic,Wizards,0,0,7:00 pm ET,
+2026-03-03T19:30:00Z,0022500886,Nets @ Heat,Heat,Nets,0,0,7:30 pm ET,
+2026-03-03T19:30:00Z,0022500887,Knicks @ Raptors,Raptors,Knicks,0,0,7:30 pm ET,
+2026-03-03T20:00:00Z,0022500888,Spurs @ 76ers,76ers,Spurs,0,0,8:00 pm ET,
+2026-03-03T20:00:00Z,0022500889,Thunder @ Bulls,Bulls,Thunder,0,0,8:00 pm ET,
+2026-03-03T20:00:00Z,0022500890,Grizzlies @ Timberwolves,Timberwolves,Grizzlies,0,0,8:00 pm ET,
+2026-03-03T22:30:00Z,0022500891,Pelicans @ Lakers,Lakers,Pelicans,0,0,10:30 pm ET,
+2026-03-03T23:00:00Z,0022500892,Suns @ Kings,Kings,Suns,0,0,11:00 pm ET,
+2026-03-04T19:00:00Z,0022500893,Thunder @ Knicks,Knicks,Thunder,0,0,7:00 pm ET,
+2026-03-04T19:30:00Z,0022500894,Hornets @ Celtics,Celtics,Hornets,0,0,7:30 pm ET,
+2026-03-04T19:30:00Z,0022500895,Jazz @ 76ers,76ers,Jazz,0,0,7:30 pm ET,
+2026-03-04T20:00:00Z,0022500896,Trail Blazers @ Grizzlies,Grizzlies,Trail Blazers,0,0,8:00 pm ET,
+2026-03-04T21:30:00Z,0022500897,Hawks @ Bucks,Bucks,Hawks,0,0,9:30 pm ET,
+2026-03-04T22:30:00Z,0022500898,Pacers @ Clippers,Clippers,Pacers,0,0,10:30 pm ET,
+2026-03-05T19:00:00Z,0022500899,Mavericks @ Magic,Magic,Mavericks,0,0,7:00 pm ET,
+2026-03-05T19:00:00Z,0022500900,Jazz @ Wizards,Wizards,Jazz,0,0,7:00 pm ET,
+2026-03-05T19:30:00Z,0022500901,Nets @ Heat,Heat,Nets,0,0,7:30 pm ET,
+2026-03-05T19:30:00Z,0022500902,Warriors @ Rockets,Rockets,Warriors,0,0,7:30 pm ET,
+2026-03-05T20:00:00Z,0022500903,Raptors @ Timberwolves,Timberwolves,Raptors,0,0,8:00 pm ET,
+2026-03-05T20:00:00Z,0022500904,Pistons @ Spurs,Spurs,Pistons,0,0,8:00 pm ET,
+2026-03-05T21:00:00Z,0022500905,Bulls @ Suns,Suns,Bulls,0,0,9:00 pm ET,
+2026-03-05T22:00:00Z,0022500906,Lakers @ Nuggets,Nuggets,Lakers,0,0,10:00 pm ET,
+2026-03-05T22:00:00Z,0022500907,Pelicans @ Kings,Kings,Pelicans,0,0,10:00 pm ET,
+2026-03-06T19:00:00Z,0022500908,Mavericks @ Celtics,Celtics,Mavericks,0,0,7:00 pm ET,
+2026-03-06T19:00:00Z,0022500909,Heat @ Hornets,Hornets,Heat,0,0,7:00 pm ET,
+2026-03-06T20:00:00Z,0022500910,Trail Blazers @ Rockets,Rockets,Trail Blazers,0,0,8:00 pm ET,
+2026-03-06T21:00:00Z,0022500911,Knicks @ Nuggets,Nuggets,Knicks,0,0,9:00 pm ET,
+2026-03-06T21:00:00Z,0022500912,Pelicans @ Suns,Suns,Pelicans,0,0,9:00 pm ET,
+2026-03-06T21:30:00Z,0022500913,Clippers @ Spurs,Spurs,Clippers,0,0,9:30 pm ET,
+2026-03-06T22:30:00Z,0022500914,Pacers @ Lakers,Lakers,Pacers,0,0,10:30 pm ET,
+2026-03-07T15:00:00Z,0022500915,Magic @ Timberwolves,Timberwolves,Magic,0,0,3:00 pm ET,
+2026-03-07T18:00:00Z,0022500916,Nets @ Pistons,Pistons,Nets,0,0,6:00 pm ET,
+2026-03-07T19:30:00Z,0022500917,76ers @ Hawks,Hawks,76ers,0,0,7:30 pm ET,
+2026-03-07T20:00:00Z,0022500918,Clippers @ Grizzlies,Grizzlies,Clippers,0,0,8:00 pm ET,
+2026-03-07T20:00:00Z,0022500919,Jazz @ Bucks,Bucks,Jazz,0,0,8:00 pm ET,
+2026-03-07T20:30:00Z,0022500920,Warriors @ Thunder,Thunder,Warriors,0,0,8:30 pm ET,
+2026-03-08T13:00:00Z,0022500921,Celtics @ Cavaliers,Cavaliers,Celtics,0,0,1:00 pm ET,
+2026-03-08T15:30:00Z,0022500922,Knicks @ Lakers,Lakers,Knicks,0,0,3:30 pm ET,
+2026-03-08T18:00:00Z,0022500923,Pistons @ Heat,Heat,Pistons,0,0,6:00 pm ET,
+2026-03-08T18:00:00Z,0022500924,Mavericks @ Raptors,Raptors,Mavericks,0,0,6:00 pm ET,
+2026-03-08T19:00:00Z,0022500925,Wizards @ Pelicans,Pelicans,Wizards,0,0,7:00 pm ET,
+2026-03-08T20:00:00Z,0022500926,Magic @ Bucks,Bucks,Magic,0,0,8:00 pm ET,
+2026-03-08T20:00:00Z,0022500927,Rockets @ Spurs,Spurs,Rockets,0,0,8:00 pm ET,
+2026-03-08T21:00:00Z,0022500928,Hornets @ Suns,Suns,Hornets,0,0,9:00 pm ET,
+2026-03-08T21:00:00Z,0022500929,Pacers @ Trail Blazers,Trail Blazers,Pacers,0,0,9:00 pm ET,
+2026-03-08T21:00:00Z,0022500930,Bulls @ Kings,Kings,Bulls,0,0,9:00 pm ET,
+2026-03-09T19:00:00Z,0022500931,76ers @ Cavaliers,Cavaliers,76ers,0,0,7:00 pm ET,
+2026-03-09T19:30:00Z,0022500932,Grizzlies @ Nets,Nets,Grizzlies,0,0,7:30 pm ET,
+2026-03-09T19:30:00Z,0022500933,Nuggets @ Thunder,Thunder,Nuggets,0,0,7:30 pm ET,
+2026-03-09T21:00:00Z,0022500934,Warriors @ Jazz,Jazz,Warriors,0,0,9:00 pm ET,
+2026-03-09T22:00:00Z,0022500935,Knicks @ Clippers,Clippers,Knicks,0,0,10:00 pm ET,
+2026-03-10T19:00:00Z,0022500936,Grizzlies @ 76ers,76ers,Grizzlies,0,0,7:00 pm ET,
+2026-03-10T19:30:00Z,0022500937,Pistons @ Nets,Nets,Pistons,0,0,7:30 pm ET,
+2026-03-10T19:30:00Z,0022500938,Wizards @ Heat,Heat,Wizards,0,0,7:30 pm ET,
+2026-03-10T20:00:00Z,0022500939,Mavericks @ Hawks,Hawks,Mavericks,0,0,8:00 pm ET,
+2026-03-10T20:00:00Z,0022500940,Raptors @ Rockets,Rockets,Raptors,0,0,8:00 pm ET,
+2026-03-10T20:00:00Z,0022500941,Suns @ Bucks,Bucks,Suns,0,0,8:00 pm ET,
+2026-03-10T20:00:00Z,0022500942,Celtics @ Spurs,Spurs,Celtics,0,0,8:00 pm ET,
+2026-03-10T22:00:00Z,0022500943,Bulls @ Warriors,Warriors,Bulls,0,0,10:00 pm ET,
+2026-03-10T22:00:00Z,0022500944,Hornets @ Trail Blazers,Trail Blazers,Hornets,0,0,10:00 pm ET,
+2026-03-10T22:00:00Z,0022500945,Pacers @ Kings,Kings,Pacers,0,0,10:00 pm ET,
+2026-03-10T23:00:00Z,0022500946,Timberwolves @ Lakers,Lakers,Timberwolves,0,0,11:00 pm ET,
+2026-03-11T19:30:00Z,0022500947,Cavaliers @ Magic,Magic,Cavaliers,0,0,7:30 pm ET,
+2026-03-11T20:00:00Z,0022500948,Raptors @ Pelicans,Pelicans,Raptors,0,0,8:00 pm ET,
+2026-03-11T21:00:00Z,0022500949,Knicks @ Jazz,Jazz,Knicks,0,0,9:00 pm ET,
+2026-03-11T22:00:00Z,0022500950,Rockets @ Nuggets,Nuggets,Rockets,0,0,10:00 pm ET,
+2026-03-11T22:00:00Z,0022500951,Hornets @ Kings,Kings,Hornets,0,0,10:00 pm ET,
+2026-03-11T22:30:00Z,0022500952,Timberwolves @ Clippers,Clippers,Timberwolves,0,0,10:30 pm ET,
+2026-03-12T19:00:00Z,0022500953,76ers @ Pistons,Pistons,76ers,0,0,7:00 pm ET,
+2026-03-12T19:00:00Z,0022500954,Suns @ Pacers,Pacers,Suns,0,0,7:00 pm ET,
+2026-03-12T19:00:00Z,0022500955,Wizards @ Magic,Magic,Wizards,0,0,7:00 pm ET,
+2026-03-12T19:30:00Z,0022500956,Nets @ Hawks,Hawks,Nets,0,0,7:30 pm ET,
+2026-03-12T19:30:00Z,0022500957,Bucks @ Heat,Heat,Bucks,0,0,7:30 pm ET,
+2026-03-12T21:00:00Z,0022500958,Nuggets @ Spurs,Spurs,Nuggets,0,0,9:00 pm ET,
+2026-03-12T21:30:00Z,0022500959,Celtics @ Thunder,Thunder,Celtics,0,0,9:30 pm ET,
+2026-03-12T22:30:00Z,0022500960,Bulls @ Lakers,Lakers,Bulls,0,0,10:30 pm ET,
+2026-03-13T19:30:00Z,0022500961,Grizzlies @ Pistons,Pistons,Grizzlies,0,0,7:30 pm ET,
+2026-03-13T19:30:00Z,0022500962,Knicks @ Pacers,Pacers,Knicks,0,0,7:30 pm ET,
+2026-03-13T19:30:00Z,0022500963,Suns @ Raptors,Raptors,Suns,0,0,7:30 pm ET,
+2026-03-13T20:00:00Z,0022500964,Pelicans @ Rockets,Rockets,Pelicans,0,0,8:00 pm ET,
+2026-03-13T20:30:00Z,0022500965,Cavaliers @ Mavericks,Mavericks,Cavaliers,0,0,8:30 pm ET,
+2026-03-13T22:00:00Z,0022500966,Timberwolves @ Warriors,Warriors,Timberwolves,0,0,10:00 pm ET,
+2026-03-13T22:00:00Z,0022500967,Jazz @ Trail Blazers,Trail Blazers,Jazz,0,0,10:00 pm ET,
+2026-03-13T22:30:00Z,0022500968,Bulls @ Clippers,Clippers,Bulls,0,0,10:30 pm ET,
+2026-03-14T13:00:00Z,0022500969,Nets @ 76ers,76ers,Nets,0,0,1:00 pm ET,
+2026-03-14T15:00:00Z,0022500970,Bucks @ Hawks,Hawks,Bucks,0,0,3:00 pm ET,
+2026-03-14T18:00:00Z,0022500971,Wizards @ Celtics,Celtics,Wizards,0,0,6:00 pm ET,
+2026-03-14T20:00:00Z,0022500972,Magic @ Heat,Heat,Magic,0,0,8:00 pm ET,
+2026-03-14T20:00:00Z,0022500973,Hornets @ Spurs,Spurs,Hornets,0,0,8:00 pm ET,
+2026-03-14T20:30:00Z,0022500974,Nuggets @ Lakers,Lakers,Nuggets,0,0,8:30 pm ET,
+2026-03-14T22:30:00Z,0022500975,Kings @ Clippers,Clippers,Kings,0,0,10:30 pm ET,
+2026-03-15T13:00:00Z,0022500976,Timberwolves @ Thunder,Thunder,Timberwolves,0,0,1:00 pm ET,
+2026-03-15T15:30:00Z,0022500977,Mavericks @ Cavaliers,Cavaliers,Mavericks,0,0,3:30 pm ET,
+2026-03-15T15:30:00Z,0022500978,Pistons @ Raptors,Raptors,Pistons,0,0,3:30 pm ET,
+2026-03-15T15:30:00Z,0022500979,Pacers @ Bucks,Bucks,Pacers,0,0,3:30 pm ET,
+2026-03-15T18:00:00Z,0022500980,Trail Blazers @ 76ers,76ers,Trail Blazers,0,0,6:00 pm ET,
+2026-03-15T20:00:00Z,0022500981,Warriors @ Knicks,Knicks,Warriors,0,0,8:00 pm ET,
+2026-03-15T22:00:00Z,0022500982,Jazz @ Kings,Kings,Jazz,0,0,10:00 pm ET,
+2026-03-16T19:00:00Z,0022500983,Magic @ Hawks,Hawks,Magic,0,0,7:00 pm ET,
+2026-03-16T19:00:00Z,0022500984,Warriors @ Wizards,Wizards,Warriors,0,0,7:00 pm ET,
+2026-03-16T19:30:00Z,0022500985,Trail Blazers @ Nets,Nets,Trail Blazers,0,0,7:30 pm ET,
+2026-03-16T20:00:00Z,0022500986,Suns @ Celtics,Celtics,Suns,0,0,8:00 pm ET,
+2026-03-16T20:00:00Z,0022500987,Grizzlies @ Bulls,Bulls,Grizzlies,0,0,8:00 pm ET,
+2026-03-16T20:00:00Z,0022500988,Mavericks @ Pelicans,Pelicans,Mavericks,0,0,8:00 pm ET,
+2026-03-16T21:00:00Z,0022500989,Lakers @ Rockets,Rockets,Lakers,0,0,9:00 pm ET,
+2026-03-16T22:30:00Z,0022500990,Spurs @ Clippers,Clippers,Spurs,0,0,10:30 pm ET,
+2026-03-17T19:00:00Z,0022500991,Heat @ Hornets,Hornets,Heat,0,0,7:00 pm ET,
+2026-03-17T19:00:00Z,0022500992,Thunder @ Magic,Magic,Thunder,0,0,7:00 pm ET,
+2026-03-17T19:00:00Z,0022500993,Pistons @ Wizards,Wizards,Pistons,0,0,7:00 pm ET,
+2026-03-17T19:30:00Z,0022500994,Pacers @ Knicks,Knicks,Pacers,0,0,7:30 pm ET,
+2026-03-17T20:00:00Z,0022500995,Cavaliers @ Bucks,Bucks,Cavaliers,0,0,8:00 pm ET,
+2026-03-17T20:00:00Z,0022500996,Suns @ Timberwolves,Timberwolves,Suns,0,0,8:00 pm ET,
+2026-03-17T21:00:00Z,0022500997,76ers @ Nuggets,Nuggets,76ers,0,0,9:00 pm ET,
+2026-03-17T23:00:00Z,0022500998,Spurs @ Kings,Kings,Spurs,0,0,11:00 pm ET,
+2026-03-18T19:00:00Z,0022500999,Warriors @ Celtics,Celtics,Warriors,0,0,7:00 pm ET,
+2026-03-18T19:30:00Z,0022501000,Thunder @ Nets,Nets,Thunder,0,0,7:30 pm ET,
+2026-03-18T19:30:00Z,0022501001,Trail Blazers @ Pacers,Pacers,Trail Blazers,0,0,7:30 pm ET,
+2026-03-18T20:00:00Z,0022501002,Raptors @ Bulls,Bulls,Raptors,0,0,8:00 pm ET,
+2026-03-18T20:00:00Z,0022501003,Knicks @ Grizzlies,Grizzlies,Knicks,0,0,8:00 pm ET,
+2026-03-18T20:00:00Z,0022501004,Jazz @ Timberwolves,Timberwolves,Jazz,0,0,8:00 pm ET,
+2026-03-18T20:00:00Z,0022501005,Clippers @ Pelicans,Pelicans,Clippers,0,0,8:00 pm ET,
+2026-03-18T20:30:00Z,0022501006,Hawks @ Mavericks,Mavericks,Hawks,0,0,8:30 pm ET,
+2026-03-18T21:30:00Z,0022501007,Lakers @ Rockets,Rockets,Lakers,0,0,9:30 pm ET,
+2026-03-19T19:00:00Z,0022501008,Magic @ Hornets,Hornets,Magic,0,0,7:00 pm ET,
+2026-03-19T19:00:00Z,0022501009,Pistons @ Wizards,Wizards,Pistons,0,0,7:00 pm ET,
+2026-03-19T20:00:00Z,0022501010,Lakers @ Heat,Heat,Lakers,0,0,8:00 pm ET,
+2026-03-19T20:00:00Z,0022501011,Cavaliers @ Bulls,Bulls,Cavaliers,0,0,8:00 pm ET,
+2026-03-19T20:00:00Z,0022501012,Clippers @ Pelicans,Pelicans,Clippers,0,0,8:00 pm ET,
+2026-03-19T20:00:00Z,0022501013,Suns @ Spurs,Spurs,Suns,0,0,8:00 pm ET,
+2026-03-19T21:00:00Z,0022501014,Bucks @ Jazz,Jazz,Bucks,0,0,9:00 pm ET,
+2026-03-19T22:00:00Z,0022501015,76ers @ Kings,Kings,76ers,0,0,10:00 pm ET,
+2026-03-20T19:30:00Z,0022501016,Knicks @ Nets,Nets,Knicks,0,0,7:30 pm ET,
+2026-03-20T19:30:00Z,0022501017,Warriors @ Pistons,Pistons,Warriors,0,0,7:30 pm ET,
+2026-03-20T20:00:00Z,0022501018,Hawks @ Rockets,Rockets,Hawks,0,0,8:00 pm ET,
+2026-03-20T20:00:00Z,0022501019,Celtics @ Grizzlies,Grizzlies,Celtics,0,0,8:00 pm ET,
+2026-03-20T20:00:00Z,0022501020,Trail Blazers @ Timberwolves,Timberwolves,Trail Blazers,0,0,8:00 pm ET,
+2026-03-20T21:00:00Z,0022501021,Raptors @ Nuggets,Nuggets,Raptors,0,0,9:00 pm ET,
+2026-03-21T17:00:00Z,0022501022,Thunder @ Wizards,Wizards,Thunder,0,0,5:00 pm ET,
+2026-03-21T19:00:00Z,0022501023,Grizzlies @ Hornets,Hornets,Grizzlies,0,0,7:00 pm ET,
+2026-03-21T19:00:00Z,0022501024,Lakers @ Magic,Magic,Lakers,0,0,7:00 pm ET,
+2026-03-21T19:00:00Z,0022501025,Cavaliers @ Pelicans,Pelicans,Cavaliers,0,0,7:00 pm ET,
+2026-03-21T20:00:00Z,0022501026,Warriors @ Hawks,Hawks,Warriors,0,0,8:00 pm ET,
+2026-03-21T20:00:00Z,0022501027,Heat @ Rockets,Rockets,Heat,0,0,8:00 pm ET,
+2026-03-21T20:00:00Z,0022501028,Pacers @ Spurs,Spurs,Pacers,0,0,8:00 pm ET,
+2026-03-21T20:30:00Z,0022501029,Clippers @ Mavericks,Mavericks,Clippers,0,0,8:30 pm ET,
+2026-03-21T21:30:00Z,0022501030,76ers @ Jazz,Jazz,76ers,0,0,9:30 pm ET,
+2026-03-21T22:00:00Z,0022501031,Bucks @ Suns,Suns,Bucks,0,0,10:00 pm ET,
+2026-03-22T17:00:00Z,0022501032,Trail Blazers @ Nuggets,Nuggets,Trail Blazers,0,0,5:00 pm ET,
+2026-03-22T18:00:00Z,0022501033,Nets @ Kings,Kings,Nets,0,0,6:00 pm ET,
+2026-03-22T19:30:00Z,0022501034,Wizards @ Knicks,Knicks,Wizards,0,0,7:30 pm ET,
+2026-03-22T20:00:00Z,0022501035,Timberwolves @ Celtics,Celtics,Timberwolves,0,0,8:00 pm ET,
+2026-03-22T21:00:00Z,0022501036,Raptors @ Suns,Suns,Raptors,0,0,9:00 pm ET,
+2026-03-23T19:00:00Z,0022501037,Grizzlies @ Hawks,Hawks,Grizzlies,0,0,7:00 pm ET,
+2026-03-23T19:00:00Z,0022501038,Lakers @ Pistons,Pistons,Lakers,0,0,7:00 pm ET,
+2026-03-23T19:00:00Z,0022501039,Pacers @ Magic,Magic,Pacers,0,0,7:00 pm ET,
+2026-03-23T19:00:00Z,0022501040,Thunder @ 76ers,76ers,Thunder,0,0,7:00 pm ET,
+2026-03-23T19:30:00Z,0022501041,Spurs @ Heat,Heat,Spurs,0,0,7:30 pm ET,
+2026-03-23T20:00:00Z,0022501042,Rockets @ Bulls,Bulls,Rockets,0,0,8:00 pm ET,
+2026-03-23T21:00:00Z,0022501043,Raptors @ Jazz,Jazz,Raptors,0,0,9:00 pm ET,
+2026-03-23T21:30:00Z,0022501044,Warriors @ Mavericks,Mavericks,Warriors,0,0,9:30 pm ET,
+2026-03-23T22:00:00Z,0022501045,Nets @ Trail Blazers,Trail Blazers,Nets,0,0,10:00 pm ET,
+2026-03-23T22:30:00Z,0022501046,Bucks @ Clippers,Clippers,Bucks,0,0,10:30 pm ET,
+2026-03-24T19:00:00Z,0022501047,Kings @ Hornets,Hornets,Kings,0,0,7:00 pm ET,
+2026-03-24T19:30:00Z,0022501048,Pelicans @ Knicks,Knicks,Pelicans,0,0,7:30 pm ET,
+2026-03-24T20:00:00Z,0022501049,Magic @ Cavaliers,Cavaliers,Magic,0,0,8:00 pm ET,
+2026-03-24T23:00:00Z,0022501050,Nuggets @ Suns,Suns,Nuggets,0,0,11:00 pm ET,
+2026-03-25T19:00:00Z,0022501051,Hawks @ Pistons,Pistons,Hawks,0,0,7:00 pm ET,
+2026-03-25T19:00:00Z,0022501052,Lakers @ Pacers,Pacers,Lakers,0,0,7:00 pm ET,
+2026-03-25T19:00:00Z,0022501053,Bulls @ 76ers,76ers,Bulls,0,0,7:00 pm ET,
+2026-03-25T19:30:00Z,0022501054,Thunder @ Celtics,Celtics,Thunder,0,0,7:30 pm ET,
+2026-03-25T19:30:00Z,0022501055,Heat @ Cavaliers,Cavaliers,Heat,0,0,7:30 pm ET,
+2026-03-25T20:00:00Z,0022501056,Spurs @ Grizzlies,Grizzlies,Spurs,0,0,8:00 pm ET,
+2026-03-25T21:00:00Z,0022501057,Wizards @ Jazz,Jazz,Wizards,0,0,9:00 pm ET,
+2026-03-25T21:30:00Z,0022501058,Rockets @ Timberwolves,Timberwolves,Rockets,0,0,9:30 pm ET,
+2026-03-25T22:00:00Z,0022501059,Mavericks @ Nuggets,Nuggets,Mavericks,0,0,10:00 pm ET,
+2026-03-25T22:00:00Z,0022501060,Nets @ Warriors,Warriors,Nets,0,0,10:00 pm ET,
+2026-03-25T22:00:00Z,0022501061,Bucks @ Trail Blazers,Trail Blazers,Bucks,0,0,10:00 pm ET,
+2026-03-25T22:30:00Z,0022501062,Raptors @ Clippers,Clippers,Raptors,0,0,10:30 pm ET,
+2026-03-26T19:00:00Z,0022501063,Knicks @ Hornets,Hornets,Knicks,0,0,7:00 pm ET,
+2026-03-26T19:00:00Z,0022501064,Pelicans @ Pistons,Pistons,Pelicans,0,0,7:00 pm ET,
+2026-03-26T19:00:00Z,0022501065,Kings @ Magic,Magic,Kings,0,0,7:00 pm ET,
+2026-03-27T19:00:00Z,0022501066,Clippers @ Pacers,Pacers,Clippers,0,0,7:00 pm ET,
+2026-03-27T19:30:00Z,0022501067,Hawks @ Celtics,Celtics,Hawks,0,0,7:30 pm ET,
+2026-03-27T19:30:00Z,0022501068,Heat @ Cavaliers,Cavaliers,Heat,0,0,7:30 pm ET,
+2026-03-27T20:00:00Z,0022501069,Rockets @ Grizzlies,Grizzlies,Rockets,0,0,8:00 pm ET,
+2026-03-27T20:00:00Z,0022501070,Bulls @ Thunder,Thunder,Bulls,0,0,8:00 pm ET,
+2026-03-27T20:30:00Z,0022501071,Pelicans @ Raptors,Raptors,Pelicans,0,0,8:30 pm ET,
+2026-03-27T21:00:00Z,0022501072,Jazz @ Nuggets,Nuggets,Jazz,0,0,9:00 pm ET,
+2026-03-27T22:00:00Z,0022501073,Wizards @ Warriors,Warriors,Wizards,0,0,10:00 pm ET,
+2026-03-27T22:00:00Z,0022501074,Mavericks @ Trail Blazers,Trail Blazers,Mavericks,0,0,10:00 pm ET,
+2026-03-27T22:30:00Z,0022501075,Nets @ Lakers,Lakers,Nets,0,0,10:30 pm ET,
+2026-03-28T15:00:00Z,0022501076,Spurs @ Bucks,Bucks,Spurs,0,0,3:00 pm ET,
+2026-03-28T18:00:00Z,0022501077,76ers @ Hornets,Hornets,76ers,0,0,6:00 pm ET,
+2026-03-28T19:30:00Z,0022501078,Kings @ Hawks,Hawks,Kings,0,0,7:30 pm ET,
+2026-03-28T20:00:00Z,0022501079,Bulls @ Grizzlies,Grizzlies,Bulls,0,0,8:00 pm ET,
+2026-03-28T20:00:00Z,0022501080,Pistons @ Timberwolves,Timberwolves,Pistons,0,0,8:00 pm ET,
+2026-03-28T22:00:00Z,0022501081,Jazz @ Suns,Suns,Jazz,0,0,10:00 pm ET,
+2026-03-29T15:30:00Z,0022501082,Clippers @ Bucks,Bucks,Clippers,0,0,3:30 pm ET,
+2026-03-29T17:00:00Z,0022501083,Heat @ Pacers,Pacers,Heat,0,0,5:00 pm ET,
+2026-03-29T18:00:00Z,0022501084,Kings @ Nets,Nets,Kings,0,0,6:00 pm ET,
+2026-03-29T18:00:00Z,0022501085,Celtics @ Hornets,Hornets,Celtics,0,0,6:00 pm ET,
+2026-03-29T18:00:00Z,0022501086,Magic @ Raptors,Raptors,Magic,0,0,6:00 pm ET,
+2026-03-29T18:00:00Z,0022501087,Wizards @ Trail Blazers,Trail Blazers,Wizards,0,0,6:00 pm ET,
+2026-03-29T19:00:00Z,0022501088,Rockets @ Pelicans,Pelicans,Rockets,0,0,7:00 pm ET,
+2026-03-29T19:30:00Z,0022501089,Knicks @ Thunder,Thunder,Knicks,0,0,7:30 pm ET,
+2026-03-29T22:00:00Z,0022501090,Warriors @ Nuggets,Nuggets,Warriors,0,0,10:00 pm ET,
+2026-03-30T19:00:00Z,0022501091,76ers @ Heat,Heat,76ers,0,0,7:00 pm ET,
+2026-03-30T19:30:00Z,0022501092,Celtics @ Hawks,Hawks,Celtics,0,0,7:30 pm ET,
+2026-03-30T20:00:00Z,0022501093,Suns @ Grizzlies,Grizzlies,Suns,0,0,8:00 pm ET,
+2026-03-30T20:00:00Z,0022501094,Bulls @ Spurs,Spurs,Bulls,0,0,8:00 pm ET,
+2026-03-30T20:30:00Z,0022501095,Timberwolves @ Mavericks,Mavericks,Timberwolves,0,0,8:30 pm ET,
+2026-03-30T21:00:00Z,0022501096,Cavaliers @ Jazz,Jazz,Cavaliers,0,0,9:00 pm ET,
+2026-03-30T21:30:00Z,0022501097,Pistons @ Thunder,Thunder,Pistons,0,0,9:30 pm ET,
+2026-03-30T22:00:00Z,0022501098,Wizards @ Lakers,Lakers,Wizards,0,0,10:00 pm ET,
+2026-03-31T19:00:00Z,0022501099,Suns @ Magic,Magic,Suns,0,0,7:00 pm ET,
+2026-03-31T19:30:00Z,0022501100,Hornets @ Nets,Nets,Hornets,0,0,7:30 pm ET,
+2026-03-31T20:00:00Z,0022501101,Raptors @ Pistons,Pistons,Raptors,0,0,8:00 pm ET,
+2026-03-31T20:00:00Z,0022501102,Knicks @ Rockets,Rockets,Knicks,0,0,8:00 pm ET,
+2026-03-31T22:30:00Z,0022501103,Cavaliers @ Lakers,Lakers,Cavaliers,0,0,10:30 pm ET,
+2026-03-31T23:00:00Z,0022501104,Trail Blazers @ Clippers,Clippers,Trail Blazers,0,0,11:00 pm ET,
+2026-04-01T19:00:00Z,0022501105,76ers @ Wizards,Wizards,76ers,0,0,7:00 pm ET,
+2026-04-01T19:30:00Z,0022501106,Celtics @ Heat,Heat,Celtics,0,0,7:30 pm ET,
+2026-04-01T19:30:00Z,0022501107,Hawks @ Magic,Magic,Hawks,0,0,7:30 pm ET,
+2026-04-01T20:00:00Z,0022501108,Kings @ Raptors,Raptors,Kings,0,0,8:00 pm ET,
+2026-04-01T20:00:00Z,0022501109,Pacers @ Bulls,Bulls,Pacers,0,0,8:00 pm ET,
+2026-04-01T20:00:00Z,0022501110,Bucks @ Rockets,Rockets,Bucks,0,0,8:00 pm ET,
+2026-04-01T20:00:00Z,0022501111,Mavericks @ Grizzlies,Grizzlies,Mavericks,0,0,8:00 pm ET,
+2026-04-01T21:00:00Z,0022501112,Nuggets @ Jazz,Jazz,Nuggets,0,0,9:00 pm ET,
+2026-04-01T22:00:00Z,0022501113,Spurs @ Warriors,Warriors,Spurs,0,0,10:00 pm ET,
+2026-04-02T19:00:00Z,0022501114,Suns @ Hornets,Hornets,Suns,0,0,7:00 pm ET,
+2026-04-02T19:00:00Z,0022501115,Timberwolves @ Pistons,Pistons,Timberwolves,0,0,7:00 pm ET,
+2026-04-02T19:30:00Z,0022501116,Lakers @ Thunder,Thunder,Lakers,0,0,7:30 pm ET,
+2026-04-02T22:00:00Z,0022501117,Cavaliers @ Warriors,Warriors,Cavaliers,0,0,10:00 pm ET,
+2026-04-02T22:00:00Z,0022501118,Pelicans @ Trail Blazers,Trail Blazers,Pelicans,0,0,10:00 pm ET,
+2026-04-02T22:30:00Z,0022501119,Spurs @ Clippers,Clippers,Spurs,0,0,10:30 pm ET,
+2026-04-03T19:00:00Z,0022501120,Pacers @ Hornets,Hornets,Pacers,0,0,7:00 pm ET,
+2026-04-03T19:00:00Z,0022501121,Timberwolves @ 76ers,76ers,Timberwolves,0,0,7:00 pm ET,
+2026-04-03T19:30:00Z,0022501122,Hawks @ Nets,Nets,Hawks,0,0,7:30 pm ET,
+2026-04-03T19:30:00Z,0022501123,Bulls @ Knicks,Knicks,Bulls,0,0,7:30 pm ET,
+2026-04-03T20:00:00Z,0022501124,Jazz @ Rockets,Rockets,Jazz,0,0,8:00 pm ET,
+2026-04-03T20:00:00Z,0022501125,Raptors @ Grizzlies,Grizzlies,Raptors,0,0,8:00 pm ET,
+2026-04-03T20:00:00Z,0022501126,Celtics @ Bucks,Bucks,Celtics,0,0,8:00 pm ET,
+2026-04-03T20:30:00Z,0022501127,Magic @ Mavericks,Mavericks,Magic,0,0,8:30 pm ET,
+2026-04-03T22:00:00Z,0022501128,Pelicans @ Kings,Kings,Pelicans,0,0,10:00 pm ET,
+2026-04-04T15:00:00Z,0022501129,Wizards @ Heat,Heat,Wizards,0,0,3:00 pm ET,
+2026-04-04T15:00:00Z,0022501130,Spurs @ Nuggets,Nuggets,Spurs,0,0,3:00 pm ET,
+2026-04-04T19:00:00Z,0022501131,Pistons @ 76ers,76ers,Pistons,0,0,7:00 pm ET,
+2026-04-05T15:30:00Z,0022501132,Raptors @ Celtics,Celtics,Raptors,0,0,3:30 pm ET,
+2026-04-05T15:30:00Z,0022501133,Wizards @ Nets,Nets,Wizards,0,0,3:30 pm ET,
+2026-04-05T15:30:00Z,0022501134,Suns @ Bulls,Bulls,Suns,0,0,3:30 pm ET,
+2026-04-05T15:30:00Z,0022501135,Grizzlies @ Bucks,Bucks,Grizzlies,0,0,3:30 pm ET,
+2026-04-05T18:00:00Z,0022501136,Pacers @ Cavaliers,Cavaliers,Pacers,0,0,6:00 pm ET,
+2026-04-05T19:00:00Z,0022501137,Hornets @ Timberwolves,Timberwolves,Hornets,0,0,7:00 pm ET,
+2026-04-05T19:00:00Z,0022501138,Magic @ Pelicans,Pelicans,Magic,0,0,7:00 pm ET,
+2026-04-05T19:00:00Z,0022501139,Jazz @ Thunder,Thunder,Jazz,0,0,7:00 pm ET,
+2026-04-05T19:30:00Z,0022501140,Lakers @ Mavericks,Mavericks,Lakers,0,0,7:30 pm ET,
+2026-04-05T21:00:00Z,0022501141,Clippers @ Kings,Kings,Clippers,0,0,9:00 pm ET,
+2026-04-05T22:00:00Z,0022501142,Rockets @ Warriors,Warriors,Rockets,0,0,10:00 pm ET,
+2026-04-06T19:00:00Z,0022501143,Knicks @ Hawks,Hawks,Knicks,0,0,7:00 pm ET,
+2026-04-06T19:00:00Z,0022501144,Pistons @ Magic,Magic,Pistons,0,0,7:00 pm ET,
+2026-04-06T20:00:00Z,0022501145,Cavaliers @ Grizzlies,Grizzlies,Cavaliers,0,0,8:00 pm ET,
+2026-04-06T20:00:00Z,0022501146,76ers @ Spurs,Spurs,76ers,0,0,8:00 pm ET,
+2026-04-06T21:00:00Z,0022501147,Trail Blazers @ Nuggets,Nuggets,Trail Blazers,0,0,9:00 pm ET,
+2026-04-07T19:00:00Z,0022501148,Bulls @ Wizards,Wizards,Bulls,0,0,7:00 pm ET,
+2026-04-07T19:30:00Z,0022501149,Hornets @ Celtics,Celtics,Hornets,0,0,7:30 pm ET,
+2026-04-07T19:30:00Z,0022501150,Bucks @ Nets,Nets,Bucks,0,0,7:30 pm ET,
+2026-04-07T19:30:00Z,0022501151,Heat @ Raptors,Raptors,Heat,0,0,7:30 pm ET,
+2026-04-07T20:00:00Z,0022501152,Timberwolves @ Pacers,Pacers,Timberwolves,0,0,8:00 pm ET,
+2026-04-07T20:00:00Z,0022501153,Jazz @ Pelicans,Pelicans,Jazz,0,0,8:00 pm ET,
+2026-04-07T22:00:00Z,0022501154,Kings @ Warriors,Warriors,Kings,0,0,10:00 pm ET,
+2026-04-07T22:30:00Z,0022501155,Thunder @ Lakers,Lakers,Thunder,0,0,10:30 pm ET,
+2026-04-07T22:30:00Z,0022501156,Mavericks @ Clippers,Clippers,Mavericks,0,0,10:30 pm ET,
+2026-04-07T23:00:00Z,0022501157,Rockets @ Suns,Suns,Rockets,0,0,11:00 pm ET,
+2026-04-08T19:00:00Z,0022501158,Hawks @ Cavaliers,Cavaliers,Hawks,0,0,7:00 pm ET,
+2026-04-08T19:00:00Z,0022501159,Timberwolves @ Magic,Magic,Timberwolves,0,0,7:00 pm ET,
+2026-04-08T19:30:00Z,0022501160,Bucks @ Pistons,Pistons,Bucks,0,0,7:30 pm ET,
+2026-04-08T20:00:00Z,0022501161,Trail Blazers @ Spurs,Spurs,Trail Blazers,0,0,8:00 pm ET,
+2026-04-08T21:00:00Z,0022501162,Grizzlies @ Nuggets,Nuggets,Grizzlies,0,0,9:00 pm ET,
+2026-04-08T22:00:00Z,0022501163,Thunder @ Clippers,Clippers,Thunder,0,0,10:00 pm ET,
+2026-04-08T22:00:00Z,0022501164,Mavericks @ Suns,Suns,Mavericks,0,0,10:00 pm ET,
+2026-04-09T19:00:00Z,0022501165,Heat @ Raptors,Raptors,Heat,0,0,7:00 pm ET,
+2026-04-09T19:00:00Z,0022501166,Bulls @ Wizards,Wizards,Bulls,0,0,7:00 pm ET,
+2026-04-09T19:30:00Z,0022501167,Pacers @ Nets,Nets,Pacers,0,0,7:30 pm ET,
+2026-04-09T19:30:00Z,0022501168,Celtics @ Knicks,Knicks,Celtics,0,0,7:30 pm ET,
+2026-04-09T20:00:00Z,0022501169,76ers @ Rockets,Rockets,76ers,0,0,8:00 pm ET,
+2026-04-09T22:00:00Z,0022501170,Lakers @ Warriors,Warriors,Lakers,0,0,10:00 pm ET,
+2026-04-10T19:00:00Z,0022501171,Pistons @ Hornets,Hornets,Pistons,0,0,7:00 pm ET,
+2026-04-10T19:00:00Z,0022501172,Heat @ Wizards,Wizards,Heat,0,0,7:00 pm ET,
+2026-04-10T19:30:00Z,0022501173,Cavaliers @ Hawks,Hawks,Cavaliers,0,0,7:30 pm ET,
+2026-04-10T19:30:00Z,0022501174,Pelicans @ Celtics,Celtics,Pelicans,0,0,7:30 pm ET,
+2026-04-10T19:30:00Z,0022501175,76ers @ Pacers,Pacers,76ers,0,0,7:30 pm ET,
+2026-04-10T19:30:00Z,0022501176,Raptors @ Knicks,Knicks,Raptors,0,0,7:30 pm ET,
+2026-04-10T20:00:00Z,0022501177,Magic @ Bulls,Bulls,Magic,0,0,8:00 pm ET,
+2026-04-10T20:00:00Z,0022501178,Timberwolves @ Rockets,Rockets,Timberwolves,0,0,8:00 pm ET,
+2026-04-10T20:00:00Z,0022501179,Nets @ Bucks,Bucks,Nets,0,0,8:00 pm ET,
+2026-04-10T20:00:00Z,0022501180,Mavericks @ Spurs,Spurs,Mavericks,0,0,8:00 pm ET,
+2026-04-10T21:30:00Z,0022501181,Grizzlies @ Jazz,Jazz,Grizzlies,0,0,9:30 pm ET,
+2026-04-10T22:00:00Z,0022501182,Thunder @ Nuggets,Nuggets,Thunder,0,0,10:00 pm ET,
+2026-04-10T22:00:00Z,0022501183,Clippers @ Trail Blazers,Trail Blazers,Clippers,0,0,10:00 pm ET,
+2026-04-10T22:00:00Z,0022501184,Warriors @ Kings,Kings,Warriors,0,0,10:00 pm ET,
+2026-04-10T22:30:00Z,0022501185,Suns @ Lakers,Lakers,Suns,0,0,10:30 pm ET,
+2026-04-12T18:00:00Z,0022501186,Magic @ Celtics,Celtics,Magic,0,0,6:00 pm ET,
+2026-04-12T18:00:00Z,0022501187,Wizards @ Cavaliers,Cavaliers,Wizards,0,0,6:00 pm ET,
+2026-04-12T18:00:00Z,0022501188,Pistons @ Pacers,Pacers,Pistons,0,0,6:00 pm ET,
+2026-04-12T18:00:00Z,0022501189,Hawks @ Heat,Heat,Hawks,0,0,6:00 pm ET,
+2026-04-12T18:00:00Z,0022501190,Hornets @ Knicks,Knicks,Hornets,0,0,6:00 pm ET,
+2026-04-12T18:00:00Z,0022501191,Bucks @ 76ers,76ers,Bucks,0,0,6:00 pm ET,
+2026-04-12T18:00:00Z,0022501192,Nets @ Raptors,Raptors,Nets,0,0,6:00 pm ET,
+2026-04-12T20:30:00Z,0022501193,Bulls @ Mavericks,Mavericks,Bulls,0,0,8:30 pm ET,
+2026-04-12T20:30:00Z,0022501194,Grizzlies @ Rockets,Rockets,Grizzlies,0,0,8:30 pm ET,
+2026-04-12T20:30:00Z,0022501195,Pelicans @ Timberwolves,Timberwolves,Pelicans,0,0,8:30 pm ET,
+2026-04-12T20:30:00Z,0022501196,Suns @ Thunder,Thunder,Suns,0,0,8:30 pm ET,
+2026-04-12T20:30:00Z,0022501197,Nuggets @ Spurs,Spurs,Nuggets,0,0,8:30 pm ET,
+2026-04-12T20:30:00Z,0022501198,Jazz @ Lakers,Lakers,Jazz,0,0,8:30 pm ET,
+2026-04-12T20:30:00Z,0022501199,Warriors @ Clippers,Clippers,Warriors,0,0,8:30 pm ET,
+2026-04-12T20:30:00Z,0022501200,Kings @ Trail Blazers,Trail Blazers,Kings,0,0,8:30 pm ET,

@@ -6,7 +6,7 @@ import ToolSelector from "../components/ToolSelector";
 import { useState } from "react";
 
 export default function NbaShell() {
-  const [selectedTool, setSelectedTool] = useState("Team Info");
+  const [selectedTool, setSelectedTool] = useState("NBA Home");
   const [selectedTeamId, setSelectedTeamId] = useState<number | null>(null);
 
   return (
