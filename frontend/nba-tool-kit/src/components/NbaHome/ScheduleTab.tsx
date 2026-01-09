@@ -8,10 +8,12 @@ import {
   Flex,
   HStack,
   Spinner,
+  Select,
 } from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
 
 type GameStatus = "FINAL" | "UPCOMING" | "POSTPONED";
+type RangeMode = "WEEK" | "MONTH";
 
 interface Game {
   GAME_ID: number | string;
@@ -24,17 +26,41 @@ interface Game {
   HOME_TEAM: string;
   AWAY_TEAM: string;
 }
+interface Team {
+  TEAM_ID: number;
+  TEAM_NAME: string;
+  TEAM_SHORT_NAME: string;
+}
 
 export default function ScheduleTab() {
-  // Week anchored on any date within that week
+  const [mode, setMode] = useState<RangeMode>("WEEK");
+
+  // Anchor date drives which week/month we're viewing
   const [anchorDate, setAnchorDate] = useState(() => todayISO());
   const [games, setGames] = useState<Game[]>([]);
+  const [teams, setTeams] = useState<Team[]>([]);
+  const [selectedTeamId, setSelectedTeamId] = useState<number | "ALL">("ALL");
   const [loading, setLoading] = useState(true);
 
   const { start, end } = useMemo(() => {
     const d = new Date(anchorDate + "T00:00:00");
-    return weekRangeMonSun(d);
-  }, [anchorDate]);
+    return mode === "WEEK" ? weekRangeMonSun(d) : monthRange(d);
+  }, [anchorDate, mode]);
+
+  useEffect(() => {
+    apiClient
+      .get("/teams")
+      .then((res) => {
+        const data = res.data;
+        setTeams(Array.isArray(data) ? data : []);
+        if (!Array.isArray(data))
+          console.error("Expected array from /teams, got:", data);
+      })
+      .catch((err) => {
+        console.error("Failed to load teams:", err);
+        setTeams([]);
+      });
+  }, []);
 
   useEffect(() => {
     setLoading(true);
@@ -54,7 +80,55 @@ export default function ScheduleTab() {
       .finally(() => setLoading(false));
   }, [start, end]);
 
-  const grouped = useMemo(() => groupByDate(games), [games]);
+  // Reset to "current period" when a team is selected (keeps UX snappy)
+  useEffect(() => {
+    if (selectedTeamId !== "ALL") {
+      setAnchorDate(todayISO()); // works for both week/month (range calc will update based on mode)
+    }
+  }, [selectedTeamId]);
+
+  const selectedTeam = useMemo(() => {
+    if (selectedTeamId === "ALL") return null;
+    return teams.find((t) => t.TEAM_ID === selectedTeamId) || null;
+  }, [selectedTeamId, teams]);
+
+  const filteredGames = useMemo(() => {
+    if (!selectedTeam) return games;
+    const short = selectedTeam.TEAM_SHORT_NAME?.toLowerCase();
+    if (!short) return games;
+
+    return games.filter((g) => {
+      const home = (g.HOME_TEAM || "").toLowerCase();
+      const away = (g.AWAY_TEAM || "").toLowerCase();
+      return home === short || away === short;
+    });
+  }, [games, selectedTeam]);
+
+  const grouped = useMemo(() => groupByDate(filteredGames), [filteredGames]);
+
+  const sortedTeams = useMemo(
+    () => teams.slice().sort((a, b) => a.TEAM_NAME.localeCompare(b.TEAM_NAME)),
+    [teams]
+  );
+
+  const headerTitle = mode === "WEEK" ? "Weekly Schedule" : "Monthly Schedule";
+  const prevLabel = mode === "WEEK" ? "‹ Prev Week" : "‹ Prev Month";
+  const nextLabel = mode === "WEEK" ? "Next Week ›" : "Next Month ›";
+  const thisLabel = mode === "WEEK" ? "This Week" : "This Month";
+
+  const goPrev = () => {
+    setAnchorDate(
+      mode === "WEEK" ? shiftDays(anchorDate, -7) : shiftMonths(anchorDate, -1)
+    );
+  };
+
+  const goNext = () => {
+    setAnchorDate(
+      mode === "WEEK" ? shiftDays(anchorDate, 7) : shiftMonths(anchorDate, 1)
+    );
+  };
+
+  const goThis = () => setAnchorDate(todayISO());
 
   return (
     <Box>
@@ -62,34 +136,71 @@ export default function ScheduleTab() {
       <Flex align="center" justify="space-between" mb={4} wrap="wrap" gap={3}>
         <Box>
           <Text fontSize="xl" fontWeight="bold">
-            Weekly Schedule
+            {headerTitle}
           </Text>
           <Text color="gray.400" fontSize="sm">
             {formatRangeLabel(start, end)}
           </Text>
         </Box>
 
-        <HStack spacing={2}>
-          <Button
-            size="sm"
-            onClick={() => setAnchorDate(shiftDays(anchorDate, -7))}
-          >
-            ‹ Prev Week
-          </Button>
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={() => setAnchorDate(todayISO())}
-          >
-            This Week
-          </Button>
-          <Button
-            size="sm"
-            onClick={() => setAnchorDate(shiftDays(anchorDate, 7))}
-          >
-            Next Week ›
-          </Button>
-        </HStack>
+        <Flex
+          align="center"
+          justify="space-between"
+          wrap="wrap"
+          gap={3}
+          w="full"
+        >
+          {/* Left controls: mode + team */}
+          <HStack spacing={3} wrap="wrap">
+            <HStack spacing={2}>
+              <Button
+                size="sm"
+                variant={mode === "WEEK" ? "solid" : "outline"}
+                onClick={() => setMode("WEEK")}
+              >
+                Week
+              </Button>
+              <Button
+                size="sm"
+                variant={mode === "MONTH" ? "solid" : "outline"}
+                onClick={() => setMode("MONTH")}
+              >
+                Month
+              </Button>
+            </HStack>
+
+            <Select
+              size="sm"
+              w={{ base: "220px", md: "260px" }}
+              value={selectedTeamId}
+              onChange={(e) =>
+                setSelectedTeamId(
+                  e.target.value === "ALL" ? "ALL" : Number(e.target.value)
+                )
+              }
+            >
+              <option value="ALL">All Teams</option>
+              {sortedTeams.map((t) => (
+                <option key={t.TEAM_ID} value={t.TEAM_ID}>
+                  {t.TEAM_NAME}
+                </option>
+              ))}
+            </Select>
+          </HStack>
+
+          {/* Right controls: nav buttons always together */}
+          <HStack spacing={2} flexWrap="nowrap">
+            <Button size="sm" onClick={goPrev}>
+              {prevLabel}
+            </Button>
+            <Button size="sm" variant="outline" onClick={goThis}>
+              {thisLabel}
+            </Button>
+            <Button size="sm" onClick={goNext}>
+              {nextLabel}
+            </Button>
+          </HStack>
+        </Flex>
       </Flex>
 
       {loading ? (
@@ -97,8 +208,11 @@ export default function ScheduleTab() {
           <Spinner />
           <Text color="gray.400">Loading schedule…</Text>
         </HStack>
-      ) : games.length === 0 ? (
-        <Text color="gray.400">No games found for this week.</Text>
+      ) : filteredGames.length === 0 ? (
+        <Text color="gray.400">
+          No games found for this {mode === "WEEK" ? "week" : "month"}
+          {selectedTeam ? ` for ${selectedTeam.TEAM_NAME}` : ""}.
+        </Text>
       ) : (
         <Box>
           {Object.entries(grouped).map(([dateStr, dayGames]) => (
@@ -137,7 +251,7 @@ function GameCard({ game }: { game: Game }) {
             </Text>
           ) : (
             <Text fontSize="sm" color="gray.300">
-              {game.STATUS === "POSTPONED" ? "Game postponed" : "Upcoming"}
+              {game.STATUS === "POSTPONED" ? "Postponed" : "Upcoming"}
             </Text>
           )}
         </Box>
@@ -173,7 +287,6 @@ function StatusBadge({ status }: { status: GameStatus }) {
 /** Helpers **/
 
 function groupByDate(games: Game[]) {
-  // Ensure stable order: date asc then game id
   const sorted = [...games].sort((a, b) => {
     if (a.GAME_DATE_EST < b.GAME_DATE_EST) return -1;
     if (a.GAME_DATE_EST > b.GAME_DATE_EST) return 1;
@@ -199,6 +312,13 @@ function shiftDays(iso: string, days: number) {
   return d.toISOString().slice(0, 10);
 }
 
+function shiftMonths(iso: string, months: number) {
+  const d = new Date(iso + "T00:00:00");
+  d.setMonth(d.getMonth() + months);
+  d.setDate(1); // stable month navigation
+  return d.toISOString().slice(0, 10);
+}
+
 /**
  * Returns week range Monday-Sunday for the given date (local time).
  * Output is ISO date strings: YYYY-MM-DD.
@@ -217,6 +337,21 @@ function weekRangeMonSun(date: Date) {
   return {
     start: monday.toISOString().slice(0, 10),
     end: sunday.toISOString().slice(0, 10),
+  };
+}
+
+/**
+ * Returns month range (1st -> last day) for the given date (local time).
+ * Output is ISO date strings: YYYY-MM-DD.
+ */
+function monthRange(date: Date) {
+  const y = date.getFullYear();
+  const m = date.getMonth(); // 0-11
+  const start = new Date(y, m, 1);
+  const end = new Date(y, m + 1, 0); // last day of month
+  return {
+    start: start.toISOString().slice(0, 10),
+    end: end.toISOString().slice(0, 10),
   };
 }
 

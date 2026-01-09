@@ -20,6 +20,14 @@ def extract_team_list(df: pd.DataFrame) -> pd.DataFrame:
         .reset_index(drop=True)
     )
 
+    # Simple nickname extractor (works for most teams)
+    def short_name(full: str) -> str:
+        parts = full.split()
+        if len(parts) >= 2 and parts[-1] == "Blazers":
+            return " ".join(parts[-2:])   # "Trail Blazers"
+        return parts[-1]                 # "Celtics", "76ers", etc.
+
+    team_df["TEAM_SHORT_NAME"] = team_df["TEAM_NAME"].apply(short_name)
     team_df["TEAM_LOGO_URL"] = team_df["TEAM_ID"].apply(get_team_logo_url)
 
     return team_df

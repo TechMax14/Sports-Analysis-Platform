@@ -13,6 +13,9 @@ export default function Home() {
       <Button as={Link} to="mlb" size="lg" colorScheme="orange">
         MLB (soon)
       </Button>
+      <Button as={Link} to="nhl" size="lg" colorScheme="red">
+        NHL (soon)
+      </Button>
     </SimpleGrid>
   );
 }
