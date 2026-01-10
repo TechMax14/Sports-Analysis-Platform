@@ -22,6 +22,8 @@ import {
   AccordionPanel,
   AccordionIcon,
   Switch,
+  Avatar,
+  SimpleGrid,
 } from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
 
@@ -97,6 +99,10 @@ type TeamJoined = TeamRow & {
   LOSSES?: number;
   WinPCT?: number;
 };
+
+// Helpers
+const headshotUrl = (playerId: number) =>
+  `https://cdn.nba.com/headshots/nba/latest/260x190/${playerId}.png`;
 
 export default function TeamsTab() {
   const [teams, setTeams] = useState<TeamRow[]>([]);
@@ -207,6 +213,27 @@ export default function TeamsTab() {
   // Sort roster by PTS (descending)
   const sortedRoster = useMemo(() => {
     return roster.slice().sort((a, b) => (b.PTS ?? 0) - (a.PTS ?? 0));
+  }, [roster]);
+
+  // Compute team leaders (PTS, REB, AST)
+  const leaders = useMemo(() => {
+    if (!roster || roster.length === 0) return null;
+
+    const bestBy = (key: "PTS" | "REB" | "AST") => {
+      const filtered = roster.filter(
+        (p) => typeof p[key] === "number" && !Number.isNaN(p[key] as number)
+      );
+      if (filtered.length === 0) return null;
+      return filtered.reduce((best, cur) =>
+        (cur[key] as number) > (best[key] as number) ? cur : best
+      );
+    };
+
+    return {
+      pts: bestBy("PTS"),
+      reb: bestBy("REB"),
+      ast: bestBy("AST"),
+    };
   }, [roster]);
 
   // Load games around today whenever team changes
@@ -427,14 +454,45 @@ export default function TeamsTab() {
             </Flex>
 
             {/* Leaders placeholder */}
-            <Box bg="gray.800" borderRadius="md" p={4} shadow="md" mb={4}>
-              <Text fontSize="lg" fontWeight="bold" mb={2}>
-                Team Leaders (PTS / REB / AST)
-              </Text>
-              <Text color="gray.400">
-                Next step: we’ll add a backend endpoint to compute team leaders
-                from player stats (easy using nba_api player stats by TEAM_ID).
-              </Text>
+            <Box bg="gray.800" borderRadius="md" p={4} shadow="md">
+              <Flex align="center" justify="space-between" mb={2}>
+                <Text fontSize="lg" fontWeight="bold">
+                  Team Leaders (PTS / REB / AST)
+                </Text>
+              </Flex>
+              <Divider mb={3} />
+
+              {!leaders || (!leaders.pts && !leaders.reb && !leaders.ast) ? (
+                <Text color="gray.400">No leader data.</Text>
+              ) : (
+                <Flex justify="center">
+                  <SimpleGrid
+                    columns={{ base: 1, md: 3 }}
+                    spacing={10}
+                    w="75%"
+                    justifyItems="center"
+                  >
+                    <LeaderBubble
+                      label="Points"
+                      player={leaders.pts}
+                      value={leaders.pts?.PTS}
+                      suffix="PPG"
+                    />
+                    <LeaderBubble
+                      label="Rebounds"
+                      player={leaders.reb}
+                      value={leaders.reb?.REB}
+                      suffix="RPG"
+                    />
+                    <LeaderBubble
+                      label="Assists"
+                      player={leaders.ast}
+                      value={leaders.ast?.AST}
+                      suffix="APG"
+                    />
+                  </SimpleGrid>
+                </Flex>
+              )}
             </Box>
 
             {/* Roster */}
@@ -613,4 +671,59 @@ function shortNameFromFull(full: string) {
     return parts.slice(-2).join(" "); // "Trail Blazers"
   }
   return parts[parts.length - 1]; // "Celtics", "76ers", etc.
+}
+
+function LeaderBubble({
+  label,
+  player,
+  value,
+  suffix,
+}: {
+  label: string;
+  player: any;
+  value?: number;
+  suffix: string;
+}) {
+  if (!player) return null;
+
+  const url = player.PLAYER_ID ? headshotUrl(player.PLAYER_ID) : "";
+
+  return (
+    <VStack spacing={2} align="center">
+      <Text fontSize="sm" color="gray.300" fontWeight="semibold">
+        {label}
+      </Text>
+
+      <Box position="relative">
+        <Avatar
+          size="2xl"
+          name={player.PLAYER_NAME}
+          src={url}
+          bg="gray.600"
+          border="2px solid"
+          borderColor="gray.700"
+        />
+        <Badge
+          position="absolute"
+          bottom="-6px"
+          left="50%"
+          transform="translateX(-50%)"
+          px={3}
+          py={1}
+          borderRadius="full"
+          bg="grey.600"
+          color="white"
+          fontWeight="bold"
+          boxShadow="md"
+          backdropFilter="blur(6px)"
+        >
+          {fmt1(value)} {suffix}
+        </Badge>
+      </Box>
+
+      <Text fontSize="sm" color="gray.200" textAlign="center" noOfLines={2}>
+        {player.PLAYER_NAME}
+      </Text>
+    </VStack>
+  );
 }
