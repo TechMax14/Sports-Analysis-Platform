@@ -1,0 +1,525 @@
+SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PLAYER_ID,HOW_ACQUIRED,TEAM_ID,TEAM_NAME,PLAYER_NAME_STATS,TEAM_ABBREVIATION,GP,MIN,PTS,REB,AST,STL,BLK,TOV,FG_PCT,FG3_PCT,FT_PCT,SEASON_STATS,SEASON_TYPE
+2025,Asa Newell,14,F,6-10,220,20.0,R,Georgia,1642854,Draft Rights Traded from NOP on 06/25/25,1610612737,Atlanta Hawks,Asa Newell,ATL,29.0,10.9,5.3,2.0,0.6,0.3,0.3,0.6,0.566,0.462,0.526,2025.0,Regular Season
+2025,CJ McCollum,3,G,6-3,190,34.0,12,Lehigh,203468,Traded from WAS on 01/09/26,1610612737,Atlanta Hawks,CJ McCollum,ATL,35.0,30.9,18.8,3.5,3.6,0.7,0.3,1.7,0.454,0.393,0.804,2025.0,Regular Season
+2025,Caleb Houstan,33,G,6-8,205,23.0,3,Michigan,1631216,Signed on 08/19/25,1610612737,Atlanta Hawks,Caleb Houstan,ATL,9.0,4.9,2.2,0.6,0.2,0.1,0.1,0.4,0.429,0.455,1.0,2025.0,Regular Season
+2025,Corey Kispert,24,F,6-6,224,26.0,4,Gonzaga,1630557,Traded from WAS on 01/09/26,1610612737,Atlanta Hawks,Corey Kispert,ATL,19.0,19.5,9.2,2.3,1.7,0.4,0.2,0.7,0.496,0.395,0.765,2025.0,Regular Season
+2025,Dyson Daniels,5,G,6-7,199,22.0,3,NBA G League Ignite,1630700,Traded from NOP on 07/06/24,1610612737,Atlanta Hawks,Dyson Daniels,ATL,39.0,34.3,11.9,6.6,6.2,2.0,0.5,2.2,0.498,0.113,0.623,2025.0,Regular Season
+2025,Jalen Johnson,1,F,6-8,219,24.0,4,Duke,1630552,#20 Pick in 2021 Draft,1610612737,Atlanta Hawks,Jalen Johnson,ATL,36.0,35.5,23.7,10.3,8.3,1.3,0.5,3.6,0.525,0.373,0.793,2025.0,Regular Season
+2025,Keaton Wallace,2,G,6-3,185,26.0,1,Texas-San Antonio,1630811,Signed on 09/29/23,1610612737,Atlanta Hawks,Keaton Wallace,ATL,33.0,12.7,4.3,1.3,2.3,0.6,0.1,0.7,0.423,0.423,0.5,2025.0,Regular Season
+2025,Kristaps Porzingis,8,F-C,7-2,240,30.0,10,Cajasol Sevilla,204001,Traded from BOS on 07/07/25,1610612737,Atlanta Hawks,Kristaps Porziņģis,ATL,17.0,24.3,17.1,5.1,2.7,0.5,1.3,0.9,0.457,0.36,0.84,2025.0,Regular Season
+2025,Luke Kennard,3,G,6-5,206,29.0,8,Duke,1628379,Signed on 07/08/25,1610612737,Atlanta Hawks,Luke Kennard,ATL,35.0,20.5,7.5,1.9,2.3,0.8,0.1,0.8,0.508,0.459,0.933,2025.0,Regular Season
+2025,Mouhamed Gueye,18,F,6-11,210,23.0,2,Washington State,1631243,Draft Rights Traded from BOS on 06/28/23,1610612737,Atlanta Hawks,Mouhamed Gueye,ATL,38.0,15.6,4.7,3.5,0.9,0.7,0.6,0.6,0.455,0.246,0.606,2025.0,Regular Season
+2025,N'Faly Dante,12,C,6-11,230,24.0,1,Oregon,1642368,Signed on 08/18/25,1610612737,Atlanta Hawks,N'Faly Dante,ATL,4.0,3.9,0.8,1.8,0.0,0.5,0.0,0.3,0.25,0.0,1.0,2025.0,Regular Season
+2025,Nickeil Alexander-Walker,7,G,6-5,205,27.0,6,Virginia Tech,1629638,Traded from MIN on 07/06/25,1610612737,Atlanta Hawks,Nickeil Alexander-Walker,ATL,38.0,32.9,20.5,3.6,3.3,1.1,0.6,2.1,0.443,0.37,0.858,2025.0,Regular Season
+2025,Nikola Đurišić,22,G,6-8,214,21.0,R,Mega Basket,1642365,Draft Rights Traded from MIA on 06/27/24,1610612737,Atlanta Hawks,,,,,,,,,,,,,,,
+2025,Onyeka Okongwu,17,F-C,6-10,240,25.0,5,Southern California,1630168,#6 Pick in 2020 Draft,1610612737,Atlanta Hawks,Onyeka Okongwu,ATL,38.0,31.8,16.2,7.8,3.3,1.1,1.0,1.8,0.485,0.364,0.769,2025.0,Regular Season
+2025,RayJ Dennis,10,G,6-1,180,24.0,1,Baylor,1642484,Signed on 12/31/25,1610612737,Atlanta Hawks,RayJ Dennis,ATL,14.0,12.3,4.6,1.6,1.9,0.2,0.3,1.1,0.306,0.316,0.889,2025.0,Regular Season
+2025,Vit Krejci,27,G,6-8,195,25.0,4,Zaragoza,1630249,Signed on 12/22/23,1610612737,Atlanta Hawks,Vít Krejčí,ATL,36.0,24.2,10.2,2.3,1.6,0.9,0.3,0.8,0.481,0.449,0.778,2025.0,Regular Season
+2025,Zaccharie Risacher,10,F,6-8,200,20.0,1,JL Bourg-en-Bresse,1642258,#1 Pick in 2024 Draft,1610612737,Atlanta Hawks,Zaccharie Risacher,ATL,36.0,24.6,11.2,3.3,1.4,0.9,0.5,0.9,0.462,0.358,0.642,2025.0,Regular Season
+2025,Amari Williams,77,F-C,6-11,250,23.0,R,Kentucky,1642873,Draft Rights Traded from ORL on 06/26/25,1610612738,Boston Celtics,Amari Williams,BOS,6.0,5.2,0.5,1.2,0.2,0.2,0.3,0.0,0.5,0.0,0.5,2025.0,Regular Season
+2025,Anfernee Simons,4,G,6-3,200,26.0,7,Edgewater HS (FL),1629014,Traded from POR on 07/07/25,1610612738,Boston Celtics,Anfernee Simons,BOS,37.0,23.9,13.6,2.3,2.5,0.5,0.1,1.0,0.442,0.409,0.881,2025.0,Regular Season
+2025,Baylor Scheierman,55,G,6-6,205,25.0,1,Creighton,1631248,#30 Pick in 2024 Draft,1610612738,Boston Celtics,Baylor Scheierman,BOS,32.0,11.1,2.6,1.6,0.6,0.4,0.1,0.4,0.492,0.42,0.667,2025.0,Regular Season
+2025,Chris Boucher,99,F,6-8,200,32.0,8,Oregon,1628449,Signed on 08/10/25,1610612738,Boston Celtics,Chris Boucher,BOS,8.0,11.3,2.3,2.3,0.4,0.6,0.9,0.1,0.318,0.083,0.75,2025.0,Regular Season
+2025,Derrick White,9,G,6-4,190,31.0,8,Colorado,1628401,Traded from SAS on 02/10/22,1610612738,Boston Celtics,Derrick White,BOS,36.0,34.0,18.4,4.3,5.3,1.3,1.6,1.8,0.398,0.335,0.877,2025.0,Regular Season
+2025,Hugo González,28,G,6-6,200,19.0,R,Real Madrid,1642864,#28 Pick in 2025 Draft,1610612738,Boston Celtics,Hugo González,BOS,32.0,15.0,4.2,3.3,0.6,0.7,0.3,0.6,0.495,0.37,0.529,2025.0,Regular Season
+2025,Jaylen Brown,7,G-F,6-6,223,29.0,9,California,1627759,#3 Pick in 2016 Draft,1610612738,Boston Celtics,Jaylen Brown,BOS,35.0,34.0,29.6,6.4,5.0,1.0,0.4,3.7,0.499,0.372,0.779,2025.0,Regular Season
+2025,Jayson Tatum,0,F-G,6-8,210,27.0,8,Duke,1628369,#3 Pick in 2017 Draft,1610612738,Boston Celtics,,,,,,,,,,,,,,,
+2025,Jordan Walsh,27,G,6-6,205,21.0,2,Arkansas,1641775,Draft Rights Traded from SAC on 06/28/23,1610612738,Boston Celtics,Jordan Walsh,BOS,32.0,19.5,6.5,4.6,0.9,0.9,0.5,0.6,0.569,0.458,0.806,2025.0,Regular Season
+2025,Josh Minott,8,F,6-8,205,23.0,3,Memphis,1631169,Signed on 07/07/25,1610612738,Boston Celtics,Josh Minott,BOS,29.0,17.6,6.3,4.0,1.1,0.8,0.4,0.6,0.504,0.438,0.769,2025.0,Regular Season
+2025,Luka Garza,52,C,6-10,243,27.0,4,Iowa,1630568,Signed on 07/07/25,1610612738,Boston Celtics,Luka Garza,BOS,29.0,16.0,7.4,4.2,1.0,0.4,0.5,0.4,0.611,0.486,0.796,2025.0,Regular Season
+2025,Max Shulga,44,G,6-4,210,23.0,R,Virginia Commonwealth,1642917,Draft Rights Traded from ORL on 06/26/25,1610612738,Boston Celtics,,,,,,,,,,,,,,,
+2025,Neemias Queta,88,C,7-0,248,26.0,4,Utah State,1629674,Signed on 09/19/23,1610612738,Boston Celtics,Neemias Queta,BOS,35.0,24.7,10.0,8.1,1.4,0.8,1.2,0.8,0.651,0.0,0.616,2025.0,Regular Season
+2025,Payton Pritchard,11,G,6-1,195,27.0,5,Oregon,1630202,#26 Pick in 2020 Draft,1610612738,Boston Celtics,Payton Pritchard,BOS,37.0,32.9,17.2,4.5,5.3,0.8,0.1,1.2,0.452,0.339,0.87,2025.0,Regular Season
+2025,Ron Harper Jr.,13,G-F,6-5,233,25.0,3,Rutgers,1631199,Signed on 09/19/25,1610612738,Boston Celtics,Ron Harper Jr.,BOS,4.0,5.1,2.0,0.8,1.0,0.3,0.5,0.0,0.3,0.25,0.0,2025.0,Regular Season
+2025,Sam Hauser,30,F,6-7,217,28.0,4,Virginia,1630573,Signed on 08/13/21,1610612738,Boston Celtics,Sam Hauser,BOS,37.0,22.2,7.8,3.5,1.2,0.6,0.3,0.6,0.387,0.386,0.833,2025.0,Regular Season
+2025,Xavier Tillman,26,F,6-8,245,26.0,5,Michigan State,1630214,Traded from MEM on 02/07/24,1610612738,Boston Celtics,Xavier Tillman,BOS,11.0,9.4,2.8,2.2,0.5,0.5,0.2,0.4,0.5,0.231,0.0,2025.0,Regular Season
+2025,Ben Saraf,77,G,6-6,200,19.0,R,Ratiopharm Ulm,1642879,#26 Pick in 2025 Draft,1610612751,Brooklyn Nets,Ben Saraf,BKN,12.0,16.9,5.4,1.6,2.8,0.7,0.3,1.9,0.355,0.273,0.8,2025.0,Regular Season
+2025,Cam Thomas,24,G,6-3,210,24.0,4,Louisiana State,1630560,#27 Pick in 2021 Draft,1610612751,Brooklyn Nets,Cam Thomas,BKN,14.0,25.4,19.6,1.8,2.4,0.3,0.1,2.1,0.427,0.355,0.857,2025.0,Regular Season
+2025,Chaney Johnson,31,G-F,6-7,220,23.0,R,Auburn,1643052,Signed on 12/26/25,1610612751,Brooklyn Nets,,,,,,,,,,,,,,,
+2025,Danny Wolf,2,F,6-11,250,21.0,R,Michigan,1642874,#27 Pick in 2025 Draft,1610612751,Brooklyn Nets,Danny Wolf,BKN,21.0,19.3,7.5,4.0,1.9,0.5,0.2,1.2,0.392,0.355,0.857,2025.0,Regular Season
+2025,Day'Ron Sharpe,20,C,6-10,265,24.0,4,North Carolina,1630549,Draft Rights Traded from PHX on 08/06/21,1610612751,Brooklyn Nets,Day'Ron Sharpe,BKN,34.0,17.6,7.5,5.9,2.4,1.0,0.5,1.6,0.599,0.214,0.643,2025.0,Regular Season
+2025,Drake Powell,4,G-F,6-5,195,20.0,R,North Carolina,1642962,Draft Rights Traded from ATL on 07/07/25,1610612751,Brooklyn Nets,Drake Powell,BKN,26.0,18.1,5.8,1.6,1.7,0.6,0.2,1.0,0.457,0.327,0.903,2025.0,Regular Season
+2025,E.J. Liddell,9,F,6-6,240,25.0,2,Ohio State,1630604,Signed on 09/03/25,1610612751,Brooklyn Nets,E.J. Liddell,BKN,8.0,4.4,1.8,1.1,0.0,0.0,0.0,0.0,0.417,0.25,0.667,2025.0,Regular Season
+2025,Egor Dëmin,8,G,6-8,200,19.0,R,Brigham Young,1642856,#8 Pick in 2025 Draft,1610612751,Brooklyn Nets,Egor Dëmin,BKN,32.0,24.7,10.5,3.3,3.5,1.0,0.3,1.8,0.399,0.389,0.848,2025.0,Regular Season
+2025,Haywood Highsmith,7,F,6-5,220,29.0,5,Wheeling Jesuit,1629312,Traded from MIA on 08/15/25,1610612751,Brooklyn Nets,,,,,,,,,,,,,,,
+2025,Jalen Wilson,22,F,6-6,220,25.0,2,Kansas,1630592,#51 Pick in 2023 Draft,1610612751,Brooklyn Nets,Jalen Wilson,BKN,24.0,13.4,4.7,1.0,0.5,0.3,0.0,0.5,0.365,0.349,0.778,2025.0,Regular Season
+2025,Michael Porter Jr.,17,F,6-10,218,27.0,6,Missouri,1629008,Traded from DEN on 07/08/25,1610612751,Brooklyn Nets,Michael Porter Jr.,BKN,29.0,33.1,25.9,7.4,3.4,1.1,0.2,2.4,0.49,0.397,0.833,2025.0,Regular Season
+2025,Nic Claxton,33,C,6-11,215,26.0,6,Georgia,1629651,#31 Pick in 2019 Draft,1610612751,Brooklyn Nets,Nic Claxton,BKN,33.0,29.9,13.3,7.7,4.1,0.8,1.3,1.5,0.584,0.167,0.667,2025.0,Regular Season
+2025,Noah Clowney,21,F-C,6-10,210,21.0,2,Alabama,1641730,#21 Pick in 2023 Draft,1610612751,Brooklyn Nets,Noah Clowney,BKN,35.0,28.4,13.1,3.9,1.9,0.7,0.8,1.8,0.393,0.325,0.79,2025.0,Regular Season
+2025,Nolan Traore,88,G,6-3,185,19.0,R,Saint-Quentin,1642849,#19 Pick in 2025 Draft,1610612751,Brooklyn Nets,Nolan Traore,BKN,15.0,15.7,4.3,1.2,2.1,0.5,0.3,1.1,0.333,0.324,0.778,2025.0,Regular Season
+2025,Terance Mann,14,G-F,6-6,215,29.0,6,Florida State,1629611,Traded from ATL on 07/07/25,1610612751,Brooklyn Nets,Terance Mann,BKN,31.0,26.2,8.0,3.5,3.8,0.8,0.3,1.0,0.448,0.313,0.88,2025.0,Regular Season
+2025,Tyrese Martin,13,F,6-6,215,26.0,2,Connecticut,1631213,Signed on 09/20/24,1610612751,Brooklyn Nets,Tyrese Martin,BKN,29.0,19.5,7.4,3.0,2.2,0.7,0.1,1.1,0.385,0.322,0.708,2025.0,Regular Season
+2025,Tyson Etienne,10,G,6-0,200,26.0,1,Wichita State,1630623,Signed on 09/10/24,1610612751,Brooklyn Nets,Tyson Etienne,BKN,8.0,4.3,1.5,0.0,0.1,0.0,0.0,0.1,0.267,0.308,0.0,2025.0,Regular Season
+2025,Ziaire Williams,1,F,6-9,185,24.0,4,Stanford,1630533,Traded from MEM on 07/19/24,1610612751,Brooklyn Nets,Ziaire Williams,BKN,29.0,22.5,9.1,2.4,0.7,1.1,0.5,1.0,0.407,0.313,0.867,2025.0,Regular Season
+2025,Antonio Reeves,12,G,6-5,205,25.0,1,Kentucky,1641810,Signed on 07/25/25,1610612766,Charlotte Hornets,Antonio Reeves,CHA,6.0,8.8,3.5,0.8,0.3,0.2,0.0,0.0,0.5,0.5,0.0,2025.0,Regular Season
+2025,Brandon Miller,24,F,6-7,200,23.0,2,Alabama,1641706,#2 Pick in 2023 Draft,1610612766,Charlotte Hornets,Brandon Miller,CHA,21.0,30.1,19.4,4.2,3.3,0.9,1.1,2.5,0.402,0.355,0.835,2025.0,Regular Season
+2025,Collin Sexton,8,G,6-3,190,27.0,7,Alabama,1629012,Traded from UTA on 06/29/25,1610612766,Charlotte Hornets,Collin Sexton,CHA,30.0,24.1,15.2,2.0,4.1,0.8,0.2,2.3,0.483,0.39,0.875,2025.0,Regular Season
+2025,Grant Williams,2,F,6-7,236,27.0,6,Tennessee,1629684,Traded from DAL on 02/08/24,1610612766,Charlotte Hornets,,,,,,,,,,,,,,,
+2025,Josh Green,10,G,6-6,200,25.0,5,Arizona,1630182,Traded from DAL on 07/06/24,1610612766,Charlotte Hornets,Josh Green,CHA,14.0,15.6,4.4,1.6,0.9,0.6,0.0,0.4,0.44,0.4,0.5,2025.0,Regular Season
+2025,KJ Simpson,25,G,6-2,189,23.0,1,Colorado,1642354,#42 Pick in 2024 Draft,1610612766,Charlotte Hornets,KJ Simpson,CHA,14.0,15.9,6.0,2.1,2.5,1.1,0.0,1.7,0.348,0.308,0.625,2025.0,Regular Season
+2025,Kon Knueppel,7,G-F,6-6,215,20.0,R,Duke,1642851,#4 Pick in 2025 Draft,1610612766,Charlotte Hornets,Kon Knueppel,CHA,37.0,32.9,19.3,5.2,3.5,0.6,0.2,2.4,0.473,0.427,0.886,2025.0,Regular Season
+2025,LaMelo Ball,1,G,6-7,180,24.0,5,Illawarra,1630163,#3 Pick in 2020 Draft,1610612766,Charlotte Hornets,LaMelo Ball,CHA,28.0,27.9,20.0,5.0,7.9,1.3,0.2,3.4,0.413,0.371,0.875,2025.0,Regular Season
+2025,Liam McNeeley,33,F,6-7,210,20.0,R,Connecticut,1642862,Draft Rights Traded from PHX on 06/30/25,1610612766,Charlotte Hornets,Liam McNeeley,CHA,27.0,12.4,4.3,2.2,0.9,0.2,0.1,0.4,0.395,0.379,0.806,2025.0,Regular Season
+2025,Mason Plumlee,22,F-C,7-0,254,35.0,12,Duke,203486,Signed on 07/13/25,1610612766,Charlotte Hornets,Mason Plumlee,CHA,14.0,8.9,1.9,2.9,1.1,0.4,0.0,0.6,0.75,0.0,0.667,2025.0,Regular Season
+2025,Miles Bridges,0,F,6-7,225,27.0,6,Michigan State,1628970,Draft Rights Traded from LAC on 06/21/18,1610612766,Charlotte Hornets,Miles Bridges,CHA,37.0,33.7,19.9,6.4,3.7,0.6,0.6,1.5,0.441,0.328,0.84,2025.0,Regular Season
+2025,Moussa Diabate,14,F,6-10,210,23.0,3,Michigan,1631217,Signed on 07/31/24,1610612766,Charlotte Hornets,Moussa Diabaté,CHA,35.0,24.0,8.0,8.2,1.4,0.8,0.9,0.8,0.614,0.0,0.676,2025.0,Regular Season
+2025,PJ Hall,16,C,6-8,245,23.0,1,Clemson,1641790,Signed on 12/24/25,1610612766,Charlotte Hornets,PJ Hall,CHA,15.0,10.3,4.6,3.5,0.5,0.1,0.6,0.7,0.591,0.6,0.7,2025.0,Regular Season
+2025,Pat Connaughton,21,G,6-5,209,33.0,10,Notre Dame,1626192,Traded from MIL on 07/06/25,1610612766,Charlotte Hornets,Pat Connaughton,CHA,17.0,7.7,3.2,1.5,0.5,0.3,0.1,0.2,0.5,0.4,0.636,2025.0,Regular Season
+2025,Ryan Kalkbrenner,11,C,7-1,256,23.0,R,Creighton,1641750,#34 Pick in 2025 Draft,1610612766,Charlotte Hornets,Ryan Kalkbrenner,CHA,26.0,25.6,8.7,6.4,0.6,0.7,1.8,1.2,0.787,0.0,0.723,2025.0,Regular Season
+2025,Sion James,4,G,6-5,220,23.0,R,Duke,1642883,#33 Pick in 2025 Draft,1610612766,Charlotte Hornets,Sion James,CHA,38.0,25.8,6.5,3.3,1.8,0.6,0.4,0.8,0.406,0.377,0.852,2025.0,Regular Season
+2025,Tidjane Salaun,31,F,6-10,207,20.0,1,Cholet,1642275,#6 Pick in 2024 Draft,1610612766,Charlotte Hornets,Tidjane Salaün,CHA,24.0,16.9,6.5,4.2,0.8,0.5,0.3,0.8,0.505,0.431,0.704,2025.0,Regular Season
+2025,Tre Mann,23,G,6-4,178,24.0,4,Florida,1630544,Traded from OKC on 02/08/24,1610612766,Charlotte Hornets,Tre Mann,CHA,24.0,18.0,7.7,2.6,2.4,0.5,0.1,1.5,0.348,0.298,0.867,2025.0,Regular Season
+2025,Ayo Dosunmu,11,G,6-4,200,25.0,4,Illinois,1630245,#38 Pick in 2021 Draft,1610612741,Chicago Bulls,Ayo Dosunmu,CHI,31.0,26.2,14.3,2.7,3.4,0.5,0.3,1.2,0.508,0.441,0.861,2025.0,Regular Season
+2025,Coby White,0,G,6-4,195,25.0,6,North Carolina,1629632,#7 Pick in 2019 Draft,1610612741,Chicago Bulls,Coby White,CHI,17.0,27.9,18.4,3.4,4.6,0.6,0.0,3.0,0.44,0.319,0.796,2025.0,Regular Season
+2025,Dalen Terry,7,F,6-6,195,23.0,3,Arizona,1631207,#18 Pick in 2022 Draft,1610612741,Chicago Bulls,Dalen Terry,CHI,22.0,10.8,2.7,1.6,1.2,0.6,0.3,0.6,0.439,0.261,0.429,2025.0,Regular Season
+2025,Emanuel Miller,2,F,6-5,215,25.0,1,TCU,1641801,Signed on 12/27/24,1610612741,Chicago Bulls,Emanuel Miller,CHI,5.0,6.6,3.0,0.6,0.8,0.4,0.0,0.0,0.462,0.333,0.5,2025.0,Regular Season
+2025,Isaac Okoro,35,F-G,6-4,225,24.0,5,Auburn,1630171,Traded from CLE on 07/06/25,1610612741,Chicago Bulls,Isaac Okoro,CHI,29.0,24.6,8.4,2.7,1.3,0.6,0.6,0.7,0.472,0.326,0.767,2025.0,Regular Season
+2025,Jalen Smith,25,F-C,6-8,215,25.0,5,Maryland,1630188,Signed on 07/08/24,1610612741,Chicago Bulls,Jalen Smith,CHI,30.0,17.7,9.0,6.3,1.3,0.4,0.8,0.9,0.476,0.36,0.78,2025.0,Regular Season
+2025,Jevon Carter,5,G,6-0,200,30.0,7,West Virginia,1628975,Signed on 07/10/23,1610612741,Chicago Bulls,Jevon Carter,CHI,18.0,12.4,5.8,1.2,1.0,0.6,0.0,0.6,0.391,0.415,1.0,2025.0,Regular Season
+2025,Josh Giddey,3,G,6-7,216,23.0,4,NBA Global Academy,1630581,Traded from OKC on 06/21/24,1610612741,Chicago Bulls,Josh Giddey,CHI,30.0,32.8,19.2,8.9,9.0,0.9,0.4,3.6,0.466,0.386,0.761,2025.0,Regular Season
+2025,Julian Phillips,15,F,6-6,198,22.0,2,Tennessee,1641763,Draft Rights Traded from WAS on 06/28/23,1610612741,Chicago Bulls,Julian Phillips,CHI,27.0,10.3,3.1,1.4,0.3,0.6,0.2,0.2,0.432,0.326,0.833,2025.0,Regular Season
+2025,Kevin Huerter,13,G-F,6-6,198,27.0,7,Maryland,1628989,Traded from SAC on 02/03/25,1610612741,Chicago Bulls,Kevin Huerter,CHI,32.0,24.3,11.7,3.8,2.4,0.8,0.6,1.2,0.46,0.306,0.745,2025.0,Regular Season
+2025,Lachlan Olbrich,47,C,6-8,236,22.0,R,Illawarra,1642950,Draft Rights Traded from LAL on 06/30/25,1610612741,Chicago Bulls,Lachlan Olbrich,CHI,7.0,9.1,0.6,2.6,0.9,0.0,0.0,0.6,0.222,0.0,0.0,2025.0,Regular Season
+2025,Matas Buzelis,14,F,6-8,209,21.0,1,NBA G League Ignite,1641824,#11 Pick in 2024 Draft,1610612741,Chicago Bulls,Matas Buzelis,CHI,37.0,27.8,14.9,5.2,1.7,0.8,1.4,1.8,0.486,0.357,0.772,2025.0,Regular Season
+2025,Nikola Vucevic,9,C,6-9,260,35.0,14,Southern California,202696,Traded from ORL on 03/25/21,1610612741,Chicago Bulls,Nikola Vučević,CHI,36.0,30.5,16.5,9.3,3.6,0.7,0.4,1.5,0.501,0.392,0.784,2025.0,Regular Season
+2025,Noa Essengue,24,F,6-8,200,19.0,R,Unknown,1642855,#12 Pick in 2025 Draft,1610612741,Chicago Bulls,Noa Essengue,CHI,2.0,3.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,2025.0,Regular Season
+2025,Patrick Williams,44,F,6-6,215,24.0,5,Florida State,1630172,#4 Pick in 2020 Draft,1610612741,Chicago Bulls,Patrick Williams,CHI,35.0,18.5,6.6,2.9,1.1,0.8,0.3,0.9,0.377,0.395,0.657,2025.0,Regular Season
+2025,Tre Jones,30,G,6-1,185,26.0,5,Duke,1630200,Traded from SAS on 02/03/25,1610612741,Chicago Bulls,Tre Jones,CHI,31.0,26.9,11.9,3.0,5.5,1.3,0.2,1.4,0.512,0.255,0.848,2025.0,Regular Season
+2025,Yuki Kawamura,8,G,5-7,159,24.0,1,Yokohama B-Corsairs (Japan),1642530,Signed on 07/19/25,1610612741,Chicago Bulls,,,,,,,,,,,,,,,
+2025,Zach Collins,12,F-C,6-9,250,28.0,8,Gonzaga,1628380,Traded from SAS on 02/03/25,1610612741,Chicago Bulls,Zach Collins,CHI,10.0,18.4,9.7,5.6,1.5,0.2,0.4,1.0,0.578,0.429,0.7,2025.0,Regular Season
+2025,Chris Livingston,8,F,6-6,220,22.0,2,Kentucky,1641753,Signed on 10/31/25,1610612739,Cleveland Cavaliers,Chris Livingston,CLE,3.0,5.8,3.0,1.0,0.3,0.3,0.0,0.0,0.571,0.0,1.0,2025.0,Regular Season
+2025,Craig Porter Jr.,9,G,6-1,180,25.0,2,Wichita State,1641854,Signed on 07/03/23,1610612739,Cleveland Cavaliers,Craig Porter Jr.,CLE,34.0,17.2,5.0,3.6,2.7,1.0,0.7,0.8,0.5,0.404,0.619,2025.0,Regular Season
+2025,Darius Garland,10,G,6-1,192,25.0,6,Vanderbilt,1629636,#5 Pick in 2019 Draft,1610612739,Cleveland Cavaliers,Darius Garland,CLE,23.0,30.7,17.5,2.5,6.9,0.7,0.1,2.9,0.434,0.345,0.861,2025.0,Regular Season
+2025,De'Andre Hunter,12,F-G,6-7,221,28.0,6,Virginia,1629631,Traded from ATL on 02/06/25,1610612739,Cleveland Cavaliers,De'Andre Hunter,CLE,34.0,27.4,14.6,4.5,2.1,0.7,0.1,1.6,0.43,0.309,0.873,2025.0,Regular Season
+2025,Dean Wade,32,F-C,6-9,228,29.0,6,Kansas State,1629731,Signed on 07/01/19,1610612739,Cleveland Cavaliers,Dean Wade,CLE,34.0,22.6,5.8,4.0,1.6,0.7,0.4,0.3,0.396,0.325,0.733,2025.0,Regular Season
+2025,Donovan Mitchell,45,G,6-2,215,29.0,8,Louisville,1628378,Traded from UTA on 09/03/22,1610612739,Cleveland Cavaliers,Donovan Mitchell,CLE,35.0,33.9,29.8,4.8,5.5,1.5,0.3,3.2,0.497,0.385,0.84,2025.0,Regular Season
+2025,Evan Mobley,4,C,6-11,215,24.0,4,Southern California,1630596,#3 Pick in 2021 Draft,1610612739,Cleveland Cavaliers,Evan Mobley,CLE,33.0,33.2,17.8,8.7,4.0,0.9,1.8,2.2,0.506,0.339,0.642,2025.0,Regular Season
+2025,Jarrett Allen,31,C,6-9,243,27.0,8,Texas,1628386,Traded from BKN on 01/16/21,1610612739,Cleveland Cavaliers,Jarrett Allen,CLE,27.0,26.2,13.8,8.0,2.1,1.0,0.7,1.6,0.594,0.143,0.75,2025.0,Regular Season
+2025,Jaylon Tyson,20,G-F,6-6,215,23.0,1,California,1642281,#20 Pick in 2024 Draft,1610612739,Cleveland Cavaliers,Jaylon Tyson,CLE,34.0,27.1,12.5,5.4,1.9,1.0,0.6,1.2,0.508,0.436,0.729,2025.0,Regular Season
+2025,Larry Nance Jr.,22,F-C,6-6,245,33.0,10,Wyoming,1626204,Signed on 07/06/25,1610612739,Cleveland Cavaliers,Larry Nance Jr.,CLE,16.0,15.0,3.6,2.8,1.3,0.6,0.3,0.6,0.354,0.303,0.333,2025.0,Regular Season
+2025,Lonzo Ball,2,G,6-5,190,28.0,8,UCLA,1628366,Traded from CHI on 07/06/25,1610612739,Cleveland Cavaliers,Lonzo Ball,CLE,27.0,22.4,5.0,4.1,4.4,1.3,0.3,1.6,0.304,0.264,0.7,2025.0,Regular Season
+2025,Luke Travers,33,F,6-6,207,24.0,1,Rockingham Flames (Aus.),1631247,#56 Pick in 2022 Draft,1610612739,Cleveland Cavaliers,Luke Travers,CLE,12.0,8.6,2.3,2.0,0.8,0.6,0.3,0.3,0.25,0.063,1.0,2025.0,Regular Season
+2025,Max Strus,1,G-F,6-5,215,29.0,6,DePaul,1629622,Traded from MIA on 07/06/23,1610612739,Cleveland Cavaliers,,,,,,,,,,,,,,,
+2025,Nae'Qwan Tomlin,35,F,6-8,210,25.0,1,Memphis,1641772,Signed on 09/23/24,1610612739,Cleveland Cavaliers,Nae'Qwan Tomlin,CLE,28.0,15.2,6.1,3.0,0.6,0.6,0.7,0.4,0.471,0.25,0.711,2025.0,Regular Season
+2025,Sam Merrill,5,G,6-4,205,29.0,5,Utah State,1630241,Signed on 03/03/23,1610612739,Cleveland Cavaliers,Sam Merrill,CLE,21.0,26.5,14.0,2.4,2.5,0.7,0.1,0.9,0.469,0.447,0.857,2025.0,Regular Season
+2025,Thomas Bryant,3,C-F,6-9,248,28.0,8,Indiana,1628418,Signed on 09/25/25,1610612739,Cleveland Cavaliers,Thomas Bryant,CLE,28.0,9.7,4.8,2.8,0.4,0.3,0.4,0.4,0.511,0.333,0.828,2025.0,Regular Season
+2025,Tyrese Proctor,24,G,6-4,185,21.0,R,Duke,1642878,#49 Pick in 2025 Draft,1610612739,Cleveland Cavaliers,Tyrese Proctor,CLE,26.0,11.1,4.8,1.3,1.3,0.3,0.0,0.4,0.344,0.299,0.826,2025.0,Regular Season
+2025,Anthony Davis,3,F-C,6-10,253,32.0,13,Kentucky,203076,Traded from LAL on 02/02/25,1610612742,Dallas Mavericks,Anthony Davis,DAL,20.0,31.3,20.4,11.1,2.8,1.1,1.7,2.1,0.506,0.27,0.728,2025.0,Regular Season
+2025,Brandon Williams,10,G,6-1,190,26.0,3,Arizona,1630314,Signed on 12/28/23,1610612742,Dallas Mavericks,Brandon Williams,DAL,34.0,22.0,11.5,2.8,3.8,1.2,0.2,1.9,0.43,0.191,0.805,2025.0,Regular Season
+2025,Caleb Martin,16,F,6-5,205,30.0,6,Nevada,1628997,Traded from PHI on 02/04/25,1610612742,Dallas Mavericks,Caleb Martin,DAL,31.0,9.8,1.6,1.5,1.0,0.4,0.1,0.5,0.352,0.143,0.75,2025.0,Regular Season
+2025,Cooper Flagg,32,F,6-9,205,19.0,R,Duke,1642843,#1 Pick in 2025 Draft,1610612742,Dallas Mavericks,Cooper Flagg,DAL,37.0,34.7,19.1,6.6,4.3,1.3,0.8,2.2,0.48,0.287,0.814,2025.0,Regular Season
+2025,D'Angelo Russell,5,G,6-3,193,29.0,10,Ohio State,1626156,Signed on 07/06/25,1610612742,Dallas Mavericks,D'Angelo Russell,DAL,25.0,19.0,10.2,2.4,4.0,0.5,0.1,1.9,0.405,0.3,0.717,2025.0,Regular Season
+2025,Daniel Gafford,21,F-C,6-10,265,27.0,6,Arkansas,1629655,Traded from WAS on 02/08/24,1610612742,Dallas Mavericks,Daniel Gafford,DAL,27.0,20.7,8.0,6.3,0.9,0.9,1.4,1.4,0.636,0.0,0.783,2025.0,Regular Season
+2025,Dante Exum,0,G,6-5,214,30.0,9,Australian Institute of Sport,203957,Signed on 07/14/23,1610612742,Dallas Mavericks,,,,,,,,,,,,,,,
+2025,Dereck Lively II,2,C,7-1,230,21.0,2,Duke,1641726,Draft Rights Traded from OKC on 07/06/23,1610612742,Dallas Mavericks,Dereck Lively II,DAL,7.0,16.5,4.3,5.3,1.9,0.6,1.6,1.4,0.611,0.0,0.8,2025.0,Regular Season
+2025,Dwight Powell,7,F-C,6-10,240,34.0,11,Stanford,203939,Traded from BOS on 12/18/14,1610612742,Dallas Mavericks,Dwight Powell,DAL,24.0,12.2,2.7,2.8,0.9,0.5,0.3,0.4,0.613,0.0,0.65,2025.0,Regular Season
+2025,Jaden Hardy,1,G,6-3,198,23.0,3,NBA G League Ignite,1630702,Draft Rights Traded from SAC on 06/24/22,1610612742,Dallas Mavericks,Jaden Hardy,DAL,25.0,10.9,5.8,1.3,0.6,0.2,0.1,0.8,0.403,0.37,0.846,2025.0,Regular Season
+2025,Klay Thompson,31,G,6-5,220,35.0,14,Washington State,202691,Traded from GSW on 07/06/24,1610612742,Dallas Mavericks,Klay Thompson,DAL,35.0,22.1,11.3,2.5,1.3,0.4,0.3,0.9,0.373,0.358,0.714,2025.0,Regular Season
+2025,Kyrie Irving,11,G,6-2,195,33.0,14,Duke,202681,Traded from BKN on 02/06/23,1610612742,Dallas Mavericks,,,,,,,,,,,,,,,
+2025,Max Christie,00,G,6-5,190,22.0,3,Michigan State,1631108,Traded from LAL on 02/02/25,1610612742,Dallas Mavericks,Max Christie,DAL,36.0,28.9,12.4,3.4,2.1,0.5,0.4,1.2,0.484,0.455,0.864,2025.0,Regular Season
+2025,Miles Kelly,14,G,6-4,190,22.0,R,Auburn,1642939,Signed on 07/03/25,1610612742,Dallas Mavericks,Miles Kelly,DAL,2.0,5.6,1.0,2.0,0.0,0.0,0.0,0.5,0.5,0.0,0.0,2025.0,Regular Season
+2025,Moussa Cisse,30,C,6-11,220,23.0,R,Memphis,1630619,Signed on 07/08/25,1610612742,Dallas Mavericks,Moussa Cisse,DAL,20.0,10.0,3.0,3.5,0.2,0.3,1.0,0.7,0.605,0.0,0.419,2025.0,Regular Season
+2025,Naji Marshall,13,F,6-6,220,27.0,5,Xavier,1630230,Signed on 07/06/24,1610612742,Dallas Mavericks,Naji Marshall,DAL,38.0,28.7,13.3,4.6,2.6,1.0,0.1,1.2,0.541,0.315,0.786,2025.0,Regular Season
+2025,P.J. Washington,25,F,6-7,230,27.0,6,Kentucky,1629023,Traded from CHA on 02/08/24,1610612742,Dallas Mavericks,P.J. Washington,DAL,30.0,31.4,14.7,7.4,1.9,1.0,1.4,2.2,0.46,0.317,0.693,2025.0,Regular Season
+2025,Ryan Nembhard,9,G,5-11,180,22.0,R,Gonzaga,1642948,Signed on 07/03/25,1610612742,Dallas Mavericks,Ryan Nembhard,DAL,25.0,20.2,7.3,1.8,5.0,0.2,0.0,1.6,0.473,0.383,0.667,2025.0,Regular Season
+2025,Aaron Gordon,32,F,6-8,235,30.0,11,Arizona,203932,Traded from ORL on 03/25/21,1610612743,Denver Nuggets,Aaron Gordon,DEN,16.0,27.3,18.1,6.1,1.6,0.6,0.2,1.4,0.521,0.408,0.843,2025.0,Regular Season
+2025,Bruce Brown,11,G-F,6-4,202,29.0,7,Miami,1628971,Signed on 07/09/25,1610612743,Denver Nuggets,Bruce Brown,DEN,38.0,24.7,7.2,4.2,2.1,1.1,0.2,1.1,0.459,0.322,0.769,2025.0,Regular Season
+2025,Cameron Johnson,23,F,6-8,210,29.0,6,North Carolina,1629661,Traded from BKN on 07/08/25,1610612743,Denver Nuggets,Cameron Johnson,DEN,28.0,30.6,11.7,3.6,2.4,0.6,0.3,1.0,0.461,0.429,0.81,2025.0,Regular Season
+2025,Christian Braun,0,G,6-6,220,24.0,3,Kansas,1631128,#21 Pick in 2022 Draft,1610612743,Denver Nuggets,Christian Braun,DEN,14.0,28.9,9.5,4.2,2.5,0.6,0.4,1.2,0.459,0.212,0.75,2025.0,Regular Season
+2025,Curtis Jones,1,G,6-3,195,24.0,R,Iowa State,1642938,Signed on 07/21/25,1610612743,Denver Nuggets,Curtis Jones,DEN,5.0,4.4,0.8,0.8,0.2,0.0,0.0,0.2,0.2,0.0,0.0,2025.0,Regular Season
+2025,DaRon Holmes II,14,F,6-9,225,23.0,R,Dayton,1641747,Draft Rights Traded from PHX on 06/26/24,1610612743,Denver Nuggets,DaRon Holmes II,DEN,9.0,13.7,4.6,1.7,1.4,0.0,0.4,0.4,0.448,0.455,0.833,2025.0,Regular Season
+2025,Hunter Tyson,5,F,6-8,215,25.0,2,Clemson,1641816,Draft Rights Traded from OKC on 06/23/23,1610612743,Denver Nuggets,Hunter Tyson,DEN,14.0,6.9,2.7,1.6,0.6,0.1,0.1,0.2,0.351,0.316,1.0,2025.0,Regular Season
+2025,Jalen Pickett,24,G,6-2,202,26.0,2,Penn State,1629618,Draft Rights Traded from IND on 06/23/23,1610612743,Denver Nuggets,Jalen Pickett,DEN,23.0,14.9,5.1,2.2,2.2,0.3,0.1,0.7,0.469,0.418,1.0,2025.0,Regular Season
+2025,Jamal Murray,27,G,6-4,215,28.0,9,Kentucky,1627750,#7 Pick in 2016 Draft,1610612743,Denver Nuggets,Jamal Murray,DEN,35.0,35.5,25.3,4.7,7.5,1.0,0.3,2.3,0.479,0.443,0.889,2025.0,Regular Season
+2025,Jonas Valanciunas,17,C,6-11,265,33.0,13,Lietuvos rytas Vilnius,202685,Traded from SAC on 07/13/25,1610612743,Denver Nuggets,Jonas Valančiūnas,DEN,33.0,13.3,8.5,4.7,1.2,0.2,0.6,1.1,0.593,0.25,0.77,2025.0,Regular Season
+2025,Julian Strawther,3,G,6-6,205,23.0,2,Gonzaga,1631124,Draft Rights Traded from IND on 06/23/23,1610612743,Denver Nuggets,Julian Strawther,DEN,19.0,9.5,3.6,1.3,0.7,0.1,0.1,0.5,0.344,0.179,0.731,2025.0,Regular Season
+2025,Nikola Jokic,15,C,6-11,284,30.0,10,Mega Basket,203999,#41 Pick in 2014 Draft,1610612743,Denver Nuggets,Nikola Jokić,DEN,32.0,34.6,29.6,12.2,11.0,1.4,0.8,3.5,0.605,0.435,0.853,2025.0,Regular Season
+2025,Peyton Watson,8,G,6-8,200,23.0,3,UCLA,1631212,Draft Rights Traded from OKC on 06/23/22,1610612743,Denver Nuggets,Peyton Watson,DEN,36.0,28.8,13.0,4.9,1.6,1.0,1.0,1.6,0.511,0.4,0.735,2025.0,Regular Season
+2025,Spencer Jones,21,F,6-7,225,24.0,1,Stanford,1642461,Signed on 07/30/24,1610612743,Denver Nuggets,Spencer Jones,DEN,33.0,21.8,6.1,2.8,1.0,0.9,0.4,0.7,0.537,0.416,0.649,2025.0,Regular Season
+2025,Tamar Bates,7,G,6-4,195,22.0,R,Missouri,1642926,Signed on 07/02/25,1610612743,Denver Nuggets,,,,,,,,,,,,,,,
+2025,Tim Hardaway Jr.,10,G-F,6-5,205,33.0,12,Michigan,203501,Signed on 07/10/25,1610612743,Denver Nuggets,Tim Hardaway Jr.,DEN,37.0,26.9,13.5,2.3,1.4,0.4,0.1,0.4,0.456,0.409,0.884,2025.0,Regular Season
+2025,Zeke Nnaji,22,F-C,6-10,240,25.0,5,Arizona,1630192,#22 Pick in 2020 Draft,1610612743,Denver Nuggets,Zeke Nnaji,DEN,25.0,11.2,4.1,1.9,0.3,0.4,0.4,0.5,0.54,0.37,0.806,2025.0,Regular Season
+2025,Ausar Thompson,9,G-F,6-7,205,22.0,2,Overtime Elite,1641709,#5 Pick in 2023 Draft,1610612765,Detroit Pistons,Ausar Thompson,DET,33.0,26.2,11.4,5.9,2.5,1.5,0.8,1.6,0.51,0.278,0.556,2025.0,Regular Season
+2025,Bobi Klintman,34,F,6-9,225,22.0,1,Wake Forest,1641752,Draft Rights Traded from MIN on 07/06/24,1610612765,Detroit Pistons,Bobi Klintman,DET,6.0,8.8,2.8,2.7,0.7,0.3,0.0,0.8,0.333,0.273,0.0,2025.0,Regular Season
+2025,Cade Cunningham,2,G,6-6,220,24.0,4,Oklahoma State,1630595,#1 Pick in 2021 Draft,1610612765,Detroit Pistons,Cade Cunningham,DET,33.0,35.6,26.7,6.2,9.7,1.5,0.8,4.0,0.465,0.34,0.838,2025.0,Regular Season
+2025,Caris LeVert,8,G,6-7,205,31.0,9,Michigan,1627747,Signed on 07/07/25,1610612765,Detroit Pistons,Caris LeVert,DET,27.0,19.8,8.3,1.8,2.8,0.8,0.6,1.4,0.438,0.382,0.667,2025.0,Regular Season
+2025,Chaz Lanier,20,G,6-3,206,24.0,R,Tennessee,1642404,#37 Pick in 2025 Draft,1610612765,Detroit Pistons,Chaz Lanier,DET,16.0,9.6,3.3,0.9,0.8,0.3,0.0,0.1,0.354,0.341,1.0,2025.0,Regular Season
+2025,Daniss Jenkins,24,G,6-4,165,24.0,1,St. John's,1642450,Signed on 07/06/24,1610612765,Detroit Pistons,Daniss Jenkins,DET,30.0,16.2,7.6,1.8,3.3,0.8,0.1,1.3,0.43,0.392,0.8,2025.0,Regular Season
+2025,Duncan Robinson,55,F,6-7,215,31.0,7,Michigan,1629130,Traded from MIA on 07/07/25,1610612765,Detroit Pistons,Duncan Robinson,DET,35.0,29.1,11.5,2.8,1.9,0.8,0.3,0.6,0.424,0.384,0.788,2025.0,Regular Season
+2025,Isaac Jones,3,F,6-8,245,25.0,1,Washington State,1642403,Awarded on Waivers on 11/06/25,1610612765,Detroit Pistons,Isaac Jones,DET,4.0,4.6,1.3,0.5,0.3,0.0,0.0,0.0,0.5,0.0,0.5,2025.0,Regular Season
+2025,Isaiah Stewart,28,F-C,6-8,250,24.0,5,Washington,1630191,Draft Rights Traded from HOU on 11/24/20,1610612765,Detroit Pistons,Isaiah Stewart,DET,34.0,23.7,10.4,5.6,1.1,0.3,2.1,1.2,0.539,0.373,0.706,2025.0,Regular Season
+2025,Jaden Ivey,23,G,6-3,195,23.0,3,Purdue,1631093,#5 Pick in 2022 Draft,1610612765,Detroit Pistons,Jaden Ivey,DET,22.0,16.7,8.4,2.1,1.9,0.6,0.3,0.9,0.462,0.364,0.813,2025.0,Regular Season
+2025,Jalen Duren,0,C,6-10,250,22.0,3,Memphis,1631105,Draft Rights Traded from NYK on 07/06/22,1610612765,Detroit Pistons,Jalen Duren,DET,31.0,28.4,17.9,10.6,1.7,0.9,0.9,2.3,0.633,0.0,0.724,2025.0,Regular Season
+2025,Javonte Green,31,G,6-5,205,32.0,6,Radford,1629750,Signed on 08/14/25,1610612765,Detroit Pistons,Javonte Green,DET,37.0,19.5,7.2,2.7,0.9,1.4,0.3,0.6,0.442,0.358,0.776,2025.0,Regular Season
+2025,Marcus Sasser,25,G,6-1,195,25.0,2,Houston,1631204,Draft Rights Traded from BOS on 06/28/23,1610612765,Detroit Pistons,Marcus Sasser,DET,9.0,9.0,5.8,1.2,1.8,0.6,0.2,0.8,0.567,0.579,1.0,2025.0,Regular Season
+2025,Paul Reed,7,F,6-9,210,26.0,5,DePaul,1630194,Awarded on Waivers on 07/09/24,1610612765,Detroit Pistons,Paul Reed,DET,29.0,11.9,5.8,4.2,1.2,0.8,0.6,0.9,0.593,0.368,0.625,2025.0,Regular Season
+2025,Ronald Holland II,5,F,6-8,206,20.0,1,NBA G League Ignite,1641842,#5 Pick in 2024 Draft,1610612765,Detroit Pistons,Ronald Holland II,DET,35.0,20.9,8.2,4.2,1.4,1.4,0.3,1.3,0.41,0.25,0.803,2025.0,Regular Season
+2025,Tobias Harris,12,F,6-8,226,33.0,14,Tennessee,202699,Signed on 07/08/24,1610612765,Detroit Pistons,Tobias Harris,DET,23.0,27.4,13.4,4.6,2.5,0.6,0.3,1.0,0.455,0.333,0.848,2025.0,Regular Season
+2025,Tolu Smith,35,F,6-11,0,25.0,1,Mississippi State,1642449,Signed on 09/17/24,1610612765,Detroit Pistons,Tolu Smith,DET,4.0,7.1,4.3,3.5,0.8,0.3,0.3,0.5,0.75,0.0,0.714,2025.0,Regular Season
+2025,Wendell Moore Jr.,9,G,6-5,215,24.0,3,Duke,1631111,Signed on 11/10/25,1610612765,Detroit Pistons,Wendell Moore Jr.,DET,3.0,14.4,2.0,1.3,1.0,0.7,0.3,0.3,0.5,0.0,0.0,2025.0,Regular Season
+2025,Al Horford,20,C-F,6-8,240,39.0,18,Florida,201143,Signed on 10/01/25,1610612744,Golden State Warriors,Al Horford,GSW,20.0,19.4,6.9,4.8,1.8,0.8,1.0,1.0,0.387,0.352,1.0,2025.0,Regular Season
+2025,Brandin Podziemski,2,G,6-4,205,22.0,2,Santa Clara,1641764,#19 Pick in 2023 Draft,1610612744,Golden State Warriors,Brandin Podziemski,GSW,39.0,27.1,11.9,4.5,3.3,1.0,0.2,1.4,0.455,0.395,0.764,2025.0,Regular Season
+2025,Buddy Hield,7,G,6-4,220,33.0,9,Oklahoma,1627741,Traded from PHI on 07/06/24,1610612744,Golden State Warriors,Buddy Hield,GSW,33.0,17.4,7.5,2.5,1.4,0.8,0.1,1.1,0.42,0.329,0.944,2025.0,Regular Season
+2025,De'Anthony Melton,8,G,6-2,200,27.0,7,Southern California,1629001,Signed on 10/01/25,1610612744,Golden State Warriors,De'Anthony Melton,GSW,14.0,20.5,9.7,2.4,1.7,1.6,0.5,1.4,0.397,0.3,0.813,2025.0,Regular Season
+2025,Draymond Green,23,F,6-6,230,35.0,13,Michigan State,203110,#35 Pick in 2012 Draft,1610612744,Golden State Warriors,Draymond Green,GSW,32.0,27.0,8.7,5.8,5.5,0.9,0.7,2.8,0.426,0.34,0.667,2025.0,Regular Season
+2025,Gary Payton II,0,G,6-2,195,33.0,9,Oregon State,1627780,Traded from POR on 02/09/23,1610612744,Golden State Warriors,Gary Payton II,GSW,36.0,12.4,4.9,3.3,1.7,0.5,0.4,0.8,0.544,0.275,0.5,2025.0,Regular Season
+2025,Gui Santos,15,F,6-7,185,23.0,2,Minas,1630611,#55 Pick in 2022 Draft,1610612744,Golden State Warriors,Gui Santos,GSW,30.0,11.0,3.6,2.4,0.8,0.4,0.1,0.8,0.452,0.327,0.667,2025.0,Regular Season
+2025,Jimmy Butler III,10,F,6-6,230,36.0,14,Marquette,202710,Traded from MIA on 02/06/25,1610612744,Golden State Warriors,Jimmy Butler III,GSW,34.0,31.4,19.6,5.5,4.9,1.4,0.2,1.6,0.509,0.384,0.86,2025.0,Regular Season
+2025,Jonathan Kuminga,1,F,6-7,225,23.0,4,NBA G League Ignite,1630228,#7 Pick in 2021 Draft,1610612744,Golden State Warriors,Jonathan Kuminga,GSW,18.0,24.8,11.8,6.2,2.6,0.3,0.3,2.4,0.431,0.32,0.741,2025.0,Regular Season
+2025,LJ Cryer,18,G,6-0,0,24.0,R,Houston,1643018,Signed on 09/29/25,1610612744,Golden State Warriors,,,,,,,,,,,,,,,
+2025,Malevy Leons,33,F,6-9,210,26.0,1,Bradley,1642502,Signed on 12/08/25,1610612744,Golden State Warriors,,,,,,,,,,,,,,,
+2025,Moses Moody,4,G,6-5,211,23.0,4,Arkansas,1630541,#14 Pick in 2021 Draft,1610612744,Golden State Warriors,Moses Moody,GSW,37.0,24.6,10.4,3.2,1.5,1.0,0.6,1.0,0.408,0.369,0.82,2025.0,Regular Season
+2025,Pat Spencer,61,G,6-2,205,29.0,2,Northwestern,1630311,Signed on 07/23/22,1610612744,Golden State Warriors,Pat Spencer,GSW,25.0,15.1,6.1,2.2,3.2,0.7,0.0,1.0,0.406,0.364,0.875,2025.0,Regular Season
+2025,Quinten Post,21,C,7-0,238,25.0,1,Boston College,1642366,Draft Rights Traded from POR on 07/06/24,1610612744,Golden State Warriors,Quinten Post,GSW,39.0,18.2,8.1,3.9,1.5,0.5,0.6,0.8,0.439,0.343,0.818,2025.0,Regular Season
+2025,Seth Curry,31,G,6-1,185,35.0,12,Duke,203552,Signed on 10/01/25,1610612744,Golden State Warriors,Seth Curry,GSW,2.0,16.0,7.0,2.0,1.5,1.0,0.0,0.0,0.667,0.5,0.0,2025.0,Regular Season
+2025,Stephen Curry,30,G,6-2,185,37.0,16,Davidson,201939,#7 Pick in 2009 Draft,1610612744,Golden State Warriors,Stephen Curry,GSW,29.0,32.2,28.7,3.8,4.7,1.2,0.5,2.9,0.468,0.394,0.926,2025.0,Regular Season
+2025,Trayce Jackson-Davis,32,F,6-9,245,25.0,2,Indiana,1631218,Draft Rights Traded from WAS on 06/23/23,1610612744,Golden State Warriors,Trayce Jackson-Davis,GSW,27.0,12.9,4.6,3.9,1.0,0.3,0.7,0.5,0.576,0.0,0.605,2025.0,Regular Season
+2025,Will Richard,3,G,6-3,206,23.0,R,Florida,1642954,Draft Rights Traded from MEM on 07/06/25,1610612744,Golden State Warriors,Will Richard,GSW,34.0,19.0,7.5,2.7,1.1,1.0,0.1,0.7,0.511,0.383,0.805,2025.0,Regular Season
+2025,Aaron Holiday,0,G,6-0,185,29.0,7,UCLA,1628988,Signed on 07/10/23,1610612745,Houston Rockets,Aaron Holiday,HOU,28.0,13.9,6.3,0.9,0.9,0.4,0.1,0.8,0.413,0.398,0.862,2025.0,Regular Season
+2025,Alperen Sengun,28,C,6-11,243,23.0,4,Besiktas,1630578,Draft Rights Traded from OKC on 07/30/21,1610612745,Houston Rockets,Alperen Sengun,HOU,28.0,34.3,21.8,9.0,6.5,1.5,1.0,3.3,0.512,0.317,0.734,2025.0,Regular Season
+2025,Amen Thompson,1,G-F,6-7,200,22.0,2,Overtime Elite,1641708,#4 Pick in 2023 Draft,1610612745,Houston Rockets,Amen Thompson,HOU,35.0,36.7,18.3,7.6,5.2,1.3,0.6,2.5,0.513,0.192,0.797,2025.0,Regular Season
+2025,Clint Capela,30,C,6-10,256,31.0,11,Elan Chalon,203991,Traded from ATL on 07/06/25,1610612745,Houston Rockets,Clint Capela,HOU,32.0,11.5,3.6,4.6,0.5,0.5,0.7,0.5,0.531,0.0,0.5,2025.0,Regular Season
+2025,Dorian Finney-Smith,2,F,6-7,220,32.0,9,Florida,1627827,Signed on 07/06/25,1610612745,Houston Rockets,Dorian Finney-Smith,HOU,8.0,15.4,2.6,2.9,0.6,0.3,0.1,0.8,0.25,0.292,0.0,2025.0,Regular Season
+2025,Fred VanVleet,5,G,6-0,197,31.0,9,Wichita State,1627832,Signed on 07/07/23,1610612745,Houston Rockets,,,,,,,,,,,,,,,
+2025,Isaiah Crawford,27,F,6-6,220,24.0,1,Louisiana Tech,1642384,Signed on 07/26/25,1610612745,Houston Rockets,Isaiah Crawford,HOU,2.0,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2025.0,Regular Season
+2025,JD Davison,4,G,6-1,195,23.0,3,Alabama,1631120,Signed on 07/26/25,1610612745,Houston Rockets,JD Davison,HOU,16.0,5.6,1.6,0.4,0.9,0.3,0.1,0.3,0.45,0.4,0.5,2025.0,Regular Season
+2025,Jabari Smith Jr.,10,F,6-11,220,22.0,3,Auburn,1631095,#3 Pick in 2022 Draft,1610612745,Houston Rockets,Jabari Smith Jr.,HOU,34.0,34.7,15.2,6.9,1.9,0.8,0.8,1.3,0.436,0.349,0.779,2025.0,Regular Season
+2025,Jae'Sean Tate,8,F,6-4,230,30.0,5,Ohio State,1630256,Signed on 11/25/20,1610612745,Houston Rockets,Jae'Sean Tate,HOU,21.0,7.9,2.8,1.5,0.6,0.2,0.1,0.2,0.521,0.4,1.0,2025.0,Regular Season
+2025,Jeff Green,32,F,6-8,235,39.0,18,Georgetown,201145,Signed on 07/06/23,1610612745,Houston Rockets,Jeff Green,HOU,14.0,4.5,2.1,0.4,0.1,0.0,0.1,0.1,0.478,0.438,0.0,2025.0,Regular Season
+2025,Josh Okogie,20,G,6-4,213,27.0,7,Georgia Tech,1629006,Signed on 07/22/25,1610612745,Houston Rockets,Josh Okogie,HOU,35.0,19.6,5.9,2.8,1.0,1.0,0.2,0.8,0.441,0.395,0.707,2025.0,Regular Season
+2025,Kevin Durant,7,F,6-11,240,37.0,18,Texas,201142,Traded from PHX on 07/06/25,1610612745,Houston Rockets,Kevin Durant,HOU,33.0,36.2,26.2,5.3,4.4,0.7,1.0,3.1,0.521,0.403,0.894,2025.0,Regular Season
+2025,Reed Sheppard,15,G,6-2,185,21.0,1,Kentucky,1642263,#3 Pick in 2024 Draft,1610612745,Houston Rockets,Reed Sheppard,HOU,35.0,25.8,13.3,2.8,3.3,1.5,0.6,1.3,0.445,0.403,0.767,2025.0,Regular Season
+2025,Steven Adams,12,C,6-11,265,32.0,12,Pittsburgh,203500,Traded from MEM on 02/01/24,1610612745,Houston Rockets,Steven Adams,HOU,28.0,22.7,6.0,8.6,1.6,0.7,0.6,1.1,0.504,0.0,0.589,2025.0,Regular Season
+2025,Tari Eason,17,F,6-8,215,24.0,3,Louisiana State,1631106,#17 Pick in 2022 Draft,1610612745,Houston Rockets,Tari Eason,HOU,21.0,23.7,12.0,6.0,1.6,1.1,0.6,1.6,0.477,0.469,0.64,2025.0,Regular Season
+2025,Tristen Newton,13,G,6-5,190,24.0,1,Connecticut,1641803,Signed on 01/03/26,1610612745,Houston Rockets,,,,,,,,,,,,,,,
+2025,Aaron Nesmith,23,G-F,6-5,215,26.0,5,Vanderbilt,1630174,Traded from BOS on 07/09/22,1610612754,Indiana Pacers,Aaron Nesmith,IND,18.0,30.0,14.8,4.8,2.1,0.8,0.6,1.2,0.381,0.4,0.808,2025.0,Regular Season
+2025,Andrew Nembhard,2,G-F,6-4,191,25.0,3,Gonzaga,1629614,#31 Pick in 2022 Draft,1610612754,Indiana Pacers,Andrew Nembhard,IND,29.0,31.7,17.2,2.4,7.0,0.9,0.1,2.3,0.438,0.354,0.805,2025.0,Regular Season
+2025,Ben Sheppard,26,G,6-6,190,24.0,2,Belmont,1641767,#26 Pick in 2023 Draft,1610612754,Indiana Pacers,Ben Sheppard,IND,27.0,24.2,6.8,3.8,1.8,0.6,0.1,0.6,0.382,0.324,0.792,2025.0,Regular Season
+2025,Bennedict Mathurin,00,G-F,6-5,210,23.0,3,Arizona,1631097,#6 Pick in 2022 Draft,1610612754,Indiana Pacers,Bennedict Mathurin,IND,24.0,32.1,17.8,5.5,2.2,0.7,0.2,2.4,0.423,0.366,0.876,2025.0,Regular Season
+2025,Ethan Thompson,55,G,6-4,195,26.0,R,Oregon State,1630679,Signed on 11/30/25,1610612754,Indiana Pacers,Ethan Thompson,IND,16.0,16.9,4.6,1.8,1.4,0.5,0.3,0.6,0.388,0.319,0.778,2025.0,Regular Season
+2025,Isaiah Jackson,22,F,6-8,205,24.0,4,Kentucky,1630543,Draft Rights Traded from LAL on 08/06/21,1610612754,Indiana Pacers,Isaiah Jackson,IND,29.0,18.3,7.3,5.9,0.8,0.7,0.8,1.1,0.585,0.0,0.742,2025.0,Regular Season
+2025,Jarace Walker,5,F,6-7,235,22.0,2,Houston,1641716,Draft Rights Traded from WAS on 06/23/23,1610612754,Indiana Pacers,Jarace Walker,IND,38.0,23.0,8.8,4.2,1.8,0.6,0.3,1.6,0.359,0.333,0.797,2025.0,Regular Season
+2025,Jay Huff,32,C,7-1,240,28.0,4,Virginia,1630643,Traded from MEM on 07/06/25,1610612754,Indiana Pacers,Jay Huff,IND,38.0,19.8,8.1,3.8,1.3,0.3,2.2,0.8,0.441,0.313,0.83,2025.0,Regular Season
+2025,Johnny Furphy,12,G,6-8,200,21.0,1,Kansas,1642277,Draft Rights Traded from SAS on 07/06/24,1610612754,Indiana Pacers,Johnny Furphy,IND,20.0,15.7,4.9,3.3,0.6,0.6,0.1,0.6,0.514,0.324,0.563,2025.0,Regular Season
+2025,Kam Jones,7,G,6-4,200,23.0,R,Marquette,1642880,Draft Rights Traded from SAS on 07/06/25,1610612754,Indiana Pacers,Kam Jones,IND,8.0,6.0,2.1,0.4,0.8,0.3,0.0,0.0,0.533,0.2,0.0,2025.0,Regular Season
+2025,Micah Potter,11,C,6-9,248,27.0,4,Wisconsin,1630695,Signed on 12/26/25,1610612754,Indiana Pacers,Micah Potter,IND,8.0,18.7,8.1,3.6,1.6,0.3,0.4,0.8,0.5,0.417,0.95,2025.0,Regular Season
+2025,Obi Toppin,1,F,6-9,220,27.0,5,Dayton,1630167,Traded from NYK on 07/07/23,1610612754,Indiana Pacers,Obi Toppin,IND,3.0,27.4,14.0,6.7,1.7,1.0,0.0,2.0,0.417,0.176,1.0,2025.0,Regular Season
+2025,Pascal Siakam,43,F,6-8,245,31.0,9,New Mexico State,1627783,Traded from TOR on 01/17/24,1610612754,Indiana Pacers,Pascal Siakam,IND,37.0,34.0,23.9,6.8,3.8,1.3,0.4,2.1,0.484,0.379,0.686,2025.0,Regular Season
+2025,Quenton Jackson,29,G,6-4,173,27.0,3,Texas A&M,1631245,Signed on 03/04/24,1610612754,Indiana Pacers,Quenton Jackson,IND,15.0,15.2,6.9,2.0,2.1,0.6,0.1,1.2,0.452,0.36,0.744,2025.0,Regular Season
+2025,T.J. McConnell,9,G,6-1,190,33.0,10,Arizona,204456,Signed on 07/29/19,1610612754,Indiana Pacers,T.J. McConnell,IND,26.0,17.4,10.2,2.5,4.8,1.2,0.2,1.3,0.545,0.31,1.0,2025.0,Regular Season
+2025,Taelon Peter,4,G,6-3,185,23.0,R,Liberty,1643007,#54 Pick in 2025 Draft,1610612754,Indiana Pacers,Taelon Peter,IND,21.0,5.8,1.6,0.9,0.7,0.1,0.1,0.4,0.294,0.281,0.667,2025.0,Regular Season
+2025,Tony Bradley,13,C-F,6-10,248,28.0,7,North Carolina,1628396,Signed on 03/02/25,1610612754,Indiana Pacers,Tony Bradley,IND,30.0,10.9,4.0,2.6,0.5,0.1,0.2,0.5,0.578,0.0,0.735,2025.0,Regular Season
+2025,Tyrese Haliburton,0,G,6-5,185,25.0,5,Iowa State,1630169,Traded from SAC on 02/08/22,1610612754,Indiana Pacers,,,,,,,,,,,,,,,
+2025,Bogdan Bogdanovic,10,G,6-5,225,33.0,8,Fenerbahce,203992,Traded from ATL on 02/06/25,1610612746,Los Angeles Clippers,Bogdan Bogdanović,LAC,16.0,22.5,8.0,2.9,2.7,0.5,0.1,1.2,0.376,0.333,0.842,2025.0,Regular Season
+2025,Bradley Beal,0,G,6-4,207,32.0,13,Florida,203078,Signed on 07/18/25,1610612746,Los Angeles Clippers,Bradley Beal,LAC,6.0,20.2,8.2,0.8,1.7,0.5,0.0,1.5,0.375,0.368,0.75,2025.0,Regular Season
+2025,Brook Lopez,11,C,7-1,282,37.0,17,Stanford,201572,Signed on 07/06/25,1610612746,Los Angeles Clippers,Brook Lopez,LAC,30.0,17.0,6.5,2.6,0.9,0.4,1.0,0.8,0.365,0.348,0.818,2025.0,Regular Season
+2025,Cam Christie,12,G,6-5,190,20.0,1,Minnesota,1642353,#46 Pick in 2024 Draft,1610612746,Los Angeles Clippers,Cam Christie,LAC,24.0,8.8,3.2,1.6,0.5,0.3,0.1,0.3,0.338,0.29,0.7,2025.0,Regular Season
+2025,Chris Paul,3,G,6-0,175,40.0,20,Wake Forest,101108,Signed on 07/21/25,1610612746,Los Angeles Clippers,Chris Paul,LAC,16.0,14.2,2.9,1.8,3.3,0.7,0.0,1.0,0.321,0.333,0.5,2025.0,Regular Season
+2025,Derrick Jones Jr.,5,F,6-6,210,28.0,9,UNLV,1627884,Signed on 07/09/24,1610612746,Los Angeles Clippers,Derrick Jones Jr.,LAC,17.0,24.2,10.4,2.6,1.2,0.8,1.1,0.8,0.556,0.4,0.774,2025.0,Regular Season
+2025,Ivica Zubac,40,C,7-0,240,28.0,9,Mega Basket,1627826,Traded from LAL on 02/07/19,1610612746,Los Angeles Clippers,Ivica Zubac,LAC,32.0,31.4,14.9,10.8,2.5,0.4,1.0,1.9,0.603,0.0,0.739,2025.0,Regular Season
+2025,James Harden,1,G,6-5,220,36.0,16,Arizona State,201935,Traded from PHI on 11/01/23,1610612746,Los Angeles Clippers,James Harden,LAC,34.0,35.4,25.8,4.7,8.0,1.2,0.4,3.6,0.438,0.368,0.893,2025.0,Regular Season
+2025,John Collins,20,F-C,6-9,226,28.0,8,Wake Forest,1628381,Traded from UTA on 07/07/25,1610612746,Los Angeles Clippers,John Collins,LAC,36.0,27.1,13.0,4.9,0.8,0.8,0.9,1.4,0.545,0.394,0.818,2025.0,Regular Season
+2025,Jordan Miller,22,G,6-5,194,25.0,2,Miami,1641757,#48 Pick in 2023 Draft,1610612746,Los Angeles Clippers,Jordan Miller,LAC,16.0,13.3,6.1,2.8,1.0,0.3,0.2,0.7,0.517,0.462,0.857,2025.0,Regular Season
+2025,Kawhi Leonard,2,F,6-6,225,34.0,14,San Diego State,202695,Signed on 07/09/19,1610612746,Los Angeles Clippers,Kawhi Leonard,LAC,27.0,34.1,27.9,6.4,3.6,2.2,0.7,2.2,0.495,0.372,0.957,2025.0,Regular Season
+2025,Kobe Brown,24,F,6-7,250,26.0,2,Missouri,1641738,#30 Pick in 2023 Draft,1610612746,Los Angeles Clippers,Kobe Brown,LAC,25.0,9.8,3.1,1.7,0.9,0.3,0.1,0.4,0.368,0.238,0.85,2025.0,Regular Season
+2025,Kobe Sanders,4,G,6-8,207,23.0,R,Nevada,1642920,Draft Rights Traded from NYK on 06/26/25,1610612746,Los Angeles Clippers,Kobe Sanders,LAC,29.0,19.9,6.3,2.3,1.6,0.6,0.1,1.4,0.443,0.377,0.867,2025.0,Regular Season
+2025,Kris Dunn,8,G,6-3,205,31.0,9,Providence,1627739,Traded from UTA on 07/18/24,1610612746,Los Angeles Clippers,Kris Dunn,LAC,37.0,27.0,8.4,2.9,3.1,1.4,0.2,1.3,0.496,0.386,0.763,2025.0,Regular Season
+2025,Nicolas Batum,33,G-F,6-7,230,37.0,17,Le Mans,201587,Signed on 07/09/24,1610612746,Los Angeles Clippers,Nicolas Batum,LAC,36.0,20.8,5.0,2.6,0.8,0.8,0.4,0.6,0.406,0.404,0.889,2025.0,Regular Season
+2025,TyTy Washington Jr.,14,G,6-3,195,24.0,3,Kentucky,1631102,Signed on 08/07/25,1610612746,Los Angeles Clippers,,,,,,,,,,,,,,,
+2025,Yanic Konan Niederhäuser,14,C,6-11,242,22.0,R,Penn State,1642949,#30 Pick in 2025 Draft,1610612746,Los Angeles Clippers,Yanic Konan Niederhäuser,LAC,20.0,8.1,3.1,2.1,0.3,0.1,0.4,0.4,0.615,0.0,0.565,2025.0,Regular Season
+2025,Adou Thiero,1,G,6-7,220,21.0,R,Arkansas,1642876,Draft Rights Traded from BKN on 07/06/25,1610612747,Los Angeles Lakers,Adou Thiero,LAL,15.0,5.8,1.3,1.2,0.3,0.3,0.1,0.3,0.389,0.0,0.75,2025.0,Regular Season
+2025,Austin Reaves,15,G,6-5,197,27.0,4,Oklahoma,1630559,Signed on 08/03/21,1610612747,Los Angeles Lakers,Austin Reaves,LAL,23.0,35.3,26.6,5.2,6.3,1.0,0.2,3.3,0.507,0.365,0.873,2025.0,Regular Season
+2025,Bronny James,9,G,6-2,210,21.0,1,Southern California,1642355,#55 Pick in 2024 Draft,1610612747,Los Angeles Lakers,Bronny James,LAL,19.0,7.8,1.5,0.5,1.3,0.5,0.1,0.6,0.314,0.278,1.0,2025.0,Regular Season
+2025,Chris Mañon,30,G,6-4,209,24.0,R,Vanderbilt,1643024,Signed on 07/24/25,1610612747,Los Angeles Lakers,Chris Mañon,LAL,4.0,3.4,0.0,0.8,0.0,0.3,0.5,0.0,0.0,0.0,0.0,2025.0,Regular Season
+2025,Dalton Knecht,4,F,6-6,215,24.0,1,Tennessee,1642261,#17 Pick in 2024 Draft,1610612747,Los Angeles Lakers,Dalton Knecht,LAL,31.0,13.3,5.2,1.7,0.4,0.3,0.3,0.5,0.443,0.321,0.688,2025.0,Regular Season
+2025,Deandre Ayton,5,C,7-0,252,27.0,7,Arizona,1629028,Signed on 07/06/25,1610612747,Los Angeles Lakers,Deandre Ayton,LAL,32.0,29.3,13.9,8.3,0.9,0.8,1.0,1.7,0.682,0.0,0.592,2025.0,Regular Season
+2025,Drew Timme,26,F,6-9,235,25.0,1,Gonzaga,1631166,Signed on 11/25/25,1610612747,Los Angeles Lakers,Drew Timme,LAL,4.0,3.0,0.5,0.8,0.8,0.3,0.0,0.3,0.333,0.0,0.0,2025.0,Regular Season
+2025,Gabe Vincent,7,G,6-2,200,29.0,6,California-Santa Barbara,1629216,Signed on 07/06/23,1610612747,Los Angeles Lakers,Gabe Vincent,LAL,16.0,20.9,4.9,1.0,1.5,0.4,0.1,0.4,0.342,0.356,1.0,2025.0,Regular Season
+2025,Jake LaRavia,12,F,6-7,235,24.0,3,Wake Forest,1631222,Signed on 07/06/25,1610612747,Los Angeles Lakers,Jake LaRavia,LAL,36.0,26.9,9.8,4.3,1.9,1.4,0.4,1.1,0.471,0.341,0.726,2025.0,Regular Season
+2025,Jarred Vanderbilt,2,F,6-8,214,26.0,7,Kentucky,1629020,Traded from UTA on 02/09/23,1610612747,Los Angeles Lakers,Jarred Vanderbilt,LAL,27.0,20.0,5.3,5.4,1.4,0.9,0.3,1.3,0.473,0.34,0.724,2025.0,Regular Season
+2025,Jaxson Hayes,11,C-F,7-0,220,25.0,6,Texas,1629637,Signed on 07/06/23,1610612747,Los Angeles Lakers,Jaxson Hayes,LAL,31.0,17.6,6.2,4.0,0.9,0.4,0.6,0.5,0.762,1.0,0.667,2025.0,Regular Season
+2025,LeBron James,23,F,6-9,250,41.0,22,St. Vincent-St. Mary HS (OH),2544,Signed on 07/09/18,1610612747,Los Angeles Lakers,LeBron James,LAL,19.0,33.3,21.9,5.6,6.9,1.1,0.6,2.5,0.51,0.32,0.709,2025.0,Regular Season
+2025,Luka Doncic,77,F-G,6-8,230,26.0,7,Real Madrid,1629029,Traded from DAL on 02/02/25,1610612747,Los Angeles Lakers,Luka Dončić,LAL,29.0,36.5,33.3,8.0,8.8,1.6,0.6,4.5,0.458,0.323,0.784,2025.0,Regular Season
+2025,Marcus Smart,36,G,6-3,220,31.0,11,Oklahoma State,203935,Signed on 07/22/25,1610612747,Los Angeles Lakers,Marcus Smart,LAL,27.0,28.3,9.4,3.1,3.0,1.4,0.4,1.9,0.396,0.303,0.936,2025.0,Regular Season
+2025,Maxi Kleber,14,F,6-10,240,33.0,8,Bayern Munich,1628467,Traded from DAL on 02/02/25,1610612747,Los Angeles Lakers,Maxi Kleber,LAL,18.0,11.5,1.7,1.8,0.7,0.3,0.3,0.4,0.281,0.2,0.75,2025.0,Regular Season
+2025,Nick Smith Jr.,20,G,6-2,185,21.0,2,Arkansas,1641733,Signed on 09/29/25,1610612747,Los Angeles Lakers,Nick Smith Jr.,LAL,18.0,15.6,7.0,1.0,1.2,0.4,0.1,0.8,0.417,0.387,0.6,2025.0,Regular Season
+2025,Rui Hachimura,28,F,6-8,230,27.0,6,Gonzaga,1629060,Traded from WAS on 01/23/23,1610612747,Los Angeles Lakers,Rui Hachimura,LAL,27.0,32.5,12.7,3.8,0.9,0.6,0.2,0.9,0.521,0.445,0.75,2025.0,Regular Season
+2025,Brandon Clarke,15,F,6-8,215,29.0,6,Gonzaga,1629634,Draft Rights Traded from OKC on 07/06/19,1610612763,Memphis Grizzlies,Brandon Clarke,MEM,2.0,10.2,4.0,3.0,0.5,1.0,0.0,0.0,0.333,0.0,0.5,2025.0,Regular Season
+2025,Cam Spencer,24,G,6-3,205,25.0,1,Connecticut,1642285,Draft Rights Traded from DET on 07/06/24,1610612763,Memphis Grizzlies,Cam Spencer,MEM,37.0,23.7,12.0,2.6,5.1,0.8,0.1,1.4,0.48,0.468,0.915,2025.0,Regular Season
+2025,Cedric Coward,23,G,6-5,206,22.0,R,Washington State,1642907,Draft Rights Traded from POR on 06/25/25,1610612763,Memphis Grizzlies,Cedric Coward,MEM,35.0,26.7,13.7,6.6,3.0,0.5,0.3,1.7,0.467,0.329,0.846,2025.0,Regular Season
+2025,Christian Koloko,10,C,6-11,225,25.0,3,Arizona,1631132,Signed on 12/22/25,1610612763,Memphis Grizzlies,Christian Koloko,MEM,12.0,15.5,2.3,3.2,0.8,0.8,1.0,0.5,0.419,0.0,0.25,2025.0,Regular Season
+2025,GG Jackson,45,F,6-9,210,21.0,2,South Carolina,1641713,#45 Pick in 2023 Draft,1610612763,Memphis Grizzlies,GG Jackson,MEM,18.0,14.9,6.4,2.9,0.7,0.9,0.4,0.8,0.416,0.245,0.731,2025.0,Regular Season
+2025,Ja Morant,12,G,6-2,174,26.0,6,Murray State,1629630,#2 Pick in 2019 Draft,1610612763,Memphis Grizzlies,Ja Morant,MEM,18.0,28.3,19.0,3.2,7.6,1.0,0.2,3.6,0.401,0.208,0.9,2025.0,Regular Season
+2025,Jahmai Mashack,--,G,6-4,203,23.0,R,Tennessee,1642942,Draft Rights Traded from GSW on 07/06/25,1610612763,Memphis Grizzlies,Jahmai Mashack,MEM,7.0,3.5,0.9,0.7,0.3,0.1,0.0,0.4,0.25,0.333,0.0,2025.0,Regular Season
+2025,Jaren Jackson Jr.,8,F-C,6-10,242,26.0,7,Michigan State,1628991,#4 Pick in 2018 Draft,1610612763,Memphis Grizzlies,Jaren Jackson Jr.,MEM,36.0,30.4,18.6,5.6,1.9,0.9,1.4,2.2,0.484,0.367,0.75,2025.0,Regular Season
+2025,Javon Small,10,G,6-1,190,23.0,R,West Virginia,1642914,#48 Pick in 2025 Draft,1610612763,Memphis Grizzlies,Javon Small,MEM,14.0,12.5,4.3,1.4,3.3,0.3,0.1,1.3,0.339,0.323,0.8,2025.0,Regular Season
+2025,Jaylen Wells,0,F,6-7,0,22.0,1,Washington State,1642377,#39 Pick in 2024 Draft,1610612763,Memphis Grizzlies,Jaylen Wells,MEM,38.0,27.6,12.3,3.6,1.8,0.9,0.1,1.2,0.41,0.33,0.777,2025.0,Regular Season
+2025,Jock Landale,31,C,6-11,255,30.0,4,St. Mary's,1629111,Signed on 07/15/25,1610612763,Memphis Grizzlies,Jock Landale,MEM,36.0,22.5,11.0,6.2,1.7,0.5,0.5,1.0,0.517,0.385,0.658,2025.0,Regular Season
+2025,John Konchar,46,G,6-5,210,29.0,6,Indiana-Purdue Fort Wayne,1629723,Signed on 07/07/19,1610612763,Memphis Grizzlies,John Konchar,MEM,22.0,13.0,3.0,2.7,1.2,0.9,0.3,0.3,0.51,0.321,0.667,2025.0,Regular Season
+2025,Kentavious Caldwell-Pope,3,G,6-5,204,32.0,12,Georgia,203484,Traded from ORL on 06/15/25,1610612763,Memphis Grizzlies,Kentavious Caldwell-Pope,MEM,37.0,21.3,8.4,2.4,3.0,0.8,0.2,1.2,0.409,0.354,0.929,2025.0,Regular Season
+2025,Olivier-Maxence Prosper,18,F,6-7,230,23.0,2,Marquette,1641765,Signed on 09/04/25,1610612763,Memphis Grizzlies,Olivier-Maxence Prosper,MEM,20.0,11.3,4.8,2.3,0.8,0.2,0.1,0.6,0.484,0.318,0.929,2025.0,Regular Season
+2025,Santi Aldama,7,F-C,7-0,215,24.0,4,Loyola-Maryland,1630583,Draft Rights Traded from UTA on 08/07/21,1610612763,Memphis Grizzlies,Santi Aldama,MEM,38.0,27.8,14.0,6.7,3.1,0.9,0.7,1.3,0.47,0.335,0.684,2025.0,Regular Season
+2025,Scotty Pippen Jr.,1,G,6-2,170,25.0,3,Vanderbilt,1630590,Signed on 01/16/24,1610612763,Memphis Grizzlies,,,,,,,,,,,,,,,
+2025,Ty Jerome,2,G-F,6-5,195,28.0,6,Virginia,1629660,Signed on 07/14/25,1610612763,Memphis Grizzlies,,,,,,,,,,,,,,,
+2025,Vince Williams Jr.,5,G,6-4,205,25.0,3,Virginia Commonwealth,1631246,#47 Pick in 2022 Draft,1610612763,Memphis Grizzlies,Vince Williams Jr.,MEM,24.0,21.9,7.9,4.3,4.9,0.8,0.5,2.0,0.359,0.311,0.818,2025.0,Regular Season
+2025,Zach Edey,14,C,7-3,305,23.0,1,Purdue,1641744,#9 Pick in 2024 Draft,1610612763,Memphis Grizzlies,Zach Edey,MEM,11.0,25.8,13.6,11.1,1.1,0.6,1.9,2.4,0.633,0.2,0.781,2025.0,Regular Season
+2025,Andrew Wiggins,22,F,6-6,197,30.0,11,Kansas,203952,Traded from GSW on 02/06/25,1610612748,Miami Heat,Andrew Wiggins,MIA,33.0,31.9,15.9,4.8,2.9,1.2,1.2,1.6,0.47,0.395,0.747,2025.0,Regular Season
+2025,Bam Adebayo,13,C-F,6-9,255,28.0,8,Kentucky,1628389,#14 Pick in 2017 Draft,1610612748,Miami Heat,Bam Adebayo,MIA,29.0,31.0,16.9,9.6,2.6,1.0,0.8,1.9,0.451,0.325,0.764,2025.0,Regular Season
+2025,Davion Mitchell,45,G,6-0,202,27.0,4,Baylor,1630558,Traded from TOR on 02/06/25,1610612748,Miami Heat,Davion Mitchell,MIA,35.0,30.1,9.3,2.5,7.5,1.2,0.1,1.7,0.47,0.379,0.622,2025.0,Regular Season
+2025,Dru Smith,12,G,6-2,203,28.0,3,Missouri,1630696,Signed on 07/01/23,1610612748,Miami Heat,Dru Smith,MIA,37.0,17.2,6.4,2.4,2.6,1.6,0.3,0.9,0.426,0.333,0.821,2025.0,Regular Season
+2025,Jahmir Young,17,G,6-0,185,25.0,1,Maryland,1642443,Signed on 09/11/25,1610612748,Miami Heat,Jahmir Young,MIA,5.0,4.9,2.0,0.4,0.8,0.2,0.0,0.4,0.364,0.4,0.0,2025.0,Regular Season
+2025,Jaime Jaquez Jr.,11,G,6-6,225,24.0,2,UCLA,1631170,#18 Pick in 2023 Draft,1610612748,Miami Heat,Jaime Jaquez Jr.,MIA,34.0,29.1,16.2,5.3,4.7,0.8,0.2,2.1,0.533,0.268,0.748,2025.0,Regular Season
+2025,Kasparas Jakučionis,25,G,6-5,200,19.0,R,Illinois-Urbana-Champaign,1642857,#20 Pick in 2025 Draft,1610612748,Miami Heat,Kasparas Jakučionis,MIA,12.0,14.1,4.3,1.9,1.0,0.7,0.0,0.6,0.333,0.462,1.0,2025.0,Regular Season
+2025,Kel'el Ware,7,C,7-0,230,21.0,1,Indiana,1642276,#15 Pick in 2024 Draft,1610612748,Miami Heat,Kel'el Ware,MIA,37.0,25.1,12.3,10.6,0.6,0.9,1.3,1.0,0.548,0.43,0.815,2025.0,Regular Season
+2025,Keshad Johnson,16,F,6-6,225,24.0,1,Arizona,1642352,Signed on 07/01/24,1610612748,Miami Heat,Keshad Johnson,MIA,15.0,8.7,3.1,2.3,0.1,0.3,0.3,0.4,0.356,0.278,0.692,2025.0,Regular Season
+2025,Myron Gardner,15,F,6-5,220,24.0,R,Arkansas-Little Rock,1642066,Signed on 07/24/25,1610612748,Miami Heat,Myron Gardner,MIA,11.0,4.9,2.4,1.1,0.5,0.4,0.0,0.1,0.45,0.4,1.0,2025.0,Regular Season
+2025,Nikola Jovic,5,F,6-10,205,22.0,3,Mega Basket,1631107,#27 Pick in 2022 Draft,1610612748,Miami Heat,Nikola Jović,MIA,26.0,20.1,9.0,4.0,3.1,0.7,0.4,1.9,0.387,0.298,0.781,2025.0,Regular Season
+2025,Norman Powell,24,G,6-3,215,32.0,10,UCLA,1626181,Traded from LAC on 07/07/25,1610612748,Miami Heat,Norman Powell,MIA,32.0,31.0,24.3,3.7,2.7,1.3,0.2,1.9,0.49,0.423,0.861,2025.0,Regular Season
+2025,Pelle Larsson,9,G,6-5,215,24.0,1,Arizona,1641796,Draft Rights Traded from HOU on 06/27/24,1610612748,Miami Heat,Pelle Larsson,MIA,29.0,22.2,9.4,2.7,3.3,0.6,0.2,1.0,0.459,0.352,0.762,2025.0,Regular Season
+2025,Simone Fontecchio,0,F,6-7,209,30.0,3,Baskonia,1631323,Traded from DET on 07/07/25,1610612748,Miami Heat,Simone Fontecchio,MIA,35.0,16.8,8.3,2.7,1.5,0.4,0.1,0.9,0.385,0.359,0.8,2025.0,Regular Season
+2025,Terry Rozier,2,G,6-1,190,31.0,10,Louisville,1626179,Traded from CHA on 01/23/24,1610612748,Miami Heat,,,,,,,,,,,,,,,
+2025,Tyler Herro,14,G,6-5,195,25.0,6,Kentucky,1629639,#13 Pick in 2019 Draft,1610612748,Miami Heat,Tyler Herro,MIA,7.0,31.4,22.3,5.6,2.4,0.9,0.4,1.3,0.5,0.39,0.929,2025.0,Regular Season
+2025,Vladislav Goldin,50,C,7-0,250,24.0,R,Michigan,1642884,Signed on 07/02/25,1610612748,Miami Heat,Vladislav Goldin,MIA,1.0,0.9,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2025.0,Regular Season
+2025,AJ Green,20,G,6-4,190,26.0,3,Northern Iowa,1631260,Signed on 07/01/22,1610612749,Milwaukee Bucks,AJ Green,MIL,35.0,29.4,10.2,2.6,2.0,0.7,0.1,0.9,0.438,0.431,0.793,2025.0,Regular Season
+2025,Alex Antetokounmpo,29,F,6-8,214,24.0,R,                                   ,1630828,Signed on 09/16/22,1610612749,Milwaukee Bucks,,,,,,,,,,,,,,,
+2025,Amir Coffey,17,G-F,6-7,210,28.0,6,Minnesota,1629599,Signed on 08/19/25,1610612749,Milwaukee Bucks,Amir Coffey,MIL,22.0,7.7,1.5,0.7,0.4,0.0,0.0,0.1,0.423,0.25,1.0,2025.0,Regular Season
+2025,Andre Jackson Jr.,44,G,6-6,209,24.0,2,Connecticut,1641748,Draft Rights Traded from ORL on 06/22/23,1610612749,Milwaukee Bucks,Andre Jackson Jr.,MIL,15.0,6.5,1.5,0.8,1.1,0.3,0.1,0.4,0.292,0.2,0.833,2025.0,Regular Season
+2025,Bobby Portis,9,F,6-9,250,30.0,10,Arkansas,1626171,Signed on 11/24/20,1610612749,Milwaukee Bucks,Bobby Portis,MIL,38.0,23.4,12.9,6.6,1.3,0.5,0.2,1.1,0.484,0.465,0.744,2025.0,Regular Season
+2025,Cole Anthony,50,G,6-2,185,25.0,5,North Carolina,1630175,Signed on 07/16/25,1610612749,Milwaukee Bucks,Cole Anthony,MIL,27.0,15.0,6.5,2.6,3.7,0.6,0.3,1.9,0.428,0.288,0.591,2025.0,Regular Season
+2025,Gary Harris,11,G,6-4,210,31.0,11,Michigan State,203914,Signed on 07/08/25,1610612749,Milwaukee Bucks,Gary Harris,MIL,28.0,14.4,2.6,1.4,1.0,0.6,0.2,0.4,0.482,0.452,1.0,2025.0,Regular Season
+2025,Gary Trent Jr.,5,G,6-5,204,26.0,7,Duke,1629018,Signed on 07/20/24,1610612749,Milwaukee Bucks,Gary Trent Jr.,MIL,36.0,25.5,8.9,1.4,1.6,0.7,0.1,0.6,0.385,0.365,0.818,2025.0,Regular Season
+2025,Giannis Antetokounmpo,34,F,6-11,243,31.0,12,Filathlitikos,203507,#15 Pick in 2013 Draft,1610612749,Milwaukee Bucks,Giannis Antetokounmpo,MIL,24.0,29.0,29.2,9.8,5.5,0.9,0.8,3.3,0.65,0.406,0.656,2025.0,Regular Season
+2025,Jericho Sims,00,C,6-10,250,27.0,4,Texas,1630579,Traded from NYK on 02/06/25,1610612749,Milwaukee Bucks,Jericho Sims,MIL,28.0,14.9,3.2,3.9,0.6,0.2,0.2,1.1,0.837,0.0,0.636,2025.0,Regular Season
+2025,Kevin Porter Jr.,7,G-F,6-5,203,25.0,5,Southern California,1629645,Traded from LAC on 02/06/25,1610612749,Milwaukee Bucks,Kevin Porter Jr.,MIL,19.0,34.5,18.6,5.1,7.7,2.3,0.4,3.3,0.473,0.38,0.843,2025.0,Regular Season
+2025,Kyle Kuzma,18,F,6-8,221,30.0,8,Utah,1628398,Traded from WAS on 02/06/25,1610612749,Milwaukee Bucks,Kyle Kuzma,MIL,36.0,26.1,12.8,4.8,2.3,0.7,0.5,1.7,0.515,0.323,0.752,2025.0,Regular Season
+2025,Myles Turner,3,C-F,6-11,250,29.0,10,Texas,1626167,Signed on 07/06/25,1610612749,Milwaukee Bucks,Myles Turner,MIL,38.0,28.6,12.3,5.3,1.6,0.7,1.6,1.0,0.417,0.38,0.757,2025.0,Regular Season
+2025,Pete Nance,35,F,6-9,225,25.0,2,Northwestern,1631250,Signed on 02/27/25,1610612749,Milwaukee Bucks,Pete Nance,MIL,9.0,3.5,2.0,0.8,0.1,0.0,0.0,0.2,0.5,0.444,0.0,2025.0,Regular Season
+2025,Ryan Rollins,13,G,6-3,180,23.0,3,Toledo,1631157,Signed on 02/20/24,1610612749,Milwaukee Bucks,Ryan Rollins,MIL,38.0,31.7,17.0,4.4,5.6,1.5,0.3,2.3,0.474,0.412,0.774,2025.0,Regular Season
+2025,Taurean Prince,12,F,6-6,218,31.0,9,Baylor,1627752,Signed on 07/09/24,1610612749,Milwaukee Bucks,Taurean Prince,MIL,8.0,21.1,6.1,1.6,1.0,0.8,0.3,0.6,0.447,0.429,1.0,2025.0,Regular Season
+2025,Thanasis Antetokounmpo,43,F,6-7,219,33.0,6,Panathinaikos,203648,Signed on 07/16/19,1610612749,Milwaukee Bucks,Thanasis Antetokounmpo,MIL,11.0,2.6,1.6,0.5,0.0,0.3,0.3,0.1,0.667,0.0,0.667,2025.0,Regular Season
+2025,Anthony Edwards,5,G,6-4,225,24.0,5,Georgia,1630162,#1 Pick in 2020 Draft,1610612750,Minnesota Timberwolves,Anthony Edwards,MIN,31.0,34.8,29.2,5.1,3.8,1.4,0.8,2.9,0.504,0.412,0.798,2025.0,Regular Season
+2025,Bones Hyland,8,G,6-2,169,25.0,4,Virginia Commonwealth,1630538,Signed on 02/27/25,1610612750,Minnesota Timberwolves,Bones Hyland,MIN,29.0,13.5,6.0,1.4,2.4,0.5,0.2,0.8,0.434,0.326,0.75,2025.0,Regular Season
+2025,Donte DiVincenzo,0,G,6-4,203,28.0,7,Villanova,1628978,Traded from NYK on 10/02/24,1610612750,Minnesota Timberwolves,Donte DiVincenzo,MIN,38.0,31.3,13.2,4.4,4.0,1.3,0.4,1.2,0.411,0.373,0.761,2025.0,Regular Season
+2025,Enrique Freeman,25,F,6-9,220,25.0,1,Akron,1642402,Signed on 08/01/25,1610612750,Minnesota Timberwolves,,,,,,,,,,,,,,,
+2025,Jaden McDaniels,3,F,6-9,185,25.0,5,Washington,1630183,Draft Rights Traded from OKC on 11/20/20,1610612750,Minnesota Timberwolves,Jaden McDaniels,MIN,36.0,31.9,14.9,4.5,2.7,1.1,0.9,1.7,0.516,0.424,0.839,2025.0,Regular Season
+2025,Jaylen Clark,22,G,6-5,205,24.0,1,UCLA,1641740,#53 Pick in 2023 Draft,1610612750,Minnesota Timberwolves,Jaylen Clark,MIN,35.0,14.2,4.5,1.9,0.5,0.8,0.2,0.4,0.437,0.309,0.653,2025.0,Regular Season
+2025,Joan Beringer,19,F,6-11,230,19.0,R,Unknown,1642866,#17 Pick in 2025 Draft,1610612750,Minnesota Timberwolves,Joan Beringer,MIN,13.0,4.4,1.8,1.5,0.0,0.1,0.4,0.2,0.647,0.0,0.667,2025.0,Regular Season
+2025,Joe Ingles,7,F-G,6-8,220,38.0,11,Maccabi Tel Aviv,204060,Signed on 07/06/24,1610612750,Minnesota Timberwolves,Joe Ingles,MIN,11.0,3.6,0.2,0.3,0.6,0.3,0.0,0.2,0.25,0.0,0.0,2025.0,Regular Season
+2025,Johnny Juzang,9,G,6-7,226,24.0,3,UCLA,1630548,Signed on 09/15/25,1610612750,Minnesota Timberwolves,Johnny Juzang,MIN,14.0,3.7,2.1,0.7,0.3,0.1,0.0,0.1,0.429,0.278,0.5,2025.0,Regular Season
+2025,Julius Randle,30,F-C,6-9,250,31.0,11,Kentucky,203944,Traded from NYK on 10/02/24,1610612750,Minnesota Timberwolves,Julius Randle,MIN,38.0,33.5,22.3,7.2,5.8,1.1,0.2,2.5,0.49,0.339,0.814,2025.0,Regular Season
+2025,Leonard Miller,33,F,6-10,220,22.0,2,NBA G League Ignite,1631159,Draft Rights Traded from SAS on 06/23/23,1610612750,Minnesota Timberwolves,Leonard Miller,MIN,14.0,4.9,2.6,1.4,0.3,0.2,0.0,0.4,0.571,0.1,0.571,2025.0,Regular Season
+2025,Mike Conley,10,G,6-1,175,38.0,18,Ohio State,201144,Traded from UTA on 02/09/23,1610612750,Minnesota Timberwolves,Mike Conley,MIN,33.0,18.5,4.9,1.8,3.0,0.6,0.2,0.6,0.356,0.347,0.921,2025.0,Regular Season
+2025,Naz Reid,11,C-F,6-9,264,26.0,6,Louisiana State,1629675,Signed on 07/04/19,1610612750,Minnesota Timberwolves,Naz Reid,MIN,38.0,26.3,14.2,6.2,2.4,0.9,0.9,1.5,0.459,0.369,0.797,2025.0,Regular Season
+2025,Rob Dillingham,4,G,6-2,175,21.0,1,Kentucky,1642265,Draft Rights Traded from SAS on 06/26/24,1610612750,Minnesota Timberwolves,Rob Dillingham,MIN,30.0,10.0,3.7,1.2,1.9,0.6,0.1,1.0,0.341,0.345,0.778,2025.0,Regular Season
+2025,Rocco Zikarsky,44,C,7-3,227,19.0,R,Unknown,1642911,Draft Rights Traded from LAL on 07/06/25,1610612750,Minnesota Timberwolves,,,,,,,,,,,,,,,
+2025,Rudy Gobert,27,C,7-1,258,33.0,12,Cholet,203497,Traded from UTA on 07/06/22,1610612750,Minnesota Timberwolves,Rudy Gobert,MIN,38.0,31.8,11.3,11.3,1.8,0.6,1.6,1.4,0.725,0.0,0.535,2025.0,Regular Season
+2025,Terrence Shannon Jr.,1,G-F,6-6,215,25.0,1,Illinois,1630545,#27 Pick in 2024 Draft,1610612750,Minnesota Timberwolves,Terrence Shannon Jr.,MIN,22.0,12.8,4.5,1.3,0.6,0.3,0.0,0.7,0.395,0.405,0.778,2025.0,Regular Season
+2025,Bryce McGowens,11,G,6-6,190,23.0,3,Nebraska,1631121,Signed on 07/30/25,1610612740,New Orleans Pelicans,Bryce McGowens,NOP,25.0,19.7,8.0,2.1,1.4,0.6,0.1,0.6,0.478,0.467,0.75,2025.0,Regular Season
+2025,DeAndre Jordan,9,C,6-11,265,37.0,17,Texas A&M,201599,Signed on 10/23/25,1610612740,New Orleans Pelicans,DeAndre Jordan,NOP,2.0,11.7,4.5,5.0,0.0,0.0,0.0,0.5,0.8,0.0,0.5,2025.0,Regular Season
+2025,Dejounte Murray,5,G,6-4,180,29.0,9,Washington,1627749,Traded from ATL on 07/06/24,1610612740,New Orleans Pelicans,,,,,,,,,,,,,,,
+2025,Derik Queen,22,C,6-9,250,21.0,R,Maryland,1642852,Draft Rights Traded from ATL on 06/25/25,1610612740,New Orleans Pelicans,Derik Queen,NOP,39.0,26.1,12.9,7.5,4.3,1.1,1.0,2.5,0.496,0.179,0.774,2025.0,Regular Season
+2025,Herbert Jones,2,F,6-7,206,27.0,4,Alabama,1630529,#35 Pick in 2021 Draft,1610612740,New Orleans Pelicans,Herbert Jones,NOP,23.0,28.3,9.5,3.7,2.3,1.7,0.3,1.3,0.394,0.333,0.813,2025.0,Regular Season
+2025,Hunter Dickinson,4,C,7-1,255,25.0,R,Kansas,1630621,Signed on 07/03/25,1610612740,New Orleans Pelicans,Hunter Dickinson,NOP,1.0,4.7,2.0,0.0,0.0,0.0,1.0,2.0,0.5,0.0,0.0,2025.0,Regular Season
+2025,Jeremiah Fears,0,G,6-3,190,19.0,R,Oklahoma,1642847,#7 Pick in 2025 Draft,1610612740,New Orleans Pelicans,Jeremiah Fears,NOP,40.0,26.7,14.4,3.6,3.2,1.3,0.2,2.5,0.438,0.328,0.787,2025.0,Regular Season
+2025,Jordan Hawkins,24,G,6-5,190,23.0,2,Connecticut,1641722,#14 Pick in 2023 Draft,1610612740,New Orleans Pelicans,Jordan Hawkins,NOP,30.0,14.0,4.5,1.6,0.7,0.2,0.2,0.6,0.322,0.309,0.765,2025.0,Regular Season
+2025,Jordan Poole,3,G,6-4,194,26.0,6,Michigan,1629673,Traded from WAS on 07/06/25,1610612740,New Orleans Pelicans,Jordan Poole,NOP,21.0,27.1,15.3,1.7,3.4,0.7,0.4,1.9,0.362,0.308,0.915,2025.0,Regular Season
+2025,Jose Alvarado,15,G,6-0,179,27.0,4,Georgia Tech,1630631,Signed on 08/18/21,1610612740,New Orleans Pelicans,Jose Alvarado,NOP,35.0,22.2,7.9,2.8,3.3,1.0,0.1,1.3,0.424,0.361,0.826,2025.0,Regular Season
+2025,Karlo Matkovic,17,F-C,6-10,231,24.0,1,Mega Basket,1631255,#52 Pick in 2022 Draft,1610612740,New Orleans Pelicans,Karlo Matković,NOP,27.0,12.0,4.8,3.3,0.7,0.3,0.7,0.6,0.62,0.37,0.417,2025.0,Regular Season
+2025,Kevon Looney,55,F,6-9,222,29.0,10,UCLA,1626172,Signed on 07/07/25,1610612740,New Orleans Pelicans,Kevon Looney,NOP,16.0,14.2,2.6,5.0,1.6,0.4,0.5,0.5,0.4,0.111,0.625,2025.0,Regular Season
+2025,Micah Peavy,14,G-F,6-7,215,24.0,R,Georgetown,1642877,Draft Rights Traded from WAS on 07/06/25,1610612740,New Orleans Pelicans,Micah Peavy,NOP,34.0,15.6,4.7,2.2,1.1,0.6,0.1,0.3,0.399,0.254,0.733,2025.0,Regular Season
+2025,Saddiq Bey,41,G-F,6-8,215,26.0,5,Villanova,1630180,Traded from WAS on 07/06/25,1610612740,New Orleans Pelicans,Saddiq Bey,NOP,34.0,29.9,15.1,5.9,2.3,0.9,0.1,0.6,0.442,0.318,0.806,2025.0,Regular Season
+2025,Trey Alexander,23,G,6-5,185,22.0,1,Creighton,1641725,Signed on 07/03/25,1610612740,New Orleans Pelicans,Trey Alexander,NOP,5.0,8.3,2.8,0.8,1.0,0.2,0.2,0.2,0.667,0.667,0.0,2025.0,Regular Season
+2025,Trey Murphy III,25,F,6-8,206,25.0,4,Virginia,1630530,Draft Rights Traded from MEM on 08/07/21,1610612740,New Orleans Pelicans,Trey Murphy III,NOP,36.0,35.6,21.7,6.2,3.5,1.6,0.2,1.9,0.497,0.385,0.903,2025.0,Regular Season
+2025,Yves Missi,21,C,6-11,235,21.0,1,Baylor,1642274,#21 Pick in 2024 Draft,1610612740,New Orleans Pelicans,Yves Missi,NOP,32.0,17.7,5.2,5.3,1.2,0.3,1.2,0.8,0.568,0.0,0.558,2025.0,Regular Season
+2025,Zion Williamson,1,F,6-6,284,25.0,6,Duke,1629627,#1 Pick in 2019 Draft,1610612740,New Orleans Pelicans,Zion Williamson,NOP,24.0,28.9,22.8,5.8,3.4,1.2,0.5,2.4,0.574,0.0,0.712,2025.0,Regular Season
+2025,Ariel Hukporti,55,C,7-0,246,23.0,1,Riesen Ludwigsburg,1630574,Draft Rights Traded from DAL on 06/27/24,1610612752,New York Knicks,Ariel Hukporti,NYK,25.0,9.5,1.6,2.8,0.7,0.2,0.6,0.6,0.5,0.0,0.688,2025.0,Regular Season
+2025,Guerschon Yabusele,28,F,6-7,265,30.0,3,"Rouen, France",1627824,Signed on 07/06/25,1610612752,New York Knicks,Guerschon Yabusele,NYK,32.0,9.9,3.3,2.2,0.5,0.1,0.1,0.4,0.413,0.345,0.667,2025.0,Regular Season
+2025,Jalen Brunson,11,G,6-2,190,29.0,7,Villanova,1628973,Signed on 07/12/22,1610612752,New York Knicks,Jalen Brunson,NYK,35.0,35.3,29.0,3.3,6.3,0.7,0.1,2.3,0.479,0.391,0.85,2025.0,Regular Season
+2025,Jordan Clarkson,00,G,6-5,194,33.0,11,Missouri,203903,Signed on 07/07/25,1610612752,New York Knicks,Jordan Clarkson,NYK,38.0,20.2,10.1,1.8,1.4,0.4,0.1,1.1,0.441,0.353,0.796,2025.0,Regular Season
+2025,Josh Hart,3,G,6-5,215,30.0,8,Villanova,1628404,Traded from POR on 02/09/23,1610612752,New York Knicks,Josh Hart,NYK,28.0,30.3,12.3,8.0,5.1,1.4,0.3,2.1,0.498,0.389,0.837,2025.0,Regular Season
+2025,Karl-Anthony Towns,32,C-F,7-0,248,30.0,10,Kentucky,1626157,Traded from MIN on 10/02/24,1610612752,New York Knicks,Karl-Anthony Towns,NYK,35.0,32.5,21.3,11.5,3.0,0.8,0.6,2.6,0.466,0.349,0.868,2025.0,Regular Season
+2025,Kevin McCullar Jr.,9,G,6-6,210,24.0,1,Kansas,1641755,Draft Rights Traded from PHX on 06/27/24,1610612752,New York Knicks,Kevin McCullar Jr.,NYK,10.0,8.6,2.8,2.0,1.5,0.4,0.0,0.8,0.435,0.429,0.4,2025.0,Regular Season
+2025,Landry Shamet,44,G,6-5,190,28.0,7,Wichita State,1629013,Signed on 09/14/24,1610612752,New York Knicks,Landry Shamet,NYK,15.0,20.9,9.3,2.0,1.2,0.4,0.2,0.5,0.452,0.424,0.794,2025.0,Regular Season
+2025,Mikal Bridges,25,G-F,6-6,209,29.0,7,Villanova,1628969,Traded from BKN on 07/06/24,1610612752,New York Knicks,Mikal Bridges,NYK,38.0,34.9,15.9,4.7,4.3,1.6,0.9,1.1,0.507,0.405,0.762,2025.0,Regular Season
+2025,Miles McBride,2,G,6-2,195,25.0,4,West Virginia,1630540,Draft Rights Traded from OKC on 07/30/21,1610612752,New York Knicks,Miles McBride,NYK,27.0,27.5,12.9,2.5,2.4,0.8,0.2,0.7,0.452,0.45,0.853,2025.0,Regular Season
+2025,Mitchell Robinson,23,C-F,7-0,240,27.0,7,Western Kentucky,1629011,#36 Pick in 2018 Draft,1610612752,New York Knicks,Mitchell Robinson,NYK,26.0,19.2,4.5,8.8,1.1,0.8,1.1,0.7,0.658,0.0,0.39,2025.0,Regular Season
+2025,Mohamed Diawara,51,F,6-9,225,20.0,R,Unknown,1642885,Draft Rights Traded from LAC on 06/26/25,1610612752,New York Knicks,Mohamed Diawara,NYK,30.0,5.1,1.9,0.9,0.5,0.3,0.1,0.3,0.4,0.4,0.25,2025.0,Regular Season
+2025,OG Anunoby,8,F-G,6-7,240,28.0,8,Indiana,1628384,Traded from TOR on 12/30/23,1610612752,New York Knicks,OG Anunoby,NYK,28.0,32.6,15.3,5.5,2.1,1.8,0.7,2.1,0.452,0.354,0.816,2025.0,Regular Season
+2025,Pacome Dadiet,4,F,6-9,210,20.0,1,Ratiopharm Ulm,1642359,#25 Pick in 2024 Draft,1610612752,New York Knicks,Pacôme Dadiet,NYK,14.0,3.2,0.4,0.8,0.4,0.1,0.0,0.0,0.125,0.0,1.0,2025.0,Regular Season
+2025,Trey Jemison III,50,C,6-10,270,26.0,2,Alabama-Birmingham,1641998,Signed on 09/16/25,1610612752,New York Knicks,Trey Jemison III,NYK,6.0,6.3,1.2,1.7,0.2,0.0,0.3,0.5,1.0,0.0,1.0,2025.0,Regular Season
+2025,Tyler Kolek,13,G,6-2,195,24.0,1,Marquette,1642278,Draft Rights Traded from POR on 06/27/24,1610612752,New York Knicks,Tyler Kolek,NYK,34.0,13.4,5.1,1.9,2.8,0.4,0.1,1.0,0.44,0.333,0.667,2025.0,Regular Season
+2025,Aaron Wiggins,21,G,6-5,190,27.0,4,Maryland,1630598,#55 Pick in 2021 Draft,1610612760,Oklahoma City Thunder,Aaron Wiggins,OKC,26.0,22.9,10.4,3.1,1.7,0.7,0.7,1.1,0.452,0.39,0.704,2025.0,Regular Season
+2025,Ajay Mitchell,25,G,6-4,190,23.0,1,California-Santa Barbara,1642349,Draft Rights Traded from NYK on 06/27/24,1610612760,Oklahoma City Thunder,Ajay Mitchell,OKC,37.0,26.2,14.2,3.4,3.7,1.5,0.4,1.4,0.476,0.353,0.878,2025.0,Regular Season
+2025,Alex Caruso,9,G,6-5,186,31.0,8,Texas A&M,1627936,Traded from CHI on 06/21/24,1610612760,Oklahoma City Thunder,Alex Caruso,OKC,27.0,18.6,6.0,2.9,2.1,1.4,0.4,0.9,0.421,0.302,0.905,2025.0,Regular Season
+2025,Branden Carlson,15,C,7-0,220,26.0,1,Utah,1642382,Signed on 11/16/24,1610612760,Oklahoma City Thunder,Branden Carlson,OKC,29.0,11.2,5.2,2.6,0.6,0.2,0.5,0.4,0.535,0.358,0.529,2025.0,Regular Season
+2025,Brooks Barnhizer,23,G,6-5,230,23.0,R,Northwestern,1642964,#44 Pick in 2025 Draft,1610612760,Oklahoma City Thunder,Brooks Barnhizer,OKC,21.0,7.6,1.4,1.8,0.4,0.1,0.1,0.1,0.444,0.167,0.667,2025.0,Regular Season
+2025,Cason Wallace,22,G,6-3,195,22.0,2,Kentucky,1641717,Draft Rights Traded from DAL on 07/06/23,1610612760,Oklahoma City Thunder,Cason Wallace,OKC,37.0,27.0,7.5,3.1,2.1,2.1,0.2,0.9,0.413,0.352,0.8,2025.0,Regular Season
+2025,Chet Holmgren,7,C-F,7-1,208,23.0,2,Gonzaga,1631096,#2 Pick in 2022 Draft,1610612760,Oklahoma City Thunder,Chet Holmgren,OKC,33.0,29.0,18.2,8.3,1.6,0.6,1.8,1.8,0.575,0.377,0.777,2025.0,Regular Season
+2025,Chris Youngblood,3,G,6-4,0,23.0,R,Alabama,1642959,Signed on 09/26/25,1610612760,Oklahoma City Thunder,Chris Youngblood,OKC,26.0,5.3,1.8,0.8,0.3,0.1,0.0,0.0,0.318,0.308,1.0,2025.0,Regular Season
+2025,Isaiah Hartenstein,55,C-F,7-0,250,27.0,7,Zalgiris,1628392,Signed on 07/06/24,1610612760,Oklahoma City Thunder,Isaiah Hartenstein,OKC,24.0,26.9,11.2,10.4,3.0,1.1,0.8,2.1,0.644,0.0,0.649,2025.0,Regular Season
+2025,Isaiah Joe,11,G,6-4,165,26.0,5,Arkansas,1630198,Signed on 10/16/22,1610612760,Oklahoma City Thunder,Isaiah Joe,OKC,30.0,19.8,9.7,2.5,1.4,0.5,0.2,0.7,0.425,0.396,0.904,2025.0,Regular Season
+2025,Jalen Williams,8,G-F,6-5,211,24.0,3,Santa Clara,1631114,#12 Pick in 2022 Draft,1610612760,Oklahoma City Thunder,Jalen Williams,OKC,20.0,30.3,17.6,5.2,5.8,1.4,0.4,2.0,0.462,0.286,0.846,2025.0,Regular Season
+2025,Jaylin Williams,6,F,6-9,240,23.0,3,Arkansas,1631119,#34 Pick in 2022 Draft,1610612760,Oklahoma City Thunder,Jaylin Williams,OKC,25.0,18.3,5.5,4.7,2.4,0.7,0.5,1.0,0.355,0.294,0.655,2025.0,Regular Season
+2025,Kenrich Williams,34,G-F,6-7,210,31.0,7,TCU,1629026,Traded from NOP on 11/23/20,1610612760,Oklahoma City Thunder,Kenrich Williams,OKC,19.0,14.2,5.9,2.9,1.6,0.7,0.1,0.5,0.523,0.405,0.462,2025.0,Regular Season
+2025,Luguentz Dort,5,G,6-4,220,26.0,6,Arizona State,1629652,Signed on 07/06/19,1610612760,Oklahoma City Thunder,Luguentz Dort,OKC,30.0,27.2,8.4,3.7,1.1,0.9,0.6,0.6,0.384,0.326,0.905,2025.0,Regular Season
+2025,Nikola Topic,44,G,6-6,200,20.0,R,Crvena zvezda,1642260,#12 Pick in 2024 Draft,1610612760,Oklahoma City Thunder,,,,,,,,,,,,,,,
+2025,Ousmane Dieng,13,F,6-9,185,22.0,3,New Zealand Breakers,1631172,Draft Rights Traded from NYK on 06/23/22,1610612760,Oklahoma City Thunder,Ousmane Dieng,OKC,18.0,12.2,4.3,1.7,0.9,0.1,0.3,0.3,0.452,0.455,1.0,2025.0,Regular Season
+2025,Shai Gilgeous-Alexander,2,G,6-6,195,27.0,7,Kentucky,1628983,Traded from LAC on 07/10/19,1610612760,Oklahoma City Thunder,Shai Gilgeous-Alexander,OKC,37.0,33.3,31.9,4.5,6.4,1.4,0.7,1.9,0.548,0.398,0.891,2025.0,Regular Season
+2025,Thomas Sorber,12,C,6-9,250,20.0,R,Georgetown,1642850,#15 Pick in 2025 Draft,1610612760,Oklahoma City Thunder,,,,,,,,,,,,,,,
+2025,Anthony Black,0,G,6-7,200,21.0,2,Arkansas,1641710,#6 Pick in 2023 Draft,1610612753,Orlando Magic,Anthony Black,ORL,39.0,30.1,15.4,4.1,3.8,1.3,0.7,2.4,0.456,0.341,0.723,2025.0,Regular Season
+2025,Colin Castleton,14,C,6-10,250,25.0,2,Florida,1630658,Signed on 08/22/25,1610612753,Orlando Magic,,,,,,,,,,,,,,,
+2025,Desmond Bane,3,G,6-6,215,27.0,5,TCU,1630217,Traded from MEM on 06/15/25,1610612753,Orlando Magic,Desmond Bane,ORL,39.0,33.8,19.0,4.5,4.5,0.8,0.5,2.2,0.451,0.34,0.925,2025.0,Regular Season
+2025,Franz Wagner,22,F,6-10,220,24.0,4,Michigan,1630532,#8 Pick in 2021 Draft,1610612753,Orlando Magic,Franz Wagner,ORL,24.0,33.4,22.7,6.1,3.7,1.2,0.4,1.8,0.49,0.36,0.823,2025.0,Regular Season
+2025,Goga Bitadze,35,C-F,6-11,250,26.0,6,Mega Basket,1629048,Signed on 02/13/23,1610612753,Orlando Magic,Goga Bitadze,ORL,35.0,16.6,5.9,5.1,1.3,0.8,1.2,0.6,0.689,0.222,0.735,2025.0,Regular Season
+2025,Jalen Suggs,4,G,6-5,205,24.0,4,Gonzaga,1630591,#5 Pick in 2021 Draft,1610612753,Orlando Magic,Jalen Suggs,ORL,23.0,25.4,15.0,3.7,4.7,1.9,0.5,2.7,0.471,0.331,0.857,2025.0,Regular Season
+2025,Jamal Cain,8,F,6-7,191,26.0,3,Oakland,1631288,Signed on 07/25/25,1610612753,Orlando Magic,Jamal Cain,ORL,15.0,7.7,3.1,0.9,0.3,0.3,0.1,0.3,0.371,0.278,0.833,2025.0,Regular Season
+2025,Jase Richardson,11,G,6-1,180,20.0,R,Michigan State,1642859,#25 Pick in 2025 Draft,1610612753,Orlando Magic,Jase Richardson,ORL,27.0,11.9,6.0,1.4,1.3,0.3,0.1,0.6,0.508,0.426,0.7,2025.0,Regular Season
+2025,Jett Howard,13,G,6-8,215,22.0,2,Michigan,1641724,#11 Pick in 2023 Draft,1610612753,Orlando Magic,Jett Howard,ORL,27.0,10.7,4.6,1.4,0.9,0.1,0.1,0.2,0.368,0.329,0.938,2025.0,Regular Season
+2025,Jonathan Isaac,1,F,6-10,230,28.0,8,Florida State,1628371,#6 Pick in 2017 Draft,1610612753,Orlando Magic,Jonathan Isaac,ORL,33.0,10.4,3.1,2.8,0.2,0.4,0.5,0.3,0.455,0.2,0.605,2025.0,Regular Season
+2025,Moritz Wagner,21,F-C,6-11,245,28.0,7,Michigan,1629021,Signed on 04/27/21,1610612753,Orlando Magic,,,,,,,,,,,,,,,
+2025,Noah Penda,93,G-F,6-7,215,21.0,R,Unknown,1642869,Draft Rights Traded from BOS on 06/26/25,1610612753,Orlando Magic,Noah Penda,ORL,24.0,13.0,4.6,4.0,1.1,0.5,0.5,0.8,0.447,0.429,0.522,2025.0,Regular Season
+2025,Orlando Robinson,7,C,6-10,235,25.0,3,Fresno State,1631115,Signed on 07/21/25,1610612753,Orlando Magic,Orlando Robinson,ORL,4.0,6.2,1.8,1.0,0.8,0.3,0.0,0.0,0.6,0.5,0.0,2025.0,Regular Season
+2025,Paolo Banchero,5,F,6-10,250,23.0,3,Duke,1631094,#1 Pick in 2022 Draft,1610612753,Orlando Magic,Paolo Banchero,ORL,29.0,33.5,20.8,8.7,4.8,0.6,0.7,2.8,0.454,0.257,0.749,2025.0,Regular Season
+2025,Tristan da Silva,23,F,6-8,217,24.0,1,Colorado,1641783,#18 Pick in 2024 Draft,1610612753,Orlando Magic,Tristan da Silva,ORL,34.0,23.4,9.6,3.7,1.2,0.8,0.2,0.9,0.448,0.381,0.813,2025.0,Regular Season
+2025,Tyus Jones,2,G,6-0,196,29.0,10,Duke,1626145,Signed on 07/06/25,1610612753,Orlando Magic,Tyus Jones,ORL,39.0,16.6,3.2,1.1,2.5,0.8,0.1,0.3,0.356,0.299,1.0,2025.0,Regular Season
+2025,Wendell Carter Jr.,34,C-F,6-10,270,26.0,7,Duke,1628976,Traded from CHI on 03/25/21,1610612753,Orlando Magic,Wendell Carter Jr.,ORL,38.0,30.3,12.4,7.7,2.1,0.7,0.7,1.3,0.512,0.352,0.758,2025.0,Regular Season
+2025,Adem Bona,30,F,6-10,235,22.0,1,UCLA,1641737,#41 Pick in 2024 Draft,1610612755,Philadelphia 76ers,Adem Bona,PHI,27.0,16.7,3.9,3.9,0.3,0.3,1.4,0.6,0.569,0.4,0.638,2025.0,Regular Season
+2025,Andre Drummond,1,C,6-11,279,32.0,13,Connecticut,203083,Signed on 07/07/24,1610612755,Philadelphia 76ers,Andre Drummond,PHI,32.0,20.2,7.3,8.9,0.8,0.6,0.9,0.8,0.514,0.405,0.635,2025.0,Regular Season
+2025,Dominick Barlow,25,F,6-9,215,22.0,3,Overtime Elite,1631230,Signed on 07/09/25,1610612755,Philadelphia 76ers,Dominick Barlow,PHI,26.0,24.9,8.5,5.2,1.5,0.8,0.7,1.0,0.543,0.262,0.778,2025.0,Regular Season
+2025,Eric Gordon,23,G,6-3,215,37.0,17,Indiana,201569,Signed on 07/10/24,1610612755,Philadelphia 76ers,Eric Gordon,PHI,6.0,12.3,5.5,0.3,0.5,0.7,0.2,0.5,0.571,0.571,0.5,2025.0,Regular Season
+2025,Jabari Walker,33,F,6-7,237,23.0,3,Colorado,1631133,Signed on 07/05/25,1610612755,Philadelphia 76ers,Jabari Walker,PHI,34.0,12.6,4.0,3.3,0.5,0.2,0.3,0.4,0.435,0.279,0.75,2025.0,Regular Season
+2025,Jared McCain,20,G,6-3,195,21.0,1,Duke,1642272,#16 Pick in 2024 Draft,1610612755,Philadelphia 76ers,Jared McCain,PHI,27.0,18.3,6.6,2.4,1.7,0.8,0.0,0.9,0.348,0.319,0.857,2025.0,Regular Season
+2025,Joel Embiid,21,C-F,7-0,280,31.0,9,Kansas,203954,#3 Pick in 2014 Draft,1610612755,Philadelphia 76ers,Joel Embiid,PHI,19.0,29.2,23.5,7.1,3.3,0.6,1.3,2.8,0.469,0.234,0.839,2025.0,Regular Season
+2025,Johni Broome,22,F,6-10,235,23.0,R,Auburn,1641780,#35 Pick in 2025 Draft,1610612755,Philadelphia 76ers,Johni Broome,PHI,7.0,5.7,1.4,1.9,0.6,0.3,0.0,0.3,0.2,0.0,0.5,2025.0,Regular Season
+2025,Justin Edwards,11,F,6-7,203,22.0,1,Kentucky,1642348,Signed on 07/04/24,1610612755,Philadelphia 76ers,Justin Edwards,PHI,29.0,15.6,5.1,1.7,1.2,0.7,0.2,0.7,0.364,0.33,0.882,2025.0,Regular Season
+2025,Kelly Oubre Jr.,9,F-G,6-8,203,30.0,10,Kansas,1626162,Signed on 09/26/23,1610612755,Philadelphia 76ers,Kelly Oubre Jr.,PHI,14.0,32.3,14.5,5.0,1.2,1.1,0.8,1.4,0.475,0.324,0.789,2025.0,Regular Season
+2025,Kyle Lowry,7,G,6-0,196,39.0,19,Villanova,200768,Signed on 02/13/24,1610612755,Philadelphia 76ers,Kyle Lowry,PHI,5.0,8.5,1.2,0.6,1.4,0.2,0.0,0.4,0.4,0.4,0.0,2025.0,Regular Season
+2025,MarJon Beauchamp,0,F,6-7,199,25.0,3,NBA G League Ignite,1630699,Signed on 10/14/25,1610612755,Philadelphia 76ers,,,,,,,,,,,,,,,
+2025,Paul George,8,F,6-8,220,35.0,15,Fresno State,202331,Signed on 07/06/24,1610612755,Philadelphia 76ers,Paul George,PHI,20.0,29.9,16.0,5.4,3.5,1.4,0.6,1.9,0.412,0.377,0.875,2025.0,Regular Season
+2025,Quentin Grimes,5,G,6-4,210,25.0,4,Houston,1629656,Traded from DAL on 02/04/25,1610612755,Philadelphia 76ers,Quentin Grimes,PHI,34.0,32.3,14.5,3.8,4.0,1.0,0.5,2.1,0.437,0.362,0.872,2025.0,Regular Season
+2025,Trendon Watford,12,G-F,6-8,237,25.0,4,Louisiana State,1630570,Signed on 07/02/25,1610612755,Philadelphia 76ers,Trendon Watford,PHI,15.0,19.4,8.3,4.3,3.5,0.4,0.2,1.4,0.534,0.389,0.8,2025.0,Regular Season
+2025,Tyrese Maxey,0,G,6-2,200,25.0,5,Kentucky,1630178,#21 Pick in 2020 Draft,1610612755,Philadelphia 76ers,Tyrese Maxey,PHI,34.0,39.6,30.7,4.5,6.9,1.9,0.9,2.6,0.476,0.404,0.874,2025.0,Regular Season
+2025,VJ Edgecombe,77,G,6-4,180,20.0,R,Baylor,1642845,#3 Pick in 2025 Draft,1610612755,Philadelphia 76ers,VJ Edgecombe,PHI,32.0,35.9,16.1,5.5,4.3,1.6,0.5,1.7,0.428,0.374,0.787,2025.0,Regular Season
+2025,Collin Gillespie,12,G,6-1,195,26.0,2,Villanova,1631221,Signed on 07/02/24,1610612756,Phoenix Suns,Collin Gillespie,PHX,38.0,28.0,13.4,4.1,4.9,1.4,0.3,1.8,0.439,0.417,0.857,2025.0,Regular Season
+2025,Devin Booker,1,G,6-5,206,29.0,10,Kentucky,1626164,#13 Pick in 2015 Draft,1610612756,Phoenix Suns,Devin Booker,PHX,35.0,34.1,25.5,3.9,6.4,0.9,0.3,3.3,0.46,0.307,0.853,2025.0,Regular Season
+2025,Dillon Brooks,3,G-F,6-7,225,29.0,8,Oregon,1628415,Traded from HOU on 07/06/25,1610612756,Phoenix Suns,Dillon Brooks,PHX,32.0,30.9,21.3,3.4,1.8,1.2,0.1,2.0,0.459,0.351,0.846,2025.0,Regular Season
+2025,Grayson Allen,8,G,6-3,198,30.0,7,Duke,1628960,Traded from MIL on 09/27/23,1610612756,Phoenix Suns,Grayson Allen,PHX,21.0,29.9,15.4,2.6,3.9,1.7,0.2,1.8,0.418,0.375,0.824,2025.0,Regular Season
+2025,Isaiah Livers,18,F,6-6,232,27.0,3,Michigan,1630587,Signed on 07/08/25,1610612756,Phoenix Suns,Isaiah Livers,PHX,19.0,10.7,2.0,2.0,0.7,0.4,0.3,0.5,0.324,0.321,0.833,2025.0,Regular Season
+2025,Jalen Green,4,G,6-4,186,23.0,4,NBA G League Ignite,1630224,Traded from HOU on 07/06/25,1610612756,Phoenix Suns,Jalen Green,PHX,2.0,14.9,15.5,2.0,2.0,1.0,0.0,1.0,0.478,0.429,0.6,2025.0,Regular Season
+2025,Jamaree Bouyea,17,G,6-2,180,26.0,3,San Francisco,1631123,Signed on 11/18/25,1610612756,Phoenix Suns,Jamaree Bouyea,PHX,19.0,14.7,7.6,2.1,1.7,0.6,0.4,0.4,0.562,0.41,0.688,2025.0,Regular Season
+2025,Jordan Goodwin,23,G,6-3,215,27.0,4,St. Louis,1630692,Awarded on Waivers on 07/23/25,1610612756,Phoenix Suns,Jordan Goodwin,PHX,35.0,21.7,9.3,4.6,2.2,1.4,0.2,1.1,0.403,0.354,0.759,2025.0,Regular Season
+2025,Khaman Maluach,10,C,7-1,250,19.0,R,Duke,1642863,Draft Rights Traded from HOU on 07/06/25,1610612756,Phoenix Suns,Khaman Maluach,PHX,17.0,4.6,1.4,1.0,0.2,0.1,0.4,0.5,0.421,0.0,0.875,2025.0,Regular Season
+2025,Koby Brea,14,G,6-5,215,23.0,R,Kentucky,1642886,Draft Rights Traded from GSW on 07/06/25,1610612756,Phoenix Suns,Koby Brea,PHX,2.0,3.9,2.0,0.5,1.0,0.0,0.0,0.0,0.333,0.0,1.0,2025.0,Regular Season
+2025,Mark Williams,15,C,7-1,240,24.0,3,Duke,1631109,Traded from CHA on 06/30/25,1610612756,Phoenix Suns,Mark Williams,PHX,33.0,23.8,12.3,8.2,1.0,1.1,0.9,1.0,0.657,1.0,0.791,2025.0,Regular Season
+2025,Nick Richards,2,C,6-11,245,28.0,5,Kentucky,1630208,Traded from CHA on 01/15/25,1610612756,Phoenix Suns,Nick Richards,PHX,27.0,9.4,3.3,3.4,0.3,0.1,0.5,0.9,0.493,0.0,0.679,2025.0,Regular Season
+2025,Nigel Hayes-Davis,21,F,6-7,254,31.0,1,Wisconsin,1628502,Signed on 07/09/25,1610612756,Phoenix Suns,Nigel Hayes-Davis,PHX,22.0,8.0,1.4,1.3,0.3,0.3,0.0,0.3,0.333,0.133,0.5,2025.0,Regular Season
+2025,Oso Ighodaro,11,F,6-11,235,23.0,1,Marquette,1642345,Draft Rights Traded from NYK on 06/27/24,1610612756,Phoenix Suns,Oso Ighodaro,PHX,38.0,19.6,5.2,4.4,1.8,0.9,0.5,1.2,0.615,0.0,0.467,2025.0,Regular Season
+2025,Rasheer Fleming,20,F,6-9,240,21.0,R,St. Joseph's (PA),1642853,Draft Rights Traded from MIN on 07/06/25,1610612756,Phoenix Suns,Rasheer Fleming,PHX,22.0,6.9,2.7,1.3,0.1,0.2,0.3,0.1,0.361,0.229,0.778,2025.0,Regular Season
+2025,Royce O'Neale,00,F,6-6,226,32.0,8,Baylor,1626220,Traded from BKN on 02/08/24,1610612756,Phoenix Suns,Royce O'Neale,PHX,38.0,29.5,10.3,5.1,2.8,1.2,0.3,1.4,0.429,0.42,0.615,2025.0,Regular Season
+2025,Ryan Dunn,0,F,6-7,216,23.0,1,Virginia,1642346,Draft Rights Traded from DEN on 06/26/24,1610612756,Phoenix Suns,Ryan Dunn,PHX,31.0,21.9,6.8,4.8,1.8,1.1,0.5,1.2,0.442,0.301,0.692,2025.0,Regular Season
+2025,Blake Wesley,1,G,6-4,190,22.0,3,Notre Dame,1631104,Signed on 07/21/25,1610612757,Portland Trail Blazers,Blake Wesley,POR,6.0,16.3,6.0,2.3,3.2,1.7,0.2,1.2,0.412,0.2,0.6,2025.0,Regular Season
+2025,Caleb Love,2,G,6-3,212,24.0,R,Arizona,1631126,Signed on 07/01/25,1610612757,Portland Trail Blazers,Caleb Love,POR,31.0,20.9,10.3,2.7,2.2,0.4,0.1,1.0,0.387,0.328,0.758,2025.0,Regular Season
+2025,Damian Lillard,0,G,6-2,200,35.0,13,Weber State,203081,Signed on 07/19/25,1610612757,Portland Trail Blazers,,,,,,,,,,,,,,,
+2025,Deni Avdija,8,F,6-8,228,25.0,5,Maccabi Tel Aviv,1630166,Traded from WAS on 07/06/24,1610612757,Portland Trail Blazers,Deni Avdija,POR,39.0,35.3,26.1,7.1,7.0,0.8,0.6,3.9,0.467,0.358,0.801,2025.0,Regular Season
+2025,Donovan Clingan,23,C,7-2,280,21.0,1,Connecticut,1642270,#7 Pick in 2024 Draft,1610612757,Portland Trail Blazers,Donovan Clingan,POR,35.0,27.2,11.1,10.8,1.9,0.5,1.4,0.9,0.539,0.33,0.646,2025.0,Regular Season
+2025,Duop Reath,26,C,6-9,245,29.0,2,Louisiana State,1641871,Signed on 10/02/23,1610612757,Portland Trail Blazers,Duop Reath,POR,28.0,7.5,2.8,1.0,0.3,0.2,0.2,0.3,0.459,0.455,0.667,2025.0,Regular Season
+2025,Javonte Cooke,18,G,6-6,185,26.0,R,Winston-Salem,1631451,Signed on 09/30/25,1610612757,Portland Trail Blazers,Javonte Cooke,POR,5.0,6.1,1.4,0.6,1.0,0.2,0.0,0.8,0.25,0.2,0.0,2025.0,Regular Season
+2025,Jerami Grant,9,F,6-7,213,31.0,11,Syracuse,203924,Traded from DET on 07/06/22,1610612757,Portland Trail Blazers,Jerami Grant,POR,26.0,30.4,20.0,4.0,2.7,0.7,0.6,2.2,0.436,0.389,0.866,2025.0,Regular Season
+2025,Jrue Holiday,5,G,6-4,220,35.0,16,UCLA,201950,Traded from BOS on 07/07/25,1610612757,Portland Trail Blazers,Jrue Holiday,POR,12.0,33.4,16.7,5.3,8.3,1.6,0.3,2.9,0.446,0.365,0.84,2025.0,Regular Season
+2025,Kris Murray,24,F,6-8,218,25.0,2,Iowa,1631200,#23 Pick in 2023 Draft,1610612757,Portland Trail Blazers,Kris Murray,POR,34.0,25.7,6.1,4.0,1.2,1.2,0.4,0.9,0.446,0.256,0.738,2025.0,Regular Season
+2025,Matisse Thybulle,4,G-F,6-5,202,28.0,6,Washington,1629680,Traded from PHI on 02/09/23,1610612757,Portland Trail Blazers,Matisse Thybulle,POR,4.0,12.2,5.0,1.0,0.8,2.5,0.0,0.3,0.6,0.667,1.0,2025.0,Regular Season
+2025,Rayan Rupert,21,G-F,6-7,205,21.0,2,New Zealand Breakers,1641712,#43 Pick in 2023 Draft,1610612757,Portland Trail Blazers,Rayan Rupert,POR,32.0,10.6,2.2,1.7,0.6,0.3,0.1,0.3,0.337,0.25,0.5,2025.0,Regular Season
+2025,Robert Williams III,35,C-F,6-9,249,28.0,7,Texas A&M,1629057,Traded from BOS on 10/01/23,1610612757,Portland Trail Blazers,Robert Williams III,POR,26.0,15.7,5.5,6.0,1.0,0.6,1.2,0.5,0.691,0.111,0.684,2025.0,Regular Season
+2025,Scoot Henderson,00,G,6-3,207,21.0,2,NBA G League Ignite,1630703,#3 Pick in 2023 Draft,1610612757,Portland Trail Blazers,,,,,,,,,,,,,,,
+2025,Shaedon Sharpe,17,G,6-5,210,22.0,3,Kentucky,1631101,#7 Pick in 2022 Draft,1610612757,Portland Trail Blazers,Shaedon Sharpe,POR,35.0,29.7,21.5,4.4,2.6,1.5,0.1,2.9,0.446,0.335,0.776,2025.0,Regular Season
+2025,Sidy Cissoko,91,G,6-6,220,21.0,2,NBA G League Ignite,1631321,Signed on 02/08/25,1610612757,Portland Trail Blazers,Sidy Cissoko,POR,34.0,20.5,6.1,2.1,1.5,0.7,0.3,1.1,0.397,0.339,0.723,2025.0,Regular Season
+2025,Toumani Camara,33,F,6-7,230,25.0,2,Dayton,1641739,Traded from PHX on 09/27/23,1610612757,Portland Trail Blazers,Toumani Camara,POR,39.0,33.8,13.2,5.2,2.7,1.1,0.4,2.1,0.423,0.353,0.69,2025.0,Regular Season
+2025,Yang Hansen,16,C,7-1,270,20.0,R,Unknown,1642905,Draft Rights Traded from MEM on 06/25/25,1610612757,Portland Trail Blazers,Yang Hansen,POR,22.0,8.4,2.5,1.8,0.8,0.0,0.4,0.8,0.29,0.143,0.938,2025.0,Regular Season
+2025,Daeqwon Plowden,29,G-F,6-4,216,27.0,1,Bowling Green,1631342,Signed on 07/30/25,1610612758,Sacramento Kings,Daeqwon Plowden,SAC,1.0,14.0,2.0,2.0,0.0,0.0,0.0,0.0,0.2,0.0,0.0,2025.0,Regular Season
+2025,Dario Saric,20,F-C,6-10,225,31.0,9,Anadolu Efes,203967,Traded from DEN on 07/13/25,1610612758,Sacramento Kings,Dario Šarić,SAC,5.0,8.2,1.0,1.2,0.4,0.0,0.0,0.4,0.167,0.333,1.0,2025.0,Regular Season
+2025,DeMar DeRozan,10,G-F,6-6,220,36.0,16,Southern California,201942,Traded from CHI on 07/08/24,1610612758,Sacramento Kings,DeMar DeRozan,SAC,38.0,33.1,18.5,3.4,3.8,1.4,0.3,1.1,0.499,0.36,0.874,2025.0,Regular Season
+2025,Dennis Schroder,17,G,6-1,175,32.0,12,Braunschweig,203471,Traded from DET on 07/07/25,1610612758,Sacramento Kings,Dennis Schröder,SAC,31.0,27.3,13.0,3.3,5.7,0.8,0.2,1.9,0.413,0.344,0.818,2025.0,Regular Season
+2025,Devin Carter,22,G,6-2,195,23.0,1,Providence,1642269,#13 Pick in 2024 Draft,1610612758,Sacramento Kings,Devin Carter,SAC,12.0,8.4,3.2,1.2,1.1,0.5,0.2,0.7,0.342,0.25,1.0,2025.0,Regular Season
+2025,Domantas Sabonis,11,F-C,6-10,240,29.0,9,Gonzaga,1627734,Traded from IND on 02/08/22,1610612758,Sacramento Kings,Domantas Sabonis,SAC,11.0,33.2,17.2,12.3,3.7,1.2,0.2,2.5,0.51,0.2,0.725,2025.0,Regular Season
+2025,Doug McDermott,7,F,6-7,225,34.0,11,Creighton,203926,Signed on 10/16/24,1610612758,Sacramento Kings,Doug McDermott,SAC,7.0,10.0,3.4,0.7,0.3,0.0,0.1,0.4,0.348,0.348,0.0,2025.0,Regular Season
+2025,Drew Eubanks,19,F-C,6-10,245,28.0,7,Oregon State,1629234,Signed on 07/08/25,1610612758,Sacramento Kings,Drew Eubanks,SAC,29.0,14.2,5.3,2.8,0.3,0.4,0.7,0.9,0.625,0.333,0.558,2025.0,Regular Season
+2025,Dylan Cardwell,32,C,6-10,255,24.0,R,Auburn,1642928,Signed on 07/02/25,1610612758,Sacramento Kings,Dylan Cardwell,SAC,11.0,17.6,4.1,5.6,0.9,0.8,1.6,0.7,0.548,0.0,0.55,2025.0,Regular Season
+2025,Isaiah Stevens,24,G,5-11,185,25.0,1,Colorado State,1641815,Signed on 07/08/25,1610612758,Sacramento Kings,,,,,,,,,,,,,,,
+2025,Keegan Murray,13,F,6-8,225,25.0,3,Iowa,1631099,#4 Pick in 2022 Draft,1610612758,Sacramento Kings,Keegan Murray,SAC,19.0,35.9,14.6,6.1,1.5,1.2,1.6,1.2,0.429,0.272,0.789,2025.0,Regular Season
+2025,Keon Ellis,23,G,6-4,175,26.0,3,Alabama,1631165,Signed on 07/02/22,1610612758,Sacramento Kings,Keon Ellis,SAC,36.0,18.1,5.6,1.4,0.6,1.2,0.5,0.5,0.383,0.355,0.633,2025.0,Regular Season
+2025,Malik Monk,0,G,6-3,200,27.0,8,Kentucky,1628370,Signed on 07/06/22,1610612758,Sacramento Kings,Malik Monk,SAC,30.0,21.5,11.3,2.0,2.2,0.8,0.4,1.3,0.427,0.395,0.824,2025.0,Regular Season
+2025,Maxime Raynaud,42,C,7-1,250,22.0,R,Stanford,1642875,#42 Pick in 2025 Draft,1610612758,Sacramento Kings,Maxime Raynaud,SAC,30.0,23.4,10.4,6.5,1.1,0.4,0.6,1.0,0.557,0.304,0.719,2025.0,Regular Season
+2025,Nique Clifford,5,G,6-5,175,23.0,R,Colorado State,1642363,Draft Rights Traded from OKC on 06/25/25,1610612758,Sacramento Kings,Nique Clifford,SAC,34.0,18.7,5.5,2.8,1.3,0.6,0.3,1.1,0.407,0.325,0.71,2025.0,Regular Season
+2025,Precious Achiuwa,9,F,6-8,243,26.0,5,Memphis,1630173,Signed on 11/04/25,1610612758,Sacramento Kings,Precious Achiuwa,SAC,31.0,19.3,7.0,5.2,1.1,0.8,0.5,0.5,0.486,0.323,0.491,2025.0,Regular Season
+2025,Russell Westbrook,18,G,6-4,200,37.0,17,UCLA,201566,Signed on 10/16/25,1610612758,Sacramento Kings,Russell Westbrook,SAC,38.0,29.0,14.5,6.5,6.8,1.4,0.2,3.3,0.419,0.335,0.682,2025.0,Regular Season
+2025,Zach LaVine,8,G,6-5,200,30.0,11,UCLA,203897,Traded from CHI on 02/03/25,1610612758,Sacramento Kings,Zach LaVine,SAC,26.0,33.0,20.0,3.0,2.4,0.7,0.2,2.1,0.483,0.376,0.879,2025.0,Regular Season
+2025,Bismack Biyombo,18,C,6-8,255,33.0,14,Baloncesto Fuenlabrada,202687,Signed on 02/09/25,1610612759,San Antonio Spurs,Bismack Biyombo,SAS,11.0,5.9,0.8,0.6,0.3,0.3,0.1,0.3,0.667,0.0,0.5,2025.0,Regular Season
+2025,Carter Bryant,11,F,6-6,220,20.0,R,Arizona,1642868,#14 Pick in 2025 Draft,1610612759,San Antonio Spurs,Carter Bryant,SAS,29.0,7.6,2.1,1.6,0.2,0.1,0.1,0.3,0.319,0.256,0.75,2025.0,Regular Season
+2025,David Jones Garcia,25,G,6-4,210,24.0,R,Memphis,1642357,Signed on 07/23/25,1610612759,San Antonio Spurs,David Jones Garcia,SAS,11.0,6.2,2.9,1.2,1.6,0.5,0.1,0.5,0.52,0.6,0.5,2025.0,Regular Season
+2025,De'Aaron Fox,4,G,6-3,185,28.0,8,Kentucky,1628368,Traded from SAC on 02/03/25,1610612759,San Antonio Spurs,De'Aaron Fox,SAS,28.0,32.4,21.0,3.9,5.9,1.4,0.3,2.5,0.467,0.341,0.805,2025.0,Regular Season
+2025,Devin Vassell,24,G-F,6-5,200,25.0,5,Florida State,1630170,#11 Pick in 2020 Draft,1610612759,San Antonio Spurs,Devin Vassell,SAS,32.0,31.9,15.0,4.0,2.4,0.9,0.5,0.9,0.422,0.379,0.868,2025.0,Regular Season
+2025,Dylan Harper,2,G,6-5,215,19.0,R,Rutgers,1642844,#2 Pick in 2025 Draft,1610612759,San Antonio Spurs,Dylan Harper,SAS,27.0,21.4,11.0,3.2,3.7,1.1,0.2,1.5,0.437,0.25,0.721,2025.0,Regular Season
+2025,Harrison Barnes,40,F,6-7,225,33.0,13,North Carolina,203084,Traded from SAC on 07/08/24,1610612759,San Antonio Spurs,Harrison Barnes,SAS,37.0,29.0,11.6,3.2,2.1,0.8,0.1,1.0,0.445,0.373,0.878,2025.0,Regular Season
+2025,Harrison Ingram,55,F,6-5,230,23.0,1,North Carolina,1631127,#48 Pick in 2024 Draft,1610612759,San Antonio Spurs,Harrison Ingram,SAS,3.0,3.6,1.7,1.0,0.0,0.0,0.0,0.0,0.667,1.0,0.0,2025.0,Regular Season
+2025,Jeremy Sochan,10,F,6-8,230,22.0,3,Baylor,1631110,#9 Pick in 2022 Draft,1610612759,San Antonio Spurs,Jeremy Sochan,SAS,23.0,14.6,4.9,3.1,1.2,0.4,0.2,0.8,0.495,0.29,0.688,2025.0,Regular Season
+2025,Jordan McLaughlin,0,G,5-11,185,29.0,6,Southern California,1629162,Traded from SAC on 02/03/25,1610612759,San Antonio Spurs,Jordan McLaughlin,SAS,15.0,6.5,2.7,0.7,0.9,0.5,0.0,0.3,0.5,0.412,0.8,2025.0,Regular Season
+2025,Julian Champagnie,30,F,6-7,217,24.0,3,St. John's,1630577,No Info,1610612759,San Antonio Spurs,Julian Champagnie,SAS,37.0,27.9,11.1,5.9,1.5,0.9,0.4,1.1,0.418,0.364,0.845,2025.0,Regular Season
+2025,Keldon Johnson,3,F-G,6-6,220,26.0,6,Kentucky,1629640,#29 Pick in 2019 Draft,1610612759,San Antonio Spurs,Keldon Johnson,SAS,37.0,23.5,13.5,6.4,1.3,0.7,0.1,0.9,0.574,0.421,0.772,2025.0,Regular Season
+2025,Kelly Olynyk,8,F-C,7-0,240,34.0,12,Gonzaga,203482,Traded from WAS on 07/09/25,1610612759,San Antonio Spurs,Kelly Olynyk,SAS,22.0,10.5,4.0,2.3,1.5,0.5,0.0,0.6,0.469,0.235,0.714,2025.0,Regular Season
+2025,Lindy Waters III,43,F,6-5,210,28.0,4,Oklahoma State,1630322,Signed on 07/24/25,1610612759,San Antonio Spurs,Lindy Waters III,SAS,20.0,6.6,2.2,0.9,0.3,0.2,0.0,0.1,0.385,0.353,1.0,2025.0,Regular Season
+2025,Luke Kornet,7,C-F,7-1,250,30.0,8,Vanderbilt,1628436,Signed on 07/07/25,1610612759,San Antonio Spurs,Luke Kornet,SAS,29.0,24.9,8.4,6.7,2.1,0.4,1.4,0.5,0.662,0.0,0.833,2025.0,Regular Season
+2025,Stanley Umude,17,G,6-6,210,26.0,3,Arkansas,1630649,Signed on 09/02/25,1610612759,San Antonio Spurs,,,,,,,,,,,,,,,
+2025,Stephon Castle,5,G,6-6,215,21.0,1,Connecticut,1642264,#4 Pick in 2024 Draft,1610612759,San Antonio Spurs,Stephon Castle,SAS,28.0,30.8,17.7,5.1,6.9,1.3,0.3,3.7,0.482,0.269,0.737,2025.0,Regular Season
+2025,Victor Wembanyama,1,F-C,7-4,235,22.0,2,Metropolitans 92,1641705,#1 Pick in 2023 Draft,1610612759,San Antonio Spurs,Victor Wembanyama,SAS,23.0,29.2,24.2,11.5,3.3,0.9,2.9,3.2,0.521,0.362,0.834,2025.0,Regular Season
+2025,A.J. Lawson,0,G,6-6,179,25.0,3,South Carolina,1630639,Signed on 12/11/24,1610612761,Toronto Raptors,A.J. Lawson,TOR,4.0,7.3,4.3,1.8,0.0,0.3,0.5,0.0,0.333,0.429,1.0,2025.0,Regular Season
+2025,Alijah Martin,55,G,6-2,210,24.0,R,Florida,1642918,#39 Pick in 2025 Draft,1610612761,Toronto Raptors,Alijah Martin,TOR,4.0,5.8,1.8,0.3,0.8,0.3,0.3,0.3,0.375,0.2,0.0,2025.0,Regular Season
+2025,Brandon Ingram,3,F,6-8,190,28.0,9,Duke,1627742,Traded from NOP on 02/06/25,1610612761,Toronto Raptors,Brandon Ingram,TOR,38.0,33.7,21.8,5.9,3.6,0.8,0.8,2.8,0.474,0.349,0.821,2025.0,Regular Season
+2025,Chucky Hepburn,24,G,6-0,190,22.0,R,Louisville,1642935,Signed on 07/01/25,1610612761,Toronto Raptors,Chucky Hepburn,TOR,2.0,6.6,0.0,0.5,1.0,0.5,0.0,0.5,0.0,0.0,0.0,2025.0,Regular Season
+2025,Collin Murray-Boyles,12,F,6-7,245,20.0,R,South Carolina,1642867,#9 Pick in 2025 Draft,1610612761,Toronto Raptors,Collin Murray-Boyles,TOR,32.0,19.7,7.1,4.6,1.7,0.8,0.5,1.1,0.531,0.366,0.595,2025.0,Regular Season
+2025,Garrett Temple,17,G-F,6-5,195,39.0,15,Louisiana State,202066,Signed on 07/31/23,1610612761,Toronto Raptors,Garrett Temple,TOR,9.0,3.0,0.4,0.4,0.3,0.3,0.1,0.3,0.167,0.25,0.5,2025.0,Regular Season
+2025,Gradey Dick,1,G-F,6-7,200,22.0,2,Kansas,1641711,#13 Pick in 2023 Draft,1610612761,Toronto Raptors,Gradey Dick,TOR,39.0,15.8,6.2,1.9,0.6,0.7,0.1,0.5,0.407,0.318,0.846,2025.0,Regular Season
+2025,Immanuel Quickley,5,G,6-2,190,26.0,5,Kentucky,1630193,Traded from NYK on 12/30/23,1610612761,Toronto Raptors,Immanuel Quickley,TOR,38.0,32.3,16.4,4.1,6.2,1.1,0.1,1.7,0.429,0.356,0.8,2025.0,Regular Season
+2025,Ja'Kobe Walter,14,G,6-4,180,21.0,1,Baylor,1642266,#19 Pick in 2024 Draft,1610612761,Toronto Raptors,Ja'Kobe Walter,TOR,36.0,18.0,6.3,2.2,0.9,0.9,0.2,0.5,0.433,0.373,0.75,2025.0,Regular Season
+2025,Jakob Poeltl,19,C,7-0,253,30.0,9,Utah,1627751,Traded from SAS on 02/09/23,1610612761,Toronto Raptors,Jakob Poeltl,TOR,21.0,25.3,9.7,7.7,2.1,0.8,0.5,1.6,0.693,0.0,0.596,2025.0,Regular Season
+2025,Jamal Shead,23,G,6-1,200,23.0,1,Houston,1642347,Draft Rights Traded from SAC on 06/28/24,1610612761,Toronto Raptors,Jamal Shead,TOR,39.0,20.6,6.7,1.8,5.4,1.0,0.2,1.3,0.368,0.333,0.769,2025.0,Regular Season
+2025,Jamison Battle,77,F,6-7,220,24.0,1,Ohio State,1642419,Signed on 07/16/24,1610612761,Toronto Raptors,Jamison Battle,TOR,27.0,8.0,3.3,1.4,0.4,0.2,0.0,0.3,0.593,0.471,0.8,2025.0,Regular Season
+2025,Jonathan Mogbo,2,F,6-9,225,24.0,1,San Francisco,1642367,#31 Pick in 2024 Draft,1610612761,Toronto Raptors,Jonathan Mogbo,TOR,14.0,5.8,1.4,1.3,0.6,0.1,0.2,0.1,0.6,0.0,1.0,2025.0,Regular Season
+2025,Ochai Agbaji,30,G,6-5,215,25.0,3,Kansas,1630534,Traded from UTA on 02/08/24,1610612761,Toronto Raptors,Ochai Agbaji,TOR,30.0,15.8,4.2,2.3,0.8,0.5,0.2,0.3,0.418,0.171,0.857,2025.0,Regular Season
+2025,RJ Barrett,9,F-G,6-6,214,25.0,6,Duke,1629628,Traded from NYK on 12/30/23,1610612761,Toronto Raptors,RJ Barrett,TOR,23.0,30.4,19.6,5.0,3.7,0.8,0.2,1.6,0.496,0.355,0.689,2025.0,Regular Season
+2025,Sandro Mamukelashvili,54,F-C,6-9,240,26.0,4,Seton Hall,1630572,Signed on 07/03/25,1610612761,Toronto Raptors,Sandro Mamukelashvili,TOR,38.0,21.4,10.6,5.1,1.9,0.7,0.6,0.8,0.52,0.375,0.803,2025.0,Regular Season
+2025,Scottie Barnes,4,F-G,6-8,237,24.0,4,Florida State,1630567,#4 Pick in 2021 Draft,1610612761,Toronto Raptors,Scottie Barnes,TOR,38.0,34.0,19.1,8.4,5.2,1.3,1.5,2.6,0.504,0.347,0.837,2025.0,Regular Season
+2025,Ace Bailey,19,F,6-9,200,19.0,R,Rutgers,1642846,#5 Pick in 2025 Draft,1610612762,Utah Jazz,Ace Bailey,UTA,31.0,23.4,10.1,3.2,1.5,0.7,0.4,1.2,0.437,0.352,0.667,2025.0,Regular Season
+2025,Brice Sensabaugh,28,F,6-6,235,22.0,2,Ohio State,1641729,#28 Pick in 2023 Draft,1610612762,Utah Jazz,Brice Sensabaugh,UTA,36.0,19.8,9.8,2.9,1.6,0.7,0.1,1.2,0.425,0.323,0.862,2025.0,Regular Season
+2025,Cody Williams,5,F,6-8,190,21.0,1,Colorado,1642262,#10 Pick in 2024 Draft,1610612762,Utah Jazz,Cody Williams,UTA,24.0,14.1,4.1,1.5,0.7,0.3,0.3,0.3,0.426,0.154,0.583,2025.0,Regular Season
+2025,Elijah Harkless,16,G,6-3,195,25.0,1,UNLV,1641989,Signed on 01/01/25,1610612762,Utah Jazz,Elijah Harkless,UTA,7.0,9.4,2.4,0.9,0.7,0.6,0.0,0.4,0.364,0.286,0.778,2025.0,Regular Season
+2025,Georges Niang,31,F,6-6,230,32.0,9,Iowa State,1627777,Traded from BOS on 08/06/25,1610612762,Utah Jazz,,,,,,,,,,,,,,,
+2025,Isaiah Collier,8,G,6-4,210,21.0,1,Southern California,1642268,#29 Pick in 2024 Draft,1610612762,Utah Jazz,Isaiah Collier,UTA,29.0,22.8,8.3,2.3,6.6,0.7,0.4,2.4,0.515,0.361,0.663,2025.0,Regular Season
+2025,John Tonje,17,G,6-4,218,24.0,R,Wisconsin,1642910,#53 Pick in 2025 Draft,1610612762,Utah Jazz,,,,,,,,,,,,,,,
+2025,Jusuf Nurkic,30,C,6-11,290,31.0,11,Cedevita,203994,Traded from CHA on 06/29/25,1610612762,Utah Jazz,Jusuf Nurkić,UTA,31.0,25.8,10.4,9.8,4.4,1.4,0.4,2.5,0.508,0.347,0.545,2025.0,Regular Season
+2025,Kevin Love,42,F-C,6-10,251,37.0,17,UCLA,201567,Traded from MIA on 07/07/25,1610612762,Utah Jazz,Kevin Love,UTA,21.0,17.4,7.3,5.6,2.0,0.3,0.3,0.7,0.398,0.348,0.8,2025.0,Regular Season
+2025,Keyonte George,3,G,6-4,185,22.0,2,Baylor,1641718,#16 Pick in 2023 Draft,1610612762,Utah Jazz,Keyonte George,UTA,36.0,34.7,24.1,4.3,6.9,1.0,0.3,3.5,0.454,0.371,0.901,2025.0,Regular Season
+2025,Kyle Anderson,2,F-G,6-8,230,32.0,11,UCLA,203937,Traded from MIA on 07/07/25,1610612762,Utah Jazz,Kyle Anderson,UTA,11.0,19.9,7.6,3.5,2.8,1.5,0.5,1.0,0.516,1.0,0.773,2025.0,Regular Season
+2025,Kyle Filipowski,22,C,6-11,250,22.0,1,Duke,1642271,#32 Pick in 2024 Draft,1610612762,Utah Jazz,Kyle Filipowski,UTA,36.0,21.8,9.3,6.0,2.0,0.6,0.5,1.2,0.462,0.316,0.694,2025.0,Regular Season
+2025,Lauri Markkanen,23,F-C,7-1,240,28.0,8,Arizona,1628374,Traded from CLE on 09/03/22,1610612762,Utah Jazz,Lauri Markkanen,UTA,32.0,36.0,27.9,7.0,2.2,1.0,0.5,1.6,0.483,0.365,0.892,2025.0,Regular Season
+2025,Oscar Tshiebwe,34,F-C,6-8,255,26.0,2,Kentucky,1631131,Signed on 08/12/24,1610612762,Utah Jazz,Oscar Tshiebwe,UTA,1.0,14.8,2.0,6.0,1.0,1.0,0.0,0.0,0.25,0.0,0.0,2025.0,Regular Season
+2025,Svi Mykhailiuk,10,G-F,6-7,205,28.0,7,Kansas,1629004,Signed on 08/10/24,1610612762,Utah Jazz,Svi Mykhailiuk,UTA,34.0,24.7,9.0,2.6,2.0,0.5,0.1,0.7,0.463,0.38,0.882,2025.0,Regular Season
+2025,Taylor Hendricks,0,F,6-9,215,22.0,2,Central Florida,1641707,#9 Pick in 2023 Draft,1610612762,Utah Jazz,Taylor Hendricks,UTA,26.0,14.8,5.3,3.2,0.7,0.5,0.3,0.5,0.48,0.396,0.769,2025.0,Regular Season
+2025,Walker Kessler,24,C,7-2,245,24.0,3,Auburn,1631117,Draft Rights Traded from MIN on 07/06/22,1610612762,Utah Jazz,Walker Kessler,UTA,5.0,30.8,14.4,10.8,3.0,1.4,1.8,3.2,0.703,0.75,0.7,2025.0,Regular Season
+2025,Walter Clayton Jr.,13,G,6-4,195,22.0,R,Florida,1642383,Draft Rights Traded from WAS on 06/25/25,1610612762,Utah Jazz,Walter Clayton Jr.,UTA,33.0,17.0,7.0,2.0,3.1,0.5,0.2,1.1,0.418,0.34,0.956,2025.0,Regular Season
+2025,AJ Johnson,4,G,6-5,160,21.0,1,Illawarra,1642358,Traded from MIL on 02/06/25,1610612764,Washington Wizards,AJ Johnson,WAS,20.0,6.9,1.8,1.0,0.7,0.2,0.0,0.4,0.292,0.286,0.75,2025.0,Regular Season
+2025,Alex Sarr,20,C,7-0,205,20.0,1,Washington Wizards,1642259,#2 Pick in 2024 Draft,1610612764,Washington Wizards,Alex Sarr,WAS,28.0,28.2,17.3,7.5,3.0,0.8,2.3,1.8,0.503,0.357,0.692,2025.0,Regular Season
+2025,Anthony Gill,16,F,6-7,230,33.0,5,Virginia,1630264,Signed on 11/30/20,1610612764,Washington Wizards,Anthony Gill,WAS,16.0,4.3,1.8,0.9,0.0,0.1,0.1,0.3,0.688,0.6,1.0,2025.0,Regular Season
+2025,Bilal Coulibaly,0,G,6-7,195,21.0,2,Metropolitans 92,1641731,Draft Rights Traded from IND on 06/23/23,1610612764,Washington Wizards,Bilal Coulibaly,WAS,23.0,27.2,10.3,4.8,2.7,1.5,1.0,1.7,0.389,0.265,0.756,2025.0,Regular Season
+2025,Bub Carrington,7,G,6-4,190,20.0,1,Pittsburgh,1642267,Draft Rights Traded from POR on 07/06/24,1610612764,Washington Wizards,Bub Carrington,WAS,37.0,27.3,9.5,3.8,4.4,0.5,0.2,2.2,0.401,0.423,0.714,2025.0,Regular Season
+2025,Cam Whitmore,1,F,6-6,230,21.0,2,Villanova,1641715,Traded from HOU on 07/06/25,1610612764,Washington Wizards,Cam Whitmore,WAS,21.0,16.9,9.2,2.8,0.7,0.7,0.4,0.9,0.456,0.286,0.742,2025.0,Regular Season
+2025,Jamir Watkins,5,F,6-6,210,24.0,R,Florida State,1642364,#43 Pick in 2025 Draft,1610612764,Washington Wizards,Jamir Watkins,WAS,14.0,11.5,2.9,2.4,0.4,0.3,0.2,0.4,0.5,0.294,1.0,2025.0,Regular Season
+2025,Justin Champagnie,9,G-F,6-6,206,24.0,4,Pittsburgh,1630551,Signed on 02/22/24,1610612764,Washington Wizards,Justin Champagnie,WAS,35.0,17.5,6.7,5.5,1.1,0.7,0.6,0.5,0.492,0.313,0.708,2025.0,Regular Season
+2025,Khris Middleton,22,F,6-7,222,34.0,13,Texas A&M,203114,Traded from MIL on 02/06/25,1610612764,Washington Wizards,Khris Middleton,WAS,25.0,24.2,9.6,4.0,3.1,0.8,0.3,1.6,0.441,0.306,0.808,2025.0,Regular Season
+2025,Kyshawn George,18,F,6-8,200,22.0,1,Miami,1642273,Draft Rights Traded from NYK on 06/26/24,1610612764,Washington Wizards,Kyshawn George,WAS,28.0,31.5,15.0,5.6,5.0,1.0,0.9,3.1,0.466,0.412,0.739,2025.0,Regular Season
+2025,Malaki Branham,8,F,6-4,180,22.0,3,Ohio State,1631103,Traded from SAS on 07/09/25,1610612764,Washington Wizards,Malaki Branham,WAS,21.0,9.9,4.1,1.7,1.0,0.3,0.1,0.6,0.435,0.28,0.833,2025.0,Regular Season
+2025,Marvin Bagley III,35,F,6-10,235,26.0,7,Duke,1628963,Signed on 07/10/25,1610612764,Washington Wizards,Marvin Bagley III,WAS,31.0,19.3,10.0,5.5,1.5,0.5,0.7,1.1,0.622,0.438,0.736,2025.0,Regular Season
+2025,Sharife Cooper,13,G,6-0,176,24.0,1,Auburn,1630536,Signed on 09/19/25,1610612764,Washington Wizards,Sharife Cooper,WAS,4.0,2.5,0.0,0.0,0.0,0.0,0.0,0.3,0.0,0.0,0.0,2025.0,Regular Season
+2025,Trae Young,3,G,6-2,164,27.0,7,Oklahoma,1629027,Traded from ATL on 01/09/26,1610612764,Washington Wizards,Trae Young,WAS,10.0,28.0,19.3,1.5,8.9,1.0,0.1,2.6,0.415,0.305,0.863,2025.0,Regular Season
+2025,Tre Johnson,12,G,6-5,190,19.0,R,Texas,1642848,#6 Pick in 2025 Draft,1610612764,Washington Wizards,Tre Johnson,WAS,30.0,23.9,12.3,2.9,1.8,0.7,0.3,1.6,0.455,0.397,0.917,2025.0,Regular Season
+2025,Tristan Vukcevic,00,F,7-0,220,22.0,2,Real Madrid,1641774,#42 Pick in 2023 Draft,1610612764,Washington Wizards,Tristan Vukcevic,WAS,28.0,11.8,6.9,2.5,1.0,0.3,0.7,1.1,0.452,0.193,0.769,2025.0,Regular Season
+2025,Will Riley,27,F,6-9,180,19.0,R,Illinois-Urbana-Champaign,1642860,Draft Rights Traded from UTA on 06/25/25,1610612764,Washington Wizards,Will Riley,WAS,29.0,12.6,4.8,1.9,1.2,0.4,0.1,0.7,0.426,0.25,0.8,2025.0,Regular Season

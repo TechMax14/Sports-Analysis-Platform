@@ -1,13 +1,13 @@
 from nba_api.stats.endpoints import commonteamroster
 from src.configs.constants import PLAYER_ID_FIXES
+from src.utils.nba_season import current_nba_season
 import pandas as pd
 import time
 from datetime import datetime
 
 def generate_current_team_rosters(team_ids: list[int], team_id_to_name: dict, delay_sec: float = 1.0) -> pd.DataFrame:
     all_rosters = []
-    current_year = datetime.now().year
-    current_season = f"{current_year - 1}-{str(current_year)[-2:]}"  # e.g., "2024-25"
+    current_season = current_nba_season()
 
     for team_id in team_ids:
         try:
@@ -52,6 +52,11 @@ def generate_current_team_rosters(team_ids: list[int], team_id_to_name: dict, de
 
     # Optional: sort cleanly
     df.sort_values(["TEAM_NAME", "PLAYER"], inplace=True)
+
+    df = df.rename(columns={
+        "PLAYER": "PLAYER_NAME",
+        "NUM": "JERSEY_NUMBER",
+    })
 
     return df
 

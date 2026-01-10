@@ -90,7 +90,7 @@ def team_stats(team_id):
 # ----------  TEAM ROSTER BY ID  ----------
 @app.route("/api/teams/<int:team_id>/roster")
 def team_roster(team_id):
-    return csv_resp("nba_rosters", "TEAM_ID", team_id)
+    return csv_resp("nba_roster_master", "TEAM_ID", team_id)
 
 # ----------  TOP PLAYERS  ----------
 @app.route("/api/top-players")

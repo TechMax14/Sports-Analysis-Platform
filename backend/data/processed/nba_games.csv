@@ -628,16 +628,16 @@ GAME_DATE_EST,GAME_TIME_EST,GAME_ID,MATCHUP,HOME_TEAM,AWAY_TEAM,HOME_PTS,AWAY_PT
 2026-01-08,8:00 PM,0022500529,Heat @ Bulls,Bulls,Heat,0,0,POSTPONED,
 2026-01-08,8:00 PM,0022500530,Cavaliers @ Timberwolves,Timberwolves,Cavaliers,131,122,FINAL,F
 2026-01-08,9:00 PM,0022500531,Mavericks @ Jazz,Jazz,Mavericks,116,114,FINAL,F
-2026-01-09,7:00 PM,0022500532,Raptors @ Celtics,Celtics,Raptors,0,0,UPCOMING,
-2026-01-09,7:00 PM,0022500533,76ers @ Magic,Magic,76ers,0,0,UPCOMING,
-2026-01-09,7:00 PM,0022500534,Pelicans @ Wizards,Wizards,Pelicans,0,0,UPCOMING,
-2026-01-09,7:30 PM,0022500535,Clippers @ Nets,Nets,Clippers,0,0,UPCOMING,
-2026-01-09,8:00 PM,0022500536,Thunder @ Grizzlies,Grizzlies,Thunder,0,0,UPCOMING,
-2026-01-09,9:00 PM,0022500537,Hawks @ Nuggets,Nuggets,Hawks,0,0,UPCOMING,
-2026-01-09,9:00 PM,0022500538,Knicks @ Suns,Suns,Knicks,0,0,UPCOMING,
-2026-01-09,10:00 PM,0022500539,Kings @ Warriors,Warriors,Kings,0,0,UPCOMING,
-2026-01-09,10:00 PM,0022500540,Rockets @ Trail Blazers,Trail Blazers,Rockets,0,0,UPCOMING,
-2026-01-09,10:30 PM,0022500541,Bucks @ Lakers,Lakers,Bucks,0,0,UPCOMING,
+2026-01-09,7:00 PM,0022500532,Raptors @ Celtics,Celtics,Raptors,125,117,FINAL,F
+2026-01-09,7:00 PM,0022500533,76ers @ Magic,Magic,76ers,91,103,FINAL,F
+2026-01-09,7:00 PM,0022500534,Pelicans @ Wizards,Wizards,Pelicans,107,128,FINAL,F
+2026-01-09,7:30 PM,0022500535,Clippers @ Nets,Nets,Clippers,105,121,FINAL,F
+2026-01-09,8:00 PM,0022500536,Thunder @ Grizzlies,Grizzlies,Thunder,116,117,FINAL,F
+2026-01-09,9:00 PM,0022500537,Hawks @ Nuggets,Nuggets,Hawks,87,110,FINAL,F
+2026-01-09,9:00 PM,0022500538,Knicks @ Suns,Suns,Knicks,112,107,FINAL,F
+2026-01-09,10:00 PM,0022500539,Kings @ Warriors,Warriors,Kings,137,103,FINAL,F
+2026-01-09,10:00 PM,0022500540,Rockets @ Trail Blazers,Trail Blazers,Rockets,111,105,FINAL,F
+2026-01-09,10:30 PM,0022500541,Bucks @ Lakers,Lakers,Bucks,101,105,FINAL,F
 2026-01-10,1:00 PM,0022500542,Timberwolves @ Cavaliers,Cavaliers,Timberwolves,0,0,UPCOMING,
 2026-01-10,7:00 PM,0022500543,Heat @ Pacers,Pacers,Heat,0,0,UPCOMING,
 2026-01-10,7:30 PM,0022500544,Clippers @ Pistons,Pistons,Clippers,0,0,UPCOMING,
