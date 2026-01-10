@@ -21,6 +21,7 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  Switch,
 } from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
 
@@ -107,6 +108,7 @@ export default function TeamsTab() {
 
   const [rosterLoading, setRosterLoading] = useState(false);
   const [roster, setRoster] = useState<RosterRow[]>([]);
+  const [showAdvanced, setShowAdvanced] = useState(false);
 
   const [loading, setLoading] = useState(true);
 
@@ -278,7 +280,10 @@ export default function TeamsTab() {
           Teams
         </Text>
 
-        <Accordion allowMultiple index={teamsByDivision.map((_, i) => i)}>
+        <Accordion
+          allowMultiple
+          defaultIndex={teamsByDivision.map((_, i) => i)}
+        >
           {teamsByDivision.map(([div, list]) => (
             <AccordionItem key={div} border="none">
               <AccordionButton px={2}>
@@ -343,7 +348,7 @@ export default function TeamsTab() {
                       selectedTeam.LOSSES != null ? (
                         <Text>
                           Record: {selectedTeam.WINS}-{selectedTeam.LOSSES} (
-                          {formatPct(selectedTeam.WinPCT ?? 0)})
+                          {formatWinPct(selectedTeam.WinPCT ?? 0)})
                         </Text>
                       ) : (
                         <Text>Record: —</Text>
@@ -438,7 +443,22 @@ export default function TeamsTab() {
                 <Text fontSize="lg" fontWeight="bold">
                   Roster
                 </Text>
-                {rosterLoading ? <Spinner size="sm" /> : null}
+
+                <HStack spacing={3}>
+                  {rosterLoading && <Spinner size="sm" />}
+
+                  <HStack spacing={2}>
+                    <Text fontSize="sm" color="gray.300">
+                      Advanced
+                    </Text>
+                    <Switch
+                      size="md"
+                      colorScheme="teal"
+                      isChecked={showAdvanced}
+                      onChange={(e) => setShowAdvanced(e.target.checked)}
+                    />
+                  </HStack>
+                </HStack>
               </Flex>
               <Divider mb={3} />
 
@@ -455,10 +475,22 @@ export default function TeamsTab() {
                         <Th isNumeric>PPG</Th>
                         <Th isNumeric>RPG</Th>
                         <Th isNumeric>APG</Th>
-                        <Th isNumeric>Age</Th>
-                        <Th>Ht</Th>
-                        <Th>Exp</Th>
-                        <Th>School</Th>
+
+                        {showAdvanced ? (
+                          <>
+                            <Th isNumeric>FG%</Th>
+                            <Th isNumeric>3P%</Th>
+                            <Th isNumeric>FT%</Th>
+                            <Th isNumeric>TOV</Th>
+                          </>
+                        ) : (
+                          <>
+                            <Th isNumeric>Age</Th>
+                            <Th>Ht</Th>
+                            <Th>Exp</Th>
+                            <Th>School</Th>
+                          </>
+                        )}
                       </Tr>
                     </Thead>
                     <Tbody>
@@ -471,11 +503,21 @@ export default function TeamsTab() {
                           <Td isNumeric>{fmt1(p.PTS)}</Td>
                           <Td isNumeric>{fmt1(p.REB)}</Td>
                           <Td isNumeric>{fmt1(p.AST)}</Td>
-
-                          <Td isNumeric>{p.AGE ?? "-"}</Td>
-                          <Td>{p.HEIGHT ?? "-"}</Td>
-                          <Td>{p.EXP ?? "-"}</Td>
-                          <Td>{p.SCHOOL ?? "-"}</Td>
+                          {showAdvanced ? (
+                            <>
+                              <Td isNumeric>{fmtPct(p.FG_PCT)}</Td>
+                              <Td isNumeric>{fmtPct(p.FG3_PCT)}</Td>
+                              <Td isNumeric>{fmtPct(p.FT_PCT)}</Td>
+                              <Td isNumeric>{fmt1(p.TOV)}</Td>
+                            </>
+                          ) : (
+                            <>
+                              <Td isNumeric>{p.AGE ?? "-"}</Td>
+                              <Td>{p.HEIGHT ?? "-"}</Td>
+                              <Td>{p.EXP ?? "-"}</Td>
+                              <Td>{p.SCHOOL ?? "-"}</Td>
+                            </>
+                          )}
                         </Tr>
                       ))}
                     </Tbody>
@@ -546,7 +588,7 @@ function formatShortDate(iso: string) {
   return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
 }
 
-function formatPct(p: number) {
+function formatWinPct(p: number) {
   return p.toFixed(3);
 }
 
@@ -555,6 +597,13 @@ function fmt1(v: unknown) {
   const n = typeof v === "number" ? v : Number(v);
   if (Number.isNaN(n)) return "-";
   return n.toFixed(1);
+}
+
+function fmtPct(v: unknown) {
+  if (v === null || v === undefined) return "-";
+  const n = typeof v === "number" ? v : Number(v);
+  if (Number.isNaN(n)) return "-";
+  return `${(n * 100).toFixed(1)}%`;
 }
 
 // Convert "Boston Celtics" -> "Celtics" to match schedule HOME_TEAM/AWAY_TEAM
