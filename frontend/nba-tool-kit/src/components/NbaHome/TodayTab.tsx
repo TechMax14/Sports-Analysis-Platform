@@ -1,5 +1,14 @@
-import { useEffect, useState } from "react";
-import { Box, Text, SimpleGrid, Button, Input, Badge } from "@chakra-ui/react";
+import { useEffect, useMemo, useState } from "react";
+import {
+  Box,
+  Text,
+  SimpleGrid,
+  Button,
+  Input,
+  Badge,
+  HStack,
+  Image,
+} from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
 
 interface Game {
@@ -13,12 +22,41 @@ interface Game {
   AWAY_PTS: number;
 }
 
+interface Team {
+  TEAM_ID: number;
+  TEAM_NAME: string;
+  TEAM_ABBREVIATION: string;
+}
+
+const normalizeKey = (s: string) =>
+  (s || "").toLowerCase().replace(/[^a-z0-9]/g, ""); // strips spaces/punct
+
+const shortFromTeamName = (full: string) => {
+  const name = (full || "").trim();
+  if (!name) return "";
+  if (name.endsWith("Trail Blazers")) return "Trail Blazers";
+  const parts = name.split(" ");
+  return parts[parts.length - 1]; // Celtics, Lakers, etc.
+};
+
+// helper to get team logo URL
+const teamLogoUrl = (teamId: number) =>
+  `https://cdn.nba.com/logos/nba/${teamId}/global/L/logo.svg`;
+
 export default function TodayTab() {
   const [games, setGames] = useState<Game[]>([]);
+  const [teams, setTeams] = useState<Team[]>([]);
   const [selectedDate, setSelectedDate] = useState(
     new Date().toISOString().slice(0, 10)
   );
   const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    apiClient
+      .get("/teams")
+      .then((res) => setTeams(Array.isArray(res.data) ? res.data : []))
+      .catch(() => setTeams([]));
+  }, []);
 
   useEffect(() => {
     setLoading(true);
@@ -36,9 +74,19 @@ export default function TodayTab() {
       .finally(() => setLoading(false));
   }, [selectedDate]);
 
-  if (loading) return <Text color="gray.400">Loading…</Text>;
-  if (games.length === 0)
-    return <Text color="gray.400">No games on {selectedDate}.</Text>;
+  const teamIdByKey = useMemo(() => {
+    const map = new Map<string, number>();
+    for (const t of teams) {
+      const short = shortFromTeamName(t.TEAM_NAME);
+      map.set(normalizeKey(short), Number(t.TEAM_ID));
+      map.set(normalizeKey(t.TEAM_ABBREVIATION), Number(t.TEAM_ID));
+      map.set(normalizeKey(t.TEAM_NAME), Number(t.TEAM_ID));
+    }
+    return map;
+  }, [teams]);
+
+  const idForScheduleName = (name: string) =>
+    teamIdByKey.get(normalizeKey(name));
 
   return (
     <Box>
@@ -64,40 +112,68 @@ export default function TodayTab() {
         </Button>
       </SimpleGrid>
 
-      {/* games */}
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4}>
-        {games.map((g) => (
-          <Box
-            key={g.GAME_ID}
-            bg="gray.800"
-            p={4}
-            borderRadius="md"
-            shadow="md"
-          >
-            <Text fontWeight="bold" fontSize="lg" mb={2}>
-              {g.MATCHUP}
-            </Text>
-            <Text fontSize="sm" color="gray.400" mb={2}>
-              {g.GAME_TIME_EST} ET
-            </Text>
-            {g.STATUS === "UPCOMING" && (
-              <Badge colorScheme="yellow" fontSize="sm">
-                Upcoming
-              </Badge>
-            )}
-            {g.STATUS === "POSTPONED" && (
-              <Badge colorScheme="red" fontSize="sm">
-                Postponed
-              </Badge>
-            )}
-            {g.STATUS === "FINAL" && (
-              <Text fontSize="sm" color="green.300">
-                Final: {g.AWAY_PTS} - {g.HOME_PTS}
-              </Text>
-            )}
-          </Box>
-        ))}
-      </SimpleGrid>
+      {loading ? (
+        <Text color="gray.400">Loading…</Text>
+      ) : (
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4}>
+          {games.map((g) => {
+            const awayId = idForScheduleName(g.AWAY_TEAM);
+            const homeId = idForScheduleName(g.HOME_TEAM);
+
+            return (
+              <Box
+                key={g.GAME_ID}
+                bg="gray.800"
+                p={4}
+                borderRadius="md"
+                shadow="md"
+              >
+                <HStack spacing={3} mb={2}>
+                  {awayId && (
+                    <Image
+                      src={teamLogoUrl(awayId)}
+                      alt={g.AWAY_TEAM}
+                      boxSize="28px"
+                    />
+                  )}
+
+                  <Text fontWeight="bold" fontSize="lg">
+                    {g.AWAY_TEAM} @ {g.HOME_TEAM}
+                  </Text>
+
+                  {homeId && (
+                    <Image
+                      src={teamLogoUrl(homeId)}
+                      alt={g.HOME_TEAM}
+                      boxSize="28px"
+                    />
+                  )}
+                </HStack>
+
+                <Text fontSize="sm" color="gray.400" mb={2}>
+                  {g.GAME_TIME_EST} ET
+                </Text>
+
+                {g.STATUS === "UPCOMING" && (
+                  <Badge colorScheme="yellow" fontSize="sm">
+                    Upcoming
+                  </Badge>
+                )}
+                {g.STATUS === "POSTPONED" && (
+                  <Badge colorScheme="red" fontSize="sm">
+                    Postponed
+                  </Badge>
+                )}
+                {g.STATUS === "FINAL" && (
+                  <Text fontSize="sm" color="green.300">
+                    Final: {g.AWAY_PTS} - {g.HOME_PTS}
+                  </Text>
+                )}
+              </Box>
+            );
+          })}
+        </SimpleGrid>
+      )}
     </Box>
   );
 }

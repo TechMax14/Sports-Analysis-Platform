@@ -14,6 +14,7 @@ import {
   Th,
   Td,
   Badge,
+  Image,
 } from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
 
@@ -30,6 +31,9 @@ interface StandingRow {
   LOSSES: number;
   WinPCT: number; // 0.816
 }
+
+const teamLogoUrl = (teamId: number) =>
+  `https://cdn.nba.com/logos/nba/${teamId}/global/L/logo.svg`;
 
 export default function StandingsTab() {
   const [loading, setLoading] = useState(true);
@@ -228,12 +232,19 @@ function StandingsTable({
                 >
                   <Td>{seed}</Td>
                   <Td fontWeight="semibold">
-                    {r.TeamName}{" "}
-                    {badge ? (
-                      <Badge ml={2} colorScheme={badge.scheme}>
-                        {badge.label}
-                      </Badge>
-                    ) : null}
+                    <HStack spacing={2}>
+                      <Image
+                        src={teamLogoUrl(r.TeamID)}
+                        alt={r.TeamName}
+                        boxSize="22px"
+                      />
+                      <Text>{r.TeamName}</Text>
+                      {badge ? (
+                        <Badge ml={2} colorScheme={badge.scheme}>
+                          {badge.label}
+                        </Badge>
+                      ) : null}
+                    </HStack>
                   </Td>
                   <Td isNumeric>{r.WINS}</Td>
                   <Td isNumeric>{r.LOSSES}</Td>

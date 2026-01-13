@@ -9,6 +9,7 @@ import {
   HStack,
   Spinner,
   Select,
+  Image,
 } from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
 
@@ -30,7 +31,22 @@ interface Team {
   TEAM_ID: number;
   TEAM_NAME: string;
   TEAM_SHORT_NAME: string;
+  TEAM_ABBREVIATION: string;
 }
+
+const teamLogoUrl = (teamId: number) =>
+  `https://cdn.nba.com/logos/nba/${teamId}/global/L/logo.svg`;
+
+const normalizeKey = (s: string) =>
+  (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+
+const shortFromTeamName = (full: string) => {
+  const name = (full || "").trim();
+  if (!name) return "";
+  if (name.endsWith("Trail Blazers")) return "Trail Blazers";
+  const parts = name.split(" ");
+  return parts[parts.length - 1];
+};
 
 export default function ScheduleTab() {
   const [mode, setMode] = useState<RangeMode>("WEEK");
@@ -110,6 +126,21 @@ export default function ScheduleTab() {
     () => teams.slice().sort((a, b) => a.TEAM_NAME.localeCompare(b.TEAM_NAME)),
     [teams]
   );
+
+  const teamIdByKey = useMemo(() => {
+    const map = new Map<string, number>();
+    for (const t of teams) {
+      const short = shortFromTeamName(t.TEAM_NAME);
+      map.set(normalizeKey(short), Number(t.TEAM_ID));
+      if (t.TEAM_ABBREVIATION)
+        map.set(normalizeKey(t.TEAM_ABBREVIATION), Number(t.TEAM_ID));
+      map.set(normalizeKey(t.TEAM_NAME), Number(t.TEAM_ID));
+    }
+    return map;
+  }, [teams]);
+
+  const idForScheduleName = (name: string) =>
+    teamIdByKey.get(normalizeKey(name));
 
   const headerTitle = mode === "WEEK" ? "Weekly Schedule" : "Monthly Schedule";
   const prevLabel = mode === "WEEK" ? "‹ Prev Week" : "‹ Prev Month";
@@ -223,7 +254,11 @@ export default function ScheduleTab() {
 
               <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4}>
                 {dayGames.map((g) => (
-                  <GameCard key={String(g.GAME_ID)} game={g} />
+                  <GameCard
+                    key={String(g.GAME_ID)}
+                    game={g}
+                    getTeamId={idForScheduleName}
+                  />
                 ))}
               </SimpleGrid>
             </Box>
@@ -234,17 +269,46 @@ export default function ScheduleTab() {
   );
 }
 
-function GameCard({ game }: { game: Game }) {
+function GameCard({
+  game,
+  getTeamId,
+}: {
+  game: Game;
+  getTeamId: (name: string) => number | undefined;
+}) {
+  const awayId = getTeamId(game.AWAY_TEAM);
+  const homeId = getTeamId(game.HOME_TEAM);
+
   return (
     <Box bg="gray.800" p={4} borderRadius="md" shadow="md">
       <Flex align="start" justify="space-between" gap={3}>
         <Box>
-          <Text fontWeight="bold" fontSize="lg" mb={1}>
-            {game.MATCHUP}
-          </Text>
+          <HStack spacing={3} mb={1}>
+            {awayId ? (
+              <Image
+                src={teamLogoUrl(awayId)}
+                alt={game.AWAY_TEAM}
+                boxSize="28px"
+              />
+            ) : null}
+
+            <Text fontWeight="bold" fontSize="lg">
+              {game.AWAY_TEAM} @ {game.HOME_TEAM}
+            </Text>
+
+            {homeId ? (
+              <Image
+                src={teamLogoUrl(homeId)}
+                alt={game.HOME_TEAM}
+                boxSize="28px"
+              />
+            ) : null}
+          </HStack>
+
           <Text fontSize="sm" color="gray.400" mb={2}>
             {game.GAME_TIME_EST} ET
           </Text>
+
           {game.STATUS === "FINAL" ? (
             <Text fontSize="sm" color="green.300">
               Final: {game.AWAY_PTS} - {game.HOME_PTS}

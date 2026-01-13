@@ -9,8 +9,8 @@ const ToolGrid = ({ selectedTool }: Props) => {
   if (selectedTool === "NBA Home") return <NbaHome />;
   if (selectedTool === "Today’s Trends")
     return <div>Coming Soon: Today’s Trends</div>;
-  if (selectedTool === "Forecasting")
-    return <div>Coming Soon: Forecasting</div>;
+  if (selectedTool === "League History")
+    return <div>Coming Soon: Historic League Data</div>;
   return null;
 };
 

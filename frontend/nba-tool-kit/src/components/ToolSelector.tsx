@@ -6,7 +6,7 @@ interface Props {
   onSelectTeamId: (teamId: number | null) => void;
 }
 
-const tools = ["NBA Home", "Today’s Trends", "Forecasting"];
+const tools = ["NBA Home", "Today’s Trends", "League History"];
 
 const ToolSelector = ({ selectedTool, onSelectTool }: Props) => {
   return (

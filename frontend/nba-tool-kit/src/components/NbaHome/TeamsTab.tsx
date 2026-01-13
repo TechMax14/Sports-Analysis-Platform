@@ -284,6 +284,42 @@ export default function TeamsTab() {
     return { last5: finals, next5: upcoming };
   }, [games]);
 
+  const teamAverages = useMemo(() => {
+    if (!selectedTeam) return null;
+
+    const short = shortNameFromFull(selectedTeam.TEAM_NAME).toLowerCase();
+
+    const finals = games.filter(
+      (g) => g.STATUS === "FINAL" && g.HOME_PTS != null && g.AWAY_PTS != null
+    );
+
+    let scored = 0;
+    let allowed = 0;
+    let n = 0;
+
+    for (const g of finals) {
+      const home = (g.HOME_TEAM || "").toLowerCase();
+      const away = (g.AWAY_TEAM || "").toLowerCase();
+
+      if (home === short) {
+        scored += Number(g.HOME_PTS);
+        allowed += Number(g.AWAY_PTS);
+        n += 1;
+      } else if (away === short) {
+        scored += Number(g.AWAY_PTS);
+        allowed += Number(g.HOME_PTS);
+        n += 1;
+      }
+    }
+
+    if (n === 0) return { ppg: null, oppg: null };
+
+    return {
+      ppg: scored / n,
+      oppg: allowed / n,
+    };
+  }, [games, selectedTeam]);
+
   if (loading) {
     return (
       <HStack>
@@ -370,27 +406,60 @@ export default function TeamsTab() {
                     <Text fontSize="2xl" fontWeight="bold">
                       {selectedTeam.TEAM_NAME}
                     </Text>
-                    <HStack spacing={2} color="gray.300">
-                      {selectedTeam.WINS != null &&
-                      selectedTeam.LOSSES != null ? (
-                        <Text>
-                          Record: {selectedTeam.WINS}-{selectedTeam.LOSSES} (
-                          {formatWinPct(selectedTeam.WinPCT ?? 0)})
-                        </Text>
-                      ) : (
-                        <Text>Record: —</Text>
-                      )}
-                      {selectedTeam.Conference ? (
-                        <Badge colorScheme="teal">
-                          {selectedTeam.Conference}
-                        </Badge>
+
+                    <VStack align="start" spacing={1} color="gray.300">
+                      {/* Row 1: record + badges */}
+                      <HStack spacing={2} wrap="wrap">
+                        {selectedTeam.WINS != null &&
+                        selectedTeam.LOSSES != null ? (
+                          <Text>
+                            Record: {selectedTeam.WINS}-{selectedTeam.LOSSES} (
+                            {formatWinPct(selectedTeam.WinPCT ?? 0)})
+                          </Text>
+                        ) : (
+                          <Text>Record: —</Text>
+                        )}
+
+                        {selectedTeam.Conference ? (
+                          <Badge colorScheme="teal">
+                            {selectedTeam.Conference}
+                          </Badge>
+                        ) : null}
+
+                        {selectedTeam.Division ? (
+                          <Badge colorScheme="purple">
+                            {selectedTeam.Division}
+                          </Badge>
+                        ) : null}
+                      </HStack>
+
+                      {/* Row 2: team averages */}
+                      {teamAverages ? (
+                        <HStack
+                          spacing={6}
+                          fontSize="sm"
+                          color="gray.400"
+                          wrap="wrap"
+                        >
+                          <Text>
+                            <b>
+                              {teamAverages.ppg != null
+                                ? teamAverages.ppg.toFixed(1)
+                                : "-"}
+                            </b>{" "}
+                            PPG
+                          </Text>
+                          <Text>
+                            <b>
+                              {teamAverages.oppg != null
+                                ? teamAverages.oppg.toFixed(1)
+                                : "-"}
+                            </b>{" "}
+                            Opp PPG
+                          </Text>
+                        </HStack>
                       ) : null}
-                      {selectedTeam.Division ? (
-                        <Badge colorScheme="purple">
-                          {selectedTeam.Division}
-                        </Badge>
-                      ) : null}
-                    </HStack>
+                    </VStack>
                   </Box>
                 </HStack>
               </Flex>
