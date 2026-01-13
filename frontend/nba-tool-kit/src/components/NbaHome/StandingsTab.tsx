@@ -17,6 +17,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
+import { useNavigate } from "react-router-dom";
 
 type ViewMode = "CONFERENCE" | "LEAGUE" | "DIVISION";
 
@@ -40,6 +41,8 @@ export default function StandingsTab() {
   const [rows, setRows] = useState<StandingRow[]>([]);
   const [mode, setMode] = useState<ViewMode>("CONFERENCE");
   const [selectedDivision, setSelectedDivision] = useState<string>("");
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     setLoading(true);
@@ -155,6 +158,9 @@ export default function StandingsTab() {
               title="Eastern Conference"
               rows={east}
               showCutLines
+              onTeamClick={(teamId) =>
+                navigate(`/nba?tab=teams&teamId=${teamId}`)
+              }
             />
           </Box>
           <Box flex="1" minW={{ base: "100%", lg: "48%" }}>
@@ -162,15 +168,23 @@ export default function StandingsTab() {
               title="Western Conference"
               rows={west}
               showCutLines
+              onTeamClick={(teamId) =>
+                navigate(`/nba?tab=teams&teamId=${teamId}`)
+              }
             />
           </Box>
         </Flex>
       ) : mode === "LEAGUE" ? (
-        <StandingsTable title="League" rows={league} />
+        <StandingsTable
+          title="League"
+          rows={league}
+          onTeamClick={(teamId) => navigate(`/nba?tab=teams&teamId=${teamId}`)}
+        />
       ) : (
         <StandingsTable
           title={`${selectedDivision} Division`}
           rows={divisionRows}
+          onTeamClick={(teamId) => navigate(`/nba?tab=teams&teamId=${teamId}`)}
         />
       )}
     </Box>
@@ -181,10 +195,12 @@ function StandingsTable({
   title,
   rows,
   showCutLines = false,
+  onTeamClick,
 }: {
   title: string;
   rows: StandingRow[];
   showCutLines?: boolean;
+  onTeamClick?: (teamId: number) => void;
 }) {
   return (
     <Box>
@@ -229,6 +245,11 @@ function StandingsTable({
                   key={r.TeamID}
                   borderBottom={rowBorder}
                   borderColor={thickAfter ? "gray.500" : "gray.700"}
+                  cursor={onTeamClick ? "pointer" : "default"}
+                  _hover={onTeamClick ? { bg: "whiteAlpha.100" } : undefined}
+                  onClick={
+                    onTeamClick ? () => onTeamClick(r.TeamID) : undefined
+                  }
                 >
                   <Td>{seed}</Td>
                   <Td fontWeight="semibold">

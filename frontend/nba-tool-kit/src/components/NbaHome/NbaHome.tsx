@@ -1,13 +1,49 @@
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@chakra-ui/react";
+import { useMemo } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import TodayTab from "./TodayTab";
 import ScheduleTab from "./ScheduleTab";
 import StandingsTab from "./StandingsTab";
 import TeamsTab from "./TeamsTab";
 import LeadersTab from "./StatLeadersTab";
 
+const TAB_KEYS = [
+  "matchups",
+  "schedule",
+  "standings",
+  "teams",
+  "leaders",
+] as const;
+
 export default function NbaHome() {
+  const [params, setParams] = useSearchParams();
+  const navigate = useNavigate();
+
+  const tabIndex = useMemo(() => {
+    const tab = (params.get("tab") || "matchups").toLowerCase();
+    const idx = TAB_KEYS.indexOf(tab as any);
+    return idx === -1 ? 0 : idx;
+  }, [params]);
+
+  const onTabChange = (idx: number) => {
+    const key = TAB_KEYS[idx] || "matchups";
+
+    // preserve teamId if present (so switching tabs doesn't erase it)
+    const teamId = params.get("teamId");
+    const next: Record<string, string> = { tab: key };
+    if (teamId) next.teamId = teamId;
+
+    setParams(next, { replace: true });
+  };
+
   return (
-    <Tabs colorScheme="teal" isFitted isLazy defaultIndex={0}>
+    <Tabs
+      colorScheme="teal"
+      isFitted
+      isLazy
+      index={tabIndex}
+      onChange={onTabChange}
+    >
       <TabList>
         <Tab>Matchups</Tab>
         <Tab>Schedule</Tab>

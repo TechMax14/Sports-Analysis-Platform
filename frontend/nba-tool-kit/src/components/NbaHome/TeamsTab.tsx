@@ -26,6 +26,7 @@ import {
   SimpleGrid,
 } from "@chakra-ui/react";
 import apiClient from "../../services/api-client";
+import { useSearchParams } from "react-router-dom";
 
 type GameStatus = "FINAL" | "UPCOMING" | "POSTPONED";
 
@@ -118,19 +119,20 @@ export default function TeamsTab() {
 
   const [loading, setLoading] = useState(true);
 
+  const [params, setParams] = useSearchParams();
+  const teamIdParam = params.get("teamId");
+  const parsed = teamIdParam ? Number(teamIdParam) : null;
+  const teamIdFromUrl = Number.isFinite(parsed as number)
+    ? (parsed as number)
+    : null;
+
   // Load teams + standings (for division + record)
   useEffect(() => {
     setLoading(true);
     Promise.all([apiClient.get("/teams"), apiClient.get("/standings")])
       .then(([teamsRes, standingsRes]) => {
-        const t = Array.isArray(teamsRes.data) ? teamsRes.data : [];
-        const s = Array.isArray(standingsRes.data) ? standingsRes.data : [];
-        setTeams(t);
-        setStandings(s);
-
-        // default selection: first team in standings order (or first team list)
-        const defaultId = s?.[0]?.TeamID ?? t?.[0]?.TEAM_ID ?? null;
-        setSelectedTeamId(defaultId);
+        setTeams(Array.isArray(teamsRes.data) ? teamsRes.data : []);
+        setStandings(Array.isArray(standingsRes.data) ? standingsRes.data : []);
       })
       .catch((err) => {
         console.error("Failed to load teams/standings:", err);
@@ -158,6 +160,22 @@ export default function TeamsTab() {
       };
     });
   }, [teams, standings]);
+
+  // If no team selected, default to first team in list
+  useEffect(() => {
+    if (!teamIdFromUrl && !selectedTeamId && joinedTeams.length > 0) {
+      const fallback = joinedTeams[0].TEAM_ID;
+      setSelectedTeamId(fallback);
+      setTeamInUrl(fallback);
+    }
+  }, [teamIdFromUrl, selectedTeamId, joinedTeams]);
+
+  // Sync selectedTeamId with URL param if it changes
+  useEffect(() => {
+    if (teamIdFromUrl) {
+      setSelectedTeamId(teamIdFromUrl);
+    }
+  }, [teamIdFromUrl]);
 
   // Group teams by Division (fallback to "Unknown")
   const teamsByDivision = useMemo(() => {
@@ -195,6 +213,14 @@ export default function TeamsTab() {
     if (!selectedTeamId) return null;
     return joinedTeams.find((t) => t.TEAM_ID === selectedTeamId) || null;
   }, [joinedTeams, selectedTeamId]);
+
+  // Update URL when team changes
+  const setTeamInUrl = (teamId: number) => {
+    const next = new URLSearchParams(params);
+    next.set("tab", "teams"); // keep tab stable
+    next.set("teamId", String(teamId));
+    setParams(next, { replace: true });
+  };
 
   // Load roster whenever team changes
   useEffect(() => {
@@ -364,7 +390,10 @@ export default function TeamsTab() {
                       size="sm"
                       justifyContent="flex-start"
                       variant={t.TEAM_ID === selectedTeamId ? "solid" : "ghost"}
-                      onClick={() => setSelectedTeamId(t.TEAM_ID)}
+                      onClick={() => {
+                        setSelectedTeamId(t.TEAM_ID);
+                        setTeamInUrl(t.TEAM_ID);
+                      }}
                     >
                       <HStack spacing={2}>
                         {t.TEAM_LOGO_URL ? (
