@@ -11,9 +11,9 @@ import {
   Stack,
   Text,
   Image,
+  Select,
+  Spacer,
 } from "@chakra-ui/react";
-
-type Mode = "perGame" | "totals";
 
 type Leader = {
   rank: number;
@@ -25,23 +25,32 @@ type Leader = {
   gp: number | null;
 };
 
-type LeaderCard = {
+type CardOption = {
   key: string;
-  title: string;
-  mode: Mode;
+  label: string;
   format: "1dp" | "0dp" | "pct";
+};
+
+type LeadersByOption = {
   leader: Leader | null;
   top: Leader[];
 };
 
-type LeadersResponse = {
-  mode: Mode;
-  minGp: number;
-  limit: number;
-  cards: LeaderCard[];
+type LeaderCardGrouped = {
+  cardKey: string;
+  title: string;
+  options: CardOption[];
+  defaultOptionKey: string;
+  leadersByOption: Record<string, LeadersByOption>;
 };
 
-function formatValue(v: number | null | undefined, fmt: LeaderCard["format"]) {
+type LeadersResponse = {
+  minGp: number;
+  limit: number;
+  cards: LeaderCardGrouped[];
+};
+
+function formatValue(v: number | null | undefined, fmt: CardOption["format"]) {
   if (v === null || v === undefined) return "—";
   if (fmt === "pct") return `${v.toFixed(1)}%`;
   if (fmt === "0dp") return `${Math.round(v)}`;
@@ -53,11 +62,21 @@ function getHeadshotUrl(playerId: number | null | undefined) {
   return `https://cdn.nba.com/headshots/nba/latest/1040x760/${playerId}.png`;
 }
 
+function getDefaultSelectionMap(cards: LeaderCardGrouped[]) {
+  const map: Record<string, string> = {};
+  for (const c of cards) map[c.cardKey] = c.defaultOptionKey;
+  return map;
+}
+
 export default function StatLeadersTab() {
-  const [mode, setMode] = useState<Mode>("perGame");
   const [minGp, setMinGp] = useState<number>(10);
   const [data, setData] = useState<LeadersResponse | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
+
+  // per-card option selection
+  const [selectedOption, setSelectedOption] = useState<Record<string, string>>(
+    {}
+  );
 
   const apiBase = useMemo(() => "http://localhost:5000", []);
 
@@ -67,15 +86,22 @@ export default function StatLeadersTab() {
 
     axios
       .get<LeadersResponse>(`${apiBase}/api/leaders`, {
-        params: { mode, min_gp: minGp, limit: 5 },
+        params: { min_gp: minGp, limit: 5 },
       })
       .then((r) => {
         if (!mounted) return;
         setData(r.data);
+
+        // initialize option selections when data arrives
+        setSelectedOption((prev) => {
+          // if we already have selections, keep them
+          if (Object.keys(prev).length > 0) return prev;
+          return getDefaultSelectionMap(r.data.cards ?? []);
+        });
       })
       .catch(() => {
         if (!mounted) return;
-        setData({ mode, minGp, limit: 5, cards: [] });
+        setData({ minGp, limit: 5, cards: [] });
       })
       .finally(() => {
         if (!mounted) return;
@@ -85,7 +111,7 @@ export default function StatLeadersTab() {
     return () => {
       mounted = false;
     };
-  }, [apiBase, mode, minGp]);
+  }, [apiBase, minGp]);
 
   return (
     <Stack spacing={4}>
@@ -93,21 +119,6 @@ export default function StatLeadersTab() {
         <Heading size="md">League Leaders</Heading>
 
         <HStack gap={3} wrap="wrap">
-          <ButtonGroup isAttached size="sm" variant="outline">
-            <Button
-              onClick={() => setMode("perGame")}
-              isActive={mode === "perGame"}
-            >
-              Per Game
-            </Button>
-            <Button
-              onClick={() => setMode("totals")}
-              isActive={mode === "totals"}
-            >
-              Totals
-            </Button>
-          </ButtonGroup>
-
           <ButtonGroup isAttached size="sm" variant="outline">
             <Button onClick={() => setMinGp(5)} isActive={minGp === 5}>
               Min GP 5
@@ -126,50 +137,115 @@ export default function StatLeadersTab() {
         {(loading ? Array.from({ length: 9 }) : data?.cards ?? []).map(
           (card, idx) => {
             const isSkeleton = loading;
-            const c = card as LeaderCard | undefined;
+            const c = card as LeaderCardGrouped | undefined;
 
+            const cardKey = c?.cardKey ?? `sk-${idx}`;
             const title = isSkeleton ? "Loading…" : c?.title ?? "—";
-            const leaderName = isSkeleton ? "—" : c?.leader?.name ?? "—";
+
+            const options = c?.options ?? [];
+            const currentOptionKey =
+              selectedOption[cardKey] ??
+              c?.defaultOptionKey ??
+              options?.[0]?.key;
+
+            const currentOption =
+              options.find((o) => o.key === currentOptionKey) ?? options?.[0];
+
+            const leaders =
+              !isSkeleton && c && currentOptionKey
+                ? c.leadersByOption?.[currentOptionKey]
+                : undefined;
+
+            const leader = leaders?.leader ?? null;
+            const topRows = leaders?.top ?? [];
+
+            const leaderName = isSkeleton ? "—" : leader?.name ?? "—";
             const leaderTeam = isSkeleton
               ? ""
-              : c?.leader?.teamAbbr
-              ? ` (${c.leader.teamAbbr})`
+              : leader?.teamAbbr
+              ? ` (${leader.teamAbbr})`
               : "";
+
             const leaderValue = isSkeleton
               ? "—"
-              : formatValue(c?.leader?.value, c?.format ?? "1dp");
+              : formatValue(leader?.value, currentOption?.format ?? "1dp");
 
-            const rows = isSkeleton ? Array.from({ length: 5 }) : c?.top ?? [];
+            const rows = isSkeleton ? Array.from({ length: 5 }) : topRows;
+
+            const showSelect = (c?.options?.length ?? 0) >= 4;
 
             return (
               <Box
-                key={isSkeleton ? `sk-${idx}` : c?.key ?? `card-${idx}`}
+                key={cardKey}
                 bg="gray.800"
                 borderRadius="lg"
                 p={4}
                 borderWidth="1px"
                 borderColor="whiteAlpha.200"
               >
-                <Skeleton isLoaded={!isSkeleton}>
-                  <Text fontSize="sm" color="whiteAlpha.700">
-                    {title}
-                  </Text>
-                </Skeleton>
+                <HStack align="center" spacing={3}>
+                  <Skeleton isLoaded={!isSkeleton}>
+                    <Text fontSize="sm" color="whiteAlpha.700">
+                      {title}
+                    </Text>
+                  </Skeleton>
+
+                  <Spacer />
+
+                  {/* Per-card option control */}
+                  <Skeleton isLoaded={!isSkeleton}>
+                    {showSelect ? (
+                      <Select
+                        size="xs"
+                        maxW="140px"
+                        value={currentOptionKey}
+                        onChange={(e) =>
+                          setSelectedOption((prev) => ({
+                            ...prev,
+                            [cardKey]: e.target.value,
+                          }))
+                        }
+                      >
+                        {options.map((o) => (
+                          <option key={o.key} value={o.key}>
+                            {o.label}
+                          </option>
+                        ))}
+                      </Select>
+                    ) : (
+                      <ButtonGroup isAttached size="xs" variant="outline">
+                        {options.map((o) => (
+                          <Button
+                            key={o.key}
+                            isActive={o.key === currentOptionKey}
+                            onClick={() =>
+                              setSelectedOption((prev) => ({
+                                ...prev,
+                                [cardKey]: o.key,
+                              }))
+                            }
+                          >
+                            {o.label}
+                          </Button>
+                        ))}
+                      </ButtonGroup>
+                    )}
+                  </Skeleton>
+                </HStack>
 
                 <Skeleton isLoaded={!isSkeleton} mt={2}>
                   <HStack justify="space-between" align="center" spacing={3}>
                     <HStack spacing={3}>
-                      {!isSkeleton && c?.leader?.playerId ? (
+                      {!isSkeleton && leader?.playerId ? (
                         <Image
-                          src={getHeadshotUrl(c.leader.playerId)}
-                          alt={c.leader.name ?? "Leader"}
+                          src={getHeadshotUrl(leader.playerId)}
+                          alt={leader.name ?? "Leader"}
                           boxSize="52px"
                           objectFit="cover"
                           borderRadius="md"
                           border="1px solid"
                           borderColor="whiteAlpha.200"
                           onError={(e) => {
-                            // hide broken image gracefully
                             (
                               e.currentTarget as HTMLImageElement
                             ).style.display = "none";
@@ -179,24 +255,19 @@ export default function StatLeadersTab() {
 
                       <Box>
                         <Text fontWeight="bold" fontSize="lg" lineHeight="1.1">
-                          {c?.leader?.name ?? "—"}
-                          {c?.leader?.teamAbbr ? (
-                            <Text
-                              as="span"
-                              color="whiteAlpha.600"
-                              fontWeight="normal"
-                            >
-                              {" "}
-                              ({c.leader.teamAbbr})
-                            </Text>
-                          ) : null}
+                          {leaderName}
+                          <Text
+                            as="span"
+                            color="whiteAlpha.600"
+                            fontWeight="normal"
+                          >
+                            {leaderTeam}
+                          </Text>
                         </Text>
                       </Box>
                     </HStack>
 
-                    <Text fontWeight="bold">
-                      {formatValue(c?.leader?.value, c?.format ?? "1dp")}
-                    </Text>
+                    <Text fontWeight="bold">{leaderValue}</Text>
                   </HStack>
                 </Skeleton>
 
@@ -216,7 +287,7 @@ export default function StatLeadersTab() {
                     const r = row as Leader;
                     return (
                       <HStack
-                        key={`${c?.key}-${r.rank}`}
+                        key={`${cardKey}-${currentOptionKey}-${r.rank}`}
                         justify="space-between"
                         fontSize="sm"
                       >
@@ -230,7 +301,7 @@ export default function StatLeadersTab() {
                           ) : null}
                         </Text>
                         <Text color="whiteAlpha.900" fontWeight="semibold">
-                          {formatValue(r.value, c?.format ?? "1dp")}
+                          {formatValue(r.value, currentOption?.format ?? "1dp")}
                         </Text>
                       </HStack>
                     );

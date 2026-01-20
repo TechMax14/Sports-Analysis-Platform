@@ -84,16 +84,15 @@ def top_players():
 # New: League leaders
 @app.get("/api/leaders")
 def league_leaders():
-    mode = request.args.get("mode") or "perGame"
     min_gp = request.args.get("min_gp") or request.args.get("minGp") or 10
     limit = request.args.get("limit") or 5
 
     try:
-        payload = get_leaders_payload(mode=str(mode), min_gp=int(min_gp), limit=int(limit))
+        payload = get_leaders_payload(min_gp=int(min_gp), limit=int(limit))
         return jsonify(payload)
     except Exception as e:
         print("/api/leaders error:", e)
-        return jsonify({"mode": mode, "minGp": int(min_gp), "limit": int(limit), "cards": []})
+        return jsonify({"minGp": int(min_gp), "limit": int(limit), "cards": []})
 
 
 if __name__ == "__main__":

@@ -2,6 +2,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612737,2025,Asa Newell,14,F,6-10,220,20.0,R,Georgia,1642854,Draft Rights Traded from NOP on 06/25/25,1610612737,Atlanta Hawks
 1610612737,2025,CJ McCollum,3,G,6-3,190,34.0,12,Lehigh,203468,Traded from WAS on 01/09/26,1610612737,Atlanta Hawks
 1610612737,2025,Caleb Houstan,33,G,6-8,205,23.0,3,Michigan,1631216,Signed on 08/19/25,1610612737,Atlanta Hawks
+1610612737,2025,Christian Koloko,10,C,6-11,225,25.0,3,Arizona,1631132,Signed on 01/16/26,1610612737,Atlanta Hawks
 1610612737,2025,Corey Kispert,24,F,6-6,224,26.0,4,Gonzaga,1630557,Traded from WAS on 01/09/26,1610612737,Atlanta Hawks
 1610612737,2025,Dyson Daniels,5,G,6-7,199,22.0,3,NBA G League Ignite,1630700,Traded from NOP on 07/06/24,1610612737,Atlanta Hawks
 1610612737,2025,Jalen Johnson,1,F,6-8,219,24.0,4,Duke,1630552,#20 Pick in 2021 Draft,1610612737,Atlanta Hawks
@@ -65,11 +66,11 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612766,2025,Moussa Diabate,14,F,6-10,210,23.0,3,Michigan,1631217,Signed on 07/31/24,1610612766,Charlotte Hornets
 1610612766,2025,PJ Hall,16,C,6-8,245,23.0,1,Clemson,1641790,Signed on 12/24/25,1610612766,Charlotte Hornets
 1610612766,2025,Pat Connaughton,21,G,6-5,209,33.0,10,Notre Dame,1626192,Traded from MIL on 07/06/25,1610612766,Charlotte Hornets
-1610612766,2025,Ryan Kalkbrenner,11,C,7-1,256,23.0,R,Creighton,1641750,#34 Pick in 2025 Draft,1610612766,Charlotte Hornets
+1610612766,2025,Ryan Kalkbrenner,11,C,7-1,256,24.0,R,Creighton,1641750,#34 Pick in 2025 Draft,1610612766,Charlotte Hornets
 1610612766,2025,Sion James,4,G,6-5,220,23.0,R,Duke,1642883,#33 Pick in 2025 Draft,1610612766,Charlotte Hornets
 1610612766,2025,Tidjane Salaun,31,F,6-10,207,20.0,1,Cholet,1642275,#6 Pick in 2024 Draft,1610612766,Charlotte Hornets
 1610612766,2025,Tre Mann,23,G,6-4,178,24.0,4,Florida,1630544,Traded from OKC on 02/08/24,1610612766,Charlotte Hornets
-1610612741,2025,Ayo Dosunmu,11,G,6-4,201,25.0,4,Illinois,1630245,#38 Pick in 2021 Draft,1610612741,Chicago Bulls
+1610612741,2025,Ayo Dosunmu,11,G,6-4,201,26.0,4,Illinois,1630245,#38 Pick in 2021 Draft,1610612741,Chicago Bulls
 1610612741,2025,Coby White,0,G,6-4,210,25.0,6,North Carolina,1629632,#7 Pick in 2019 Draft,1610612741,Chicago Bulls
 1610612741,2025,Dalen Terry,7,F,6-6,210,23.0,3,Arizona,1631207,#18 Pick in 2022 Draft,1610612741,Chicago Bulls
 1610612741,2025,Emanuel Miller,2,F,6-5,215,25.0,1,TCU,1641801,Signed on 12/27/24,1610612741,Chicago Bulls
@@ -209,7 +210,6 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612754,2025,Quenton Jackson,29,G,6-4,173,27.0,3,Texas A&M,1631245,Signed on 03/04/24,1610612754,Indiana Pacers
 1610612754,2025,T.J. McConnell,9,G,6-1,190,33.0,10,Arizona,204456,Signed on 07/29/19,1610612754,Indiana Pacers
 1610612754,2025,Taelon Peter,4,G,6-3,185,23.0,R,Liberty,1643007,#54 Pick in 2025 Draft,1610612754,Indiana Pacers
-1610612754,2025,Tony Bradley,13,C-F,6-10,248,28.0,7,North Carolina,1628396,Signed on 03/02/25,1610612754,Indiana Pacers
 1610612754,2025,Tyrese Haliburton,0,G,6-5,185,25.0,5,Iowa State,1630169,Traded from SAC on 02/08/22,1610612754,Indiana Pacers
 1610612746,2025,Bogdan Bogdanovic,10,G,6-5,225,33.0,8,Fenerbahce,203992,Traded from ATL on 02/06/25,1610612746,Los Angeles Clippers
 1610612746,2025,Bradley Beal,0,G,6-4,207,32.0,13,Florida,203078,Signed on 07/18/25,1610612746,Los Angeles Clippers
@@ -226,6 +226,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612746,2025,Kobe Sanders,4,G,6-8,207,23.0,R,Nevada,1642920,Draft Rights Traded from NYK on 06/26/25,1610612746,Los Angeles Clippers
 1610612746,2025,Kris Dunn,8,G,6-3,205,31.0,9,Providence,1627739,Traded from UTA on 07/18/24,1610612746,Los Angeles Clippers
 1610612746,2025,Nicolas Batum,33,G-F,6-7,230,37.0,17,Le Mans,201587,Signed on 07/09/24,1610612746,Los Angeles Clippers
+1610612746,2025,Patrick Baldwin Jr.,23,F,7-0,220,23.0,3,Wisconsin-Milwaukee,1631116,Signed on 03/01/25,1610612746,Los Angeles Clippers
 1610612746,2025,TyTy Washington Jr.,14,G,6-3,195,24.0,3,Kentucky,1631102,Signed on 08/07/25,1610612746,Los Angeles Clippers
 1610612746,2025,Yanic Konan Niederhäuser,14,C,6-11,242,22.0,R,Penn State,1642949,#30 Pick in 2025 Draft,1610612746,Los Angeles Clippers
 1610612747,2025,Adou Thiero,1,G,6-7,220,21.0,R,Arkansas,1642876,Draft Rights Traded from BKN on 07/06/25,1610612747,Los Angeles Lakers
@@ -279,7 +280,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612748,2025,Pelle Larsson,9,G,6-5,215,24.0,1,Arizona,1641796,Draft Rights Traded from HOU on 06/27/24,1610612748,Miami Heat
 1610612748,2025,Simone Fontecchio,0,F,6-7,209,30.0,3,Baskonia,1631323,Traded from DET on 07/07/25,1610612748,Miami Heat
 1610612748,2025,Terry Rozier,2,G,6-1,190,31.0,10,Louisville,1626179,Traded from CHA on 01/23/24,1610612748,Miami Heat
-1610612748,2025,Tyler Herro,14,G,6-5,195,25.0,6,Kentucky,1629639,#13 Pick in 2019 Draft,1610612748,Miami Heat
+1610612748,2025,Tyler Herro,14,G,6-5,195,26.0,6,Kentucky,1629639,#13 Pick in 2019 Draft,1610612748,Miami Heat
 1610612748,2025,Vladislav Goldin,50,C,7-0,250,24.0,R,Michigan,1642884,Signed on 07/02/25,1610612748,Miami Heat
 1610612749,2025,AJ Green,20,G,6-4,190,26.0,3,Northern Iowa,1631260,Signed on 07/01/22,1610612749,Milwaukee Bucks
 1610612749,2025,Alex Antetokounmpo,29,F,6-8,214,24.0,R,                                   ,1630828,Signed on 09/16/22,1610612749,Milwaukee Bucks
@@ -288,7 +289,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612749,2025,Bobby Portis,9,F,6-9,250,30.0,10,Arkansas,1626171,Signed on 11/24/20,1610612749,Milwaukee Bucks
 1610612749,2025,Cole Anthony,50,G,6-2,185,25.0,5,North Carolina,1630175,Signed on 07/16/25,1610612749,Milwaukee Bucks
 1610612749,2025,Gary Harris,11,G,6-4,210,31.0,11,Michigan State,203914,Signed on 07/08/25,1610612749,Milwaukee Bucks
-1610612749,2025,Gary Trent Jr.,5,G,6-5,204,26.0,7,Duke,1629018,Signed on 07/20/24,1610612749,Milwaukee Bucks
+1610612749,2025,Gary Trent Jr.,5,G,6-5,204,27.0,7,Duke,1629018,Signed on 07/20/24,1610612749,Milwaukee Bucks
 1610612749,2025,Giannis Antetokounmpo,34,F,6-11,243,31.0,12,Filathlitikos,203507,#15 Pick in 2013 Draft,1610612749,Milwaukee Bucks
 1610612749,2025,Jericho Sims,00,C,6-10,250,27.0,4,Texas,1630579,Traded from NYK on 02/06/25,1610612749,Milwaukee Bucks
 1610612749,2025,Kevin Porter Jr.,7,G-F,6-5,203,25.0,5,Southern California,1629645,Traded from LAC on 02/06/25,1610612749,Milwaukee Bucks
@@ -367,7 +368,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612760,2025,Ousmane Dieng,13,F,6-9,185,22.0,3,New Zealand Breakers,1631172,Draft Rights Traded from NYK on 06/23/22,1610612760,Oklahoma City Thunder
 1610612760,2025,Shai Gilgeous-Alexander,2,G,6-6,195,27.0,7,Kentucky,1628983,Traded from LAC on 07/10/19,1610612760,Oklahoma City Thunder
 1610612760,2025,Thomas Sorber,12,C,6-9,250,20.0,R,Georgetown,1642850,#15 Pick in 2025 Draft,1610612760,Oklahoma City Thunder
-1610612753,2025,Anthony Black,0,G,6-7,200,21.0,2,Arkansas,1641710,#6 Pick in 2023 Draft,1610612753,Orlando Magic
+1610612753,2025,Anthony Black,0,G,6-7,200,22.0,2,Arkansas,1641710,#6 Pick in 2023 Draft,1610612753,Orlando Magic
 1610612753,2025,Colin Castleton,14,C,6-10,250,25.0,2,Florida,1630658,Signed on 08/22/25,1610612753,Orlando Magic
 1610612753,2025,Desmond Bane,3,G,6-6,215,27.0,5,TCU,1630217,Traded from MEM on 06/15/25,1610612753,Orlando Magic
 1610612753,2025,Franz Wagner,22,F,6-10,220,24.0,4,Michigan,1630532,#8 Pick in 2021 Draft,1610612753,Orlando Magic

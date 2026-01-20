@@ -44,22 +44,42 @@ def fetch_player_stats_per_game(
 
     # Normalize column names we care about
     keep = [
+        # IDs / join keys
         "PLAYER_ID",
         "PLAYER_NAME",
         "TEAM_ID",
         "TEAM_ABBREVIATION",
+
+        # core volume
         "GP",
         "MIN",
+
+        # counting (per game)
         "PTS",
         "REB",
         "AST",
         "STL",
         "BLK",
         "TOV",
+
+        # rebound splits (per game)
+        "OREB",
+        "DREB",
+
+        # shooting makes/attempts (per game)
+        "FGM",
+        "FGA",
+        "FG3M",
+        "FG3A",
+        "FTM",
+        "FTA",
+
+        # pct fields (still useful)
         "FG_PCT",
         "FG3_PCT",
         "FT_PCT",
     ]
+
     # Some seasons/endpoints can omit a column; keep only those present
     keep = [c for c in keep if c in df.columns]
     df = df[keep].copy()
@@ -71,6 +91,19 @@ def fetch_player_stats_per_game(
     # Ensure types are merge-friendly
     df["PLAYER_ID"] = df["PLAYER_ID"].astype(int)
     df["TEAM_ID"] = df["TEAM_ID"].astype(int)
+
+    # Prefer totals-based TS% to avoid tiny rounding artifacts:
+    needed = {"PTS", "FGA", "FTA", "GP"}
+    if needed.issubset(df.columns):
+        pts_t = df["PTS"] * df["GP"]
+        fga_t = df["FGA"] * df["GP"]
+        fta_t = df["FTA"] * df["GP"]
+        denom = 2 * (fga_t + 0.44 * fta_t)
+
+        df["TS_PCT"] = None
+        mask = denom > 0
+        df.loc[mask, "TS_PCT"] = (pts_t[mask] / denom[mask])
+
 
     # Replace NaNs with None-friendly values later (Flask can handle NaN removal too)
     return df
