@@ -25,7 +25,7 @@ import {
   Avatar,
   SimpleGrid,
 } from "@chakra-ui/react";
-import apiClient from "../../services/api-client";
+import apiClient from "../../../../services/api-client";
 import { useSearchParams } from "react-router-dom";
 
 type GameStatus = "FINAL" | "UPCOMING" | "POSTPONED";
@@ -145,7 +145,7 @@ export default function TeamsTab() {
   // Merge teams + standings by team name (simple and reliable)
   const joinedTeams: TeamJoined[] = useMemo(() => {
     const standingsById = new Map<number, StandingRow>(
-      standings.map((r) => [Number(r.TeamID), r])
+      standings.map((r) => [Number(r.TeamID), r]),
     );
 
     return teams.map((t) => {
@@ -247,11 +247,11 @@ export default function TeamsTab() {
 
     const bestBy = (key: "PTS" | "REB" | "AST") => {
       const filtered = roster.filter(
-        (p) => typeof p[key] === "number" && !Number.isNaN(p[key] as number)
+        (p) => typeof p[key] === "number" && !Number.isNaN(p[key] as number),
       );
       if (filtered.length === 0) return null;
       return filtered.reduce((best, cur) =>
-        (cur[key] as number) > (best[key] as number) ? cur : best
+        (cur[key] as number) > (best[key] as number) ? cur : best,
       );
     };
 
@@ -316,7 +316,7 @@ export default function TeamsTab() {
     const short = shortNameFromFull(selectedTeam.TEAM_NAME).toLowerCase();
 
     const finals = games.filter(
-      (g) => g.STATUS === "FINAL" && g.HOME_PTS != null && g.AWAY_PTS != null
+      (g) => g.STATUS === "FINAL" && g.HOME_PTS != null && g.AWAY_PTS != null,
     );
 
     let scored = 0;
@@ -696,8 +696,8 @@ function GameLine({ game }: { game: Game }) {
     game.STATUS === "FINAL"
       ? `${game.AWAY_PTS} - ${game.HOME_PTS}`
       : game.STATUS === "POSTPONED"
-      ? "Postponed"
-      : "Upcoming";
+        ? "Postponed"
+        : "Upcoming";
 
   return (
     <Box bg="gray.900" borderRadius="md" p={3}>
@@ -719,8 +719,8 @@ function GameLine({ game }: { game: Game }) {
             game.STATUS === "FINAL"
               ? "green"
               : game.STATUS === "POSTPONED"
-              ? "red"
-              : "yellow"
+                ? "red"
+                : "yellow"
           }
         >
           {game.STATUS}

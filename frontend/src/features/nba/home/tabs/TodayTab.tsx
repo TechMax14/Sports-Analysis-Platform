@@ -9,7 +9,7 @@ import {
   HStack,
   Image,
 } from "@chakra-ui/react";
-import apiClient from "../../services/api-client";
+import apiClient from "../../../../services/api-client";
 
 interface Game {
   GAME_ID: string;
@@ -47,7 +47,7 @@ export default function TodayTab() {
   const [games, setGames] = useState<Game[]>([]);
   const [teams, setTeams] = useState<Team[]>([]);
   const [selectedDate, setSelectedDate] = useState(
-    new Date().toISOString().slice(0, 10)
+    new Date().toISOString().slice(0, 10),
   );
   const [loading, setLoading] = useState(true);
 

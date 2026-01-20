@@ -1,9 +1,9 @@
 import { HStack, Button } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import { Grid, GridItem, Show } from "@chakra-ui/react";
-import NavBar from "../components/NavBar";
-import ToolGrid from "../components/ToolGrid";
-import ToolSelector from "../components/ToolSelector";
+import NavBar from "../../../app/shell/NavBar";
+import ToolGrid from "../../../app/shell/ToolGrid";
+import ToolSelector from "../../../app/shell/ToolSelector";
 import { useState } from "react";
 
 export default function NbaShell() {

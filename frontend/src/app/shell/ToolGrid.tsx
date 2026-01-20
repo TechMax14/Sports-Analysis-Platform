@@ -1,4 +1,4 @@
-import NbaHome from "./NbaHome/NbaHome"; // we’ll create this wrapper below
+import NbaHome from "../../features/nba/home/NbaHome"; // we’ll create this wrapper below
 
 interface Props {
   selectedTool: string;

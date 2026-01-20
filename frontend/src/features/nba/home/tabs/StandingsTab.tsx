@@ -16,7 +16,7 @@ import {
   Badge,
   Image,
 } from "@chakra-ui/react";
-import apiClient from "../../services/api-client";
+import apiClient from "../../../../services/api-client";
 import { useNavigate } from "react-router-dom";
 
 type ViewMode = "CONFERENCE" | "LEAGUE" | "DIVISION";
@@ -77,11 +77,11 @@ export default function StandingsTab() {
 
   const east = useMemo(
     () => sortStandings(rows.filter((r) => r.Conference === "East")),
-    [rows]
+    [rows],
   );
   const west = useMemo(
     () => sortStandings(rows.filter((r) => r.Conference === "West")),
-    [rows]
+    [rows],
   );
   const league = useMemo(() => sortStandings(rows), [rows]);
 
@@ -237,8 +237,8 @@ function StandingsTable({
                 showCutLines && seed <= 6
                   ? { label: "Playoffs", scheme: "green" as const }
                   : showCutLines && seed <= 10
-                  ? { label: "Play-In", scheme: "yellow" as const }
-                  : null;
+                    ? { label: "Play-In", scheme: "yellow" as const }
+                    : null;
 
               return (
                 <Tr

@@ -11,7 +11,7 @@ import {
   Select,
   Image,
 } from "@chakra-ui/react";
-import apiClient from "../../services/api-client";
+import apiClient from "../../../../services/api-client";
 
 type GameStatus = "FINAL" | "UPCOMING" | "POSTPONED";
 type RangeMode = "WEEK" | "MONTH";
@@ -124,7 +124,7 @@ export default function ScheduleTab() {
 
   const sortedTeams = useMemo(
     () => teams.slice().sort((a, b) => a.TEAM_NAME.localeCompare(b.TEAM_NAME)),
-    [teams]
+    [teams],
   );
 
   const teamIdByKey = useMemo(() => {
@@ -149,13 +149,13 @@ export default function ScheduleTab() {
 
   const goPrev = () => {
     setAnchorDate(
-      mode === "WEEK" ? shiftDays(anchorDate, -7) : shiftMonths(anchorDate, -1)
+      mode === "WEEK" ? shiftDays(anchorDate, -7) : shiftMonths(anchorDate, -1),
     );
   };
 
   const goNext = () => {
     setAnchorDate(
-      mode === "WEEK" ? shiftDays(anchorDate, 7) : shiftMonths(anchorDate, 1)
+      mode === "WEEK" ? shiftDays(anchorDate, 7) : shiftMonths(anchorDate, 1),
     );
   };
 
@@ -206,7 +206,7 @@ export default function ScheduleTab() {
               value={selectedTeamId}
               onChange={(e) =>
                 setSelectedTeamId(
-                  e.target.value === "ALL" ? "ALL" : Number(e.target.value)
+                  e.target.value === "ALL" ? "ALL" : Number(e.target.value),
                 )
               }
             >

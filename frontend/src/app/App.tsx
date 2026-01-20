@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import NbaShell from "./pages/NbaShell";
-import NflShell from "./pages/NflShell";
-import MlbShell from "./pages/MlbShell";
-import NhlShell from "./pages/NhlShell";
+import Home from "./Home";
+import NbaShell from "../features/nba/shell/NbaShell";
+import NflShell from "../features/nfl/shell/NflShell";
+import MlbShell from "../features/mlb/shell/MlbShell";
+import NhlShell from "../features/nhl/shell/NhlShell";
 
 export default function App() {
   return (
