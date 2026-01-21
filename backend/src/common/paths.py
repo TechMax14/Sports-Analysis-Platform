@@ -1,15 +1,19 @@
-# src/configs/paths.py
+# src/common/paths.py
 from pathlib import Path
 
-PROCESSED = Path(__file__).resolve().parent.parent.parent / "data" / "processed"
-PROCESSED.mkdir(parents=True, exist_ok=True)
+DATA_ROOT = Path(__file__).resolve().parent.parent.parent / "data"
+
+NBA_PROCESSED = DATA_ROOT / "nba" / "processed"
+NBA_PROCESSED.mkdir(parents=True, exist_ok=True)
 
 CSV = {
-  "nba_games": PROCESSED / "nba_games.csv",
-  "nba_standings": PROCESSED / "nba_standings.csv",
-  "nba_team_stats": PROCESSED / "nba_team_stats.csv",
-  "nba_teams": PROCESSED / "nba_teams.csv",
-  "nba_rosters": PROCESSED / "nba_rosters.csv",
-  "nba_roster_master": PROCESSED / "nba_roster_master.csv",
-  "nba_top_players": PROCESSED / "nba_top_player_stats.csv",
+    # NBA
+    "nba_games": NBA_PROCESSED / "games.csv",
+    "nba_standings": NBA_PROCESSED / "standings.csv",
+    "nba_team_stats": NBA_PROCESSED / "team_stats.csv",
+    "nba_teams": NBA_PROCESSED / "teams.csv",
+    "nba_rosters": NBA_PROCESSED / "rosters.csv",
+    "nba_roster_master": NBA_PROCESSED / "roster_master.csv",
+    "nba_top_players": NBA_PROCESSED / "top_players.csv",
+    "nba_player_game_logs": NBA_PROCESSED / "player_game_logs.csv",
 }

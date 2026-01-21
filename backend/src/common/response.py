@@ -13,7 +13,7 @@ def csv_resp(file_key: str, where_col=None, equals_val=None):
 
     df = df.replace([np.nan, np.inf, -np.inf], None)
 
-    df = df.where(pd.notnull(df), None)
+    #df = df.where(pd.notnull(df), None)
 
     if where_col and equals_val is not None:
         df = df[df[where_col] == int(equals_val)]

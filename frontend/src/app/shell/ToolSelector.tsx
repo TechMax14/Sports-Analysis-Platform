@@ -3,7 +3,7 @@ import { VStack, Button } from "@chakra-ui/react";
 interface Props {
   selectedTool: string;
   onSelectTool: (tool: string) => void;
-  onSelectTeamId: (teamId: number | null) => void;
+  //onSelectTeamId: (teamId: number | null) => void;
 }
 
 const tools = ["NBA Home", "Today’s Trends", "League History"];

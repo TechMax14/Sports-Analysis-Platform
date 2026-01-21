@@ -1,7 +1,7 @@
 # main.py
 from datetime import datetime
 import numpy as np
-from src.common.paths import CSV, PROCESSED
+from src.common.paths import CSV, NBA_PROCESSED
 from src.common.image_urls import get_nba_player_image_url
 from src.leagues.nba.pipeline.fetch_data       import fetch_regular_season_logs
 from src.leagues.nba.pipeline.team_stats       import generate_team_season_stats
@@ -12,11 +12,12 @@ from src.leagues.nba.pipeline.standings        import fetch_standings
 from src.leagues.nba.pipeline.top_player_stats import get_top_player_stats_by_team
 from src.leagues.nba.pipeline.player_stats     import fetch_player_stats_per_game
 from src.leagues.nba.pipeline.nba_season       import current_nba_season 
+from src.leagues.nba.pipeline.player_game_logs import build_player_game_logs_csv
 
 CURRENT_YEAR = datetime.now().year
 
 def run_pipeline():
-    PROCESSED.mkdir(parents=True, exist_ok=True)
+    NBA_PROCESSED.mkdir(parents=True, exist_ok=True)
 
     # Keep your historical game logs pipeline
     print("🏀 Fetching NBA game logs (regular season only)...")
@@ -69,6 +70,11 @@ def run_pipeline():
 
     master_roster.to_csv(CSV["nba_roster_master"], index=False, encoding="utf-8")
     print("✅ Wrote:", CSV["nba_roster_master"].name)
+
+    # ----- player game logs (current season) -----
+    build_player_game_logs_csv()
+    print("✅ Wrote:", CSV["nba_player_game_logs"].name)
+
 
     # ----- schedule & standings -----
     schedule = fetch_schedule(CURRENT_YEAR)
