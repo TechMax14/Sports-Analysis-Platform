@@ -1,6 +1,6 @@
 from nba_api.stats.endpoints import commonteamroster
-from src.configs.constants import PLAYER_ID_FIXES
-from src.utils.nba_season import current_nba_season
+from src.common.constants import PLAYER_ID_FIXES
+from src.leagues.nba.pipeline.nba_season import current_nba_season
 import pandas as pd
 import time
 from datetime import datetime

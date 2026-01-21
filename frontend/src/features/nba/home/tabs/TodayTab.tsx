@@ -53,7 +53,7 @@ export default function TodayTab() {
 
   useEffect(() => {
     apiClient
-      .get("/teams")
+      .get("/nba/teams")
       .then((res) => setTeams(Array.isArray(res.data) ? res.data : []))
       .catch(() => setTeams([]));
   }, []);
@@ -61,7 +61,7 @@ export default function TodayTab() {
   useEffect(() => {
     setLoading(true);
     apiClient
-      .get("/schedule/daily", { params: { date: selectedDate } })
+      .get("/nba/schedule/daily", { params: { date: selectedDate } })
       .then((res) => {
         const data = res.data;
         setGames(Array.isArray(data) ? data : []);

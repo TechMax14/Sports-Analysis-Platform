@@ -1,4 +1,4 @@
-from src.utils.image_urls import get_team_logo_url
+from src.common.image_urls import get_nba_team_logo_url
 import pandas as pd
 
 TEAM_NAME_STANDARDIZATION = {
@@ -28,6 +28,6 @@ def extract_team_list(df: pd.DataFrame) -> pd.DataFrame:
         return parts[-1]                 # "Celtics", "76ers", etc.
 
     team_df["TEAM_SHORT_NAME"] = team_df["TEAM_NAME"].apply(short_name)
-    team_df["TEAM_LOGO_URL"] = team_df["TEAM_ID"].apply(get_team_logo_url)
+    team_df["TEAM_LOGO_URL"] = team_df["TEAM_ID"].apply(get_nba_team_logo_url)
 
     return team_df

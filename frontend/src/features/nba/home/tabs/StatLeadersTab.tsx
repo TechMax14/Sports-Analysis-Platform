@@ -75,7 +75,7 @@ export default function StatLeadersTab() {
 
   // per-card option selection
   const [selectedOption, setSelectedOption] = useState<Record<string, string>>(
-    {}
+    {},
   );
 
   const apiBase = useMemo(() => "http://localhost:5000", []);
@@ -85,7 +85,7 @@ export default function StatLeadersTab() {
     setLoading(true);
 
     axios
-      .get<LeadersResponse>(`${apiBase}/api/leaders`, {
+      .get<LeadersResponse>(`${apiBase}/api/nba/leaders`, {
         params: { min_gp: minGp, limit: 5 },
       })
       .then((r) => {
@@ -134,13 +134,13 @@ export default function StatLeadersTab() {
       </HStack>
 
       <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={4}>
-        {(loading ? Array.from({ length: 9 }) : data?.cards ?? []).map(
+        {(loading ? Array.from({ length: 9 }) : (data?.cards ?? [])).map(
           (card, idx) => {
             const isSkeleton = loading;
             const c = card as LeaderCardGrouped | undefined;
 
             const cardKey = c?.cardKey ?? `sk-${idx}`;
-            const title = isSkeleton ? "Loading…" : c?.title ?? "—";
+            const title = isSkeleton ? "Loading…" : (c?.title ?? "—");
 
             const options = c?.options ?? [];
             const currentOptionKey =
@@ -159,12 +159,12 @@ export default function StatLeadersTab() {
             const leader = leaders?.leader ?? null;
             const topRows = leaders?.top ?? [];
 
-            const leaderName = isSkeleton ? "—" : leader?.name ?? "—";
+            const leaderName = isSkeleton ? "—" : (leader?.name ?? "—");
             const leaderTeam = isSkeleton
               ? ""
               : leader?.teamAbbr
-              ? ` (${leader.teamAbbr})`
-              : "";
+                ? ` (${leader.teamAbbr})`
+                : "";
 
             const leaderValue = isSkeleton
               ? "—"
@@ -309,7 +309,7 @@ export default function StatLeadersTab() {
                 </Stack>
               </Box>
             );
-          }
+          },
         )}
       </SimpleGrid>
     </Stack>

@@ -6,7 +6,7 @@ from typing import Any, Dict
 
 import pandas as pd
 
-from src.configs.paths import CSV
+from src.common.paths import CSV
 
 _MASTER_CACHE: Dict[str, Any] = {"path": None, "mtime": None, "df": None}
 _GAMES_CACHE: Dict[str, Any] = {"path": None, "mtime": None, "df": None}

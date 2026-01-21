@@ -65,7 +65,7 @@ export default function ScheduleTab() {
 
   useEffect(() => {
     apiClient
-      .get("/teams")
+      .get("/nba/teams")
       .then((res) => {
         const data = res.data;
         setTeams(Array.isArray(data) ? data : []);
@@ -81,7 +81,7 @@ export default function ScheduleTab() {
   useEffect(() => {
     setLoading(true);
     apiClient
-      .get("/schedule/range", { params: { start, end } })
+      .get("/nba/schedule/range", { params: { start, end } })
       .then((res) => {
         const data = res.data;
         setGames(Array.isArray(data) ? data : []);

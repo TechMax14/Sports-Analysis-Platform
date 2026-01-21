@@ -129,7 +129,7 @@ export default function TeamsTab() {
   // Load teams + standings (for division + record)
   useEffect(() => {
     setLoading(true);
-    Promise.all([apiClient.get("/teams"), apiClient.get("/standings")])
+    Promise.all([apiClient.get("/nba/teams"), apiClient.get("/nba/standings")])
       .then(([teamsRes, standingsRes]) => {
         setTeams(Array.isArray(teamsRes.data) ? teamsRes.data : []);
         setStandings(Array.isArray(standingsRes.data) ? standingsRes.data : []);
@@ -227,7 +227,7 @@ export default function TeamsTab() {
     if (!selectedTeamId) return;
     setRosterLoading(true);
     apiClient
-      .get(`/teams/${selectedTeamId}/roster`)
+      .get(`/nba/teams/${selectedTeamId}/roster`)
       .then((res) => setRoster(Array.isArray(res.data) ? res.data : []))
       .catch((err) => {
         console.error("Failed to load roster:", err);
@@ -272,7 +272,7 @@ export default function TeamsTab() {
     const end = shiftDays(todayISO(), 60);
 
     apiClient
-      .get("/schedule/range", { params: { start, end } })
+      .get("/nba/schedule/range", { params: { start, end } })
       .then((res) => {
         const data = Array.isArray(res.data) ? res.data : [];
         // Filter games where this team participated.

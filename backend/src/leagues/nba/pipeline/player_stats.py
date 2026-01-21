@@ -4,7 +4,7 @@ from __future__ import annotations
 import pandas as pd
 from nba_api.stats.endpoints import leaguedashplayerstats
 
-from src.utils.nba_season import current_nba_season
+from src.leagues.nba.pipeline.nba_season import current_nba_season
 
 
 def fetch_player_stats_per_game(

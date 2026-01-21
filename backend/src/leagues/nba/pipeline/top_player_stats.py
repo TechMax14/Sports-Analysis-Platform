@@ -1,6 +1,6 @@
 import pandas as pd
 from nba_api.stats.endpoints import leaguedashplayerstats
-from src.configs.constants import PLAYER_ID_FIXES
+from src.common.constants import PLAYER_ID_FIXES
 
 def get_top_player_stats_by_team(season: str) -> pd.DataFrame:
     """

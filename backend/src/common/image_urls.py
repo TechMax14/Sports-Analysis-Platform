@@ -1,6 +1,6 @@
-# src/utils/image_urls.py
+# src/common/image_urls.py
 
-def get_player_image_url(player_id: int, size: str = "1040x760") -> str:
+def get_nba_player_image_url(player_id: int, size: str = "1040x760") -> str:
     """
     Returns NBA headshot URL for a player.
     Valid sizes: '1040x760', '260x190'
@@ -8,7 +8,7 @@ def get_player_image_url(player_id: int, size: str = "1040x760") -> str:
     return f"https://cdn.nba.com/headshots/nba/latest/{size}/{player_id}.png"
 
 
-def get_team_logo_url(team_id: int, size: str = "L") -> str:
+def get_nba_team_logo_url(team_id: int, size: str = "L") -> str:
     """
     Returns NBA team logo URL.
     Valid sizes: 'L', 'primary', 'wordmark', etc.

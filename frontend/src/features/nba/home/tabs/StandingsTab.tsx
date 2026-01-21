@@ -47,7 +47,7 @@ export default function StandingsTab() {
   useEffect(() => {
     setLoading(true);
     apiClient
-      .get("/standings")
+      .get("/nba/standings")
       .then((res) => {
         const data = res.data;
         setRows(Array.isArray(data) ? data : []);

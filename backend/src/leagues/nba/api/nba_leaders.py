@@ -5,7 +5,7 @@ from typing import Any, Dict, List, Optional
 
 import pandas as pd
 
-from src.utils.nba_data import load_master_roster_df
+from src.leagues.nba.api.nba_data import load_master_roster_df
 
 import math
 

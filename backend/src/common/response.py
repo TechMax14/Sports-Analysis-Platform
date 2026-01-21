@@ -2,7 +2,7 @@
 from flask import jsonify
 import pandas as pd
 import numpy as np
-from ..configs.paths import CSV
+from ..common.paths import CSV
 
 def csv_resp(file_key: str, where_col=None, equals_val=None):
     path = CSV[file_key]

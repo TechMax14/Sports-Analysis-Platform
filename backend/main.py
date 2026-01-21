@@ -1,17 +1,17 @@
 # main.py
 from datetime import datetime
 import numpy as np
-from src.configs.paths import CSV, PROCESSED
-from src.data.fetch_data       import fetch_regular_season_logs
-from src.data.team_stats       import generate_team_season_stats
-from src.data.team_utils       import standardize_team_names, extract_team_list
-from src.data.team_rosters     import generate_current_team_rosters
-from src.data.schedule         import fetch_schedule
-from src.data.standings        import fetch_standings
-from src.data.top_player_stats import get_top_player_stats_by_team
-from src.utils.image_urls      import get_player_image_url
-from src.data.player_stats import fetch_player_stats_per_game
-from src.utils.nba_season import current_nba_season 
+from src.common.paths import CSV, PROCESSED
+from src.common.image_urls import get_nba_player_image_url
+from src.leagues.nba.pipeline.fetch_data       import fetch_regular_season_logs
+from src.leagues.nba.pipeline.team_stats       import generate_team_season_stats
+from src.leagues.nba.pipeline.team_utils       import standardize_team_names, extract_team_list
+from src.leagues.nba.pipeline.team_rosters     import generate_current_team_rosters
+from src.leagues.nba.pipeline.schedule         import fetch_schedule
+from src.leagues.nba.pipeline.standings        import fetch_standings
+from src.leagues.nba.pipeline.top_player_stats import get_top_player_stats_by_team
+from src.leagues.nba.pipeline.player_stats     import fetch_player_stats_per_game
+from src.leagues.nba.pipeline.nba_season       import current_nba_season 
 
 CURRENT_YEAR = datetime.now().year
 
@@ -79,7 +79,7 @@ def run_pipeline():
 
     # ----- top players -----
     top = get_top_player_stats_by_team(season_str)
-    top["PLAYER_IMAGE_URL"] = top["PLAYER_ID"].apply(get_player_image_url)
+    top["PLAYER_IMAGE_URL"] = top["PLAYER_ID"].apply(get_nba_player_image_url)
     top.to_csv(CSV["nba_top_players"], index=False)
 
     print("✅ Pipeline complete – all CSVs refreshed")
