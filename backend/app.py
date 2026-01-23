@@ -1,7 +1,7 @@
 # backend/app.py
 from __future__ import annotations
 
-from datetime import date
+from datetime import date as _date
 
 import pandas as pd
 import numpy as np
@@ -9,6 +9,7 @@ import numpy as np
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
+from src.leagues.nba.trends.matchup_insights import get_matchup_insights
 from src.common.paths import CSV
 from src.common.response import csv_resp
 from src.leagues.nba.api.nba_data import load_games_df
@@ -214,6 +215,17 @@ def nba_player_gamelog(player_id: int):
         print("nba_player_gamelog error:", e)
         return jsonify([])
 
+@app.get("/api/nba/trends/matchup-insights")
+def nba_matchup_insights():
+    target = request.args.get("date") or _date.today().isoformat()
+    away = request.args.get("away") or ""
+    home = request.args.get("home") or ""
+    try:
+        d = _date.fromisoformat(target)
+        return jsonify(get_matchup_insights(away_team=away, home_team=home, target_date=d))
+    except Exception as e:
+        print("nba_matchup_insights error:", e)
+        return jsonify({})
 
 if __name__ == "__main__":
     app.run(debug=True)

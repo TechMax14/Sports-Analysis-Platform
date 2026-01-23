@@ -63,7 +63,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612766,2025,Liam McNeeley,33,F,6-7,210,20.0,R,Connecticut,1642862,Draft Rights Traded from PHX on 06/30/25,1610612766,Charlotte Hornets
 1610612766,2025,Mason Plumlee,22,F-C,7-0,254,35.0,12,Duke,203486,Signed on 07/13/25,1610612766,Charlotte Hornets
 1610612766,2025,Miles Bridges,0,F,6-7,225,27.0,6,Michigan State,1628970,Draft Rights Traded from LAC on 06/21/18,1610612766,Charlotte Hornets
-1610612766,2025,Moussa Diabate,14,F,6-10,210,23.0,3,Michigan,1631217,Signed on 07/31/24,1610612766,Charlotte Hornets
+1610612766,2025,Moussa Diabate,14,F,6-10,210,24.0,3,Michigan,1631217,Signed on 07/31/24,1610612766,Charlotte Hornets
 1610612766,2025,PJ Hall,16,C,6-8,245,23.0,1,Clemson,1641790,Signed on 12/24/25,1610612766,Charlotte Hornets
 1610612766,2025,Pat Connaughton,21,G,6-5,209,33.0,10,Notre Dame,1626192,Traded from MIL on 07/06/25,1610612766,Charlotte Hornets
 1610612766,2025,Ryan Kalkbrenner,11,C,7-1,256,24.0,R,Creighton,1641750,#34 Pick in 2025 Draft,1610612766,Charlotte Hornets
@@ -336,6 +336,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612740,2025,Yves Missi,21,C,6-11,235,21.0,1,Baylor,1642274,#21 Pick in 2024 Draft,1610612740,New Orleans Pelicans
 1610612740,2025,Zion Williamson,1,F,6-6,284,25.0,6,Duke,1629627,#1 Pick in 2019 Draft,1610612740,New Orleans Pelicans
 1610612752,2025,Ariel Hukporti,55,C,7-0,246,23.0,1,Riesen Ludwigsburg,1630574,Draft Rights Traded from DAL on 06/27/24,1610612752,New York Knicks
+1610612752,2025,Dillon Jones,33,F,6-5,235,24.0,1,Weber State,1641794,Signed on 01/20/26,1610612752,New York Knicks
 1610612752,2025,Guerschon Yabusele,28,F,6-7,265,30.0,3,"Rouen, France",1627824,Signed on 07/06/25,1610612752,New York Knicks
 1610612752,2025,Jalen Brunson,11,G,6-2,190,29.0,7,Villanova,1628973,Signed on 07/12/22,1610612752,New York Knicks
 1610612752,2025,Jordan Clarkson,00,G,6-5,194,33.0,11,Missouri,203903,Signed on 07/07/25,1610612752,New York Knicks
@@ -405,7 +406,7 @@ TeamID,SEASON,PLAYER_NAME,JERSEY_NUMBER,POSITION,HEIGHT,WEIGHT,AGE,EXP,SCHOOL,PL
 1610612755,2025,VJ Edgecombe,77,G,6-4,180,20.0,R,Baylor,1642845,#3 Pick in 2025 Draft,1610612755,Philadelphia 76ers
 1610612756,2025,Collin Gillespie,12,G,6-1,195,26.0,2,Villanova,1631221,Signed on 07/02/24,1610612756,Phoenix Suns
 1610612756,2025,Devin Booker,1,G,6-5,206,29.0,10,Kentucky,1626164,#13 Pick in 2015 Draft,1610612756,Phoenix Suns
-1610612756,2025,Dillon Brooks,3,G-F,6-7,225,29.0,8,Oregon,1628415,Traded from HOU on 07/06/25,1610612756,Phoenix Suns
+1610612756,2025,Dillon Brooks,3,G-F,6-7,225,30.0,8,Oregon,1628415,Traded from HOU on 07/06/25,1610612756,Phoenix Suns
 1610612756,2025,Grayson Allen,8,G,6-3,198,30.0,7,Duke,1628960,Traded from MIL on 09/27/23,1610612756,Phoenix Suns
 1610612756,2025,Isaiah Livers,18,F,6-6,232,27.0,3,Michigan,1630587,Signed on 07/08/25,1610612756,Phoenix Suns
 1610612756,2025,Jalen Green,4,G,6-4,186,23.0,4,NBA G League Ignite,1630224,Traded from HOU on 07/06/25,1610612756,Phoenix Suns

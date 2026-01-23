@@ -1,5 +1,6 @@
 from src.common.image_urls import get_nba_team_logo_url
 import pandas as pd
+import re
 
 TEAM_NAME_STANDARDIZATION = {
     "LA Clippers": "Los Angeles Clippers",
@@ -31,3 +32,19 @@ def extract_team_list(df: pd.DataFrame) -> pd.DataFrame:
     team_df["TEAM_LOGO_URL"] = team_df["TEAM_ID"].apply(get_nba_team_logo_url)
 
     return team_df
+
+def normalize_team_name(name: str | None) -> str:
+    """
+    Normalize a team name string so it matches names used in games.csv.
+    Safe for comparisons and joins.
+    """
+    if not name:
+        return ""
+
+    n = str(name).strip().title()
+    n = re.sub(r"\s+", " ", n)
+
+    # Apply same historical mappings
+    n = TEAM_NAME_STANDARDIZATION.get(n, n)
+
+    return n

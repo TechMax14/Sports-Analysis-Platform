@@ -1,4 +1,420 @@
 GAME_DATE,MATCHUP,WL,MIN,PTS,REB,AST,GAME_ID,PLAYER_ID,PLAYER_NAME,OPP_TEAM_ABBR,IS_HOME,IS_AWAY,SEASON,SEASON_TYPE
+2026-01-22,CHA @ ORL,W,3,0,0,0,,1641810,Antonio Reeves,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,27,20,2,4,,1641706,Brandon Miller,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,23,19,0,4,,1629012,Collin Sexton,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,16,6,0,0,,1630182,Josh Green,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,28,13,10,4,,1642851,Kon Knueppel,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,28,16,6,7,,1630163,LaMelo Ball,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,30,10,8,2,,1628970,Miles Bridges,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,16,10,4,1,,1631217,Moussa Diabate,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,4,0,0,1,,1626192,Pat Connaughton,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,27,10,9,0,,1641750,Ryan Kalkbrenner,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,20,7,3,3,,1642883,Sion James,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHA @ ORL,W,18,13,5,0,,1642275,Tidjane Salaun,ORL,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,22,8,4,3,,1630245,Ayo Dosunmu,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,30,22,4,4,,1629632,Coby White,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,26,10,5,1,,1630171,Isaac Okoro,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,27,17,4,0,,1630188,Jalen Smith,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,26,21,6,5,,1630581,Josh Giddey,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,8,3,0,2,,1628989,Kevin Huerter,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,28,12,6,3,,1641824,Matas Buzelis,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,31,10,8,3,,202696,Nikola Vucevic,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,16,5,3,0,,1630172,Patrick Williams,MIN,False,True,2025-26,Regular Season
+2026-01-22,CHI @ MIN,W,27,12,3,7,,1630200,Tre Jones,MIN,False,True,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,27,19,5,4,,1630314,Brandon Williams,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,20,0,2,1,,1628997,Caleb Martin,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,30,21,11,2,,1642843,Cooper Flagg,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,27,10,12,1,,203939,Dwight Powell,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,3,0,0,0,,1630526,Jeremiah Robinson-Earl,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,23,6,4,0,,202691,Klay Thompson,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,36,21,4,2,,1631108,Max Christie,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,1,0,0,0,,1642939,Miles Kelly,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,6,1,1,0,,1630619,Moussa Cisse,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,34,30,7,9,,1630230,Naji Marshall,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,22,10,6,3,,1629023,P.J. Washington,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DAL vs. GSW,W,12,5,2,3,,1642948,Ryan Nembhard,. GSW,True,False,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,33,16,5,5,,203932,Aaron Gordon,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,18,6,6,2,,1628971,Bruce Brown,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,33,2,5,5,,1629618,Jalen Pickett,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,36,24,4,5,,1627750,Jamal Murray,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,22,16,9,2,,202685,Jonas Valanciunas,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,40,35,8,3,,1631212,Peyton Watson,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,28,2,5,0,,1642461,Spencer Jones,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,20,2,3,0,,203501,Tim Hardaway Jr.,WAS,False,True,2025-26,Regular Season
+2026-01-22,DEN @ WAS,W,10,4,1,0,,1630192,Zeke Nnaji,WAS,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,26,3,8,3,,201143,Al Horford,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,33,9,4,10,,1641764,Brandin Podziemski,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,15,6,1,1,,1627741,Buddy Hield,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,23,22,3,2,,1629001,De'Anthony Melton,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,23,4,4,5,,203110,Draymond Green,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,17,4,3,0,,1627780,Gary Payton II,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,17,5,4,0,,1630611,Gui Santos,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,9,10,1,2,,1630228,Jonathan Kuminga,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,23,12,3,3,,1630541,Moses Moody,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,6,2,0,0,,1642366,Quinten Post,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,34,38,4,1,,201939,Stephen Curry,DAL,False,True,2025-26,Regular Season
+2026-01-22,GSW @ DAL,L,13,0,0,2,,1642954,Will Richard,DAL,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,38,13,8,7,,1630578,Alperen Sengun,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,42,17,6,9,,1641708,Amen Thompson,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,15,2,7,0,,203991,Clint Capela,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,15,6,2,1,,1627827,Dorian Finney-Smith,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,38,13,4,5,,1631095,Jabari Smith Jr.,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,22,8,2,2,,1629006,Josh Okogie,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,44,36,7,3,,201142,Kevin Durant,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,23,14,1,4,,1642263,Reed Sheppard,PHI,False,True,2025-26,Regular Season
+2026-01-22,HOU @ PHI,L,28,13,9,2,,1631106,Tari Eason,PHI,False,True,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,35,20,6,3,,1630162,Anthony Edwards,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,12,3,2,1,,1630538,Bones Hyland,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,35,11,3,4,,1628978,Donte DiVincenzo,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,36,16,5,5,,1630183,Jaden McDaniels,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,12,2,1,1,,1641740,Jaylen Clark,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,3,0,1,0,,1642866,Joan Beringer,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,31,30,7,6,,203944,Julius Randle,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,14,3,3,2,,201144,Mike Conley,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,29,20,6,5,,1629675,Naz Reid,. CHI,True,False,2025-26,Regular Season
+2026-01-22,MIN vs. CHI,L,34,10,11,2,,203497,Rudy Gobert,. CHI,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,28,4,2,2,,1641710,Anthony Black,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,32,21,5,4,,1630217,Desmond Bane,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,12,0,2,1,,1629048,Goga Bitadze,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,4,0,0,0,,1631288,Jamal Cain,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,23,2,2,0,,1642859,Jase Richardson,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,18,10,1,1,,1641724,Jett Howard,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,4,0,1,2,,1628371,Jonathan Isaac,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,15,14,1,1,,1629021,Moritz Wagner,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,19,13,2,4,,1642869,Noah Penda,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,30,23,7,5,,1631094,Paolo Banchero,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,19,3,3,1,,1641783,Tristan da Silva,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,16,3,2,1,,1626145,Tyus Jones,. CHA,True,False,2025-26,Regular Season
+2026-01-22,ORL vs. CHA,L,20,4,3,3,,1628976,Wendell Carter Jr.,. CHA,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,7,1,3,1,,1641737,Adem Bona,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,21,7,5,3,,1631230,Dominick Barlow,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,46,32,15,10,,203954,Joel Embiid,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,41,26,4,3,,1626162,Kelly Oubre Jr.,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,37,10,6,4,,202331,Paul George,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,19,3,1,3,,1629656,Quentin Grimes,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,11,4,3,3,,1630570,Trendon Watford,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,43,36,2,10,,1630178,Tyrese Maxey,. HOU,True,False,2025-26,Regular Season
+2026-01-22,PHI vs. HOU,W,40,9,7,4,,1642845,VJ Edgecombe,. HOU,True,False,2025-26,Regular Season
+2026-01-22,SAS @ UTA,W,13,7,4,1,,1642868,Carter Bryant,UTA,False,True,2025-26,Regular Season
+2026-01-22,SAS @ UTA,W,35,31,5,5,,1628368,De'Aaron Fox,UTA,False,True,2025-26,Regular Season
+2026-01-22,SAS @ UTA,W,4,0,0,0,,1631110,Jeremy Sochan,UTA,False,True,2025-26,Regular Season
+2026-01-22,SAS @ UTA,W,8,2,1,0,,203482,Kelly Olynyk,UTA,False,True,2025-26,Regular Season
+2026-01-22,UTA vs. SAS,L,20,2,3,0,,1641729,Brice Sensabaugh,. SAS,True,False,2025-26,Regular Season
+2026-01-22,UTA vs. SAS,L,23,12,7,3,,1642262,Cody Williams,. SAS,True,False,2025-26,Regular Season
+2026-01-22,UTA vs. SAS,L,35,23,4,5,,1641718,Keyonte George,. SAS,True,False,2025-26,Regular Season
+2026-01-22,UTA vs. SAS,L,24,4,0,1,,1642383,Walter Clayton Jr.,. SAS,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,36,15,8,4,,1642259,Alex Sarr,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,12,2,4,0,,1630264,Anthony Gill,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,38,13,2,2,,1642267,Bub Carrington,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,18,3,5,1,,1642364,Jamir Watkins,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,18,3,2,3,,1630551,Justin Champagnie,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,28,9,2,0,,203114,Khris Middleton,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,34,20,12,7,,1642273,Kyshawn George,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,34,19,3,3,,1642848,Tre Johnson,. DEN,True,False,2025-26,Regular Season
+2026-01-22,WAS vs. DEN,L,21,13,4,0,,1642860,Will Riley,. DEN,True,False,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,26,15,0,6,,203468,CJ McCollum,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,11,5,1,0,,1631132,Christian Koloko,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,14,8,1,2,,1630557,Corey Kispert,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,35,3,7,8,,1630700,Dyson Daniels,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,39,32,15,8,,1630552,Jalen Johnson,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,25,18,4,2,,1628379,Luke Kennard,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,18,7,1,2,,1631243,Mouhamed Gueye,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,33,11,2,4,,1629638,Nickeil Alexander-Walker,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,28,18,9,1,,1630168,Onyeka Okongwu,MEM,False,True,2025-26,Regular Season
+2026-01-21,ATL @ MEM,W,11,7,2,1,,1630249,Vit Krejci,MEM,False,True,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,4,0,0,0,,1642873,Amari Williams,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,22,9,4,2,,1629014,Anfernee Simons,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,14,5,2,1,,1631248,Baylor Scheierman,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,30,13,5,5,,1628401,Derrick White,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,11,5,2,0,,1642864,Hugo González,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,34,30,10,5,,1627759,Jaylen Brown,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,17,3,5,0,,1641775,Jordan Walsh,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,16,8,6,0,,1630568,Luka Garza,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,29,17,9,0,,1629674,Neemias Queta,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,33,10,5,8,,1630202,Payton Pritchard,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,2,2,0,0,,1631199,Ron Harper Jr.,. IND,True,False,2025-26,Regular Season
+2026-01-21,BOS vs. IND,W,28,17,6,3,,1630573,Sam Hauser,. IND,True,False,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,16,5,1,2,,1630560,Cam Thomas,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,12,3,2,0,,1642874,Danny Wolf,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,24,6,2,1,,1630549,Day'Ron Sharpe,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,25,6,1,3,,1642962,Drake Powell,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,21,6,1,3,,1642856,Egor Dëmin,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,11,0,2,1,,1630592,Jalen Wilson,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,26,12,6,1,,1629008,Michael Porter Jr.,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,23,4,4,1,,1629651,Nic Claxton,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,23,8,4,0,,1641730,Noah Clowney,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,19,0,1,3,,1642849,Nolan Traore,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,11,2,0,0,,1629611,Terance Mann,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,11,3,2,0,,1631213,Tyrese Martin,NYK,False,True,2025-26,Regular Season
+2026-01-21,BKN @ NYK,L,19,11,1,0,,1630533,Ziaire Williams,NYK,False,True,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,34,24,4,2,,1641706,Brandon Miller,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,15,11,2,0,,1629012,Collin Sexton,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,25,0,5,4,,1629684,Grant Williams,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,19,7,9,2,,1630182,Josh Green,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,31,21,11,2,,1642851,Kon Knueppel,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,22,2,5,7,,1630163,LaMelo Ball,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,26,11,1,1,,1628970,Miles Bridges,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,29,4,5,0,,1631217,Moussa Diabate,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,15,7,4,1,,1641750,Ryan Kalkbrenner,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CHA vs. CLE,L,22,0,1,1,,1642883,Sion James,. CLE,True,False,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,18,7,1,2,,1641854,Craig Porter Jr.,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,13,4,4,1,,1629631,De'Andre Hunter,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,27,4,9,4,,1629731,Dean Wade,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,37,24,3,6,,1628378,Donovan Mitchell,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,36,14,14,0,,1630596,Evan Mobley,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,35,13,9,0,,1628386,Jarrett Allen,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,31,14,7,4,,1642281,Jaylon Tyson,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,13,5,2,1,,1626204,Larry Nance Jr.,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,21,6,9,2,,1641772,Nae'Qwan Tomlin,CHA,False,True,2025-26,Regular Season
+2026-01-21,CLE @ CHA,W,10,3,2,0,,1642878,Tyrese Proctor,CHA,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,28,12,9,3,,1641709,Ausar Thompson,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,27,17,1,4,,1642450,Daniss Jenkins,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,29,15,4,3,,1629130,Duncan Robinson,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,24,8,6,3,,1630191,Isaiah Stewart,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,18,7,1,1,,1631093,Jaden Ivey,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,30,20,15,3,,1631105,Jalen Duren,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,14,8,2,0,,1629750,Javonte Green,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,21,9,1,4,,1631204,Marcus Sasser,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,18,6,2,2,,1641842,Ronald Holland II,NOP,False,True,2025-26,Regular Season
+2026-01-21,DET @ NOP,W,31,10,6,3,,202699,Tobias Harris,NOP,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,28,6,3,4,,1630174,Aaron Nesmith,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,33,9,4,9,,1629614,Andrew Nembhard,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,21,8,0,2,,1641767,Ben Sheppard,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,9,0,2,1,,1630543,Isaiah Jackson,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,29,19,3,2,,1641716,Jarace Walker,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,16,2,3,1,,1630643,Jay Huff,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,23,10,8,2,,1642277,Johnny Furphy,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,4,0,1,2,,1642880,Kam Jones,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,17,9,2,1,,1630695,Micah Potter,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,33,32,10,4,,1627783,Pascal Siakam,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,6,3,0,0,,1631245,Quenton Jackson,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,14,4,3,3,,204456,T.J. McConnell,BOS,False,True,2025-26,Regular Season
+2026-01-21,IND @ BOS,L,6,2,3,0,,1628396,Tony Bradley,BOS,False,True,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,21,11,2,4,,1642285,Cam Spencer,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,26,17,7,0,,1642907,Cedric Coward,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,21,9,2,1,,1641713,GG Jackson,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,30,23,2,12,,1629630,Ja Morant,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,32,17,6,2,,1628991,Jaren Jackson Jr.,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,26,18,4,0,,1642377,Jaylen Wells,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,28,13,11,3,,1629111,Jock Landale,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,21,2,4,0,,1629723,John Konchar,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,18,9,5,3,,203484,Kentavious Caldwell-Pope,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MEM vs. ATL,L,18,3,0,1,,1631246,Vince Williams Jr.,. ATL,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,32,15,3,1,,1631260,AJ Green,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,2,0,0,0,,1629599,Amir Coffey,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,6,3,2,0,,1641748,Andre Jackson Jr.,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,37,15,6,9,,1626171,Bobby Portis,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,24,17,3,3,,1630175,Cole Anthony,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,9,3,0,1,,203914,Gary Harris,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,6,0,0,1,,1629018,Gary Trent Jr.,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,31,19,14,7,,203507,Giannis Antetokounmpo,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,2,0,0,0,,1630579,Jericho Sims,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,28,9,4,0,,1628398,Kyle Kuzma,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,30,11,4,1,,1631250,Pete Nance,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,29,10,3,7,,1631157,Ryan Rollins,. OKC,True,False,2025-26,Regular Season
+2026-01-21,MIL vs. OKC,L,2,0,0,0,,203648,Thanasis Antetokounmpo,. OKC,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,13,5,2,1,,1631121,Bryce McGowens,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,23,5,4,8,,1642852,Derik Queen,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,20,12,5,0,,1642847,Jeremiah Fears,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,28,11,2,2,,1629673,Jordan Poole,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,14,5,2,0,,1631255,Karlo Matkovic,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,10,4,7,0,,1626172,Kevon Looney,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,27,17,7,2,,1642877,Micah Peavy,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,29,20,3,2,,1630180,Saddiq Bey,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,35,17,4,2,,1630530,Trey Murphy III,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,26,4,6,2,,1642274,Yves Missi,. DET,True,False,2025-26,Regular Season
+2026-01-21,NOP vs. DET,L,15,4,4,0,,1629627,Zion Williamson,. DET,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,11,2,5,0,,1630574,Ariel Hukporti,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,11,2,1,0,,1627824,Guerschon Yabusele,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,31,20,4,5,,1628973,Jalen Brunson,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,12,3,3,2,,203903,Jordan Clarkson,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,25,11,9,3,,1628404,Josh Hart,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,20,14,8,3,,1626157,Karl-Anthony Towns,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,15,18,1,2,,1629013,Landry Shamet,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,25,11,4,4,,1628969,Mikal Bridges,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,19,14,6,4,,1630540,Miles McBride,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,17,7,7,0,,1629011,Mitchell Robinson,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,8,7,3,1,,1642885,Mohamed Diawara,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,30,5,5,3,,1628384,OG Anunoby,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,7,0,0,1,,1642359,Pacome Dadiet,. BKN,True,False,2025-26,Regular Season
+2026-01-21,NYK vs. BKN,W,10,6,0,0,,1642278,Tyler Kolek,. BKN,True,False,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,25,18,3,2,,1642349,Ajay Mitchell,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,16,9,6,1,,1642382,Branden Carlson,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,13,0,3,0,,1642964,Brooks Barnhizer,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,31,9,2,2,,1641717,Cason Wallace,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,32,10,7,2,,1631096,Chet Holmgren,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,2,0,0,0,,1642959,Chris Youngblood,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,25,5,1,1,,1630198,Isaiah Joe,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,28,18,8,2,,1629026,Kenrich Williams,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,33,13,4,3,,1629652,Luguentz Dort,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,2,0,1,0,,1631172,Ousmane Dieng,MIL,False,True,2025-26,Regular Season
+2026-01-21,OKC @ MIL,W,33,40,7,11,,1628983,Shai Gilgeous-Alexander,MIL,False,True,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,33,9,1,2,,201942,DeMar DeRozan,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,20,16,1,3,,203471,Dennis Schroder,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,25,2,13,3,,1642928,Dylan Cardwell,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,25,17,4,3,,1628370,Malik Monk,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,22,8,7,2,,1642875,Maxime Raynaud,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,21,4,7,3,,1642363,Nique Clifford,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,21,11,8,1,,1630173,Precious Achiuwa,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,35,23,3,3,,201566,Russell Westbrook,. TOR,True,False,2025-26,Regular Season
+2026-01-21,SAC vs. TOR,L,38,19,1,5,,203897,Zach LaVine,. TOR,True,False,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,3,0,1,0,,1630639,A.J. Lawson,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,35,23,3,4,,1627742,Brandon Ingram,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,19,11,1,0,,1641711,Gradey Dick,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,36,18,6,8,,1630193,Immanuel Quickley,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,33,15,5,6,,1642347,Jamal Shead,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,8,3,3,0,,1642419,Jamison Battle,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,23,3,9,0,,1642367,Jonathan Mogbo,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,20,4,2,1,,1630534,Ochai Agbaji,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,32,22,9,4,,1630572,Sandro Mamukelashvili,SAC,False,True,2025-26,Regular Season
+2026-01-21,TOR @ SAC,W,32,23,8,7,,1630567,Scottie Barnes,SAC,False,True,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,29,18,3,4,,1630245,Ayo Dosunmu,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,31,27,2,6,,1629632,Coby White,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,14,9,5,3,,1631207,Dalen Terry,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,15,2,0,0,,1630171,Isaac Okoro,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,24,10,9,1,,1630188,Jalen Smith,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,4,3,0,0,,1628975,Jevon Carter,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,4,0,0,0,,1641763,Julian Phillips,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,29,14,4,7,,1628989,Kevin Huerter,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,4,0,1,1,,1642950,Lachlan Olbrich,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,30,21,2,4,,1641824,Matas Buzelis,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,32,19,8,4,,202696,Nikola Vucevic,. LAC,True,False,2025-26,Regular Season
+2026-01-20,CHI vs. LAC,W,26,15,8,10,,1630200,Tre Jones,. LAC,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,32,18,4,5,,203932,Aaron Gordon,. LAL,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,22,4,4,2,,1628971,Bruce Brown,. LAL,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,26,7,6,4,,1629618,Jalen Pickett,. LAL,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,36,28,2,11,,1627750,Jamal Murray,. LAL,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,38,18,5,3,,1631212,Peyton Watson,. LAL,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,37,16,5,0,,1642461,Spencer Jones,. LAL,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,31,10,2,2,,203501,Tim Hardaway Jr.,. LAL,True,False,2025-26,Regular Season
+2026-01-20,DEN vs. LAL,L,19,6,3,0,,1630192,Zeke Nnaji,. LAL,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,22,11,3,2,,1641764,Brandin Podziemski,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,19,25,1,2,,1627741,Buddy Hield,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,20,6,3,5,,1629001,De'Anthony Melton,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,22,6,6,5,,203110,Draymond Green,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,11,9,0,0,,1627780,Gary Payton II,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,15,3,0,2,,1630611,Gui Santos,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,21,20,5,2,,1630228,Jonathan Kuminga,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,2,0,0,0,,1643018,LJ Cryer,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,2,0,1,0,,1642502,Malevy Leons,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,18,10,5,0,,1630541,Moses Moody,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,9,9,2,5,,1630311,Pat Spencer,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,18,12,7,0,,1642366,Quinten Post,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,25,16,3,3,,201939,Stephen Curry,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,12,0,0,1,,1631218,Trayce Jackson-Davis,. TOR,True,False,2025-26,Regular Season
+2026-01-20,GSW vs. TOR,L,23,0,0,1,,1642954,Will Richard,. TOR,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,34,20,13,9,,1630578,Alperen Sengun,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,39,16,10,6,,1641708,Amen Thompson,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,12,6,2,0,,203991,Clint Capela,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,15,2,1,1,,1627827,Dorian Finney-Smith,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,35,17,4,1,,1631095,Jabari Smith Jr.,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,17,5,1,0,,1629006,Josh Okogie,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,39,18,4,7,,201142,Kevin Durant,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,29,21,2,4,,1642263,Reed Sheppard,. SAS,True,False,2025-26,Regular Season
+2026-01-20,HOU vs. SAS,W,20,6,6,1,,1631106,Tari Eason,. SAS,True,False,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,14,0,1,0,,201572,Brook Lopez,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,23,7,5,1,,1642353,Cam Christie,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,22,12,11,1,,1627826,Ivica Zubac,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,31,24,5,6,,201935,James Harden,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,24,23,0,1,,1628381,John Collins,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,22,12,2,2,,1641757,Jordan Miller,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,12,3,5,2,,1641738,Kobe Brown,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,25,8,2,3,,1642920,Kobe Sanders,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,26,4,5,6,,1627739,Kris Dunn,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,12,0,1,1,,201587,Nicolas Batum,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,5,2,0,0,,1631116,Patrick Baldwin Jr.,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,12,11,0,1,,1631102,TyTy Washington Jr.,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAC @ CHI,L,12,4,4,0,,1642949,Yanic Konan Niederhäuser,CHI,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,15,4,8,0,,1629028,Deandre Ayton,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,11,9,3,0,,1631166,Drew Timme,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,17,5,0,0,,1629216,Gabe Vincent,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,27,7,1,2,,1631222,Jake LaRavia,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,18,0,4,2,,1629020,Jarred Vanderbilt,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,23,9,5,0,,1629637,Jaxson Hayes,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,34,19,9,8,,2544,LeBron James,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,36,38,13,10,,1629029,Luka Doncic,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,31,15,2,1,,203935,Marcus Smart,DEN,False,True,2025-26,Regular Season
+2026-01-20,LAL @ DEN,W,28,9,6,1,,1629060,Rui Hachimura,DEN,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,30,19,3,2,,203952,Andrew Wiggins,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,30,25,7,5,,1628389,Bam Adebayo,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,19,6,3,7,,1630558,Davion Mitchell,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,33,13,9,3,,1631170,Jaime Jaquez Jr.,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,17,1,2,0,,1642857,Kasparas Jakučionis,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,15,5,1,3,,1642066,Myron Gardner,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,19,8,5,2,,1631107,Nikola Jovic,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,31,22,3,2,,1626181,Norman Powell,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,26,16,6,9,,1641796,Pelle Larsson,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIA @ SAC,W,19,15,7,0,,1631323,Simone Fontecchio,SAC,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,39,38,8,3,,1630162,Anthony Edwards,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,4,0,0,2,,1630538,Bones Hyland,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,33,15,5,8,,1628978,Donte DiVincenzo,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,35,18,6,6,,1630183,Jaden McDaniels,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,17,4,2,0,,1641740,Jaylen Clark,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,5,4,3,0,,1642866,Joan Beringer,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,34,19,2,3,,203944,Julius Randle,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,16,0,1,2,,201144,Mike Conley,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,28,13,9,4,,1629675,Naz Reid,UTA,False,True,2025-26,Regular Season
+2026-01-20,MIN @ UTA,L,29,11,10,0,,203497,Rudy Gobert,UTA,False,True,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,26,11,10,0,,1641737,Adem Bona,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,22,8,15,1,,203083,Andre Drummond,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,28,8,5,2,,1631230,Dominick Barlow,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,6,0,1,0,,1631133,Jabari Walker,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,12,5,1,2,,1642348,Justin Edwards,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,34,21,4,1,,1626162,Kelly Oubre Jr.,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,27,12,4,5,,1629656,Quentin Grimes,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,6,0,0,1,,1630570,Trendon Watford,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,43,20,2,7,,1630178,Tyrese Maxey,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHI vs. PHX,L,37,25,7,1,,1642845,VJ Edgecombe,. PHX,True,False,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,28,12,4,4,,1631221,Collin Gillespie,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,34,27,3,4,,1626164,Devin Booker,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,30,6,5,1,,1628415,Dillon Brooks,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,29,16,5,6,,1628960,Grayson Allen,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,20,12,2,3,,1630224,Jalen Green,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,20,16,5,2,,1630692,Jordan Goodwin,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,18,4,9,0,,1631109,Mark Williams,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,29,12,5,3,,1642345,Oso Ighodaro,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,24,9,3,2,,1626220,Royce O'Neale,PHI,False,True,2025-26,Regular Season
+2026-01-20,PHX @ PHI,W,9,2,1,0,,1642346,Ryan Dunn,PHI,False,True,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,35,23,4,5,,201942,DeMar DeRozan,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,19,4,2,2,,203471,Dennis Schroder,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,17,6,10,3,,1627734,Domantas Sabonis,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,21,4,12,1,,1642928,Dylan Cardwell,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,30,18,2,2,,1628370,Malik Monk,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,18,7,8,0,,1642875,Maxime Raynaud,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,24,9,3,1,,1642363,Nique Clifford,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,22,6,5,1,,1630173,Precious Achiuwa,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,31,22,2,7,,201566,Russell Westbrook,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAC vs. MIA,L,22,18,1,5,,203897,Zach LaVine,. MIA,True,False,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,11,4,0,0,,1642868,Carter Bryant,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,32,14,3,5,,1628368,De'Aaron Fox,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,23,8,3,5,,1642844,Dylan Harper,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,25,6,2,1,,203084,Harrison Barnes,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,34,27,8,2,,1630577,Julian Champagnie,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,27,12,6,0,,1629640,Keldon Johnson,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,24,8,6,1,,1628436,Luke Kornet,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,35,13,7,8,,1642264,Stephon Castle,HOU,False,True,2025-26,Regular Season
+2026-01-20,SAS @ HOU,L,30,14,10,2,,1641705,Victor Wembanyama,HOU,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,11,6,1,0,,1630639,A.J. Lawson,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,2,2,0,0,,1642918,Alijah Martin,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,36,22,4,5,,1627742,Brandon Ingram,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,2,0,0,1,,202066,Garrett Temple,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,23,10,3,0,,1641711,Gradey Dick,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,34,40,2,10,,1630193,Immanuel Quickley,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,30,10,1,8,,1642347,Jamal Shead,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,15,9,2,3,,1642419,Jamison Battle,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,11,2,5,0,,1642367,Jonathan Mogbo,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,12,4,0,0,,1630534,Ochai Agbaji,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,26,14,12,4,,1630572,Sandro Mamukelashvili,GSW,False,True,2025-26,Regular Season
+2026-01-20,TOR @ GSW,W,39,26,7,11,,1630567,Scottie Barnes,GSW,False,True,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,33,20,5,1,,1642846,Ace Bailey,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,29,8,3,1,,1642262,Cody Williams,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,26,18,4,10,,1642268,Isaiah Collier,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,31,16,18,10,,203994,Jusuf Nurkic,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,39,43,0,3,,1641718,Keyonte George,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,17,2,1,2,,203937,Kyle Anderson,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,33,11,8,4,,1642271,Kyle Filipowski,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,17,4,3,0,,1629004,Svi Mykhailiuk,. MIN,True,False,2025-26,Regular Season
+2026-01-20,UTA vs. MIN,W,13,5,3,0,,1642383,Walter Clayton Jr.,. MIN,True,False,2025-26,Regular Season
 2026-01-19,ATL vs. MIL,L,12,6,0,0,,1642854,Asa Newell,. MIL,True,False,2025-26,Regular Season
 2026-01-19,ATL vs. MIL,L,24,17,3,3,,203468,CJ McCollum,. MIL,True,False,2025-26,Regular Season
 2026-01-19,ATL vs. MIL,L,20,2,1,1,,1630557,Corey Kispert,. MIL,True,False,2025-26,Regular Season
