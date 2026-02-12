@@ -8,46 +8,77 @@ The frontend is designed to scale cleanly across multiple leagues (NBA, NFL, MLB
 
 ## Tech Stack
 
-- **React + TypeScript**
-- **Vite** (development & build tooling)
-- **Chakra UI** (component library & theming)
-- **React Router** (routing & nested shells)
-- **Axios** (API communication)
-- **CSS + Chakra theme system**
+- React + TypeScript
+- Vite (development & build tooling)
+- Chakra UI (component library & theming)
+- React Router (routing & nested shells)
+- Axios (API communication)
 
 ---
 
-## App Entry & Bootstrapping
+## Development
 
-### `index.html`
+### Run with Docker (recommended quick start)
 
-The application mounts to a single root element and loads the React app from `main.tsx`.
+From the repository root:
 
-```html
-<div id="root"></div>
+```bash
+docker compose up --build
 ```
 
-### `main.tsx`
+Frontend: http://localhost:5173
 
-- Initializes the React application
-- Wraps the app in `ChakraProvider`
-- Applies global theme and color mode
-- Renders `<App />`
+> If you edit frontend source code and your Docker setup copies code into the image, rebuild with:
+> `docker compose build --no-cache frontend && docker compose up -d`
 
-This is the **true entry point** of the frontend.
+### Run locally (non-Docker)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ---
 
 ## High-Level Architecture
 
-The frontend is organized into **three core layers**:
+The frontend is organized into four core layers:
 
-```
+```txt
 app/        → Global application shell & routing
 features/   → League-specific functionality (NBA, NFL, MLB, NHL)
 shared/     → Reusable UI, hooks, utilities (cross-league)
 services/   → API client & shared data access
 ```
+
+---
+
+## Routing & App Shell
+
+`App.tsx` defines top-level routing:
+
+- `/` → Home (league selection)
+- `/nba/*` → NBA feature shell
+- `/nfl/*` → NFL feature shell
+- `/mlb/*` → MLB feature shell
+- `/nhl/*` → NHL feature shell
+
+Each league owns its own shell and internal routing.
+
+---
+
+## NBA Features (Implemented)
+
+- NBA Home (tabbed tools)
+  - Matchups (Today)
+  - Schedule
+  - Standings
+  - Teams (stats & rosters)
+  - Stat Leaders
+- NBA Trends
+  - Player game trend widget
+  - Matchup insights widget
 
 ---
 
@@ -110,85 +141,11 @@ src/
 
 ---
 
-## Routing & App Shell
+## API Connectivity
 
-### `App.tsx`
+The frontend consumes data from the backend via `/api/<league>/...` endpoints (e.g., `/api/nba/schedule/daily`).
 
-Defines **top-level routing** using React Router:
-
-- `/` → Home (league selection)
-- `/nba/*` → NBA feature shell
-- `/nfl/*` → NFL feature shell
-- `/mlb/*` → MLB feature shell
-- `/nhl/*` → NHL feature shell
-
-Each league owns its own shell and internal routing.
-
----
-
-## Home (League Selector)
-
-### `Home.tsx`
-
-The landing page that allows users to select a league.
-
----
-
-## App Shell Layer (`app/`)
-
-Contains **global layout and navigation** shared across all leagues.
-
----
-
-## NBA Feature Overview
-
-### `features/nba/shell/NbaShell.tsx`
-
-Entry point for all NBA functionality.
-
-### `features/nba/home/NbaHome.tsx`
-
-Tabbed NBA Home tool:
-
-- Matchups
-- Schedule
-- Standings
-- Teams
-- Stat Leaders
-
-Tab state is synced to URL query params.
-
----
-
-## Services Layer (`services/`)
-
-### `services/apiClient.ts`
-
-Shared Axios client for all leagues.
-
----
-
-## Shared Layer (`shared/`)
-
-Contains reusable UI components, hooks, utilities, and shared types.
-
----
-
-## Adding a New League
-
-1. Create a folder under `features/`
-2. Add a `<League>Shell.tsx`
-3. Add tools (home, trends, history)
-4. Wire the shell into `App.tsx`
-
----
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
+If you ever need to change the API base URL (for non-Docker environments), do it in the shared API client under `src/services/`.
 
 ---
 
@@ -196,6 +153,6 @@ npm run dev
 
 - Feature-first architecture
 - League isolation
-- Shared UI, not shared logic
+- Shared UI, not shared league logic
 - URL-driven state
 - Scalable without rewrites

@@ -2,11 +2,12 @@
 from __future__ import annotations
 
 from datetime import date as _date
+import math
 
 import pandas as pd
 import numpy as np
 
-from flask import Flask, jsonify, request
+from flask import Flask, Response, json, jsonify, request
 from flask_cors import CORS
 
 from src.leagues.nba.trends.matchup_insights import get_matchup_insights
@@ -18,11 +19,15 @@ from src.leagues.nba.api.nba_leaders import get_leaders_payload
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
-
-def _records(df: pd.DataFrame):
-    """Convert dataframe to JSON-serializable records (NaN -> None)."""
-    return df.where(pd.notnull(df), None).to_dict(orient="records")
-
+def _records_strict(df: pd.DataFrame):
+    records = df.where(pd.notnull(df), None).to_dict(orient="records")
+    # extra safety pass
+    for r in records:
+        for k, v in r.items():
+            if isinstance(v, float) and math.isnan(v):
+                r[k] = None
+    # strict JSON: NaN becomes an error unless we've cleaned it
+    return json.dumps(records, allow_nan=False)
 
 @app.get("/api/health")
 def health():
@@ -32,14 +37,14 @@ def health():
 # ---------------- NBA: schedule ----------------
 @app.get("/api/nba/schedule/daily")
 def nba_daily_schedule():
-    target = request.args.get("date") or date.today().isoformat()
+    target = request.args.get("date") or _date.today().isoformat()
     try:
         df = load_games_df()
         day_df = df[df["GAME_DATE_EST"] == target].copy().sort_values(["GAME_DATE_EST", "GAME_ID"])
-        return jsonify(_records(day_df))
+        return Response(_records_strict(day_df), mimetype="application/json")
     except Exception as e:
         print("nba_daily_schedule error:", e)
-        return jsonify([])
+        return Response("[]", mimetype="application/json", status=500)
 
 
 @app.get("/api/nba/schedule/range")
@@ -53,10 +58,10 @@ def nba_schedule_range():
         df = load_games_df()
         out = df[(df["GAME_DATE_EST"] >= start) & (df["GAME_DATE_EST"] <= end)].copy()
         out = out.sort_values(["GAME_DATE_EST", "GAME_ID"])
-        return jsonify(_records(out))
+        return Response(_records_strict(out), mimetype="application/json")
     except Exception as e:
         print("nba_schedule_range error:", e)
-        return jsonify([])
+        return Response("[]", mimetype="application/json", status=500)
 
 
 # Optional: raw games CSV (handy for debugging / reuse)

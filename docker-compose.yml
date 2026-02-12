@@ -1,0 +1,20 @@
+services:
+  api:
+    build:
+      context: ./backend
+    container_name: sap_api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: sap_frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+    restart: unless-stopped

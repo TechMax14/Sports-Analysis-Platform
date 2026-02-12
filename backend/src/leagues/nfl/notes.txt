@@ -1,0 +1,1 @@
+Do we want to make this in R using the original nflfastR and showcase R domain knowledge in this project or keep it in sync with python's version

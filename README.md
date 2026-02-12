@@ -1,14 +1,54 @@
 # Sports Analysis Platform (SAP)
 
-The **Sports Analysis Platform (SAP)** is a full-stack sports analytics application designed to deliver clean, structured, and scalable insights across multiple professional sports leagues.
+The **Sports Analysis Platform (SAP)** is a full-stack sports analytics
+application designed to deliver clean, structured, and scalable insights
+across multiple professional sports leagues.
 
-The project is built with a **feature-first, league-agnostic architecture**, allowing new leagues (NFL, MLB, NHL, etc.) to be added without reworking existing systems.
+The project is built with a **feature-first, league-agnostic
+architecture**, allowing new leagues (NFL, MLB, NHL, etc.) to be added
+without reworking existing systems.
 
-Currently, the platform focuses on **NBA analytics**, with infrastructure intentionally designed to support expansion.
+Currently, the platform focuses on **NBA analytics**, with
+infrastructure intentionally designed to support expansion.
 
 ---
 
-## Project Goals
+# 🚀 Screenshots
+
+## NBA Home -- Matchups
+
+Daily matchup dashboard with schedule navigation and live status
+indicators.
+
+![Matchups](screenshots/NBA/Home/Matchups.JPG)
+
+---
+
+## League Stat Leaders
+
+Season leaders with stat toggles and filtering controls.
+
+![Stat Leaders](screenshots/NBA/Home/Stat%20Leaders.JPG)
+
+---
+
+## Teams & Rosters
+
+Team-level stats with roster breakdown and advanced metrics.
+
+![Teams](screenshots/NBA/Home/Teams.JPG)
+
+---
+
+## NBA Trends
+
+Player game trends and matchup insights widgets.
+
+![Trends](screenshots/NBA/Trends/Trends.JPG)
+
+---
+
+# 🧠 Project Goals
 
 - Provide a clean, modern sports analytics dashboard
 - Separate data ingestion from data delivery
@@ -18,9 +58,9 @@ Currently, the platform focuses on **NBA analytics**, with infrastructure intent
 
 ---
 
-## Tech Stack
+# 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 - React + TypeScript
 - Vite
@@ -28,7 +68,7 @@ Currently, the platform focuses on **NBA analytics**, with infrastructure intent
 - React Router
 - Axios
 
-### Backend
+## Backend
 
 - Python
 - Flask
@@ -38,20 +78,19 @@ Currently, the platform focuses on **NBA analytics**, with infrastructure intent
 
 ---
 
-## Repository Structure
+# 🗂 Repository Structure
 
 ```txt
-SAP/
+SPORTS-ANALYSIS-PLATFORM/
 ├── backend/
 │   ├── app.py                 # Flask API (read-only)
 │   ├── main.py                # Data pipeline runner
-│   ├── data/
-│   │   └── processed/         # Generated CSV outputs
+│   ├── data/                  # Processed CSV outputs
 │   ├── src/
 │   │   ├── common/            # Shared backend utilities
 │   │   └── leagues/
 │   │       └── nba/           # NBA-specific backend logic
-│   └── README.md              # Backend documentation
+│   └── README.md
 │
 ├── frontend/
 │   ├── src/
@@ -59,110 +98,96 @@ SAP/
 │   │   ├── features/          # League feature modules
 │   │   ├── shared/            # Reusable UI & hooks
 │   │   └── services/          # API client
-│   ├── index.html
-│   ├── package.json
-│   └── README.md              # Frontend documentation
+│   └── README.md
 │
-└── README.md                  # Project overview (this file)
+├── screenshots/
+│   └── NBA/
+│       ├── Home/
+│       └── Trends/
+│
+├── docker-compose.yml
+└── README.md
 ```
 
 ---
 
-## Architecture Overview
+# 🏗 Architecture Overview
 
 SAP follows a **decoupled pipeline + API + UI architecture**.
 
-### Data Flow
+## Data Flow
 
 ```txt
 External APIs (nba_api)
         ↓
-Data Pipeline (main.py)
+Data Pipeline (backend/main.py)
         ↓
-Processed CSVs
+Processed CSVs (backend/data/)
         ↓
-Flask API (app.py)
+Flask API (backend/app.py)
         ↓
-React Frontend
+React Frontend (frontend/)
 ```
 
-This design ensures:
+---
 
-- The API remains fast and predictable
-- Data ingestion can be scheduled independently
-- Frontend development is decoupled from data fetching
+# 🐳 Running with Docker (Recommended)
+
+## Prerequisites
+
+- Docker Desktop (or Docker Engine + Docker Compose)
+
+## Start the App
+
+From the project root:
+
+```bash
+docker compose up --build
+```
+
+Frontend:
+
+    http://localhost:5173
+
+Backend API:
+
+    http://localhost:5000
 
 ---
 
-## Backend Overview
+## Stop the App
 
-The backend is split into two responsibilities:
-
-### 1. Data Pipeline (`main.py`)
-
-- Fetches raw data from external sources
-- Cleans and normalizes datasets
-- Computes derived metrics
-- Writes CSVs to disk
-
-The pipeline can be:
-
-- Run manually
-- Scheduled via OS tools (Task Scheduler / cron)
-
-### 2. API Layer (`app.py`)
-
-- Read-only Flask API
-- Serves CSV-backed endpoints
-- Computes lightweight views (e.g., stat leaders)
-- Namespaced by league (`/api/nba/...`)
-
-See `backend/README.md` for full details.
+```bash
+docker compose down
+```
 
 ---
 
-## Frontend Overview
+## Rebuild After Backend Changes
 
-The frontend is a modular React application organized by **feature and league**.
+If backend code changes:
 
-### Key Concepts
-
-- Each league is a self-contained feature module
-- Shared UI components live outside league logic
-- URL-driven state enables deep linking
-- Backend endpoints are consumed via a shared API client
-
-### NBA Features
-
-- Matchups (Today)
-- Schedule
-- Standings
-- Teams (stats & rosters)
-- League Stat Leaders
-
-See `frontend/README.md` for full details.
+```bash
+docker compose build --no-cache api
+docker compose up -d
+```
 
 ---
 
-## Adding a New League
+## Data Persistence
 
-SAP is designed so adding a new league does **not** require refactoring existing code.
+Processed datasets live in:
 
-High-level steps:
+    backend/data/
 
-1. Add a new league folder in `backend/src/leagues/`
-2. Implement pipeline logic for the league
-3. Register CSV outputs in backend paths
-4. Add API routes under `/api/<league>/...`
-5. Create a new frontend feature module under `features/<league>/`
-
-NBA serves as the reference implementation.
+This folder is mounted into the API container, so data persists across
+container restarts.
 
 ---
 
-## Development Workflow
+# 💻 Running Without Docker
 
-### Backend
+## Backend
 
 ```bash
 cd backend
@@ -170,7 +195,7 @@ python main.py     # generate CSVs
 python app.py      # start API
 ```
 
-### Frontend
+## Frontend
 
 ```bash
 cd frontend
@@ -180,43 +205,44 @@ npm run dev
 
 ---
 
-## Design Principles
+# 📈 Current Features (NBA)
+
+- Daily Matchups
+- Full Schedule
+- Standings
+- Teams (stats & rosters)
+- League Stat Leaders
+- Player Game Trend Widget
+- Matchup Insights Widget
+
+---
+
+# 🎯 Design Principles
 
 - Clear separation of concerns
 - League isolation
 - Feature-first frontend architecture
 - CSVs as the source of truth
-- APIs are predictable and explicit
+- Predictable API contracts
 - Scales without rewrites
 
 ---
 
-## Current Status
+# 🔮 Planned Enhancements
 
-- ✅ NBA Home dashboard complete
-- ✅ League stat leaders with advanced filters
-- ✅ Clean frontend & backend architecture
-- 🚧 NFL / MLB / NHL planned
-- 🚧 Box score & historical game views planned
-
----
-
-## Future Enhancements
-
-- Automated data pipeline scheduling
-- Pipeline metadata (last updated timestamps)
-- Historical snapshots per season
+- Automated pipeline scheduling
+- Historical season snapshots
 - Box score drill-downs
-- User authentication & saved views
-- Database-backed storage (optional)
+- Cross-league comparisons
+- NFL implementation (nflfastR / Python)
 
 ---
 
-## License
+# 📜 License
 
 This project is currently for personal development and portfolio use.
 
 ---
 
-**Sports Analysis Platform**  
+**Sports Analysis Platform**\
 Built with scalability, clarity, and long-term growth in mind.
