@@ -27,6 +27,7 @@ import {
 } from "@chakra-ui/react";
 import apiClient from "../../../../services/api-client";
 import { useSearchParams } from "react-router-dom";
+import { getLocalISODate, addDaysISO } from "@/shared/utils/dates";
 
 type GameStatus = "FINAL" | "UPCOMING" | "POSTPONED";
 
@@ -268,8 +269,9 @@ export default function TeamsTab() {
 
     setGamesLoading(true);
 
-    const start = shiftDays(todayISO(), -60);
-    const end = shiftDays(todayISO(), 60);
+    const today = getLocalISODate();
+    const start = addDaysISO(today, -60);
+    const end = addDaysISO(today, 60);
 
     apiClient
       .get("/nba/schedule/range", { params: { start, end } })
@@ -296,7 +298,7 @@ export default function TeamsTab() {
   }, [selectedTeam]);
 
   const { last5, next5 } = useMemo(() => {
-    const today = todayISO();
+    const today = getLocalISODate();
     const finals = games
       .filter((g) => g.STATUS === "FINAL" && g.GAME_DATE_EST <= today)
       .sort((a, b) => (a.GAME_DATE_EST < b.GAME_DATE_EST ? 1 : -1))
@@ -728,15 +730,6 @@ function GameLine({ game }: { game: Game }) {
       </Flex>
     </Box>
   );
-}
-
-function todayISO() {
-  return new Date().toISOString().slice(0, 10);
-}
-function shiftDays(iso: string, days: number) {
-  const d = new Date(iso + "T00:00:00");
-  d.setDate(d.getDate() + days);
-  return d.toISOString().slice(0, 10);
 }
 
 function formatShortDate(iso: string) {

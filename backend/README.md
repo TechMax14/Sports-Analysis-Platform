@@ -1,7 +1,9 @@
-# Sports Analysis Platform – Backend
+# Sports Analysis Platform -- Backend
 
 This backend powers the **Sports Analysis Platform (SAP)**.
-It is designed as a **data pipeline + lightweight API** that serves cleaned, structured data files to the frontend.
+
+It is designed as a **data pipeline + lightweight API** that serves
+cleaned, structured data files to the frontend.
 
 The backend is intentionally database-free at this stage, favoring:
 
@@ -10,41 +12,70 @@ The backend is intentionally database-free at this stage, favoring:
 - fast iteration
 - easy debugging
 
-It is built to scale across multiple leagues (NBA, NFL, MLB, NHL) without requiring architectural rewrites.
+It is built to scale across multiple leagues (NBA, NFL, MLB, NHL)
+without requiring architectural rewrites.
 
 ---
 
-## Core Philosophy
+# Architecture Overview
 
-The backend is split into **two distinct responsibilities**:
+The backend is split into **three logical layers**:
 
-1. **Pipeline (`main.py`)**
-   - Fetches raw data (e.g. `nba_api`)
-   - Cleans, transforms, and enriches it
-   - Writes normalized datasets (CSV) to `backend/data/`
+## 1) Fetch Layer
 
-2. **API (`app.py`)**
-   - Exposes read-only endpoints backed by processed datasets
-   - Computes lightweight derived views (e.g. leaders)
-   - Never fetches external data directly
+Responsible for external API calls (e.g. `nba_api`, future `nflfastR`).
 
-This separation keeps the API fast and predictable, and allows the data pipeline to run independently on a schedule.
+## 2) Process Layer
 
----
+Cleans, transforms, and normalizes data into structured CSV outputs.
 
-## Tech Stack
+## 3) Serve Layer (Flask API)
 
-- Python
-- Flask (API)
-- pandas (data processing)
-- nba_api (NBA data source)
-- CSV-based storage (no database)
+- Exposes read-only endpoints
+- Reads only processed CSV files
+- Never calls external APIs directly
+
+This separation keeps the API fast and predictable while allowing the
+pipeline to run independently.
 
 ---
 
-## Run with Docker
+# Pipeline Orchestration & Caching (NEW)
 
-### Start API (and frontend)
+`main.py` is now an **orchestrator**, not a "run everything every time"
+script.
+
+## Why This Matters
+
+Without caching: - Every run of `main.py` would re-hit external APIs -
+Risk rate limits and timeouts - Slow development iteration
+
+With caching: - Each pipeline group has a **TTL (time-to-live)** - If
+data is still fresh → it is skipped - If missing or stale → it rebuilds
+
+---
+
+## How Caching Works
+
+Each pipeline group writes a small marker file:
+
+    backend/data/processed/<league>/.cache/<group>.done
+
+When you run `main.py`, it checks:
+
+- Does the marker file exist?
+- Is it younger than the group TTL?
+
+If yes → skip rebuild\
+If no → run pipeline → update marker
+
+This prevents unnecessary API calls and makes repeated runs fast.
+
+---
+
+# Running with Docker
+
+## Start API + Frontend
 
 From repository root:
 
@@ -54,31 +85,83 @@ docker compose up --build
 
 API: http://localhost:5000
 
-### Data persistence
+---
 
-Processed datasets are stored in `backend/data/` and are mounted into the API container, so they persist across restarts.
+## Running the Data Pipeline (Docker)
 
-### Rebuild after code changes
+General run:
 
-If your Docker setup copies code into the image, rebuild after backend changes:
+```bash
+docker compose exec api python main.py
+```
+
+---
+
+## Targeted Pipeline Runs (Recommended)
+
+### Run only schedule (fast refresh)
+
+```bash
+docker compose exec api python main.py --league nba --group schedule
+```
+
+### Run only core datasets
+
+```bash
+docker compose exec api python main.py --league nba --group core
+```
+
+### Force full rebuild (ignore TTL)
+
+```bash
+docker compose exec api python main.py --league nba --group all --force
+```
+
+---
+
+## Expected Behavior
+
+- First run after build → likely full rebuild (no cache markers yet)
+- Second run immediately after → very fast (most groups skipped)
+- Over time → only expired groups rebuild
+
+---
+
+# Data Persistence
+
+Processed datasets are stored in:
+
+    backend/data/
+
+This directory is mounted into the Docker container and persists across
+restarts.
+
+---
+
+# Rebuilding Docker After Backend Changes
+
+If your Docker image copies backend code into the container, you must
+rebuild after code changes:
 
 ```bash
 docker compose build --no-cache api
 docker compose up -d
 ```
 
+If you mount `./backend:/app`, rebuild is not required for code changes.
+
 ---
 
-## Run locally (non-Docker)
+# Running Locally (Non-Docker)
 
-### 1) Run the pipeline
+## Run Pipeline
 
 ```bash
 cd backend
 python main.py
 ```
 
-### 2) Start the API
+## Start API
 
 ```bash
 python app.py
@@ -86,26 +169,26 @@ python app.py
 
 ---
 
-## API Namespacing (League-First)
+# API Namespacing (League-First)
 
-All league endpoints are namespaced:
+All endpoints follow:
 
-```
-/api/<league>/<resource>
-```
+    /api/<league>/<resource>
 
 Example NBA endpoints:
 
-```
-/api/nba/standings
-/api/nba/teams
-/api/nba/teams/<team_id>/stats
-/api/nba/teams/<team_id>/roster
-/api/nba/schedule/daily
-/api/nba/schedule/range
-/api/nba/games
-/api/nba/leaders
-```
+    /api/nba/standings
+    /api/nba/teams
+    /api/nba/teams/<team_id>/stats
+    /api/nba/teams/<team_id>/roster
+    /api/nba/schedule/daily
+    /api/nba/schedule/range
+    /api/nba/games
+    /api/nba/leaders
+
+Future NFL endpoints will follow the same pattern:
+
+    /api/nfl/...
 
 ---
 

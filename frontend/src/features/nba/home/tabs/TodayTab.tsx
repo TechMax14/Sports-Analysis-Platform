@@ -10,6 +10,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import apiClient from "../../../../services/api-client";
+import { getLocalISODate, addDaysISO } from "@/shared/utils/dates";
 
 interface Game {
   GAME_ID: string;
@@ -46,9 +47,7 @@ const teamLogoUrl = (teamId: number) =>
 export default function TodayTab() {
   const [games, setGames] = useState<Game[]>([]);
   const [teams, setTeams] = useState<Team[]>([]);
-  const [selectedDate, setSelectedDate] = useState(
-    new Date().toISOString().slice(0, 10),
-  );
+  const [selectedDate, setSelectedDate] = useState(() => getLocalISODate());
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -94,7 +93,7 @@ export default function TodayTab() {
       <SimpleGrid columns={3} spacing={2} mb={4}>
         <Button
           size="sm"
-          onClick={() => setSelectedDate(prevDay(selectedDate))}
+          onClick={() => setSelectedDate((d) => addDaysISO(d, -1))}
         >
           ‹ Prev
         </Button>
@@ -106,7 +105,7 @@ export default function TodayTab() {
         />
         <Button
           size="sm"
-          onClick={() => setSelectedDate(nextDay(selectedDate))}
+          onClick={() => setSelectedDate((d) => addDaysISO(d, 1))}
         >
           Next ›
         </Button>
@@ -177,9 +176,3 @@ export default function TodayTab() {
     </Box>
   );
 }
-
-// helpers
-const prevDay = (d: string) =>
-  new Date(new Date(d).getTime() - 864e5).toISOString().slice(0, 10);
-const nextDay = (d: string) =>
-  new Date(new Date(d).getTime() + 864e5).toISOString().slice(0, 10);

@@ -12,6 +12,13 @@ import {
   Image,
 } from "@chakra-ui/react";
 import apiClient from "../../../../services/api-client";
+import {
+  getLocalISODate,
+  addDaysISO,
+  addMonthsISO,
+  weekRangeMonSunISO,
+  monthRangeISO,
+} from "@/shared/utils/dates";
 
 type GameStatus = "FINAL" | "UPCOMING" | "POSTPONED";
 type RangeMode = "WEEK" | "MONTH";
@@ -52,15 +59,16 @@ export default function ScheduleTab() {
   const [mode, setMode] = useState<RangeMode>("WEEK");
 
   // Anchor date drives which week/month we're viewing
-  const [anchorDate, setAnchorDate] = useState(() => todayISO());
+  const [anchorDate, setAnchorDate] = useState(() => getLocalISODate());
   const [games, setGames] = useState<Game[]>([]);
   const [teams, setTeams] = useState<Team[]>([]);
   const [selectedTeamId, setSelectedTeamId] = useState<number | "ALL">("ALL");
   const [loading, setLoading] = useState(true);
 
   const { start, end } = useMemo(() => {
-    const d = new Date(anchorDate + "T00:00:00");
-    return mode === "WEEK" ? weekRangeMonSun(d) : monthRange(d);
+    return mode === "WEEK"
+      ? weekRangeMonSunISO(anchorDate)
+      : monthRangeISO(anchorDate);
   }, [anchorDate, mode]);
 
   useEffect(() => {
@@ -99,7 +107,7 @@ export default function ScheduleTab() {
   // Reset to "current period" when a team is selected (keeps UX snappy)
   useEffect(() => {
     if (selectedTeamId !== "ALL") {
-      setAnchorDate(todayISO()); // works for both week/month (range calc will update based on mode)
+      setAnchorDate(getLocalISODate()); // works for both week/month (range calc will update based on mode)
     }
   }, [selectedTeamId]);
 
@@ -148,18 +156,18 @@ export default function ScheduleTab() {
   const thisLabel = mode === "WEEK" ? "This Week" : "This Month";
 
   const goPrev = () => {
-    setAnchorDate(
-      mode === "WEEK" ? shiftDays(anchorDate, -7) : shiftMonths(anchorDate, -1),
+    setAnchorDate((d) =>
+      mode === "WEEK" ? addDaysISO(d, -7) : addMonthsISO(d, -1),
     );
   };
 
   const goNext = () => {
-    setAnchorDate(
-      mode === "WEEK" ? shiftDays(anchorDate, 7) : shiftMonths(anchorDate, 1),
+    setAnchorDate((d) =>
+      mode === "WEEK" ? addDaysISO(d, 7) : addMonthsISO(d, 1),
     );
   };
 
-  const goThis = () => setAnchorDate(todayISO());
+  const goThis = () => setAnchorDate(getLocalISODate());
 
   return (
     <Box>
@@ -364,59 +372,6 @@ function groupByDate(games: Game[]) {
     map[key].push(g);
   }
   return map;
-}
-
-function todayISO() {
-  return new Date().toISOString().slice(0, 10);
-}
-
-function shiftDays(iso: string, days: number) {
-  const d = new Date(iso + "T00:00:00");
-  d.setDate(d.getDate() + days);
-  return d.toISOString().slice(0, 10);
-}
-
-function shiftMonths(iso: string, months: number) {
-  const d = new Date(iso + "T00:00:00");
-  d.setMonth(d.getMonth() + months);
-  d.setDate(1); // stable month navigation
-  return d.toISOString().slice(0, 10);
-}
-
-/**
- * Returns week range Monday-Sunday for the given date (local time).
- * Output is ISO date strings: YYYY-MM-DD.
- */
-function weekRangeMonSun(date: Date) {
-  const d = new Date(date);
-  const day = d.getDay(); // 0=Sun .. 6=Sat
-  const diffToMonday = (day === 0 ? -6 : 1) - day;
-
-  const monday = new Date(d);
-  monday.setDate(d.getDate() + diffToMonday);
-
-  const sunday = new Date(monday);
-  sunday.setDate(monday.getDate() + 6);
-
-  return {
-    start: monday.toISOString().slice(0, 10),
-    end: sunday.toISOString().slice(0, 10),
-  };
-}
-
-/**
- * Returns month range (1st -> last day) for the given date (local time).
- * Output is ISO date strings: YYYY-MM-DD.
- */
-function monthRange(date: Date) {
-  const y = date.getFullYear();
-  const m = date.getMonth(); // 0-11
-  const start = new Date(y, m, 1);
-  const end = new Date(y, m + 1, 0); // last day of month
-  return {
-    start: start.toISOString().slice(0, 10),
-    end: end.toISOString().slice(0, 10),
-  };
 }
 
 function formatDayHeader(iso: string) {

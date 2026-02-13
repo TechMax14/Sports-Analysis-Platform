@@ -12,8 +12,10 @@ import {
   TagLabel,
   Text,
   VStack,
+  Button,
 } from "@chakra-ui/react";
 import apiClient from "../../../../services/api-client";
+import { getLocalISODate, addDaysISO } from "@/shared/utils/dates";
 
 type DailyScheduleRow = {
   GAME_ID: number;
@@ -41,7 +43,7 @@ type MatchupInsights = {
   date: string;
   away: InsightsSide;
   home: InsightsSide;
-  h2hLast10: { awayWins: number; homeWins: number; games: number };
+  h2hSeason: { awayWins: number; homeWins: number; games: number };
 };
 
 function fmtWL(wl?: WL) {
@@ -82,9 +84,7 @@ function StatTag({ label, value }: { label: string; value: string }) {
 }
 
 export default function MatchupInsightsWidget() {
-  const [dateStr, setDateStr] = useState(() =>
-    new Date().toISOString().slice(0, 10),
-  );
+  const [dateStr, setDateStr] = useState(() => getLocalISODate());
 
   const [matchups, setMatchups] = useState<DailyScheduleRow[]>([]);
   const [selectedGameId, setSelectedGameId] = useState<number | null>(null);
@@ -93,6 +93,10 @@ export default function MatchupInsightsWidget() {
 
   const [loadingMatchups, setLoadingMatchups] = useState(false);
   const [loadingInsights, setLoadingInsights] = useState(false);
+
+  const goPrevDay = () => setDateStr((d) => addDaysISO(d, -1));
+  const goNextDay = () => setDateStr((d) => addDaysISO(d, 1));
+  const goToday = () => setDateStr(getLocalISODate());
 
   const selectedMatchup = useMemo(() => {
     return matchups.find((m) => m.GAME_ID === selectedGameId) ?? null;
@@ -111,6 +115,8 @@ export default function MatchupInsightsWidget() {
     let cancelled = false;
 
     async function loadMatchups() {
+      setSelectedGameId(null);
+      setInsights(null);
       try {
         setLoadingMatchups(true);
         const res = await apiClient.get<DailyScheduleRow[]>(
@@ -200,7 +206,7 @@ export default function MatchupInsightsWidget() {
   }, []);
 
   const h2hLabel = useMemo(() => {
-    const g = insights?.h2hLast10?.games ?? 0;
+    const g = insights?.h2hSeason?.games ?? 0;
     if (!g) return "H2H";
     return g >= 10 ? "H2H (L10)" : `H2H (L${g})`;
   }, [insights]);
@@ -243,7 +249,18 @@ export default function MatchupInsightsWidget() {
             </Box>
 
             <HStack spacing={2}>
-              {/* optional: later you can add date picker; keeping simple for now */}
+              <Button size="xs" variant="outline" onClick={goPrevDay}>
+                ‹
+              </Button>
+
+              <Button size="xs" variant="outline" onClick={goToday}>
+                Today
+              </Button>
+
+              <Button size="xs" variant="outline" onClick={goNextDay}>
+                ›
+              </Button>
+
               <Box
                 px={2}
                 py={1}
@@ -380,15 +397,15 @@ export default function MatchupInsightsWidget() {
                   <HStack wrap="wrap" spacing={2}>
                     <StatTag
                       label={insights.away.team}
-                      value={`${insights.h2hLast10.awayWins}`}
+                      value={`${insights.h2hSeason.awayWins}`}
                     />
                     <StatTag
                       label={insights.home.team}
-                      value={`${insights.h2hLast10.homeWins}`}
+                      value={`${insights.h2hSeason.homeWins}`}
                     />
                     <StatTag
                       label="Games"
-                      value={`${insights.h2hLast10.games}`}
+                      value={`${insights.h2hSeason.games}`}
                     />
                   </HStack>
                 </Box>

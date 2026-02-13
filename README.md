@@ -172,6 +172,12 @@ docker compose build --no-cache api
 docker compose up -d
 ```
 
+Or you want to run just `main.py`:
+
+```bash
+docker compose exec api python main.py
+```
+
 ---
 
 ## Data Persistence
