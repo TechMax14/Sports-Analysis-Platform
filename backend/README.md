@@ -214,6 +214,10 @@ backend/
 │           │   ├── fetch_data.py
 │           │   └── ...
 │           │
+│           ├── trends/    # NBA widget transformation
+│           │   ├── matchup_insights.py
+│           │   └── hot_streaks.py
+│           │
 │           └── api/       # API-side helpers
 │               ├── nba_data.py
 │               └── nba_leaders.py

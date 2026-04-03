@@ -15,6 +15,7 @@ from src.common.paths import CSV
 from src.common.response import csv_resp
 from src.leagues.nba.api.nba_data import load_games_df
 from src.leagues.nba.api.nba_leaders import get_leaders_payload
+from src.leagues.nba.trends.hot_streaks import get_hot_streaks_payload
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
@@ -234,3 +235,43 @@ def nba_matchup_insights():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+@app.get("/api/nba/trends/hot-streaks")
+def nba_hot_streaks():
+    team_id_raw = request.args.get("team_id") or request.args.get("teamId")
+    stat = (request.args.get("stat") or "PTS").upper()
+    threshold_raw = request.args.get("threshold")
+    team_window = request.args.get("window") or request.args.get("teamWindow") or "10"
+    include_inactive_raw = request.args.get("include_inactive") or request.args.get("includeInactive") or "0"
+    inactive_days_raw = request.args.get("inactive_days") or request.args.get("inactiveDays") or "10"
+
+    try:
+        team_id = int(team_id_raw) if team_id_raw not in (None, "", "null") else None
+        threshold = int(threshold_raw) if threshold_raw not in (None, "", "null") else None
+        include_inactive = str(include_inactive_raw).strip().lower() in ("1", "true", "t", "yes", "y")
+        inactive_days = int(inactive_days_raw)
+
+        payload = get_hot_streaks_payload(
+            team_id=team_id,
+            stat=stat,  # type: ignore[arg-type]
+            threshold=threshold,
+            team_window=team_window,
+            include_inactive=include_inactive,
+            inactive_days=inactive_days,
+        )
+        return jsonify(payload)
+    except Exception as e:
+        print("nba_hot_streaks error:", e)
+        return jsonify(
+            {
+                "categoryLeaders": [],
+                "teamRows": [],
+                "meta": {
+                    "stat": stat,
+                    "threshold": threshold_raw,
+                    "teamWindow": team_window,
+                    "teamId": team_id_raw,
+                },
+            }
+        )

@@ -220,6 +220,7 @@ npm run dev
 - League Stat Leaders
 - Player Game Trend Widget
 - Matchup Insights Widget
+- Hot Streak Stat Tracker Widget
 
 ---
 

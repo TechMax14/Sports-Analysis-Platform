@@ -35,6 +35,9 @@ type GameLogRow = {
   PTS?: number | null;
   AST?: number | null;
   REB?: number | null;
+  STL?: number | null;
+  BLK?: number | null;
+  FG3M?: number | null;
 };
 
 function clamp(n: number, lo: number, hi: number) {

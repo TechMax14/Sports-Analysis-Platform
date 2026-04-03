@@ -19,6 +19,9 @@ KEEP_COLS = [
     "PTS",
     "REB",
     "AST",
+    "STL",
+    "BLK",
+    "FG3M",
 ]
 
 
@@ -154,7 +157,7 @@ def build_player_game_logs_csv(
     if "PLAYER_ID" in all_logs.columns:
         all_logs["PLAYER_ID"] = pd.to_numeric(all_logs["PLAYER_ID"], errors="coerce").astype("Int64")
 
-    for col in ["PTS", "REB", "AST", "MIN"]:
+    for col in ["PTS", "REB", "AST", "MIN", "STL", "BLK", "FG3M"]:
         if col in all_logs.columns:
             all_logs[col] = pd.to_numeric(all_logs[col], errors="coerce")
 

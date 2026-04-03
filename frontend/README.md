@@ -108,7 +108,12 @@ src/
 │   │   │       ├── StandingsTab.tsx
 │   │   │       ├── TeamsTab.tsx
 │   │   │       └── StatLeadersTab.tsx
-│   │   ├── trends/        (planned)
+│   │   ├── trends/
+│   │   │   ├── NbaTrends.tsx
+│   │   │   └── widgets/
+│   │   │       ├── PlayerGameTrendWidget.tsx
+│   │   │       ├── MatchupInsightsWidget.tsx
+│   │   │       └── HotStreakStatTrackerWidget.tsx
 │   │   ├── history/       (planned)
 │   │   └── services/
 │   │       └── nbaApi.ts  (optional)

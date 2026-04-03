@@ -1,6 +1,7 @@
-import { Card, CardBody, HStack, Stack, Text } from "@chakra-ui/react";
+import { Box, Card, CardBody, HStack, Stack, Text } from "@chakra-ui/react";
 import PlayerGameTrendWidget from "./widgets/PlayerGameTrendWidget";
 import MatchupInsightsWidget from "./widgets/MatchupInsightsWidget";
+import HotStreakStatTrackerWidget from "./widgets/HotStreakStatTrackerWidget";
 
 export default function NbaTrends() {
   return (
@@ -19,6 +20,10 @@ export default function NbaTrends() {
         <PlayerGameTrendWidget />
         <MatchupInsightsWidget />
       </HStack>
+
+      <Box w="100%">
+        <HotStreakStatTrackerWidget />
+      </Box>
 
       <Card bg="gray.800" borderRadius="xl" boxShadow="lg">
         <CardBody>
