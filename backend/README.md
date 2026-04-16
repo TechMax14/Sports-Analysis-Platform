@@ -95,6 +95,8 @@ General run:
 docker compose exec api python main.py
 ```
 
+- Runs all Leagues by default
+
 ---
 
 ## Targeted Pipeline Runs (Recommended)
@@ -186,6 +188,17 @@ Example NBA endpoints:
     /api/nba/games
     /api/nba/leaders
 
+Example MLB endpoints:
+
+    /api/mlb/schedule/daily
+    /api/mlb/schedule/range
+    /api/mlb/standings
+    /api/mlb/teams
+    /api/mlb/games
+    /api/mlb/leaders
+    /api/mlb/teams/<team_id>/roster
+    /api/mlb/teams/<team_id>/roster_basic
+
 Future NFL endpoints will follow the same pattern:
 
     /api/nfl/...
@@ -210,17 +223,27 @@ backend/
 │   │
 │   └── leagues/
 │       └── nba/
+│       |   ├── pipeline/  # Data extraction & transforms
+│       |   │   ├── fetch_data.py
+│       |   │   └── ...
+│       |   │
+│       |   ├── trends/    # NBA widget transformation
+│       |   │   ├── matchup_insights.py
+│       |   │   └── hot_streaks.py
+│       |   │
+│       |   └── api/       # API-side helpers
+│       |       ├── nba_data.py
+│       |       └── nba_leaders.py
+│       └── mlb/
 │           ├── pipeline/  # Data extraction & transforms
-│           │   ├── fetch_data.py
+│           │   ├── teams.py
+│           │   ├── schedule.py
+│           │   ├── standings.py
+│           │   ├── roster.py
+│           │   ├── roster_master.py
 │           │   └── ...
 │           │
-│           ├── trends/    # NBA widget transformation
-│           │   ├── matchup_insights.py
-│           │   └── hot_streaks.py
-│           │
-│           └── api/       # API-side helpers
-│               ├── nba_data.py
-│               └── nba_leaders.py
+│           └── trends/    # MLB future widget transformation
 │
 ├── Dockerfile
 └── README.md
@@ -238,3 +261,11 @@ backend/
 4. Extend `main.py` to run the new pipeline jobs
 
 NBA is the reference implementation.
+
+---
+
+## Current Run Times:
+
+- NBA Pipeline: 7:32 mins
+- MLB Pipeline: 8:23 mins
+- Full Pipeline: 15:55 mins

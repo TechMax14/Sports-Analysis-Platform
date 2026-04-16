@@ -1,780 +1,779 @@
 ﻿TEAM_ID,PLAYER_ID,PLAYER_NAME,JERSEY_NUMBER,POSITION,POSITION_TYPE,STATUS,TEAM_NAME
-108,624428,Adam Frazier,42,2B,Infielder,Active,Los Angeles Angels
-108,608718,Brent Suter,42,P,Pitcher,Active,Los Angeles Angels
-108,669326,Bryce Teodosio,42,CF,Outfielder,Active,Los Angeles Angels
-108,681217,Chase Silseth,42,P,Pitcher,Active,Los Angeles Angels
-108,519141,Drew Pomeranz,42,P,Pitcher,Active,Los Angeles Angels
-108,686799,Jack Kochanowicz,42,P,Pitcher,Active,Los Angeles Angels
-108,666176,Jo Adell,42,CF,Outfielder,Active,Los Angeles Angels
-108,605447,Jordan Romano,42,P,Pitcher,Active,Los Angeles Angels
-108,666139,Josh Lowe,42,RF,Outfielder,Active,Los Angeles Angels
-108,667755,José Soriano,42,P,Pitcher,Active,Los Angeles Angels
-108,681351,Logan O'Hoppe,42,C,Catcher,Active,Los Angeles Angels
-108,545361,Mike Trout,42,RF,Outfielder,Active,Los Angeles Angels
-108,680704,Nick Sandlin,42,P,Pitcher,Active,Los Angeles Angels
-108,694384,Nolan Schanuel,42,1B,Infielder,Active,Los Angeles Angels
-108,672724,Oswald Peraza,42,3B,Infielder,Active,Los Angeles Angels
-108,672282,Reid Detmers,42,P,Pitcher,Active,Los Angeles Angels
-108,666171,Ryan Zeferjahn,42,P,Pitcher,Active,Los Angeles Angels
-108,691951,Sam Aldegheri,42,P,Pitcher,Active,Los Angeles Angels
-108,696147,Sam Bachman,42,P,Pitcher,Active,Los Angeles Angels
-108,641312,Shaun Anderson,42,P,Pitcher,Active,Los Angeles Angels
-108,518595,Travis d'Arnaud,42,C,Catcher,Active,Los Angeles Angels
-108,687093,Vaughn Grissom,42,2B,Infielder,Active,Los Angeles Angels
-108,660162,Yoán Moncada,42,3B,Infielder,Active,Los Angeles Angels
-108,579328,Yusei Kikuchi,42,P,Pitcher,Active,Los Angeles Angels
-108,687263,Zach Neto,42,SS,Infielder,Active,Los Angeles Angels
-109,680728,Adrian Del Castillo,42,C,Catcher,Active,Arizona Diamondbacks
-109,677950,Alek Thomas,42,CF,Outfielder,Active,Arizona Diamondbacks
-109,694851,Andrew Hoffmann,42,P,Pitcher,Active,Arizona Diamondbacks
-109,605244,Aramis Garcia,42,C,Catcher,Active,Arizona Diamondbacks
-109,694297,Brandon Pfaadt,42,P,Pitcher,Active,Arizona Diamondbacks
-109,682998,Corbin Carroll,42,RF,Outfielder,Active,Arizona Diamondbacks
-109,593958,Eduardo Rodriguez,42,P,Pitcher,Active,Arizona Diamondbacks
-109,672695,Geraldo Perdomo,42,SS,Infielder,Active,Arizona Diamondbacks
-109,545121,Ildemaro Vargas,42,2B,Infielder,Active,Arizona Diamondbacks
-109,543510,James McCann,42,C,Catcher,Active,Arizona Diamondbacks
-109,642528,Jonathan Loáisiga,42,P,Pitcher,Active,Arizona Diamondbacks
-109,678489,Jorge Barrosa,42,LF,Outfielder,Active,Arizona Diamondbacks
-109,699912,Jose Fernandez,42,SS,Infielder,Active,Arizona Diamondbacks
-109,666661,Juan Morillo,42,P,Pitcher,Active,Arizona Diamondbacks
-109,606466,Ketel Marte,42,2B,Infielder,Active,Arizona Diamondbacks
-109,656464,Kevin Ginkel,42,P,Pitcher,Active,Arizona Diamondbacks
-109,663609,Luken Baker,42,1B,Infielder,Active,Arizona Diamondbacks
-109,518876,Merrill Kelly,42,P,Pitcher,Active,Arizona Diamondbacks
-109,647336,Michael Soroka,42,P,Pitcher,Active,Arizona Diamondbacks
-109,571448,Nolan Arenado,42,3B,Infielder,Active,Arizona Diamondbacks
-109,623149,Paul Sewald,42,P,Pitcher,Active,Arizona Diamondbacks
-109,657044,Ryan Thompson,42,P,Pitcher,Active,Arizona Diamondbacks
-109,669194,Ryne Nelson,42,P,Pitcher,Active,Arizona Diamondbacks
-109,664199,Taylor Clarke,42,P,Pitcher,Active,Arizona Diamondbacks
-109,694374,Tim Tawa,42,2B,Infielder,Active,Arizona Diamondbacks
-109,668678,Zac Gallen,42,P,Pitcher,Active,Arizona Diamondbacks
-110,544150,Albert Suárez,42,P,Pitcher,Active,Baltimore Orioles
-110,689296,Anthony Nunez,42,P,Pitcher,Active,Baltimore Orioles
-110,677942,Blaze Alexander,42,SS,Infielder,Active,Baltimore Orioles
-110,605135,Chris Bassitt,42,P,Pitcher,Active,Baltimore Orioles
-110,691723,Coby Mayo,42,1B,Infielder,Active,Baltimore Orioles
-110,681297,Colton Cowser,42,LF,Outfielder,Active,Baltimore Orioles
-110,665152,Dean Kremer,42,P,Pitcher,Active,Baltimore Orioles
-110,687637,Dylan Beavers,42,RF,Outfielder,Active,Baltimore Orioles
-110,664991,Grant Wolfram,42,P,Pitcher,Active,Baltimore Orioles
-110,683002,Gunnar Henderson,42,SS,Infielder,Active,Baltimore Orioles
-110,669236,Jeremiah Jackson,42,2B,Infielder,Active,Baltimore Orioles
-110,671286,Johnathan Rodríguez,42,RF,Outfielder,Active,Baltimore Orioles
-110,680694,Kyle Bradish,42,P,Pitcher,Active,Baltimore Orioles
-110,665750,Leody Taveras,42,OF,Outfielder,Active,Baltimore Orioles
-110,668974,Maverick Handley,42,C,Catcher,Active,Baltimore Orioles
-110,624413,Pete Alonso,42,1B,Infielder,Active,Baltimore Orioles
-110,670329,Rico Garcia,42,P,Pitcher,Active,Baltimore Orioles
-110,664854,Ryan Helsley,42,P,Pitcher,Active,Baltimore Orioles
-110,669087,Sam Huff,42,C,Catcher,Active,Baltimore Orioles
-110,694212,Samuel Basallo,42,C,Catcher,Active,Baltimore Orioles
-110,669358,Shane Baz,42,P,Pitcher,Active,Baltimore Orioles
-110,621493,Taylor Ward,42,LF,Outfielder,Active,Baltimore Orioles
-110,669432,Trevor Rogers,42,P,Pitcher,Active,Baltimore Orioles
-110,669330,Tyler Wells,42,P,Pitcher,Active,Baltimore Orioles
-110,642215,Weston Wilson,42,LF,Outfielder,Active,Baltimore Orioles
-110,666974,Yennier Cano,42,P,Pitcher,Active,Baltimore Orioles
-111,655316,Andruw Monasterio,42,SS,Infielder,Active,Boston Red Sox
-111,547973,Aroldis Chapman,42,P,Pitcher,Active,Boston Red Sox
-111,678394,Brayan Bello,42,P,Pitcher,Active,Boston Red Sox
-111,702332,Caleb Durbin,42,3B,Infielder,Active,Boston Red Sox
-111,665966,Carlos Narváez,42,C,Catcher,Active,Boston Red Sox
-111,678882,Ceddanne Rafaela,42,CF,Outfielder,Active,Boston Red Sox
-111,813349,Connelly Early,42,P,Pitcher,Active,Boston Red Sox
-111,657136,Connor Wong,42,C,Catcher,Active,Boston Red Sox
-111,543056,Danny Coulombe,42,P,Pitcher,Active,Boston Red Sox
-111,676979,Garrett Crochet,42,P,Pitcher,Active,Boston Red Sox
-111,676477,Garrett Whitlock,42,P,Pitcher,Active,Boston Red Sox
-111,669711,Greg Weissert,42,P,Pitcher,Active,Boston Red Sox
-111,643396,Isiah Kiner-Falefa,42,SS,Infielder,Active,Boston Red Sox
-111,681252,Jack Anderson,42,P,Pitcher,Active,Boston Red Sox
-111,680776,Jarren Duran,42,LF,Outfielder,Active,Boston Red Sox
-111,663558,Jovani Morán,42,P,Pitcher,Active,Boston Red Sox
-111,691785,Marcelo Mayer,42,3B,Infielder,Active,Boston Red Sox
-111,807799,Masataka Yoshida,42,LF,Outfielder,Active,Boston Red Sox
-111,624133,Ranger Suarez,42,P,Pitcher,Active,Boston Red Sox
-111,701350,Roman Anthony,42,RF,Outfielder,Active,Boston Red Sox
-111,670245,Ryan Watson,42,P,Pitcher,Active,Boston Red Sox
-111,543243,Sonny Gray,42,P,Pitcher,Active,Boston Red Sox
-111,596115,Trevor Story,42,SS,Infielder,Active,Boston Red Sox
-111,575929,Willson Contreras,42,1B,Infielder,Active,Boston Red Sox
-111,677800,Wilyer Abreu,42,RF,Outfielder,Active,Boston Red Sox
-111,677161,Zack Kelly,42,P,Pitcher,Active,Boston Red Sox
-112,608324,Alex Bregman,42,3B,Infielder,Active,Chicago Cubs
-112,676962,Ben Brown,42,P,Pitcher,Active,Chicago Cubs
-112,573204,Caleb Thielbar,42,P,Pitcher,Active,Chicago Cubs
-112,608348,Carson Kelly,42,C,Catcher,Active,Chicago Cubs
-112,607067,Colin Rea,42,P,Pitcher,Active,Chicago Cubs
-112,694037,Daniel Palencia,42,P,Pitcher,Active,Chicago Cubs
-112,621020,Dansby Swanson,42,SS,Infielder,Active,Chicago Cubs
-112,665795,Edward Cabrera,42,P,Pitcher,Active,Chicago Cubs
-112,571948,Hoby Milner,42,P,Pitcher,Active,Chicago Cubs
-112,664023,Ian Happ,42,LF,Outfielder,Active,Chicago Cubs
-112,657097,Jacob Webb,42,P,Pitcher,Active,Chicago Cubs
-112,592791,Jameson Taillon,42,P,Pitcher,Active,Chicago Cubs
-112,665871,Javier Assad,42,P,Pitcher,Active,Chicago Cubs
-112,681432,Luke Little,42,P,Pitcher,Active,Chicago Cubs
-112,807713,Matt Shaw,42,3B,Infielder,Active,Chicago Cubs
-112,683737,Michael Busch,42,1B,Infielder,Active,Chicago Cubs
-112,624424,Michael Conforto,42,LF,Outfielder,Active,Chicago Cubs
-112,665804,Miguel Amaya,42,C,Catcher,Active,Chicago Cubs
-112,694208,Moisés Ballesteros,42,C,Catcher,Active,Chicago Cubs
-112,663538,Nico Hoerner,42,2B,Infielder,Active,Chicago Cubs
-112,691718,Pete Crow-Armstrong,42,CF,Outfielder,Active,Chicago Cubs
-112,702303,Riley Martin,42,P,Pitcher,Active,Chicago Cubs
-112,669020,Ryan Rolison,42,P,Pitcher,Active,Chicago Cubs
-112,664068,Scott Kingery,42,2B,Infielder,Active,Chicago Cubs
-112,673548,Seiya Suzuki,42,RF,Outfielder,Active,Chicago Cubs
-112,684007,Shota Imanaga,42,P,Pitcher,Active,Chicago Cubs
-113,671096,Andrew Abbott,42,P,Pitcher,Active,Cincinnati Reds
-113,663903,Brady Singer,42,P,Pitcher,Active,Cincinnati Reds
-113,682227,Brandon Williamson,42,P,Pitcher,Active,Cincinnati Reds
-113,656271,Brock Burke,42,P,Pitcher,Active,Cincinnati Reds
-113,695505,Chase Burns,42,P,Pitcher,Active,Cincinnati Reds
-113,683175,Connor Phillips,42,P,Pitcher,Active,Cincinnati Reds
-113,667472,Dane Myers,42,CF,Outfielder,Active,Cincinnati Reds
-113,682829,Elly De La Cruz,42,SS,Infielder,Active,Cincinnati Reds
-113,641941,Emilio Pagán,42,P,Pitcher,Active,Cincinnati Reds
-113,553993,Eugenio Suárez,42,3B,Infielder,Active,Cincinnati Reds
-113,668933,Graham Ashcraft,42,P,Pitcher,Active,Cincinnati Reds
-113,663647,Ke'Bryan Hayes,42,3B,Infielder,Active,Cincinnati Reds
-113,693312,Kyle Nicolas,42,P,Pitcher,Active,Cincinnati Reds
-113,680574,Matt McLain,42,2B,Infielder,Active,Cincinnati Reds
-113,663993,Nathaniel Lowe,42,1B,Infielder,Active,Cincinnati Reds
-113,664731,P.J. Higgins,42,C,Catcher,Active,Cincinnati Reds
-113,572955,Pierce Johnson,42,P,Pitcher,Active,Cincinnati Reds
-113,677956,Rece Hinds,42,RF,Outfielder,Active,Cincinnati Reds
-113,695076,Rhett Lowder,42,P,Pitcher,Active,Cincinnati Reds
-113,701398,Sal Stewart,42,3B,Infielder,Active,Cincinnati Reds
-113,594580,Sam Moll,42,P,Pitcher,Active,Cincinnati Reds
-113,668715,Spencer Steer,42,1B,Infielder,Active,Cincinnati Reds
-113,670770,TJ Friedl,42,CF,Outfielder,Active,Cincinnati Reds
-113,663574,Tony Santillan,42,P,Pitcher,Active,Cincinnati Reds
-113,663886,Tyler Stephenson,42,C,Catcher,Active,Cincinnati Reds
-113,666181,Will Benson,42,LF,Outfielder,Active,Cincinnati Reds
-114,682657,Angel Martínez,42,CF,Outfielder,Active,Cleveland Guardians
-114,595978,Austin Hedges,42,C,Catcher,Active,Cleveland Guardians
-114,666310,Bo Naylor,42,C,Catcher,Active,Cleveland Guardians
-114,677587,Brayan Rocchio,42,SS,Infielder,Active,Cleveland Guardians
-114,671922,Cade Smith,42,P,Pitcher,Active,Cleveland Guardians
-114,800050,Chase DeLauter,42,RF,Outfielder,Active,Cleveland Guardians
-114,641401,Connor Brogdon,42,P,Pitcher,Active,Cleveland Guardians
-114,682177,Daniel Schneemann,42,2B,Infielder,Active,Cleveland Guardians
-114,681807,David Fry,42,1B,Infielder,Active,Cleveland Guardians
-114,681870,Erik Sabrowski,42,P,Pitcher,Active,Cleveland Guardians
-114,668909,Gavin Williams,42,P,Pitcher,Active,Cleveland Guardians
-114,671655,George Valera,42,RF,Outfielder,Active,Cleveland Guardians
-114,683769,Hunter Gaddis,42,P,Pitcher,Active,Cleveland Guardians
-114,676282,Joey Cantillo,42,P,Pitcher,Active,Cleveland Guardians
-114,608070,José Ramírez,42,3B,Infielder,Active,Cleveland Guardians
-114,682877,Juan Brito,42,SS,Infielder,Active,Cleveland Guardians
-114,700932,Kyle Manzardo,42,1B,Infielder,Active,Cleveland Guardians
-114,670036,Matt Festa,42,P,Pitcher,Active,Cleveland Guardians
-114,800048,Parker Messick,42,P,Pitcher,Active,Cleveland Guardians
-114,688883,Peyton Pallette,42,P,Pitcher,Active,Cleveland Guardians
-114,656555,Rhys Hoskins,42,1B,Infielder,Active,Cleveland Guardians
-114,542888,Shawn Armstrong,42,P,Pitcher,Active,Cleveland Guardians
-114,677944,Slade Cecconi,42,P,Pitcher,Active,Cleveland Guardians
-114,680757,Steven Kwan,42,LF,Outfielder,Active,Cleveland Guardians
-114,676440,Tanner Bibee,42,P,Pitcher,Active,Cleveland Guardians
-114,682120,Tim Herrin,42,P,Pitcher,Active,Cleveland Guardians
-115,622608,Antonio Senzatela,42,P,Pitcher,Active,Colorado Rockies
-115,657514,Brennan Bernardino,42,P,Pitcher,Active,Colorado Rockies
-115,686668,Brenton Doyle,42,CF,Outfielder,Active,Colorado Rockies
-115,664954,Brett Sullivan,42,C,Catcher,Active,Colorado Rockies
-115,801403,Chase Dollander,42,P,Pitcher,Active,Colorado Rockies
-115,666397,Edouard Julien,42,2B,Infielder,Active,Colorado Rockies
-115,678662,Ezequiel Tovar,42,SS,Infielder,Active,Colorado Rockies
-115,696100,Hunter Goodman,42,C,Catcher,Active,Colorado Rockies
-115,677955,Jaden Hill,42,P,Pitcher,Active,Colorado Rockies
-115,664983,Jake McCarthy,42,CF,Outfielder,Active,Colorado Rockies
-115,623474,Jimmy Herget,42,P,Pitcher,Active,Colorado Rockies
-115,687597,Jordan Beck,42,LF,Outfielder,Active,Colorado Rockies
-115,675848,Juan Mejia,42,P,Pitcher,Active,Colorado Rockies
-115,607536,Kyle Freeland,42,P,Pitcher,Active,Colorado Rockies
-115,691720,Kyle Karros,42,3B,Infielder,Active,Colorado Rockies
-115,547179,Michael Lorenzen,42,P,Pitcher,Active,Colorado Rockies
-115,666160,Mickey Moniak,42,RF,Outfielder,Active,Colorado Rockies
-115,663372,Ryan Feltner,42,P,Pitcher,Active,Colorado Rockies
-115,681198,TJ Rumfield,42,1B,Infielder,Active,Colorado Rockies
-115,685299,Tanner Gordon,42,P,Pitcher,Active,Colorado Rockies
-115,608372,Tomoyuki Sugano,42,P,Pitcher,Active,Colorado Rockies
-115,687859,Troy Johnston,42,OF,Outfielder,Active,Colorado Rockies
-115,671289,Tyler Freeman,42,RF,Outfielder,Active,Colorado Rockies
-115,680767,Victor Vodnik,42,P,Pitcher,Active,Colorado Rockies
-115,650489,Willi Castro,42,LF,Outfielder,Active,Colorado Rockies
-115,688642,Zach Agnos,42,P,Pitcher,Active,Colorado Rockies
-116,676428,Brant Hurter,42,P,Pitcher,Active,Detroit Tigers
-116,663554,Casey Mize,42,P,Pitcher,Active,Detroit Tigers
-116,690993,Colt Keith,42,2B,Infielder,Active,Detroit Tigers
-116,657756,Connor Seabold,42,P,Pitcher,Active,Detroit Tigers
-116,693307,Dillon Dingler,42,C,Catcher,Active,Detroit Tigers
-116,623454,Drew Anderson,42,P,Pitcher,Active,Detroit Tigers
-116,646241,Enmanuel De Jesus,42,P,Pitcher,Active,Detroit Tigers
-116,664285,Framber Valdez,42,P,Pitcher,Active,Detroit Tigers
-116,650402,Gleyber Torres,42,2B,Infielder,Active,Detroit Tigers
-116,656427,Jack Flaherty,42,P,Pitcher,Active,Detroit Tigers
-116,663330,Jahmai Jones,42,RF,Outfielder,Active,Detroit Tigers
-116,668670,Jake Rogers,42,C,Catcher,Active,Detroit Tigers
-116,595879,Javier Báez,42,CF,Outfielder,Active,Detroit Tigers
-116,672456,Keider Montero,42,P,Pitcher,Active,Detroit Tigers
-116,445276,Kenley Jansen,42,P,Pitcher,Active,Detroit Tigers
-116,681481,Kerry Carpenter,42,RF,Outfielder,Active,Detroit Tigers
-116,805808,Kevin McGonigle,42,SS,Infielder,Active,Detroit Tigers
-116,640448,Kyle Finnegan,42,P,Pitcher,Active,Detroit Tigers
-116,663837,Matt Vierling,42,CF,Outfielder,Active,Detroit Tigers
-116,682985,Riley Greene,42,LF,Outfielder,Active,Detroit Tigers
-116,679529,Spencer Torkelson,42,1B,Infielder,Active,Detroit Tigers
-116,669373,Tarik Skubal,42,P,Pitcher,Active,Detroit Tigers
-116,663947,Tyler Holton,42,P,Pitcher,Active,Detroit Tigers
-116,672761,Wenceel Pérez,42,RF,Outfielder,Active,Detroit Tigers
-116,676684,Will Vest,42,P,Pitcher,Active,Detroit Tigers
-116,656716,Zach McKinstry,42,3B,Infielder,Active,Detroit Tigers
-117,805123,AJ Blubaugh,42,P,Pitcher,Active,Houston Astros
-117,694728,Brice Matthews,42,SS,Infielder,Active,Houston Astros
-117,650556,Bryan Abreu,42,P,Pitcher,Active,Houston Astros
-117,687911,Bryan King,42,P,Pitcher,Active,Houston Astros
-117,701358,Cam Smith,42,RF,Outfielder,Active,Houston Astros
-117,621043,Carlos Correa,42,SS,Infielder,Active,Houston Astros
-117,685005,Christian Roa,42,P,Pitcher,Active,Houston Astros
-117,543877,Christian Vázquez,42,C,Catcher,Active,Houston Astros
-117,572233,Christian Walker,42,1B,Infielder,Active,Houston Astros
-117,675989,Cody Bolton,42,P,Pitcher,Active,Houston Astros
-117,676467,Colton Gordon,42,P,Pitcher,Active,Houston Astros
-117,660853,Enyel De Los Santos,42,P,Pitcher,Active,Houston Astros
-117,670623,Isaac Paredes,42,3B,Infielder,Active,Houston Astros
-117,641585,J.P. France,42,P,Pitcher,Active,Houston Astros
-117,694388,Joey Loperfido,42,LF,Outfielder,Active,Houston Astros
-117,514888,Jose Altuve,42,LF,Outfielder,Active,Houston Astros
-117,678906,Kai-Wei Teng,42,P,Pitcher,Active,Houston Astros
-117,621121,Lance McCullers Jr.,42,P,Pitcher,Active,Houston Astros
-117,681347,Mike Burrows,42,P,Pitcher,Active,Houston Astros
-117,669397,Nick Allen,42,SS,Infielder,Active,Houston Astros
-117,680802,Ryan Weiss,42,P,Pitcher,Active,Houston Astros
-117,694376,Shay Whitcomb,42,LF,Outfielder,Active,Houston Astros
-117,595345,Steven Okert,42,P,Pitcher,Active,Houston Astros
-117,666211,Taylor Trammell,42,LF,Outfielder,Active,Houston Astros
-117,673237,Yainer Diaz,42,C,Catcher,Active,Houston Astros
-117,670541,Yordan Alvarez,42,LF,Outfielder,Active,Houston Astros
-118,656638,Alex Lange,42,P,Pitcher,Active,Kansas City Royals
-118,677951,Bobby Witt Jr.,42,SS,Infielder,Active,Kansas City Royals
-118,695600,Carter Jensen,42,C,Catcher,Active,Kansas City Royals
-118,666142,Cole Ragans,42,P,Pitcher,Active,Kansas City Royals
-118,663738,Daniel Lynch IV,42,P,Pitcher,Active,Kansas City Royals
-118,669212,Eli Morgan,42,P,Pitcher,Active,Kansas City Royals
-118,686555,Isaac Collins,42,LF,Outfielder,Active,Kansas City Royals
-118,695506,Jac Caglianone,42,RF,Outfielder,Active,Kansas City Royals
-118,670167,John Schreiber,42,P,Pitcher,Active,Kansas City Royals
-118,663697,Jonathan India,42,2B,Infielder,Active,Kansas City Royals
-118,663460,Kris Bubic,42,P,Pitcher,Active,Kansas City Royals
-118,664728,Kyle Isbel,42,CF,Outfielder,Active,Kansas City Royals
-118,657041,Lane Thomas,42,CF,Outfielder,Active,Kansas City Royals
-118,668674,Lucas Erceg,42,P,Pitcher,Active,Kansas City Royals
-118,672580,Maikel Garcia,42,3B,Infielder,Active,Kansas City Royals
-118,621381,Matt Strahm,42,P,Pitcher,Active,Kansas City Royals
-118,686681,Michael Massey,42,2B,Infielder,Active,Kansas City Royals
-118,608379,Michael Wacha,42,P,Pitcher,Active,Kansas City Royals
-118,687765,Mitch Spence,42,P,Pitcher,Active,Kansas City Royals
-118,683232,Nick Mears,42,P,Pitcher,Active,Kansas City Royals
-118,702070,Noah Cameron,42,P,Pitcher,Active,Kansas City Royals
-118,521692,Salvador Perez,42,C,Catcher,Active,Kansas City Royals
-118,607625,Seth Lugo,42,P,Pitcher,Active,Kansas City Royals
-118,516782,Starling Marte,42,LF,Outfielder,Active,Kansas City Royals
-118,686475,Tyler Tolbert,42,2B,Infielder,Active,Kansas City Royals
-118,686469,Vinnie Pasquantino,42,1B,Infielder,Active,Kansas City Royals
-119,669743,Alex Call,42,RF,Outfielder,Active,Los Angeles Dodgers
-119,690976,Alex Freeland,42,2B,Infielder,Active,Los Angeles Dodgers
-119,681911,Alex Vesia,42,P,Pitcher,Active,Los Angeles Dodgers
-119,681624,Andy Pages,42,CF,Outfielder,Active,Los Angeles Dodgers
-119,595014,Blake Treinen,42,P,Pitcher,Active,Los Angeles Dodgers
-119,687221,Dalton Rushing,42,C,Catcher,Active,Los Angeles Dodgers
-119,683618,Edgardo Henriquez,42,P,Pitcher,Active,Los Angeles Dodgers
-119,621242,Edwin Díaz,42,P,Pitcher,Active,Los Angeles Dodgers
-119,686218,Emmet Sheehan,42,P,Pitcher,Active,Los Angeles Dodgers
-119,518692,Freddie Freeman,42,1B,Infielder,Active,Los Angeles Dodgers
-119,808975,Hyeseong Kim,42,2B,Infielder,Active,Los Angeles Dodgers
-119,676263,Jack Dreyer,42,P,Pitcher,Active,Los Angeles Dodgers
-119,680736,Justin Wrobleski,42,P,Pitcher,Active,Los Angeles Dodgers
-119,669165,Kyle Hurt,42,P,Pitcher,Active,Los Angeles Dodgers
-119,663656,Kyle Tucker,42,RF,Outfielder,Active,Los Angeles Dodgers
-119,571970,Max Muncy,42,3B,Infielder,Active,Los Angeles Dodgers
-119,500743,Miguel Rojas,42,2B,Infielder,Active,Los Angeles Dodgers
-119,808963,Roki Sasaki,42,P,Pitcher,Active,Los Angeles Dodgers
-119,669289,Santiago Espinal,42,3B,Infielder,Active,Los Angeles Dodgers
-119,660271,Shohei Ohtani,42,TWP,Two-Way Player,Active,Los Angeles Dodgers
-119,656945,Tanner Scott,42,P,Pitcher,Active,Los Angeles Dodgers
-119,606192,Teoscar Hernández,42,RF,Outfielder,Active,Los Angeles Dodgers
-119,607192,Tyler Glasnow,42,P,Pitcher,Active,Los Angeles Dodgers
-119,694361,Will Klein,42,P,Pitcher,Active,Los Angeles Dodgers
-119,669257,Will Smith,42,C,Catcher,Active,Los Angeles Dodgers
-119,808967,Yoshinobu Yamamoto,42,P,Pitcher,Active,Los Angeles Dodgers
-120,695418,Brad Lord,42,P,Pitcher,Active,Washington Nationals
-120,691781,Brady House,42,3B,Infielder,Active,Washington Nationals
-120,682928,CJ Abrams,42,SS,Infielder,Active,Washington Nationals
-120,676917,Cade Cavalli,42,P,Pitcher,Active,Washington Nationals
-120,672335,Cionel Pérez,42,P,Pitcher,Active,Washington Nationals
-120,690925,Clayton Beeter,42,P,Pitcher,Active,Washington Nationals
-120,678554,Curtis Mead,42,1B,Infielder,Active,Washington Nationals
-120,695734,Daylen Lile,42,RF,Outfielder,Active,Washington Nationals
-120,686452,Drew Millas,42,C,Catcher,Active,Washington Nationals
-120,656492,Foster Griffin,42,P,Pitcher,Active,Washington Nationals
-120,681402,Gus Varland,42,P,Pitcher,Active,Washington Nationals
-120,696285,Jacob Young,42,CF,Outfielder,Active,Washington Nationals
-120,663623,Jake Irvin,42,P,Pitcher,Active,Washington Nationals
-120,695578,James Wood,42,LF,Outfielder,Active,Washington Nationals
-120,686894,Joey Wiemer,42,LF,Outfielder,Active,Washington Nationals
-120,678391,Jorbit Vivas,42,2B,Infielder,Active,Washington Nationals
-120,677588,José Tena,42,3B,Infielder,Active,Washington Nationals
-120,660688,Keibert Ruiz,42,C,Catcher,Active,Washington Nationals
-120,671277,Luis García Jr.,42,2B,Infielder,Active,Washington Nationals
-120,571945,Miles Mikolas,42,P,Pitcher,Active,Washington Nationals
-120,680730,Mitchell Parker,42,P,Pitcher,Active,Washington Nationals
-120,683083,Nasim Nuñez,42,SS,Infielder,Active,Washington Nationals
-120,687377,Orlando Ribalta,42,P,Pitcher,Active,Washington Nationals
-120,676571,PJ Poulin,42,P,Pitcher,Active,Washington Nationals
-120,687606,Paxton Schultz,42,P,Pitcher,Active,Washington Nationals
-120,641793,Zack Littell,42,P,Pitcher,Active,Washington Nationals
-121,681810,Austin Warren,42,P,Pitcher,Active,New York Mets
-121,666182,Bo Bichette,42,SS,Infielder,Active,New York Mets
-121,683146,Brett Baty,42,3B,Infielder,Active,New York Mets
-121,548384,Brooks Raley,42,P,Pitcher,Active,New York Mets
-121,701807,Carson Benge,42,OF,Outfielder,Active,New York Mets
-121,605280,Clay Holmes,42,P,Pitcher,Active,New York Mets
-121,518886,Craig Kimbrel,42,P,Pitcher,Active,New York Mets
-121,656849,David Peterson,42,P,Pitcher,Active,New York Mets
-121,642207,Devin Williams,42,P,Pitcher,Active,New York Mets
-121,682626,Francisco Alvarez,42,C,Catcher,Active,New York Mets
-121,596019,Francisco Lindor,42,SS,Infielder,Active,New York Mets
-121,642547,Freddy Peralta,42,P,Pitcher,Active,New York Mets
-121,623211,Huascar Brazobán,42,P,Pitcher,Active,New York Mets
-121,676724,Jared Young,42,LF,Outfielder,Active,New York Mets
-121,593871,Jorge Polanco,42,2B,Infielder,Active,New York Mets
-121,673540,Kodai Senga,42,P,Pitcher,Active,New York Mets
-121,673357,Luis Robert Jr.,42,CF,Outfielder,Active,New York Mets
-121,620443,Luis Torrens,42,C,Catcher,Active,New York Mets
-121,596133,Luke Weaver,42,P,Pitcher,Active,New York Mets
-121,543760,Marcus Semien,42,2B,Infielder,Active,New York Mets
-121,668901,Mark Vientos,42,3B,Infielder,Active,New York Mets
-121,690997,Nolan McLean,42,P,Pitcher,Active,New York Mets
-121,640455,Sean Manaea,42,P,Pitcher,Active,New York Mets
-121,668964,Tobias Myers,42,P,Pitcher,Active,New York Mets
-121,502054,Tommy Pham,42,LF,Outfielder,Active,New York Mets
-121,621438,Tyrone Taylor,42,CF,Outfielder,Active,New York Mets
-133,650644,Aaron Civale,42,P,Pitcher,Active,Athletics
-133,628451,Andy Ibáñez,42,3B,Infielder,Active,Athletics
-133,642851,Austin Wynns,42,C,Catcher,Active,Athletics
-133,666126,Carlos Cortes,42,LF,Outfielder,Active,Athletics
-133,687231,Darell Hernaiz,42,3B,Infielder,Active,Athletics
-133,672016,Denzel Clarke,42,CF,Outfielder,Active,Athletics
-133,665660,Elvis Alvarado,42,P,Pitcher,Active,Athletics
-133,663687,Hogan Harris,42,P,Pitcher,Active,Athletics
-133,669372,J.T. Ginn,42,P,Pitcher,Active,Athletics
-133,678022,Jack Perkins,42,P,Pitcher,Active,Athletics
-133,682052,Jacob Lopez,42,P,Pitcher,Active,Athletics
-133,805779,Jacob Wilson,42,SS,Infielder,Active,Athletics
-133,643446,Jeff McNeil,42,2B,Infielder,Active,Athletics
-133,605488,Jeffrey Springs,42,P,Pitcher,Active,Athletics
-133,669270,Joel Kuhnel,42,P,Pitcher,Active,Athletics
-133,686993,Justin Sterner,42,P,Pitcher,Active,Athletics
-133,671732,Lawrence Butler,42,RF,Outfielder,Active,Athletics
-133,665622,Luis Medina,42,P,Pitcher,Active,Athletics
-133,622663,Luis Severino,42,P,Pitcher,Active,Athletics
-133,643410,Mark Leiter Jr.,42,P,Pitcher,Active,Athletics
-133,691777,Max Muncy,42,3B,Infielder,Active,Athletics
-133,701762,Nick Kurtz,42,1B,Infielder,Active,Athletics
-133,605130,Scott Barlow,42,P,Pitcher,Active,Athletics
-133,669127,Shea Langeliers,42,C,Catcher,Active,Athletics
-133,691016,Tyler Soderstrom,42,LF,Outfielder,Active,Athletics
-133,680869,Zack Gelof,42,2B,Infielder,Active,Athletics
-134,695257,Billy Cook,42,OF,Outfielder,Active,Pittsburgh Pirates
-134,664040,Brandon Lowe,42,2B,Infielder,Active,Pittsburgh Pirates
-134,677952,Braxton Ashcraft,42,P,Pitcher,Active,Pittsburgh Pirates
-134,668804,Bryan Reynolds,42,RF,Outfielder,Active,Pittsburgh Pirates
-134,696149,Bubba Chandler,42,P,Pitcher,Active,Pittsburgh Pirates
-134,669387,Carmen Mlodzinski,42,P,Pitcher,Active,Pittsburgh Pirates
-134,642701,Dennis Santana,42,P,Pitcher,Active,Pittsburgh Pirates
-134,681895,Evan Sisk,42,P,Pitcher,Active,Pittsburgh Pirates
-134,642397,Gregory Soto,42,P,Pitcher,Active,Pittsburgh Pirates
-134,680779,Henry Davis,42,C,Catcher,Active,Pittsburgh Pirates
-134,676755,Isaac Mattson,42,P,Pitcher,Active,Pittsburgh Pirates
-134,663968,Jake Mangum,42,LF,Outfielder,Active,Pittsburgh Pirates
-134,663698,Joey Bart,42,C,Catcher,Active,Pittsburgh Pirates
-134,664353,José Urquidy,42,P,Pitcher,Active,Pittsburgh Pirates
-134,664875,Justin Lawrence,42,P,Pitcher,Active,Pittsburgh Pirates
-134,804606,Konnor Griffin,42,SS,Infielder,Active,Pittsburgh Pirates
-134,542303,Marcell Ozuna,42,DH,Hitter,Active,Pittsburgh Pirates
-134,682254,Mason Montgomery,42,P,Pitcher,Active,Pittsburgh Pirates
-134,656605,Mitch Keller,42,P,Pitcher,Active,Pittsburgh Pirates
-134,693304,Nick Gonzales,42,2B,Infielder,Active,Pittsburgh Pirates
-134,694377,Nick Yorke,42,2B,Infielder,Active,Pittsburgh Pirates
-134,665833,Oneil Cruz,42,CF,Outfielder,Active,Pittsburgh Pirates
-134,694973,Paul Skenes,42,P,Pitcher,Active,Pittsburgh Pirates
-134,656811,Ryan O'Hearn,42,1B,Infielder,Active,Pittsburgh Pirates
-134,687462,Spencer Horwitz,42,1B,Infielder,Active,Pittsburgh Pirates
-134,670990,Yohan Ramírez,42,P,Pitcher,Active,Pittsburgh Pirates
-135,670970,Adrian Morejon,42,P,Pitcher,Active,San Diego Padres
-135,689690,Alek Jacob,42,P,Pitcher,Active,San Diego Padres
-135,699134,Bradgley Rodriguez,42,P,Pitcher,Active,San Diego Padres
-135,669369,Bryce Johnson,42,CF,Outfielder,Active,San Diego Padres
-135,688158,David Morgan,42,P,Pitcher,Active,San Diego Padres
-135,665487,Fernando Tatis Jr.,42,RF,Outfielder,Active,San Diego Padres
-135,666023,Freddy Fermin,42,C,Catcher,Active,San Diego Padres
-135,657757,Gavin Sheets,42,LF,Outfielder,Active,San Diego Padres
-135,608566,Germán Márquez,42,P,Pitcher,Active,San Diego Padres
-135,701538,Jackson Merrill,42,CF,Outfielder,Active,San Diego Padres
-135,630105,Jake Cronenworth,42,2B,Infielder,Active,San Diego Padres
-135,592094,Jason Adam,42,P,Pitcher,Active,San Diego Padres
-135,606996,Kyle Hart,42,P,Pitcher,Active,San Diego Padres
-135,669134,Luis Campusano,42,C,Catcher,Active,San Diego Padres
-135,592518,Manny Machado,42,3B,Infielder,Active,San Diego Padres
-135,695243,Mason Miller,42,P,Pitcher,Active,San Diego Padres
-135,650633,Michael King,42,P,Pitcher,Active,San Diego Padres
-135,609280,Miguel Andujar,42,LF,Outfielder,Active,San Diego Padres
-135,592206,Nick Castellanos,42,RF,Outfielder,Active,San Diego Padres
-135,657656,Ramón Laureano,42,RF,Outfielder,Active,San Diego Padres
-135,681190,Randy Vásquez,42,P,Pitcher,Active,San Diego Padres
-135,676760,Ron Marinaccio,42,P,Pitcher,Active,San Diego Padres
-135,664034,Ty France,42,1B,Infielder,Active,San Diego Padres
-135,621111,Walker Buehler,42,P,Pitcher,Active,San Diego Padres
-135,593974,Wandy Peralta,42,P,Pitcher,Active,San Diego Padres
-135,593428,Xander Bogaerts,42,SS,Infielder,Active,San Diego Padres
-136,662253,Andrés Muñoz,42,P,Pitcher,Active,Seattle Mariners
-136,680977,Brendan Donovan,42,2B,Infielder,Active,Seattle Mariners
-136,693433,Bryan Woo,42,P,Pitcher,Active,Seattle Mariners
-136,663728,Cal Raleigh,42,C,Catcher,Active,Seattle Mariners
-136,668984,Casey Legumina,42,P,Pitcher,Active,Seattle Mariners
-136,677961,Cole Wilcox,42,P,Pitcher,Active,Seattle Mariners
-136,702284,Cole Young,42,2B,Infielder,Active,Seattle Mariners
-136,656582,Connor Joe,42,1B,Infielder,Active,Seattle Mariners
-136,681867,Cooper Criswell,42,P,Pitcher,Active,Seattle Mariners
-136,686527,Dominic Canzone,42,RF,Outfielder,Active,Seattle Mariners
-136,660825,Eduard Bazardo,42,P,Pitcher,Active,Seattle Mariners
-136,676106,Emerson Hancock,42,P,Pitcher,Active,Seattle Mariners
-136,642100,Gabe Speier,42,P,Pitcher,Active,Seattle Mariners
-136,669923,George Kirby,42,P,Pitcher,Active,Seattle Mariners
-136,641487,J.P. Crawford,42,SS,Infielder,Active,Seattle Mariners
-136,678606,Jose A. Ferrer,42,P,Pitcher,Active,Seattle Mariners
-136,647304,Josh Naylor,42,1B,Infielder,Active,Seattle Mariners
-136,677594,Julio Rodríguez,42,CF,Outfielder,Active,Seattle Mariners
-136,660844,Leo Rivas,42,2B,Infielder,Active,Seattle Mariners
-136,669302,Logan Gilbert,42,P,Pitcher,Active,Seattle Mariners
-136,622491,Luis Castillo,42,P,Pitcher,Active,Seattle Mariners
-136,670042,Luke Raley,42,RF,Outfielder,Active,Seattle Mariners
-136,666374,Matt Brash,42,P,Pitcher,Active,Seattle Mariners
-136,641598,Mitch Garver,42,C,Catcher,Active,Seattle Mariners
-136,621550,Patrick Wisdom,42,1B,Infielder,Active,Seattle Mariners
-136,668227,Randy Arozarena,42,LF,Outfielder,Active,Seattle Mariners
-137,605288,Adrian Houser,42,P,Pitcher,Active,San Francisco Giants
-137,694918,Blade Tidwell,42,P,Pitcher,Active,San Francisco Giants
-137,668873,Caleb Kilian,42,P,Pitcher,Active,San Francisco Giants
-137,669477,Casey Schmitt,42,3B,Infielder,Active,San Francisco Giants
-137,683766,Christian Koss,42,2B,Infielder,Active,San Francisco Giants
-137,691740,Daniel Susac,42,C,Catcher,Active,San Francisco Giants
-137,687551,Drew Gilbert,42,CF,Outfielder,Active,San Francisco Giants
-137,669062,Erik Miller,42,P,Pitcher,Active,San Francisco Giants
-137,671218,Heliot Ramos,42,LF,Outfielder,Active,San Francisco Giants
-137,664141,JT Brubaker,42,P,Pitcher,Active,San Francisco Giants
-137,666464,Jerar Encarnacion,42,RF,Outfielder,Active,San Francisco Giants
-137,808982,Jung Hoo Lee,42,CF,Outfielder,Active,San Francisco Giants
-137,676775,Keaton Winn,42,P,Pitcher,Active,San Francisco Giants
-137,694738,Landen Roupp,42,P,Pitcher,Active,San Francisco Giants
-137,657277,Logan Webb,42,P,Pitcher,Active,San Francisco Giants
-137,650333,Luis Arraez,42,IF,Infielder,Active,San Francisco Giants
-137,656305,Matt Chapman,42,3B,Infielder,Active,San Francisco Giants
-137,657424,Matt Gage,42,P,Pitcher,Active,San Francisco Giants
-137,672275,Patrick Bailey,42,C,Catcher,Active,San Francisco Giants
-137,646240,Rafael Devers,42,DH,Hitter,Active,San Francisco Giants
-137,592662,Robbie Ray,42,P,Pitcher,Active,San Francisco Giants
-137,621366,Ryan Borucki,42,P,Pitcher,Active,San Francisco Giants
-137,676254,Ryan Walker,42,P,Pitcher,Active,San Francisco Giants
-137,641816,Tyler Mahle,42,P,Pitcher,Active,San Francisco Giants
-137,686823,Will Brennan,42,RF,Outfielder,Active,San Francisco Giants
-137,642715,Willy Adames,42,SS,Infielder,Active,San Francisco Giants
-138,676475,Alec Burleson,42,1B,Infielder,Active,St. Louis Cardinals
-138,669467,Andre Pallante,42,P,Pitcher,Active,St. Louis Cardinals
-138,669160,Dustin May,42,P,Pitcher,Active,St. Louis Cardinals
-138,666277,George Soriano,42,P,Pitcher,Active,St. Louis Cardinals
-138,700669,Gordon Graceffo,42,P,Pitcher,Active,St. Louis Cardinals
-138,671056,Iván Herrera,42,C,Catcher,Active,St. Louis Cardinals
-138,802139,JJ Wetherholt,42,SS,Infielder,Active,St. Louis Cardinals
-138,668941,JoJo Romero,42,P,Pitcher,Active,St. Louis Cardinals
-138,691023,Jordan Walker,42,RF,Outfielder,Active,St. Louis Cardinals
-138,665877,José Fermín,42,2B,Infielder,Active,St. Louis Cardinals
-138,677865,Justin Bruihl,42,P,Pitcher,Active,St. Louis Cardinals
-138,681517,Kyle Leahy,42,P,Pitcher,Active,St. Louis Cardinals
-138,691026,Masyn Winn,42,SS,Infielder,Active,St. Louis Cardinals
-138,694335,Matt Svanson,42,P,Pitcher,Active,St. Louis Cardinals
-138,669461,Matthew Liberatore,42,P,Pitcher,Active,St. Louis Cardinals
-138,700241,Michael McGreevy,42,P,Pitcher,Active,St. Louis Cardinals
-138,701675,Nathan Church,42,LF,Outfielder,Active,St. Louis Cardinals
-138,669357,Nolan Gorman,42,2B,Infielder,Active,St. Louis Cardinals
-138,686780,Pedro Pagés,42,C,Catcher,Active,St. Louis Cardinals
-138,602104,Ramón Urías,42,3B,Infielder,Active,St. Louis Cardinals
-138,676617,Riley O'Brien,42,P,Pitcher,Active,St. Louis Cardinals
-138,681676,Ryan Fernandez,42,P,Pitcher,Active,St. Louis Cardinals
-138,592773,Ryne Stanek,42,P,Pitcher,Active,St. Louis Cardinals
-138,695336,Thomas Saggese,42,2B,Infielder,Active,St. Louis Cardinals
-138,687363,Victor Scott II,42,CF,Outfielder,Active,St. Louis Cardinals
-138,650968,Yohel Pozo,42,C,Catcher,Active,St. Louis Cardinals
-139,810938,Ben Williamson,42,3B,Infielder,Active,Tampa Bay Rays
-139,641329,Bryan Baker,42,P,Pitcher,Active,Tampa Bay Rays
-139,656775,Cedric Mullins,42,CF,Outfielder,Active,Tampa Bay Rays
-139,802415,Chandler Simpson,42,LF,Outfielder,Active,Tampa Bay Rays
-139,642121,Cole Sulser,42,P,Pitcher,Active,Tampa Bay Rays
-139,656876,Drew Rasmussen,42,P,Pitcher,Active,Tampa Bay Rays
-139,643377,Griffin Jax,42,P,Pitcher,Active,Tampa Bay Rays
-139,685801,Hunter Bigge,42,P,Pitcher,Active,Tampa Bay Rays
-139,676439,Hunter Feduccia,42,C,Catcher,Active,Tampa Bay Rays
-139,693855,Ian Seymour,42,P,Pitcher,Active,Tampa Bay Rays
-139,641584,Jake Fraley,42,RF,Outfielder,Active,Tampa Bay Rays
-139,669947,Jesse Scholtens,42,P,Pitcher,Active,Tampa Bay Rays
-139,666018,Jonathan Aranda,42,1B,Infielder,Active,Tampa Bay Rays
-139,676356,Jonny DeLuca,42,CF,Outfielder,Active,Tampa Bay Rays
-139,691406,Junior Caminero,42,3B,Infielder,Active,Tampa Bay Rays
-139,687330,Kevin Kelly,42,P,Pitcher,Active,Tampa Bay Rays
-139,669438,Mason Englert,42,P,Pitcher,Active,Tampa Bay Rays
-139,663743,Nick Fortes,42,C,Catcher,Active,Tampa Bay Rays
-139,607259,Nick Martinez,42,P,Pitcher,Active,Tampa Bay Rays
-139,680700,Richie Palacios,42,LF,Outfielder,Active,Tampa Bay Rays
-139,668723,Ryan Vilade,42,RF,Outfielder,Active,Tampa Bay Rays
-139,663556,Shane McClanahan,42,P,Pitcher,Active,Tampa Bay Rays
-139,571927,Steven Matz,42,P,Pitcher,Active,Tampa Bay Rays
-139,670764,Taylor Walls,42,SS,Infielder,Active,Tampa Bay Rays
-139,650490,Yandy Díaz,42,1B,Infielder,Active,Tampa Bay Rays
-139,672782,Yoendrys Gómez,42,P,Pitcher,Active,Tampa Bay Rays
-140,457705,Andrew McCutchen,42,RF,Outfielder,Active,Texas Rangers
-140,607043,Brandon Nimmo,42,LF,Outfielder,Active,Texas Rangers
-140,455119,Chris Martin,42,P,Pitcher,Active,Texas Rangers
-140,668390,Cole Winn,42,P,Pitcher,Active,Texas Rangers
-140,608369,Corey Seager,42,SS,Infielder,Active,Texas Rangers
-140,643376,Danny Jansen,42,C,Catcher,Active,Texas Rangers
-140,694497,Evan Carter,42,CF,Outfielder,Active,Texas Rangers
-140,677649,Ezequiel Duran,42,SS,Infielder,Active,Texas Rangers
-140,683004,Jack Leiter,42,P,Pitcher,Active,Texas Rangers
-140,656641,Jacob Latz,42,P,Pitcher,Active,Texas Rangers
-140,594798,Jacob deGrom,42,P,Pitcher,Active,Texas Rangers
-140,669394,Jake Burger,42,1B,Infielder,Active,Texas Rangers
-140,596001,Jakob Junis,42,P,Pitcher,Active,Texas Rangers
-140,656222,Jalen Beeks,42,P,Pitcher,Active,Texas Rangers
-140,592626,Joc Pederson,42,1B,Infielder,Active,Texas Rangers
-140,673962,Josh Jung,42,3B,Infielder,Active,Texas Rangers
-140,669701,Josh Smith,42,SS,Infielder,Active,Texas Rangers
-140,677958,Kumar Rocker,42,P,Pitcher,Active,Texas Rangers
-140,543309,Kyle Higashioka,42,C,Catcher,Active,Texas Rangers
-140,681168,Luis Curvelo,42,P,Pitcher,Active,Texas Rangers
-140,669022,MacKenzie Gore,42,P,Pitcher,Active,Texas Rangers
-140,543135,Nathan Eovaldi,42,P,Pitcher,Active,Texas Rangers
-140,676395,Robert Garcia,42,P,Pitcher,Active,Texas Rangers
-140,664059,Sam Haggerty,42,CF,Outfielder,Active,Texas Rangers
-140,641302,Tyler Alexander,42,P,Pitcher,Active,Texas Rangers
-140,694671,Wyatt Langford,42,LF,Outfielder,Active,Texas Rangers
-141,665926,Andrés Giménez,42,2B,Infielder,Active,Toronto Blue Jays
-141,678218,Brandon Valenzuela,42,C,Catcher,Active,Toronto Blue Jays
-141,680755,Braydon Fisher,42,P,Pitcher,Active,Toronto Blue Jays
-141,662139,Daulton Varsho,42,CF,Outfielder,Active,Toronto Blue Jays
-141,676914,Davis Schneider,42,LF,Outfielder,Active,Toronto Blue Jays
-141,656302,Dylan Cease,42,P,Pitcher,Active,Toronto Blue Jays
-141,650391,Eloy Jiménez,42,OF,Outfielder,Active,Toronto Blue Jays
-141,641778,Eric Lauer,42,P,Pitcher,Active,Toronto Blue Jays
-141,676391,Ernie Clement,42,3B,Infielder,Active,Toronto Blue Jays
-141,656546,Jeff Hoffman,42,P,Pitcher,Active,Toronto Blue Jays
-141,660821,Jesús Sánchez,42,RF,Outfielder,Active,Toronto Blue Jays
-141,573009,Joe Mantiply,42,P,Pitcher,Active,Toronto Blue Jays
-141,672960,Kazuma Okamoto,42,3B,Infielder,Active,Toronto Blue Jays
-141,592332,Kevin Gausman,42,P,Pitcher,Active,Toronto Blue Jays
-141,672820,Lenyn Sosa,42,2B,Infielder,Active,Toronto Blue Jays
-141,686973,Louis Varland,42,P,Pitcher,Active,Toronto Blue Jays
-141,689254,Mason Fluharty,42,P,Pitcher,Active,Toronto Blue Jays
-141,453286,Max Scherzer,42,P,Pitcher,Active,Toronto Blue Jays
-141,664702,Myles Straw,42,CF,Outfielder,Active,Toronto Blue Jays
-141,664770,Nathan Lukes,42,RF,Outfielder,Active,Toronto Blue Jays
-141,571578,Patrick Corbin,42,P,Pitcher,Active,Toronto Blue Jays
-141,693686,Spencer Miles,42,P,Pitcher,Active,Toronto Blue Jays
-141,667297,Tommy Nance,42,P,Pitcher,Active,Toronto Blue Jays
-141,623168,Tyler Heineman,42,C,Catcher,Active,Toronto Blue Jays
-141,643511,Tyler Rogers,42,P,Pitcher,Active,Toronto Blue Jays
-141,665489,Vladimir Guerrero Jr.,42,1B,Infielder,Active,Toronto Blue Jays
-142,702193,Andrew Morris,42,P,Pitcher,Active,Minnesota Twins
-142,607455,Anthony Banda,42,P,Pitcher,Active,Minnesota Twins
-142,668885,Austin Martin,42,CF,Outfielder,Active,Minnesota Twins
-142,641927,Bailey Ober,42,P,Pitcher,Active,Minnesota Twins
-142,686797,Brooks Lee,42,3B,Infielder,Active,Minnesota Twins
-142,621439,Byron Buxton,42,CF,Outfielder,Active,Minnesota Twins
-142,663485,Cole Sands,42,P,Pitcher,Active,Minnesota Twins
-142,679358,Eric Orze,42,P,Pitcher,Active,Minnesota Twins
-142,670183,Garrett Acton,42,P,Pitcher,Active,Minnesota Twins
-142,681546,James Outman,42,CF,Outfielder,Active,Minnesota Twins
-142,657746,Joe Ryan,42,P,Pitcher,Active,Minnesota Twins
-142,605137,Josh Bell,42,1B,Infielder,Active,Minnesota Twins
-142,623437,Justin Topa,42,P,Pitcher,Active,Minnesota Twins
-142,665019,Kody Clemens,42,2B,Infielder,Active,Minnesota Twins
-142,681892,Kody Funderburk,42,P,Pitcher,Active,Minnesota Twins
-142,807712,Luke Keaschall,42,2B,Infielder,Active,Minnesota Twins
-142,670242,Matt Wallner,42,RF,Outfielder,Active,Minnesota Twins
-142,690953,Mick Abel,42,P,Pitcher,Active,Minnesota Twins
-142,680777,Ryan Jeffers,42,C,Catcher,Active,Minnesota Twins
-142,668952,Ryan Kreidler,42,CF,Outfielder,Active,Minnesota Twins
-142,680573,Simeon Woods Richardson,42,P,Pitcher,Active,Minnesota Twins
-142,671737,Taj Bradley,42,P,Pitcher,Active,Minnesota Twins
-142,573124,Taylor Rogers,42,P,Pitcher,Active,Minnesota Twins
-142,663616,Trevor Larnach,42,RF,Outfielder,Active,Minnesota Twins
-142,656484,Tristan Gray,42,3B,Infielder,Active,Minnesota Twins
-142,605170,Victor Caratini,42,C,Catcher,Active,Minnesota Twins
-143,605400,Aaron Nola,42,P,Pitcher,Active,Philadelphia Phillies
-143,666969,Adolis García,42,RF,Outfielder,Active,Philadelphia Phillies
-143,664761,Alec Bohm,42,3B,Infielder,Active,Philadelphia Phillies
-143,691725,Andrew Painter,42,P,Pitcher,Active,Philadelphia Phillies
-143,641745,Brad Keller,42,P,Pitcher,Active,Philadelphia Phillies
-143,669016,Brandon Marsh,42,CF,Outfielder,Active,Philadelphia Phillies
-143,547180,Bryce Harper,42,1B,Infielder,Active,Philadelphia Phillies
-143,681082,Bryson Stott,42,2B,Infielder,Active,Philadelphia Phillies
-143,663767,Chase Shugart,42,P,Pitcher,Active,Philadelphia Phillies
-143,650911,Cristopher Sánchez,42,P,Pitcher,Active,Philadelphia Phillies
-143,664238,Dylan Moore,42,2B,Infielder,Active,Philadelphia Phillies
-143,624641,Edmundo Sosa,42,2B,Infielder,Active,Philadelphia Phillies
-143,592663,J.T. Realmuto,42,C,Catcher,Active,Philadelphia Phillies
-143,666200,Jesús Luzardo,42,P,Pitcher,Active,Philadelphia Phillies
-143,661395,Jhoan Duran,42,P,Pitcher,Active,Philadelphia Phillies
-143,621237,José Alvarado,42,P,Pitcher,Active,Philadelphia Phillies
-143,702222,Justin Crawford,42,CF,Outfielder,Active,Philadelphia Phillies
-143,679775,Kyle Backhus,42,P,Pitcher,Active,Philadelphia Phillies
-143,656941,Kyle Schwarber,42,LF,Outfielder,Active,Philadelphia Phillies
-143,689147,Orion Kerkering,42,P,Pitcher,Active,Philadelphia Phillies
-143,805249,Otto Kemp,42,OF,Outfielder,Active,Philadelphia Phillies
-143,665561,Rafael Marchán,42,C,Catcher,Active,Philadelphia Phillies
-143,592836,Taijuan Walker,42,P,Pitcher,Active,Philadelphia Phillies
-143,621383,Tanner Banks,42,P,Pitcher,Active,Philadelphia Phillies
-143,641835,Tim Mayza,42,P,Pitcher,Active,Philadelphia Phillies
-143,607208,Trea Turner,42,SS,Infielder,Active,Philadelphia Phillies
-144,607481,Aaron Bummer,42,P,Pitcher,Active,Atlanta Braves
-144,663586,Austin Riley,42,3B,Infielder,Active,Atlanta Braves
-144,693821,Bryce Elder,42,P,Pitcher,Active,Atlanta Braves
-144,519242,Chris Sale,42,P,Pitcher,Active,Atlanta Braves
-144,642086,Dominic Smith,42,1B,Infielder,Active,Atlanta Braves
-144,686948,Drake Baldwin,42,C,Catcher,Active,Atlanta Braves
-144,669276,Dylan Lee,42,P,Pitcher,Active,Atlanta Braves
-144,642201,Eli White,42,RF,Outfielder,Active,Atlanta Braves
-144,656550,Grant Holmes,42,P,Pitcher,Active,Atlanta Braves
-144,802686,Hayden Harris,42,P,Pitcher,Active,Atlanta Braves
-144,606303,Joel Payamps,42,P,Pitcher,Active,Atlanta Braves
-144,641680,Jonah Heim,42,C,Catcher,Active,Atlanta Braves
-144,622761,Jorge Mateo,42,SS,Infielder,Active,Atlanta Braves
-144,660761,José Suarez,42,P,Pitcher,Active,Atlanta Braves
-144,571657,Kyle Farmer,42,2B,Infielder,Active,Atlanta Braves
-144,621566,Matt Olson,42,1B,Infielder,Active,Atlanta Braves
-144,643289,Mauricio Dubón,42,2B,Infielder,Active,Atlanta Braves
-144,671739,Michael Harris II,42,CF,Outfielder,Active,Atlanta Braves
-144,573262,Mike Yastrzemski,42,RF,Outfielder,Active,Atlanta Braves
-144,674370,Osvaldo Bido,42,P,Pitcher,Active,Atlanta Braves
-144,645277,Ozzie Albies,42,2B,Infielder,Active,Atlanta Braves
-144,628452,Raisel Iglesias,42,P,Pitcher,Active,Atlanta Braves
-144,625643,Reynaldo López,42,P,Pitcher,Active,Atlanta Braves
-144,663158,Robert Suarez,42,P,Pitcher,Active,Atlanta Braves
-144,660670,Ronald Acuña Jr.,42,RF,Outfielder,Active,Atlanta Braves
-144,641755,Tyler Kinley,42,P,Pitcher,Active,Atlanta Braves
-145,643217,Andrew Benintendi,42,LF,Outfielder,Active,Chicago White Sox
-145,641743,Anthony Kay,42,P,Pitcher,Active,Chicago White Sox
-145,663542,Bryan Hudson,42,P,Pitcher,Active,Chicago White Sox
-145,805367,Chase Meidroth,42,SS,Infielder,Active,Chicago White Sox
-145,695657,Colson Montgomery,42,SS,Infielder,Active,Chicago White Sox
-145,663436,Davis Martin,42,P,Pitcher,Active,Chicago White Sox
-145,656537,Derek Hill,42,CF,Outfielder,Active,Chicago White Sox
-145,700337,Edgar Quero,42,C,Catcher,Active,Chicago White Sox
-145,607200,Erick Fedde,42,P,Pitcher,Active,Chicago White Sox
-145,677592,Everson Pereira,42,CF,Outfielder,Active,Chicago White Sox
-145,691799,Grant Taylor,42,P,Pitcher,Active,Chicago White Sox
-145,663855,Jordan Hicks,42,P,Pitcher,Active,Chicago White Sox
-145,673929,Jordan Leasure,42,P,Pitcher,Active,Chicago White Sox
-145,608371,Lucas Sims,42,P,Pitcher,Active,Chicago White Sox
-145,682668,Luisangel Acuña,42,2B,Infielder,Active,Chicago White Sox
-145,678246,Miguel Vargas,42,3B,Infielder,Active,Chicago White Sox
-145,808959,Munetaka Murakami,42,3B,Infielder,Active,Chicago White Sox
-145,702273,Noah Schultz,42,P,Pitcher,Active,Chicago White Sox
-145,624512,Reese McGuire,42,C,Catcher,Active,Chicago White Sox
-145,803011,Sam Antonacci,42,SS,Infielder,Active,Chicago White Sox
-145,680732,Sean Burke,42,P,Pitcher,Active,Chicago White Sox
-145,656794,Sean Newcomb,42,P,Pitcher,Active,Chicago White Sox
-145,622554,Seranthony Domínguez,42,P,Pitcher,Active,Chicago White Sox
-145,695020,Tanner Murray,42,2B,Infielder,Active,Chicago White Sox
-145,671976,Tristan Peters,42,LF,Outfielder,Active,Chicago White Sox
-145,656457,Tyler Gilbert,42,P,Pitcher,Active,Chicago White Sox
-146,682663,Agustín Ramírez,42,C,Catcher,Active,Miami Marlins
-146,677053,Andrew Nardi,42,P,Pitcher,Active,Miami Marlins
-146,669622,Anthony Bender,42,P,Pitcher,Active,Miami Marlins
-146,596103,Austin Slater,42,LF,Outfielder,Active,Miami Marlins
-146,676534,Calvin Faucher,42,P,Pitcher,Active,Miami Marlins
-146,663978,Chris Paddack,42,P,Pitcher,Active,Miami Marlins
-146,681393,Connor Norby,42,3B,Infielder,Active,Miami Marlins
-146,691277,Deyvison De Los Santos,42,3B,Infielder,Active,Miami Marlins
-146,691587,Eury Pérez,42,P,Pitcher,Active,Miami Marlins
-146,688363,Graham Pauley,42,3B,Infielder,Active,Miami Marlins
-146,681715,Heriberto Hernández,42,LF,Outfielder,Active,Miami Marlins
-146,805300,Jakob Marsee,42,CF,Outfielder,Active,Miami Marlins
-146,676083,Janson Junk,42,P,Pitcher,Active,Miami Marlins
-146,691594,Javier Sanoja,42,2B,Infielder,Active,Miami Marlins
-146,667463,John King,42,P,Pitcher,Active,Miami Marlins
-146,669199,Lake Bachar,42,P,Pitcher,Active,Miami Marlins
-146,677870,Leo Jiménez,42,SS,Infielder,Active,Miami Marlins
-146,689414,Liam Hicks,42,C,Catcher,Active,Miami Marlins
-146,676974,Max Meyer,42,P,Pitcher,Active,Miami Marlins
-146,656848,Michael Petersen,42,P,Pitcher,Active,Miami Marlins
-146,672640,Otto Lopez,42,SS,Infielder,Active,Miami Marlins
-146,683357,Owen Caissie,42,RF,Outfielder,Active,Miami Marlins
-146,664126,Pete Fairbanks,42,P,Pitcher,Active,Miami Marlins
-146,645261,Sandy Alcantara,42,P,Pitcher,Active,Miami Marlins
-146,663969,Tyler Phillips,42,P,Pitcher,Active,Miami Marlins
-146,669364,Xavier Edwards,42,SS,Infielder,Active,Miami Marlins
-147,592450,Aaron Judge,42,RF,Outfielder,Active,New York Yankees
-147,642708,Amed Rosario,42,3B,Infielder,Active,New York Yankees
-147,683409,Angel Chivilli,42,P,Pitcher,Active,New York Yankees
-147,669224,Austin Wells,42,C,Catcher,Active,New York Yankees
-147,700250,Ben Rice,42,1B,Infielder,Active,New York Yankees
-147,687396,Brent Headrick,42,P,Pitcher,Active,New York Yankees
-147,693645,Cam Schlittler,42,P,Pitcher,Active,New York Yankees
-147,666808,Camilo Doval,42,P,Pitcher,Active,New York Yankees
-147,641355,Cody Bellinger,42,LF,Outfielder,Active,New York Yankees
-147,670280,David Bednar,42,P,Pitcher,Active,New York Yankees
-147,518585,Fernando Cruz,42,P,Pitcher,Active,New York Yankees
-147,519317,Giancarlo Stanton,42,DH,Hitter,Active,New York Yankees
-147,641555,J.C. Escarra,42,C,Catcher,Active,New York Yankees
-147,665862,Jazz Chisholm Jr.,42,2B,Infielder,Active,New York Yankees
-147,676609,José Caballero,42,SS,Infielder,Active,New York Yankees
-147,661563,Luis Gil,42,P,Pitcher,Active,New York Yankees
-147,608331,Max Fried,42,P,Pitcher,Active,New York Yankees
-147,621112,Paul Blackburn,42,P,Pitcher,Active,New York Yankees
-147,502671,Paul Goldschmidt,42,1B,Infielder,Active,New York Yankees
-147,545341,Randal Grichuk,42,RF,Outfielder,Active,New York Yankees
-147,641857,Ryan McMahon,42,3B,Infielder,Active,New York Yankees
-147,677960,Ryan Weathers,42,P,Pitcher,Active,New York Yankees
-147,642232,Ryan Yarbrough,42,P,Pitcher,Active,New York Yankees
-147,657612,Tim Hill,42,P,Pitcher,Active,New York Yankees
-147,663757,Trent Grisham,42,CF,Outfielder,Active,New York Yankees
-147,701542,Will Warren,42,P,Pitcher,Active,New York Yankees
-158,676879,Aaron Ashby,42,P,Pitcher,Active,Milwaukee Brewers
-158,682842,Abner Uribe,42,P,Pitcher,Active,Milwaukee Brewers
-158,672582,Angel Zerpa,42,P,Pitcher,Active,Milwaukee Brewers
-158,663368,Blake Perkins,42,CF,Outfielder,Active,Milwaukee Brewers
-158,663604,Brandon Lockridge,42,LF,Outfielder,Active,Milwaukee Brewers
-158,687075,Brandon Sproat,42,P,Pitcher,Active,Milwaukee Brewers
-158,605540,Brandon Woodruff,42,P,Pitcher,Active,Milwaukee Brewers
-158,668930,Brice Turang,42,2B,Infielder,Active,Milwaukee Brewers
-158,694477,Chad Patrick,42,P,Pitcher,Active,Milwaukee Brewers
-158,669084,DL Hall,42,P,Pitcher,Active,Milwaukee Brewers
-158,666152,David Hamilton,42,2B,Infielder,Active,Milwaukee Brewers
-158,668834,Easton McGee,42,P,Pitcher,Active,Milwaukee Brewers
-158,669003,Garrett Mitchell,42,CF,Outfielder,Active,Milwaukee Brewers
-158,596142,Gary Sánchez,42,C,Catcher,Active,Milwaukee Brewers
-158,681982,Grant Anderson,42,P,Pitcher,Active,Milwaukee Brewers
-158,675659,Greg Jones,42,RF,Outfielder,Active,Milwaukee Brewers
-158,694819,Jacob Misiorowski,42,P,Pitcher,Active,Milwaukee Brewers
-158,641343,Jake Bauers,42,1B,Infielder,Active,Milwaukee Brewers
-158,663765,Jake Woodford,42,P,Pitcher,Active,Milwaukee Brewers
-158,687401,Joey Ortiz,42,SS,Infielder,Active,Milwaukee Brewers
-158,690986,Kyle Harrison,42,P,Pitcher,Active,Milwaukee Brewers
-158,682641,Luis Matos,42,RF,Outfielder,Active,Milwaukee Brewers
-158,650859,Luis Rengifo,42,3B,Infielder,Active,Milwaukee Brewers
-158,686217,Sal Frelick,42,RF,Outfielder,Active,Milwaukee Brewers
-158,656730,Trevor Megill,42,P,Pitcher,Active,Milwaukee Brewers
-158,661388,William Contreras,42,C,Catcher,Active,Milwaukee Brewers
+108,624428,Adam Frazier,20,2B,Infielder,Active,Los Angeles Angels
+108,608718,Brent Suter,37,P,Pitcher,Active,Los Angeles Angels
+108,669326,Bryce Teodosio,22,CF,Outfielder,Active,Los Angeles Angels
+108,681217,Chase Silseth,63,P,Pitcher,Active,Los Angeles Angels
+108,519141,Drew Pomeranz,13,P,Pitcher,Active,Los Angeles Angels
+108,686799,Jack Kochanowicz,41,P,Pitcher,Active,Los Angeles Angels
+108,666176,Jo Adell,7,CF,Outfielder,Active,Los Angeles Angels
+108,605447,Jordan Romano,68,P,Pitcher,Active,Los Angeles Angels
+108,666139,Josh Lowe,3,RF,Outfielder,Active,Los Angeles Angels
+108,667755,José Soriano,59,P,Pitcher,Active,Los Angeles Angels
+108,681351,Logan O'Hoppe,14,C,Catcher,Active,Los Angeles Angels
+108,545361,Mike Trout,27,RF,Outfielder,Active,Los Angeles Angels
+108,680704,Nick Sandlin,52,P,Pitcher,Active,Los Angeles Angels
+108,694384,Nolan Schanuel,18,1B,Infielder,Active,Los Angeles Angels
+108,672724,Oswald Peraza,2,3B,Infielder,Active,Los Angeles Angels
+108,672282,Reid Detmers,48,P,Pitcher,Active,Los Angeles Angels
+108,666171,Ryan Zeferjahn,56,P,Pitcher,Active,Los Angeles Angels
+108,691951,Sam Aldegheri,61,P,Pitcher,Active,Los Angeles Angels
+108,696147,Sam Bachman,40,P,Pitcher,Active,Los Angeles Angels
+108,641312,Shaun Anderson,64,P,Pitcher,Active,Los Angeles Angels
+108,518595,Travis d'Arnaud,25,C,Catcher,Active,Los Angeles Angels
+108,687093,Vaughn Grissom,5,2B,Infielder,Active,Los Angeles Angels
+108,660162,Yoán Moncada,10,3B,Infielder,Active,Los Angeles Angels
+108,579328,Yusei Kikuchi,16,P,Pitcher,Active,Los Angeles Angels
+108,687263,Zach Neto,9,SS,Infielder,Active,Los Angeles Angels
+109,680728,Adrian Del Castillo,25,C,Catcher,Active,Arizona Diamondbacks
+109,677950,Alek Thomas,5,CF,Outfielder,Active,Arizona Diamondbacks
+109,694851,Andrew Hoffmann,56,P,Pitcher,Active,Arizona Diamondbacks
+109,605244,Aramis Garcia,35,C,Catcher,Active,Arizona Diamondbacks
+109,694297,Brandon Pfaadt,32,P,Pitcher,Active,Arizona Diamondbacks
+109,682998,Corbin Carroll,7,RF,Outfielder,Active,Arizona Diamondbacks
+109,593958,Eduardo Rodriguez,57,P,Pitcher,Active,Arizona Diamondbacks
+109,672695,Geraldo Perdomo,2,SS,Infielder,Active,Arizona Diamondbacks
+109,545121,Ildemaro Vargas,6,2B,Infielder,Active,Arizona Diamondbacks
+109,543510,James McCann,8,C,Catcher,Active,Arizona Diamondbacks
+109,642528,Jonathan Loáisiga,43,P,Pitcher,Active,Arizona Diamondbacks
+109,678489,Jorge Barrosa,1,LF,Outfielder,Active,Arizona Diamondbacks
+109,699912,Jose Fernandez,11,SS,Infielder,Active,Arizona Diamondbacks
+109,666661,Juan Morillo,62,P,Pitcher,Active,Arizona Diamondbacks
+109,606466,Ketel Marte,4,2B,Infielder,Active,Arizona Diamondbacks
+109,656464,Kevin Ginkel,37,P,Pitcher,Active,Arizona Diamondbacks
+109,663609,Luken Baker,21,1B,Infielder,Active,Arizona Diamondbacks
+109,518876,Merrill Kelly,29,P,Pitcher,Active,Arizona Diamondbacks
+109,647336,Michael Soroka,34,P,Pitcher,Active,Arizona Diamondbacks
+109,571448,Nolan Arenado,28,3B,Infielder,Active,Arizona Diamondbacks
+109,623149,Paul Sewald,38,P,Pitcher,Active,Arizona Diamondbacks
+109,657044,Ryan Thompson,81,P,Pitcher,Active,Arizona Diamondbacks
+109,669194,Ryne Nelson,19,P,Pitcher,Active,Arizona Diamondbacks
+109,664199,Taylor Clarke,45,P,Pitcher,Active,Arizona Diamondbacks
+109,694374,Tim Tawa,13,2B,Infielder,Active,Arizona Diamondbacks
+109,668678,Zac Gallen,23,P,Pitcher,Active,Arizona Diamondbacks
+110,544150,Albert Suárez,49,P,Pitcher,Active,Baltimore Orioles
+110,689296,Anthony Nunez,66,P,Pitcher,Active,Baltimore Orioles
+110,677942,Blaze Alexander,23,SS,Infielder,Active,Baltimore Orioles
+110,605135,Chris Bassitt,40,P,Pitcher,Active,Baltimore Orioles
+110,691723,Coby Mayo,16,1B,Infielder,Active,Baltimore Orioles
+110,681297,Colton Cowser,17,LF,Outfielder,Active,Baltimore Orioles
+110,665152,Dean Kremer,64,P,Pitcher,Active,Baltimore Orioles
+110,687637,Dylan Beavers,12,RF,Outfielder,Active,Baltimore Orioles
+110,664991,Grant Wolfram,48,P,Pitcher,Active,Baltimore Orioles
+110,683002,Gunnar Henderson,2,SS,Infielder,Active,Baltimore Orioles
+110,669236,Jeremiah Jackson,82,2B,Infielder,Active,Baltimore Orioles
+110,671286,Johnathan Rodríguez,62,RF,Outfielder,Active,Baltimore Orioles
+110,680694,Kyle Bradish,38,P,Pitcher,Active,Baltimore Orioles
+110,665750,Leody Taveras,30,OF,Outfielder,Active,Baltimore Orioles
+110,668974,Maverick Handley,98,C,Catcher,Active,Baltimore Orioles
+110,624413,Pete Alonso,25,1B,Infielder,Active,Baltimore Orioles
+110,670329,Rico Garcia,50,P,Pitcher,Active,Baltimore Orioles
+110,664854,Ryan Helsley,21,P,Pitcher,Active,Baltimore Orioles
+110,669087,Sam Huff,31,C,Catcher,Active,Baltimore Orioles
+110,694212,Samuel Basallo,29,C,Catcher,Active,Baltimore Orioles
+110,669358,Shane Baz,34,P,Pitcher,Active,Baltimore Orioles
+110,621493,Taylor Ward,3,LF,Outfielder,Active,Baltimore Orioles
+110,669432,Trevor Rogers,28,P,Pitcher,Active,Baltimore Orioles
+110,669330,Tyler Wells,68,P,Pitcher,Active,Baltimore Orioles
+110,642215,Weston Wilson,32,LF,Outfielder,Active,Baltimore Orioles
+110,666974,Yennier Cano,78,P,Pitcher,Active,Baltimore Orioles
+111,655316,Andruw Monasterio,32,SS,Infielder,Active,Boston Red Sox
+111,547973,Aroldis Chapman,44,P,Pitcher,Active,Boston Red Sox
+111,678394,Brayan Bello,66,P,Pitcher,Active,Boston Red Sox
+111,702332,Caleb Durbin,5,3B,Infielder,Active,Boston Red Sox
+111,665966,Carlos Narváez,75,C,Catcher,Active,Boston Red Sox
+111,678882,Ceddanne Rafaela,3,CF,Outfielder,Active,Boston Red Sox
+111,813349,Connelly Early,71,P,Pitcher,Active,Boston Red Sox
+111,657136,Connor Wong,12,C,Catcher,Active,Boston Red Sox
+111,543056,Danny Coulombe,67,P,Pitcher,Active,Boston Red Sox
+111,676979,Garrett Crochet,35,P,Pitcher,Active,Boston Red Sox
+111,676477,Garrett Whitlock,22,P,Pitcher,Active,Boston Red Sox
+111,669711,Greg Weissert,57,P,Pitcher,Active,Boston Red Sox
+111,643396,Isiah Kiner-Falefa,2,SS,Infielder,Active,Boston Red Sox
+111,681252,Jack Anderson,77,P,Pitcher,Active,Boston Red Sox
+111,680776,Jarren Duran,16,LF,Outfielder,Active,Boston Red Sox
+111,663558,Jovani Morán,47,P,Pitcher,Active,Boston Red Sox
+111,691785,Marcelo Mayer,11,3B,Infielder,Active,Boston Red Sox
+111,807799,Masataka Yoshida,7,LF,Outfielder,Active,Boston Red Sox
+111,624133,Ranger Suarez,55,P,Pitcher,Active,Boston Red Sox
+111,701350,Roman Anthony,19,RF,Outfielder,Active,Boston Red Sox
+111,670245,Ryan Watson,56,P,Pitcher,Active,Boston Red Sox
+111,543243,Sonny Gray,54,P,Pitcher,Active,Boston Red Sox
+111,596115,Trevor Story,10,SS,Infielder,Active,Boston Red Sox
+111,575929,Willson Contreras,40,1B,Infielder,Active,Boston Red Sox
+111,677800,Wilyer Abreu,52,RF,Outfielder,Active,Boston Red Sox
+111,677161,Zack Kelly,76,P,Pitcher,Active,Boston Red Sox
+112,608324,Alex Bregman,3,3B,Infielder,Active,Chicago Cubs
+112,676962,Ben Brown,32,P,Pitcher,Active,Chicago Cubs
+112,573204,Caleb Thielbar,24,P,Pitcher,Active,Chicago Cubs
+112,608348,Carson Kelly,15,C,Catcher,Active,Chicago Cubs
+112,607067,Colin Rea,53,P,Pitcher,Active,Chicago Cubs
+112,694037,Daniel Palencia,48,P,Pitcher,Active,Chicago Cubs
+112,621020,Dansby Swanson,7,SS,Infielder,Active,Chicago Cubs
+112,665795,Edward Cabrera,30,P,Pitcher,Active,Chicago Cubs
+112,571948,Hoby Milner,41,P,Pitcher,Active,Chicago Cubs
+112,664023,Ian Happ,8,LF,Outfielder,Active,Chicago Cubs
+112,657097,Jacob Webb,71,P,Pitcher,Active,Chicago Cubs
+112,592791,Jameson Taillon,50,P,Pitcher,Active,Chicago Cubs
+112,665871,Javier Assad,72,P,Pitcher,Active,Chicago Cubs
+112,681432,Luke Little,43,P,Pitcher,Active,Chicago Cubs
+112,807713,Matt Shaw,6,3B,Infielder,Active,Chicago Cubs
+112,683737,Michael Busch,29,1B,Infielder,Active,Chicago Cubs
+112,624424,Michael Conforto,20,LF,Outfielder,Active,Chicago Cubs
+112,665804,Miguel Amaya,9,C,Catcher,Active,Chicago Cubs
+112,694208,Moisés Ballesteros,25,C,Catcher,Active,Chicago Cubs
+112,663538,Nico Hoerner,2,2B,Infielder,Active,Chicago Cubs
+112,691718,Pete Crow-Armstrong,4,CF,Outfielder,Active,Chicago Cubs
+112,702303,Riley Martin,51,P,Pitcher,Active,Chicago Cubs
+112,669020,Ryan Rolison,33,P,Pitcher,Active,Chicago Cubs
+112,664068,Scott Kingery,12,2B,Infielder,Active,Chicago Cubs
+112,673548,Seiya Suzuki,27,RF,Outfielder,Active,Chicago Cubs
+112,684007,Shota Imanaga,18,P,Pitcher,Active,Chicago Cubs
+113,671096,Andrew Abbott,41,P,Pitcher,Active,Cincinnati Reds
+113,663903,Brady Singer,51,P,Pitcher,Active,Cincinnati Reds
+113,682227,Brandon Williamson,55,P,Pitcher,Active,Cincinnati Reds
+113,656271,Brock Burke,49,P,Pitcher,Active,Cincinnati Reds
+113,695505,Chase Burns,26,P,Pitcher,Active,Cincinnati Reds
+113,683175,Connor Phillips,34,P,Pitcher,Active,Cincinnati Reds
+113,667472,Dane Myers,17,CF,Outfielder,Active,Cincinnati Reds
+113,682829,Elly De La Cruz,44,SS,Infielder,Active,Cincinnati Reds
+113,641941,Emilio Pagán,15,P,Pitcher,Active,Cincinnati Reds
+113,553993,Eugenio Suárez,28,3B,Infielder,Active,Cincinnati Reds
+113,668933,Graham Ashcraft,23,P,Pitcher,Active,Cincinnati Reds
+113,663647,Ke'Bryan Hayes,3,3B,Infielder,Active,Cincinnati Reds
+113,693312,Kyle Nicolas,62,P,Pitcher,Active,Cincinnati Reds
+113,680574,Matt McLain,9,2B,Infielder,Active,Cincinnati Reds
+113,663993,Nathaniel Lowe,31,1B,Infielder,Active,Cincinnati Reds
+113,664731,P.J. Higgins,65,C,Catcher,Active,Cincinnati Reds
+113,572955,Pierce Johnson,52,P,Pitcher,Active,Cincinnati Reds
+113,677956,Rece Hinds,57,RF,Outfielder,Active,Cincinnati Reds
+113,695076,Rhett Lowder,25,P,Pitcher,Active,Cincinnati Reds
+113,701398,Sal Stewart,27,3B,Infielder,Active,Cincinnati Reds
+113,594580,Sam Moll,50,P,Pitcher,Active,Cincinnati Reds
+113,668715,Spencer Steer,7,1B,Infielder,Active,Cincinnati Reds
+113,670770,TJ Friedl,29,CF,Outfielder,Active,Cincinnati Reds
+113,663574,Tony Santillan,64,P,Pitcher,Active,Cincinnati Reds
+113,663886,Tyler Stephenson,37,C,Catcher,Active,Cincinnati Reds
+113,666181,Will Benson,30,LF,Outfielder,Active,Cincinnati Reds
+114,682657,Angel Martínez,1,CF,Outfielder,Active,Cleveland Guardians
+114,595978,Austin Hedges,27,C,Catcher,Active,Cleveland Guardians
+114,666310,Bo Naylor,23,C,Catcher,Active,Cleveland Guardians
+114,677587,Brayan Rocchio,4,SS,Infielder,Active,Cleveland Guardians
+114,671922,Cade Smith,36,P,Pitcher,Active,Cleveland Guardians
+114,800050,Chase DeLauter,24,RF,Outfielder,Active,Cleveland Guardians
+114,641401,Connor Brogdon,75,P,Pitcher,Active,Cleveland Guardians
+114,682177,Daniel Schneemann,10,2B,Infielder,Active,Cleveland Guardians
+114,681807,David Fry,6,1B,Infielder,Active,Cleveland Guardians
+114,681870,Erik Sabrowski,62,P,Pitcher,Active,Cleveland Guardians
+114,668909,Gavin Williams,32,P,Pitcher,Active,Cleveland Guardians
+114,671655,George Valera,7,RF,Outfielder,Active,Cleveland Guardians
+114,683769,Hunter Gaddis,33,P,Pitcher,Active,Cleveland Guardians
+114,676282,Joey Cantillo,54,P,Pitcher,Active,Cleveland Guardians
+114,608070,José Ramírez,11,3B,Infielder,Active,Cleveland Guardians
+114,682877,Juan Brito,34,SS,Infielder,Active,Cleveland Guardians
+114,700932,Kyle Manzardo,9,1B,Infielder,Active,Cleveland Guardians
+114,670036,Matt Festa,52,P,Pitcher,Active,Cleveland Guardians
+114,800048,Parker Messick,77,P,Pitcher,Active,Cleveland Guardians
+114,688883,Peyton Pallette,41,P,Pitcher,Active,Cleveland Guardians
+114,656555,Rhys Hoskins,8,1B,Infielder,Active,Cleveland Guardians
+114,542888,Shawn Armstrong,43,P,Pitcher,Active,Cleveland Guardians
+114,677944,Slade Cecconi,44,P,Pitcher,Active,Cleveland Guardians
+114,680757,Steven Kwan,38,LF,Outfielder,Active,Cleveland Guardians
+114,676440,Tanner Bibee,28,P,Pitcher,Active,Cleveland Guardians
+114,682120,Tim Herrin,29,P,Pitcher,Active,Cleveland Guardians
+115,622608,Antonio Senzatela,49,P,Pitcher,Active,Colorado Rockies
+115,657514,Brennan Bernardino,83,P,Pitcher,Active,Colorado Rockies
+115,686668,Brenton Doyle,9,CF,Outfielder,Active,Colorado Rockies
+115,664954,Brett Sullivan,26,C,Catcher,Active,Colorado Rockies
+115,801403,Chase Dollander,32,P,Pitcher,Active,Colorado Rockies
+115,666397,Edouard Julien,6,2B,Infielder,Active,Colorado Rockies
+115,678662,Ezequiel Tovar,14,SS,Infielder,Active,Colorado Rockies
+115,696100,Hunter Goodman,15,C,Catcher,Active,Colorado Rockies
+115,677955,Jaden Hill,0,P,Pitcher,Active,Colorado Rockies
+115,664983,Jake McCarthy,31,CF,Outfielder,Active,Colorado Rockies
+115,623474,Jimmy Herget,44,P,Pitcher,Active,Colorado Rockies
+115,687597,Jordan Beck,27,LF,Outfielder,Active,Colorado Rockies
+115,500779,Jose Quintana,62,P,Pitcher,Active,Colorado Rockies
+115,675848,Juan Mejia,47,P,Pitcher,Active,Colorado Rockies
+115,691720,Kyle Karros,12,3B,Infielder,Active,Colorado Rockies
+115,547179,Michael Lorenzen,24,P,Pitcher,Active,Colorado Rockies
+115,666160,Mickey Moniak,22,RF,Outfielder,Active,Colorado Rockies
+115,663372,Ryan Feltner,18,P,Pitcher,Active,Colorado Rockies
+115,681198,TJ Rumfield,7,1B,Infielder,Active,Colorado Rockies
+115,685299,Tanner Gordon,29,P,Pitcher,Active,Colorado Rockies
+115,608372,Tomoyuki Sugano,11,P,Pitcher,Active,Colorado Rockies
+115,687859,Troy Johnston,20,OF,Outfielder,Active,Colorado Rockies
+115,671289,Tyler Freeman,2,RF,Outfielder,Active,Colorado Rockies
+115,680767,Victor Vodnik,38,P,Pitcher,Active,Colorado Rockies
+115,650489,Willi Castro,3,LF,Outfielder,Active,Colorado Rockies
+115,688642,Zach Agnos,36,P,Pitcher,Active,Colorado Rockies
+116,676428,Brant Hurter,48,P,Pitcher,Active,Detroit Tigers
+116,663554,Casey Mize,12,P,Pitcher,Active,Detroit Tigers
+116,690993,Colt Keith,33,2B,Infielder,Active,Detroit Tigers
+116,657756,Connor Seabold,43,P,Pitcher,Active,Detroit Tigers
+116,693307,Dillon Dingler,13,C,Catcher,Active,Detroit Tigers
+116,623454,Drew Anderson,38,P,Pitcher,Active,Detroit Tigers
+116,646241,Enmanuel De Jesus,37,P,Pitcher,Active,Detroit Tigers
+116,664285,Framber Valdez,59,P,Pitcher,Active,Detroit Tigers
+116,650402,Gleyber Torres,25,2B,Infielder,Active,Detroit Tigers
+116,656427,Jack Flaherty,9,P,Pitcher,Active,Detroit Tigers
+116,663330,Jahmai Jones,18,RF,Outfielder,Active,Detroit Tigers
+116,668670,Jake Rogers,34,C,Catcher,Active,Detroit Tigers
+116,595879,Javier Báez,28,CF,Outfielder,Active,Detroit Tigers
+116,672456,Keider Montero,54,P,Pitcher,Active,Detroit Tigers
+116,445276,Kenley Jansen,74,P,Pitcher,Active,Detroit Tigers
+116,681481,Kerry Carpenter,30,RF,Outfielder,Active,Detroit Tigers
+116,805808,Kevin McGonigle,7,SS,Infielder,Active,Detroit Tigers
+116,640448,Kyle Finnegan,67,P,Pitcher,Active,Detroit Tigers
+116,663837,Matt Vierling,8,CF,Outfielder,Active,Detroit Tigers
+116,682985,Riley Greene,31,LF,Outfielder,Active,Detroit Tigers
+116,679529,Spencer Torkelson,20,1B,Infielder,Active,Detroit Tigers
+116,669373,Tarik Skubal,29,P,Pitcher,Active,Detroit Tigers
+116,663947,Tyler Holton,87,P,Pitcher,Active,Detroit Tigers
+116,672761,Wenceel Pérez,46,RF,Outfielder,Active,Detroit Tigers
+116,676684,Will Vest,19,P,Pitcher,Active,Detroit Tigers
+116,656716,Zach McKinstry,39,3B,Infielder,Active,Detroit Tigers
+117,805123,AJ Blubaugh,69,P,Pitcher,Active,Houston Astros
+117,694728,Brice Matthews,0,SS,Infielder,Active,Houston Astros
+117,650556,Bryan Abreu,52,P,Pitcher,Active,Houston Astros
+117,687911,Bryan King,74,P,Pitcher,Active,Houston Astros
+117,701358,Cam Smith,11,RF,Outfielder,Active,Houston Astros
+117,621043,Carlos Correa,1,SS,Infielder,Active,Houston Astros
+117,685005,Christian Roa,73,P,Pitcher,Active,Houston Astros
+117,543877,Christian Vázquez,2,C,Catcher,Active,Houston Astros
+117,572233,Christian Walker,8,1B,Infielder,Active,Houston Astros
+117,676467,Colton Gordon,61,P,Pitcher,Active,Houston Astros
+117,660853,Enyel De Los Santos,65,P,Pitcher,Active,Houston Astros
+117,670623,Isaac Paredes,15,3B,Infielder,Active,Houston Astros
+117,641585,J.P. France,68,P,Pitcher,Active,Houston Astros
+117,694388,Joey Loperfido,10,LF,Outfielder,Active,Houston Astros
+117,514888,Jose Altuve,27,LF,Outfielder,Active,Houston Astros
+117,678906,Kai-Wei Teng,17,P,Pitcher,Active,Houston Astros
+117,621121,Lance McCullers Jr.,43,P,Pitcher,Active,Houston Astros
+117,681347,Mike Burrows,50,P,Pitcher,Active,Houston Astros
+117,669397,Nick Allen,20,SS,Infielder,Active,Houston Astros
+117,680802,Ryan Weiss,51,P,Pitcher,Active,Houston Astros
+117,694376,Shay Whitcomb,14,LF,Outfielder,Active,Houston Astros
+117,681293,Spencer Arrighetti,41,P,Pitcher,Active,Houston Astros
+117,595345,Steven Okert,48,P,Pitcher,Active,Houston Astros
+117,666211,Taylor Trammell,26,LF,Outfielder,Active,Houston Astros
+117,673237,Yainer Diaz,21,C,Catcher,Active,Houston Astros
+117,670541,Yordan Alvarez,44,LF,Outfielder,Active,Houston Astros
+118,656638,Alex Lange,56,P,Pitcher,Active,Kansas City Royals
+118,677951,Bobby Witt Jr.,7,SS,Infielder,Active,Kansas City Royals
+118,695600,Carter Jensen,22,C,Catcher,Active,Kansas City Royals
+118,666142,Cole Ragans,55,P,Pitcher,Active,Kansas City Royals
+118,663738,Daniel Lynch IV,41,P,Pitcher,Active,Kansas City Royals
+118,669212,Eli Morgan,34,P,Pitcher,Active,Kansas City Royals
+118,686555,Isaac Collins,1,LF,Outfielder,Active,Kansas City Royals
+118,695506,Jac Caglianone,14,RF,Outfielder,Active,Kansas City Royals
+118,670167,John Schreiber,46,P,Pitcher,Active,Kansas City Royals
+118,663697,Jonathan India,6,2B,Infielder,Active,Kansas City Royals
+118,663460,Kris Bubic,50,P,Pitcher,Active,Kansas City Royals
+118,664728,Kyle Isbel,28,CF,Outfielder,Active,Kansas City Royals
+118,657041,Lane Thomas,15,CF,Outfielder,Active,Kansas City Royals
+118,668674,Lucas Erceg,60,P,Pitcher,Active,Kansas City Royals
+118,672580,Maikel Garcia,11,3B,Infielder,Active,Kansas City Royals
+118,621381,Matt Strahm,25,P,Pitcher,Active,Kansas City Royals
+118,686681,Michael Massey,19,2B,Infielder,Active,Kansas City Royals
+118,608379,Michael Wacha,52,P,Pitcher,Active,Kansas City Royals
+118,687765,Mitch Spence,54,P,Pitcher,Active,Kansas City Royals
+118,683232,Nick Mears,31,P,Pitcher,Active,Kansas City Royals
+118,702070,Noah Cameron,65,P,Pitcher,Active,Kansas City Royals
+118,521692,Salvador Perez,13,C,Catcher,Active,Kansas City Royals
+118,607625,Seth Lugo,67,P,Pitcher,Active,Kansas City Royals
+118,516782,Starling Marte,0,LF,Outfielder,Active,Kansas City Royals
+118,686475,Tyler Tolbert,2,2B,Infielder,Active,Kansas City Royals
+118,686469,Vinnie Pasquantino,9,1B,Infielder,Active,Kansas City Royals
+119,669743,Alex Call,12,RF,Outfielder,Active,Los Angeles Dodgers
+119,690976,Alex Freeland,76,2B,Infielder,Active,Los Angeles Dodgers
+119,681911,Alex Vesia,51,P,Pitcher,Active,Los Angeles Dodgers
+119,681624,Andy Pages,44,CF,Outfielder,Active,Los Angeles Dodgers
+119,595014,Blake Treinen,49,P,Pitcher,Active,Los Angeles Dodgers
+119,687221,Dalton Rushing,68,C,Catcher,Active,Los Angeles Dodgers
+119,683618,Edgardo Henriquez,60,P,Pitcher,Active,Los Angeles Dodgers
+119,621242,Edwin Díaz,3,P,Pitcher,Active,Los Angeles Dodgers
+119,686218,Emmet Sheehan,80,P,Pitcher,Active,Los Angeles Dodgers
+119,518692,Freddie Freeman,5,1B,Infielder,Active,Los Angeles Dodgers
+119,808975,Hyeseong Kim,6,2B,Infielder,Active,Los Angeles Dodgers
+119,676263,Jack Dreyer,86,P,Pitcher,Active,Los Angeles Dodgers
+119,680736,Justin Wrobleski,70,P,Pitcher,Active,Los Angeles Dodgers
+119,669165,Kyle Hurt,63,P,Pitcher,Active,Los Angeles Dodgers
+119,663656,Kyle Tucker,23,RF,Outfielder,Active,Los Angeles Dodgers
+119,571970,Max Muncy,13,3B,Infielder,Active,Los Angeles Dodgers
+119,500743,Miguel Rojas,72,2B,Infielder,Active,Los Angeles Dodgers
+119,808963,Roki Sasaki,11,P,Pitcher,Active,Los Angeles Dodgers
+119,669289,Santiago Espinal,21,3B,Infielder,Active,Los Angeles Dodgers
+119,660271,Shohei Ohtani,17,TWP,Two-Way Player,Active,Los Angeles Dodgers
+119,656945,Tanner Scott,66,P,Pitcher,Active,Los Angeles Dodgers
+119,606192,Teoscar Hernández,37,RF,Outfielder,Active,Los Angeles Dodgers
+119,607192,Tyler Glasnow,31,P,Pitcher,Active,Los Angeles Dodgers
+119,694361,Will Klein,61,P,Pitcher,Active,Los Angeles Dodgers
+119,669257,Will Smith,16,C,Catcher,Active,Los Angeles Dodgers
+119,808967,Yoshinobu Yamamoto,18,P,Pitcher,Active,Los Angeles Dodgers
+120,695418,Brad Lord,41,P,Pitcher,Active,Washington Nationals
+120,691781,Brady House,12,3B,Infielder,Active,Washington Nationals
+120,682928,CJ Abrams,5,SS,Infielder,Active,Washington Nationals
+120,676917,Cade Cavalli,24,P,Pitcher,Active,Washington Nationals
+120,672335,Cionel Pérez,51,P,Pitcher,Active,Washington Nationals
+120,690925,Clayton Beeter,39,P,Pitcher,Active,Washington Nationals
+120,678554,Curtis Mead,45,1B,Infielder,Active,Washington Nationals
+120,695734,Daylen Lile,4,RF,Outfielder,Active,Washington Nationals
+120,686452,Drew Millas,14,C,Catcher,Active,Washington Nationals
+120,656492,Foster Griffin,22,P,Pitcher,Active,Washington Nationals
+120,681402,Gus Varland,47,P,Pitcher,Active,Washington Nationals
+120,696285,Jacob Young,30,CF,Outfielder,Active,Washington Nationals
+120,663623,Jake Irvin,27,P,Pitcher,Active,Washington Nationals
+120,695578,James Wood,29,LF,Outfielder,Active,Washington Nationals
+120,686894,Joey Wiemer,21,LF,Outfielder,Active,Washington Nationals
+120,678391,Jorbit Vivas,84,2B,Infielder,Active,Washington Nationals
+120,677588,José Tena,8,3B,Infielder,Active,Washington Nationals
+120,660688,Keibert Ruiz,20,C,Catcher,Active,Washington Nationals
+120,671277,Luis García Jr.,2,2B,Infielder,Active,Washington Nationals
+120,571945,Miles Mikolas,36,P,Pitcher,Active,Washington Nationals
+120,680730,Mitchell Parker,70,P,Pitcher,Active,Washington Nationals
+120,683083,Nasim Nuñez,26,SS,Infielder,Active,Washington Nationals
+120,687377,Orlando Ribalta,64,P,Pitcher,Active,Washington Nationals
+120,676571,PJ Poulin,50,P,Pitcher,Active,Washington Nationals
+120,687606,Paxton Schultz,75,P,Pitcher,Active,Washington Nationals
+120,641793,Zack Littell,18,P,Pitcher,Active,Washington Nationals
+121,681810,Austin Warren,44,P,Pitcher,Active,New York Mets
+121,666182,Bo Bichette,19,SS,Infielder,Active,New York Mets
+121,683146,Brett Baty,7,3B,Infielder,Active,New York Mets
+121,548384,Brooks Raley,25,P,Pitcher,Active,New York Mets
+121,701807,Carson Benge,3,OF,Outfielder,Active,New York Mets
+121,605280,Clay Holmes,35,P,Pitcher,Active,New York Mets
+121,518886,Craig Kimbrel,46,P,Pitcher,Active,New York Mets
+121,656849,David Peterson,23,P,Pitcher,Active,New York Mets
+121,642207,Devin Williams,38,P,Pitcher,Active,New York Mets
+121,682626,Francisco Alvarez,4,C,Catcher,Active,New York Mets
+121,596019,Francisco Lindor,12,SS,Infielder,Active,New York Mets
+121,642547,Freddy Peralta,51,P,Pitcher,Active,New York Mets
+121,623211,Huascar Brazobán,43,P,Pitcher,Active,New York Mets
+121,593871,Jorge Polanco,11,2B,Infielder,Active,New York Mets
+121,673540,Kodai Senga,34,P,Pitcher,Active,New York Mets
+121,673357,Luis Robert Jr.,88,CF,Outfielder,Active,New York Mets
+121,620443,Luis Torrens,13,C,Catcher,Active,New York Mets
+121,596133,Luke Weaver,30,P,Pitcher,Active,New York Mets
+121,669004,MJ Melendez,1,LF,Outfielder,Active,New York Mets
+121,543760,Marcus Semien,10,2B,Infielder,Active,New York Mets
+121,668901,Mark Vientos,27,3B,Infielder,Active,New York Mets
+121,690997,Nolan McLean,26,P,Pitcher,Active,New York Mets
+121,640455,Sean Manaea,59,P,Pitcher,Active,New York Mets
+121,668964,Tobias Myers,32,P,Pitcher,Active,New York Mets
+121,502054,Tommy Pham,39,LF,Outfielder,Active,New York Mets
+121,621438,Tyrone Taylor,28,CF,Outfielder,Active,New York Mets
+133,650644,Aaron Civale,45,P,Pitcher,Active,Athletics
+133,628451,Andy Ibáñez,77,3B,Infielder,Active,Athletics
+133,642851,Austin Wynns,29,C,Catcher,Active,Athletics
+133,666126,Carlos Cortes,26,LF,Outfielder,Active,Athletics
+133,687231,Darell Hernaiz,2,3B,Infielder,Active,Athletics
+133,672016,Denzel Clarke,1,CF,Outfielder,Active,Athletics
+133,665660,Elvis Alvarado,37,P,Pitcher,Active,Athletics
+133,663687,Hogan Harris,36,P,Pitcher,Active,Athletics
+133,669372,J.T. Ginn,35,P,Pitcher,Active,Athletics
+133,678022,Jack Perkins,50,P,Pitcher,Active,Athletics
+133,682052,Jacob Lopez,57,P,Pitcher,Active,Athletics
+133,805779,Jacob Wilson,5,SS,Infielder,Active,Athletics
+133,643446,Jeff McNeil,22,2B,Infielder,Active,Athletics
+133,605488,Jeffrey Springs,59,P,Pitcher,Active,Athletics
+133,669270,Joel Kuhnel,47,P,Pitcher,Active,Athletics
+133,686993,Justin Sterner,60,P,Pitcher,Active,Athletics
+133,671732,Lawrence Butler,4,RF,Outfielder,Active,Athletics
+133,665622,Luis Medina,46,P,Pitcher,Active,Athletics
+133,622663,Luis Severino,40,P,Pitcher,Active,Athletics
+133,643410,Mark Leiter Jr.,38,P,Pitcher,Active,Athletics
+133,691777,Max Muncy,3,3B,Infielder,Active,Athletics
+133,701762,Nick Kurtz,16,1B,Infielder,Active,Athletics
+133,605130,Scott Barlow,58,P,Pitcher,Active,Athletics
+133,669127,Shea Langeliers,23,C,Catcher,Active,Athletics
+133,691016,Tyler Soderstrom,21,LF,Outfielder,Active,Athletics
+133,680869,Zack Gelof,20,2B,Infielder,Active,Athletics
+134,695257,Billy Cook,25,OF,Outfielder,Active,Pittsburgh Pirates
+134,664040,Brandon Lowe,5,2B,Infielder,Active,Pittsburgh Pirates
+134,677952,Braxton Ashcraft,35,P,Pitcher,Active,Pittsburgh Pirates
+134,668804,Bryan Reynolds,10,RF,Outfielder,Active,Pittsburgh Pirates
+134,696149,Bubba Chandler,36,P,Pitcher,Active,Pittsburgh Pirates
+134,669387,Carmen Mlodzinski,50,P,Pitcher,Active,Pittsburgh Pirates
+134,642701,Dennis Santana,60,P,Pitcher,Active,Pittsburgh Pirates
+134,681895,Evan Sisk,48,P,Pitcher,Active,Pittsburgh Pirates
+134,642397,Gregory Soto,31,P,Pitcher,Active,Pittsburgh Pirates
+134,680779,Henry Davis,32,C,Catcher,Active,Pittsburgh Pirates
+134,676755,Isaac Mattson,72,P,Pitcher,Active,Pittsburgh Pirates
+134,663968,Jake Mangum,28,LF,Outfielder,Active,Pittsburgh Pirates
+134,663698,Joey Bart,14,C,Catcher,Active,Pittsburgh Pirates
+134,664353,José Urquidy,65,P,Pitcher,Active,Pittsburgh Pirates
+134,664875,Justin Lawrence,61,P,Pitcher,Active,Pittsburgh Pirates
+134,804606,Konnor Griffin,6,SS,Infielder,Active,Pittsburgh Pirates
+134,542303,Marcell Ozuna,24,DH,Hitter,Active,Pittsburgh Pirates
+134,682254,Mason Montgomery,46,P,Pitcher,Active,Pittsburgh Pirates
+134,656605,Mitch Keller,23,P,Pitcher,Active,Pittsburgh Pirates
+134,693304,Nick Gonzales,3,2B,Infielder,Active,Pittsburgh Pirates
+134,694377,Nick Yorke,38,2B,Infielder,Active,Pittsburgh Pirates
+134,665833,Oneil Cruz,15,CF,Outfielder,Active,Pittsburgh Pirates
+134,694973,Paul Skenes,30,P,Pitcher,Active,Pittsburgh Pirates
+134,656811,Ryan O'Hearn,29,1B,Infielder,Active,Pittsburgh Pirates
+134,687462,Spencer Horwitz,2,1B,Infielder,Active,Pittsburgh Pirates
+134,670990,Yohan Ramírez,49,P,Pitcher,Active,Pittsburgh Pirates
+135,670970,Adrian Morejon,50,P,Pitcher,Active,San Diego Padres
+135,689690,Alek Jacob,37,P,Pitcher,Active,San Diego Padres
+135,699134,Bradgley Rodriguez,72,P,Pitcher,Active,San Diego Padres
+135,669369,Bryce Johnson,29,CF,Outfielder,Active,San Diego Padres
+135,688158,David Morgan,66,P,Pitcher,Active,San Diego Padres
+135,665487,Fernando Tatis Jr.,23,RF,Outfielder,Active,San Diego Padres
+135,666023,Freddy Fermin,54,C,Catcher,Active,San Diego Padres
+135,657757,Gavin Sheets,30,LF,Outfielder,Active,San Diego Padres
+135,608566,Germán Márquez,33,P,Pitcher,Active,San Diego Padres
+135,701538,Jackson Merrill,3,CF,Outfielder,Active,San Diego Padres
+135,630105,Jake Cronenworth,9,2B,Infielder,Active,San Diego Padres
+135,592094,Jason Adam,40,P,Pitcher,Active,San Diego Padres
+135,606996,Kyle Hart,68,P,Pitcher,Active,San Diego Padres
+135,669134,Luis Campusano,12,C,Catcher,Active,San Diego Padres
+135,592518,Manny Machado,13,3B,Infielder,Active,San Diego Padres
+135,695243,Mason Miller,22,P,Pitcher,Active,San Diego Padres
+135,650633,Michael King,34,P,Pitcher,Active,San Diego Padres
+135,609280,Miguel Andujar,41,LF,Outfielder,Active,San Diego Padres
+135,592206,Nick Castellanos,21,RF,Outfielder,Active,San Diego Padres
+135,657656,Ramón Laureano,5,RF,Outfielder,Active,San Diego Padres
+135,681190,Randy Vásquez,98,P,Pitcher,Active,San Diego Padres
+135,676760,Ron Marinaccio,97,P,Pitcher,Active,San Diego Padres
+135,664034,Ty France,25,1B,Infielder,Active,San Diego Padres
+135,621111,Walker Buehler,10,P,Pitcher,Active,San Diego Padres
+135,593974,Wandy Peralta,58,P,Pitcher,Active,San Diego Padres
+135,593428,Xander Bogaerts,2,SS,Infielder,Active,San Diego Padres
+136,662253,Andrés Muñoz,75,P,Pitcher,Active,Seattle Mariners
+136,680977,Brendan Donovan,33,2B,Infielder,Active,Seattle Mariners
+136,693433,Bryan Woo,22,P,Pitcher,Active,Seattle Mariners
+136,663728,Cal Raleigh,29,C,Catcher,Active,Seattle Mariners
+136,668984,Casey Legumina,64,P,Pitcher,Active,Seattle Mariners
+136,677961,Cole Wilcox,43,P,Pitcher,Active,Seattle Mariners
+136,702284,Cole Young,2,2B,Infielder,Active,Seattle Mariners
+136,656582,Connor Joe,9,1B,Infielder,Active,Seattle Mariners
+136,681867,Cooper Criswell,88,P,Pitcher,Active,Seattle Mariners
+136,686527,Dominic Canzone,8,RF,Outfielder,Active,Seattle Mariners
+136,660825,Eduard Bazardo,83,P,Pitcher,Active,Seattle Mariners
+136,676106,Emerson Hancock,26,P,Pitcher,Active,Seattle Mariners
+136,642100,Gabe Speier,55,P,Pitcher,Active,Seattle Mariners
+136,669923,George Kirby,68,P,Pitcher,Active,Seattle Mariners
+136,641487,J.P. Crawford,3,SS,Infielder,Active,Seattle Mariners
+136,678606,Jose A. Ferrer,45,P,Pitcher,Active,Seattle Mariners
+136,647304,Josh Naylor,12,1B,Infielder,Active,Seattle Mariners
+136,677594,Julio Rodríguez,44,CF,Outfielder,Active,Seattle Mariners
+136,660844,Leo Rivas,76,2B,Infielder,Active,Seattle Mariners
+136,669302,Logan Gilbert,36,P,Pitcher,Active,Seattle Mariners
+136,622491,Luis Castillo,58,P,Pitcher,Active,Seattle Mariners
+136,670042,Luke Raley,20,RF,Outfielder,Active,Seattle Mariners
+136,666374,Matt Brash,47,P,Pitcher,Active,Seattle Mariners
+136,641598,Mitch Garver,18,C,Catcher,Active,Seattle Mariners
+136,621550,Patrick Wisdom,35,1B,Infielder,Active,Seattle Mariners
+136,668227,Randy Arozarena,56,LF,Outfielder,Active,Seattle Mariners
+137,605288,Adrian Houser,12,P,Pitcher,Active,San Francisco Giants
+137,694918,Blade Tidwell,46,P,Pitcher,Active,San Francisco Giants
+137,668873,Caleb Kilian,45,P,Pitcher,Active,San Francisco Giants
+137,669477,Casey Schmitt,10,3B,Infielder,Active,San Francisco Giants
+137,683766,Christian Koss,50,2B,Infielder,Active,San Francisco Giants
+137,691740,Daniel Susac,6,C,Catcher,Active,San Francisco Giants
+137,687551,Drew Gilbert,0,CF,Outfielder,Active,San Francisco Giants
+137,669062,Erik Miller,68,P,Pitcher,Active,San Francisco Giants
+137,671218,Heliot Ramos,17,LF,Outfielder,Active,San Francisco Giants
+137,664141,JT Brubaker,34,P,Pitcher,Active,San Francisco Giants
+137,666464,Jerar Encarnacion,19,RF,Outfielder,Active,San Francisco Giants
+137,808982,Jung Hoo Lee,51,CF,Outfielder,Active,San Francisco Giants
+137,676775,Keaton Winn,67,P,Pitcher,Active,San Francisco Giants
+137,694738,Landen Roupp,65,P,Pitcher,Active,San Francisco Giants
+137,657277,Logan Webb,62,P,Pitcher,Active,San Francisco Giants
+137,650333,Luis Arraez,1,IF,Infielder,Active,San Francisco Giants
+137,656305,Matt Chapman,26,3B,Infielder,Active,San Francisco Giants
+137,657424,Matt Gage,93,P,Pitcher,Active,San Francisco Giants
+137,672275,Patrick Bailey,14,C,Catcher,Active,San Francisco Giants
+137,646240,Rafael Devers,16,DH,Hitter,Active,San Francisco Giants
+137,592662,Robbie Ray,38,P,Pitcher,Active,San Francisco Giants
+137,621366,Ryan Borucki,47,P,Pitcher,Active,San Francisco Giants
+137,676254,Ryan Walker,74,P,Pitcher,Active,San Francisco Giants
+137,641816,Tyler Mahle,54,P,Pitcher,Active,San Francisco Giants
+137,686823,Will Brennan,7,RF,Outfielder,Active,San Francisco Giants
+137,642715,Willy Adames,2,SS,Infielder,Active,San Francisco Giants
+138,676475,Alec Burleson,41,1B,Infielder,Active,St. Louis Cardinals
+138,669467,Andre Pallante,53,P,Pitcher,Active,St. Louis Cardinals
+138,669160,Dustin May,3,P,Pitcher,Active,St. Louis Cardinals
+138,666277,George Soriano,65,P,Pitcher,Active,St. Louis Cardinals
+138,700669,Gordon Graceffo,44,P,Pitcher,Active,St. Louis Cardinals
+138,671056,Iván Herrera,48,C,Catcher,Active,St. Louis Cardinals
+138,802139,JJ Wetherholt,26,SS,Infielder,Active,St. Louis Cardinals
+138,668941,JoJo Romero,59,P,Pitcher,Active,St. Louis Cardinals
+138,691023,Jordan Walker,18,RF,Outfielder,Active,St. Louis Cardinals
+138,665877,José Fermín,15,2B,Infielder,Active,St. Louis Cardinals
+138,677865,Justin Bruihl,47,P,Pitcher,Active,St. Louis Cardinals
+138,681517,Kyle Leahy,62,P,Pitcher,Active,St. Louis Cardinals
+138,691026,Masyn Winn,0,SS,Infielder,Active,St. Louis Cardinals
+138,694335,Matt Svanson,49,P,Pitcher,Active,St. Louis Cardinals
+138,669461,Matthew Liberatore,32,P,Pitcher,Active,St. Louis Cardinals
+138,700241,Michael McGreevy,36,P,Pitcher,Active,St. Louis Cardinals
+138,701675,Nathan Church,27,LF,Outfielder,Active,St. Louis Cardinals
+138,669357,Nolan Gorman,16,2B,Infielder,Active,St. Louis Cardinals
+138,686780,Pedro Pagés,43,C,Catcher,Active,St. Louis Cardinals
+138,602104,Ramón Urías,29,3B,Infielder,Active,St. Louis Cardinals
+138,676617,Riley O'Brien,61,P,Pitcher,Active,St. Louis Cardinals
+138,681676,Ryan Fernandez,64,P,Pitcher,Active,St. Louis Cardinals
+138,592773,Ryne Stanek,55,P,Pitcher,Active,St. Louis Cardinals
+138,695336,Thomas Saggese,25,2B,Infielder,Active,St. Louis Cardinals
+138,687363,Victor Scott II,11,CF,Outfielder,Active,St. Louis Cardinals
+138,650968,Yohel Pozo,63,C,Catcher,Active,St. Louis Cardinals
+139,810938,Ben Williamson,15,3B,Infielder,Active,Tampa Bay Rays
+139,641329,Bryan Baker,47,P,Pitcher,Active,Tampa Bay Rays
+139,656775,Cedric Mullins,31,CF,Outfielder,Active,Tampa Bay Rays
+139,802415,Chandler Simpson,14,LF,Outfielder,Active,Tampa Bay Rays
+139,642121,Cole Sulser,71,P,Pitcher,Active,Tampa Bay Rays
+139,656876,Drew Rasmussen,57,P,Pitcher,Active,Tampa Bay Rays
+139,643377,Griffin Jax,22,P,Pitcher,Active,Tampa Bay Rays
+139,685801,Hunter Bigge,43,P,Pitcher,Active,Tampa Bay Rays
+139,676439,Hunter Feduccia,9,C,Catcher,Active,Tampa Bay Rays
+139,693855,Ian Seymour,61,P,Pitcher,Active,Tampa Bay Rays
+139,641584,Jake Fraley,17,RF,Outfielder,Active,Tampa Bay Rays
+139,669947,Jesse Scholtens,65,P,Pitcher,Active,Tampa Bay Rays
+139,666018,Jonathan Aranda,8,1B,Infielder,Active,Tampa Bay Rays
+139,676356,Jonny DeLuca,21,CF,Outfielder,Active,Tampa Bay Rays
+139,691406,Junior Caminero,13,3B,Infielder,Active,Tampa Bay Rays
+139,687330,Kevin Kelly,49,P,Pitcher,Active,Tampa Bay Rays
+139,669438,Mason Englert,59,P,Pitcher,Active,Tampa Bay Rays
+139,663743,Nick Fortes,40,C,Catcher,Active,Tampa Bay Rays
+139,607259,Nick Martinez,28,P,Pitcher,Active,Tampa Bay Rays
+139,680700,Richie Palacios,1,LF,Outfielder,Active,Tampa Bay Rays
+139,668723,Ryan Vilade,26,RF,Outfielder,Active,Tampa Bay Rays
+139,663556,Shane McClanahan,18,P,Pitcher,Active,Tampa Bay Rays
+139,571927,Steven Matz,32,P,Pitcher,Active,Tampa Bay Rays
+139,670764,Taylor Walls,6,SS,Infielder,Active,Tampa Bay Rays
+139,650490,Yandy Díaz,2,1B,Infielder,Active,Tampa Bay Rays
+139,672782,Yoendrys Gómez,94,P,Pitcher,Active,Tampa Bay Rays
+140,457705,Andrew McCutchen,4,RF,Outfielder,Active,Texas Rangers
+140,607043,Brandon Nimmo,24,LF,Outfielder,Active,Texas Rangers
+140,615698,Cal Quantrill,44,P,Pitcher,Active,Texas Rangers
+140,668390,Cole Winn,60,P,Pitcher,Active,Texas Rangers
+140,608369,Corey Seager,5,SS,Infielder,Active,Texas Rangers
+140,643376,Danny Jansen,9,C,Catcher,Active,Texas Rangers
+140,694497,Evan Carter,32,CF,Outfielder,Active,Texas Rangers
+140,677649,Ezequiel Duran,20,SS,Infielder,Active,Texas Rangers
+140,686560,Gavin Collyer,65,P,Pitcher,Active,Texas Rangers
+140,683004,Jack Leiter,22,P,Pitcher,Active,Texas Rangers
+140,656641,Jacob Latz,67,P,Pitcher,Active,Texas Rangers
+140,594798,Jacob deGrom,48,P,Pitcher,Active,Texas Rangers
+140,669394,Jake Burger,21,1B,Infielder,Active,Texas Rangers
+140,596001,Jakob Junis,16,P,Pitcher,Active,Texas Rangers
+140,656222,Jalen Beeks,68,P,Pitcher,Active,Texas Rangers
+140,592626,Joc Pederson,3,1B,Infielder,Active,Texas Rangers
+140,673962,Josh Jung,6,3B,Infielder,Active,Texas Rangers
+140,669701,Josh Smith,8,SS,Infielder,Active,Texas Rangers
+140,677958,Kumar Rocker,80,P,Pitcher,Active,Texas Rangers
+140,543309,Kyle Higashioka,11,C,Catcher,Active,Texas Rangers
+140,669022,MacKenzie Gore,1,P,Pitcher,Active,Texas Rangers
+140,543135,Nathan Eovaldi,17,P,Pitcher,Active,Texas Rangers
+140,676395,Robert Garcia,62,P,Pitcher,Active,Texas Rangers
+140,664059,Sam Haggerty,0,CF,Outfielder,Active,Texas Rangers
+140,641302,Tyler Alexander,13,P,Pitcher,Active,Texas Rangers
+140,694671,Wyatt Langford,36,LF,Outfielder,Active,Texas Rangers
+141,665926,Andrés Giménez,0,2B,Infielder,Active,Toronto Blue Jays
+141,678218,Brandon Valenzuela,59,C,Catcher,Active,Toronto Blue Jays
+141,680755,Braydon Fisher,63,P,Pitcher,Active,Toronto Blue Jays
+141,662139,Daulton Varsho,5,CF,Outfielder,Active,Toronto Blue Jays
+141,676914,Davis Schneider,36,LF,Outfielder,Active,Toronto Blue Jays
+141,656302,Dylan Cease,84,P,Pitcher,Active,Toronto Blue Jays
+141,650391,Eloy Jiménez,74,OF,Outfielder,Active,Toronto Blue Jays
+141,641778,Eric Lauer,56,P,Pitcher,Active,Toronto Blue Jays
+141,676391,Ernie Clement,22,3B,Infielder,Active,Toronto Blue Jays
+141,656546,Jeff Hoffman,23,P,Pitcher,Active,Toronto Blue Jays
+141,660821,Jesús Sánchez,12,RF,Outfielder,Active,Toronto Blue Jays
+141,573009,Joe Mantiply,35,P,Pitcher,Active,Toronto Blue Jays
+141,672960,Kazuma Okamoto,7,3B,Infielder,Active,Toronto Blue Jays
+141,592332,Kevin Gausman,34,P,Pitcher,Active,Toronto Blue Jays
+141,672820,Lenyn Sosa,50,2B,Infielder,Active,Toronto Blue Jays
+141,686973,Louis Varland,77,P,Pitcher,Active,Toronto Blue Jays
+141,689254,Mason Fluharty,68,P,Pitcher,Active,Toronto Blue Jays
+141,453286,Max Scherzer,31,P,Pitcher,Active,Toronto Blue Jays
+141,664702,Myles Straw,3,CF,Outfielder,Active,Toronto Blue Jays
+141,664770,Nathan Lukes,38,RF,Outfielder,Active,Toronto Blue Jays
+141,571578,Patrick Corbin,46,P,Pitcher,Active,Toronto Blue Jays
+141,693686,Spencer Miles,62,P,Pitcher,Active,Toronto Blue Jays
+141,667297,Tommy Nance,45,P,Pitcher,Active,Toronto Blue Jays
+141,623168,Tyler Heineman,55,C,Catcher,Active,Toronto Blue Jays
+141,643511,Tyler Rogers,71,P,Pitcher,Active,Toronto Blue Jays
+141,665489,Vladimir Guerrero Jr.,27,1B,Infielder,Active,Toronto Blue Jays
+142,702193,Andrew Morris,78,P,Pitcher,Active,Minnesota Twins
+142,607455,Anthony Banda,43,P,Pitcher,Active,Minnesota Twins
+142,668885,Austin Martin,16,CF,Outfielder,Active,Minnesota Twins
+142,641927,Bailey Ober,17,P,Pitcher,Active,Minnesota Twins
+142,686797,Brooks Lee,22,3B,Infielder,Active,Minnesota Twins
+142,621439,Byron Buxton,25,CF,Outfielder,Active,Minnesota Twins
+142,663485,Cole Sands,44,P,Pitcher,Active,Minnesota Twins
+142,679358,Eric Orze,19,P,Pitcher,Active,Minnesota Twins
+142,670183,Garrett Acton,50,P,Pitcher,Active,Minnesota Twins
+142,681546,James Outman,30,CF,Outfielder,Active,Minnesota Twins
+142,657746,Joe Ryan,41,P,Pitcher,Active,Minnesota Twins
+142,605137,Josh Bell,56,1B,Infielder,Active,Minnesota Twins
+142,623437,Justin Topa,48,P,Pitcher,Active,Minnesota Twins
+142,665019,Kody Clemens,2,2B,Infielder,Active,Minnesota Twins
+142,681892,Kody Funderburk,57,P,Pitcher,Active,Minnesota Twins
+142,807712,Luke Keaschall,15,2B,Infielder,Active,Minnesota Twins
+142,670242,Matt Wallner,38,RF,Outfielder,Active,Minnesota Twins
+142,690953,Mick Abel,20,P,Pitcher,Active,Minnesota Twins
+142,680777,Ryan Jeffers,27,C,Catcher,Active,Minnesota Twins
+142,668952,Ryan Kreidler,5,CF,Outfielder,Active,Minnesota Twins
+142,680573,Simeon Woods Richardson,24,P,Pitcher,Active,Minnesota Twins
+142,671737,Taj Bradley,26,P,Pitcher,Active,Minnesota Twins
+142,573124,Taylor Rogers,55,P,Pitcher,Active,Minnesota Twins
+142,663616,Trevor Larnach,9,RF,Outfielder,Active,Minnesota Twins
+142,656484,Tristan Gray,4,3B,Infielder,Active,Minnesota Twins
+142,605170,Victor Caratini,37,C,Catcher,Active,Minnesota Twins
+143,605400,Aaron Nola,27,P,Pitcher,Active,Philadelphia Phillies
+143,666969,Adolis García,53,RF,Outfielder,Active,Philadelphia Phillies
+143,664761,Alec Bohm,28,3B,Infielder,Active,Philadelphia Phillies
+143,691725,Andrew Painter,24,P,Pitcher,Active,Philadelphia Phillies
+143,641745,Brad Keller,40,P,Pitcher,Active,Philadelphia Phillies
+143,669016,Brandon Marsh,16,CF,Outfielder,Active,Philadelphia Phillies
+143,547180,Bryce Harper,3,1B,Infielder,Active,Philadelphia Phillies
+143,681082,Bryson Stott,5,2B,Infielder,Active,Philadelphia Phillies
+143,663767,Chase Shugart,55,P,Pitcher,Active,Philadelphia Phillies
+143,650911,Cristopher Sánchez,61,P,Pitcher,Active,Philadelphia Phillies
+143,664238,Dylan Moore,25,2B,Infielder,Active,Philadelphia Phillies
+143,624641,Edmundo Sosa,33,2B,Infielder,Active,Philadelphia Phillies
+143,592663,J.T. Realmuto,10,C,Catcher,Active,Philadelphia Phillies
+143,666200,Jesús Luzardo,44,P,Pitcher,Active,Philadelphia Phillies
+143,661395,Jhoan Duran,59,P,Pitcher,Active,Philadelphia Phillies
+143,621237,José Alvarado,46,P,Pitcher,Active,Philadelphia Phillies
+143,702222,Justin Crawford,2,CF,Outfielder,Active,Philadelphia Phillies
+143,679775,Kyle Backhus,19,P,Pitcher,Active,Philadelphia Phillies
+143,656941,Kyle Schwarber,12,LF,Outfielder,Active,Philadelphia Phillies
+143,689147,Orion Kerkering,50,P,Pitcher,Active,Philadelphia Phillies
+143,805249,Otto Kemp,4,OF,Outfielder,Active,Philadelphia Phillies
+143,665561,Rafael Marchán,13,C,Catcher,Active,Philadelphia Phillies
+143,592836,Taijuan Walker,99,P,Pitcher,Active,Philadelphia Phillies
+143,621383,Tanner Banks,58,P,Pitcher,Active,Philadelphia Phillies
+143,641835,Tim Mayza,37,P,Pitcher,Active,Philadelphia Phillies
+143,607208,Trea Turner,7,SS,Infielder,Active,Philadelphia Phillies
+144,607481,Aaron Bummer,49,P,Pitcher,Active,Atlanta Braves
+144,663586,Austin Riley,27,3B,Infielder,Active,Atlanta Braves
+144,693821,Bryce Elder,55,P,Pitcher,Active,Atlanta Braves
+144,519242,Chris Sale,51,P,Pitcher,Active,Atlanta Braves
+144,642086,Dominic Smith,8,1B,Infielder,Active,Atlanta Braves
+144,686948,Drake Baldwin,30,C,Catcher,Active,Atlanta Braves
+144,669276,Dylan Lee,52,P,Pitcher,Active,Atlanta Braves
+144,642201,Eli White,36,RF,Outfielder,Active,Atlanta Braves
+144,656550,Grant Holmes,66,P,Pitcher,Active,Atlanta Braves
+144,641656,Ian Hamilton,71,P,Pitcher,Active,Atlanta Braves
+144,606303,Joel Payamps,34,P,Pitcher,Active,Atlanta Braves
+144,641680,Jonah Heim,20,C,Catcher,Active,Atlanta Braves
+144,622761,Jorge Mateo,2,SS,Infielder,Active,Atlanta Braves
+144,660761,José Suarez,54,P,Pitcher,Active,Atlanta Braves
+144,571657,Kyle Farmer,15,2B,Infielder,Active,Atlanta Braves
+144,621566,Matt Olson,28,1B,Infielder,Active,Atlanta Braves
+144,643289,Mauricio Dubón,14,2B,Infielder,Active,Atlanta Braves
+144,671739,Michael Harris II,23,CF,Outfielder,Active,Atlanta Braves
+144,573262,Mike Yastrzemski,18,RF,Outfielder,Active,Atlanta Braves
+144,645277,Ozzie Albies,1,2B,Infielder,Active,Atlanta Braves
+144,628452,Raisel Iglesias,26,P,Pitcher,Active,Atlanta Braves
+144,625643,Reynaldo López,40,P,Pitcher,Active,Atlanta Braves
+144,663158,Robert Suarez,75,P,Pitcher,Active,Atlanta Braves
+144,660670,Ronald Acuña Jr.,13,RF,Outfielder,Active,Atlanta Braves
+144,641755,Tyler Kinley,45,P,Pitcher,Active,Atlanta Braves
+145,643217,Andrew Benintendi,23,LF,Outfielder,Active,Chicago White Sox
+145,641743,Anthony Kay,18,P,Pitcher,Active,Chicago White Sox
+145,663542,Bryan Hudson,60,P,Pitcher,Active,Chicago White Sox
+145,805367,Chase Meidroth,10,SS,Infielder,Active,Chicago White Sox
+145,695657,Colson Montgomery,12,SS,Infielder,Active,Chicago White Sox
+145,663436,Davis Martin,65,P,Pitcher,Active,Chicago White Sox
+145,656537,Derek Hill,25,CF,Outfielder,Active,Chicago White Sox
+145,700337,Edgar Quero,26,C,Catcher,Active,Chicago White Sox
+145,607200,Erick Fedde,47,P,Pitcher,Active,Chicago White Sox
+145,677592,Everson Pereira,28,CF,Outfielder,Active,Chicago White Sox
+145,691799,Grant Taylor,31,P,Pitcher,Active,Chicago White Sox
+145,663855,Jordan Hicks,44,P,Pitcher,Active,Chicago White Sox
+145,673929,Jordan Leasure,49,P,Pitcher,Active,Chicago White Sox
+145,608371,Lucas Sims,39,P,Pitcher,Active,Chicago White Sox
+145,682668,Luisangel Acuña,0,2B,Infielder,Active,Chicago White Sox
+145,678246,Miguel Vargas,20,3B,Infielder,Active,Chicago White Sox
+145,808959,Munetaka Murakami,5,3B,Infielder,Active,Chicago White Sox
+145,702273,Noah Schultz,22,P,Pitcher,Active,Chicago White Sox
+145,624512,Reese McGuire,30,C,Catcher,Active,Chicago White Sox
+145,803011,Sam Antonacci,17,SS,Infielder,Active,Chicago White Sox
+145,680732,Sean Burke,59,P,Pitcher,Active,Chicago White Sox
+145,656794,Sean Newcomb,15,P,Pitcher,Active,Chicago White Sox
+145,622554,Seranthony Domínguez,58,P,Pitcher,Active,Chicago White Sox
+145,695020,Tanner Murray,41,2B,Infielder,Active,Chicago White Sox
+145,671976,Tristan Peters,29,LF,Outfielder,Active,Chicago White Sox
+145,656457,Tyler Gilbert,40,P,Pitcher,Active,Chicago White Sox
+146,682663,Agustín Ramírez,50,C,Catcher,Active,Miami Marlins
+146,677053,Andrew Nardi,43,P,Pitcher,Active,Miami Marlins
+146,669622,Anthony Bender,37,P,Pitcher,Active,Miami Marlins
+146,596103,Austin Slater,15,LF,Outfielder,Active,Miami Marlins
+146,676534,Calvin Faucher,53,P,Pitcher,Active,Miami Marlins
+146,663978,Chris Paddack,33,P,Pitcher,Active,Miami Marlins
+146,681393,Connor Norby,1,3B,Infielder,Active,Miami Marlins
+146,691277,Deyvison De Los Santos,63,3B,Infielder,Active,Miami Marlins
+146,691587,Eury Pérez,39,P,Pitcher,Active,Miami Marlins
+146,688363,Graham Pauley,21,3B,Infielder,Active,Miami Marlins
+146,681715,Heriberto Hernández,13,LF,Outfielder,Active,Miami Marlins
+146,805300,Jakob Marsee,87,CF,Outfielder,Active,Miami Marlins
+146,676083,Janson Junk,26,P,Pitcher,Active,Miami Marlins
+146,691594,Javier Sanoja,8,2B,Infielder,Active,Miami Marlins
+146,667463,John King,47,P,Pitcher,Active,Miami Marlins
+146,669199,Lake Bachar,84,P,Pitcher,Active,Miami Marlins
+146,677870,Leo Jiménez,19,SS,Infielder,Active,Miami Marlins
+146,689414,Liam Hicks,34,C,Catcher,Active,Miami Marlins
+146,676974,Max Meyer,23,P,Pitcher,Active,Miami Marlins
+146,656848,Michael Petersen,49,P,Pitcher,Active,Miami Marlins
+146,672640,Otto Lopez,6,2B,Infielder,Active,Miami Marlins
+146,683357,Owen Caissie,17,RF,Outfielder,Active,Miami Marlins
+146,664126,Pete Fairbanks,29,P,Pitcher,Active,Miami Marlins
+146,645261,Sandy Alcantara,22,P,Pitcher,Active,Miami Marlins
+146,663969,Tyler Phillips,30,P,Pitcher,Active,Miami Marlins
+146,669364,Xavier Edwards,9,SS,Infielder,Active,Miami Marlins
+147,592450,Aaron Judge,99,RF,Outfielder,Active,New York Yankees
+147,642708,Amed Rosario,14,3B,Infielder,Active,New York Yankees
+147,683409,Angel Chivilli,57,P,Pitcher,Active,New York Yankees
+147,669224,Austin Wells,28,C,Catcher,Active,New York Yankees
+147,700250,Ben Rice,22,1B,Infielder,Active,New York Yankees
+147,687396,Brent Headrick,47,P,Pitcher,Active,New York Yankees
+147,693645,Cam Schlittler,31,P,Pitcher,Active,New York Yankees
+147,666808,Camilo Doval,75,P,Pitcher,Active,New York Yankees
+147,641355,Cody Bellinger,35,LF,Outfielder,Active,New York Yankees
+147,670280,David Bednar,53,P,Pitcher,Active,New York Yankees
+147,518585,Fernando Cruz,63,P,Pitcher,Active,New York Yankees
+147,519317,Giancarlo Stanton,27,DH,Hitter,Active,New York Yankees
+147,641555,J.C. Escarra,25,C,Catcher,Active,New York Yankees
+147,665862,Jazz Chisholm Jr.,13,2B,Infielder,Active,New York Yankees
+147,676609,José Caballero,72,SS,Infielder,Active,New York Yankees
+147,661563,Luis Gil,81,P,Pitcher,Active,New York Yankees
+147,608331,Max Fried,54,P,Pitcher,Active,New York Yankees
+147,621112,Paul Blackburn,58,P,Pitcher,Active,New York Yankees
+147,502671,Paul Goldschmidt,48,1B,Infielder,Active,New York Yankees
+147,545341,Randal Grichuk,34,RF,Outfielder,Active,New York Yankees
+147,641857,Ryan McMahon,19,3B,Infielder,Active,New York Yankees
+147,677960,Ryan Weathers,40,P,Pitcher,Active,New York Yankees
+147,642232,Ryan Yarbrough,33,P,Pitcher,Active,New York Yankees
+147,657612,Tim Hill,41,P,Pitcher,Active,New York Yankees
+147,663757,Trent Grisham,12,CF,Outfielder,Active,New York Yankees
+147,701542,Will Warren,29,P,Pitcher,Active,New York Yankees
+158,676879,Aaron Ashby,26,P,Pitcher,Active,Milwaukee Brewers
+158,682842,Abner Uribe,45,P,Pitcher,Active,Milwaukee Brewers
+158,672582,Angel Zerpa,61,P,Pitcher,Active,Milwaukee Brewers
+158,663368,Blake Perkins,16,CF,Outfielder,Active,Milwaukee Brewers
+158,663604,Brandon Lockridge,20,LF,Outfielder,Active,Milwaukee Brewers
+158,687075,Brandon Sproat,23,P,Pitcher,Active,Milwaukee Brewers
+158,605540,Brandon Woodruff,53,P,Pitcher,Active,Milwaukee Brewers
+158,668930,Brice Turang,2,2B,Infielder,Active,Milwaukee Brewers
+158,694477,Chad Patrick,39,P,Pitcher,Active,Milwaukee Brewers
+158,669084,DL Hall,37,P,Pitcher,Active,Milwaukee Brewers
+158,666152,David Hamilton,6,2B,Infielder,Active,Milwaukee Brewers
+158,668834,Easton McGee,50,P,Pitcher,Active,Milwaukee Brewers
+158,669003,Garrett Mitchell,5,CF,Outfielder,Active,Milwaukee Brewers
+158,596142,Gary Sánchez,99,C,Catcher,Active,Milwaukee Brewers
+158,681982,Grant Anderson,56,P,Pitcher,Active,Milwaukee Brewers
+158,675659,Greg Jones,14,RF,Outfielder,Active,Milwaukee Brewers
+158,694819,Jacob Misiorowski,32,P,Pitcher,Active,Milwaukee Brewers
+158,641343,Jake Bauers,9,1B,Infielder,Active,Milwaukee Brewers
+158,663765,Jake Woodford,41,P,Pitcher,Active,Milwaukee Brewers
+158,687401,Joey Ortiz,3,SS,Infielder,Active,Milwaukee Brewers
+158,690986,Kyle Harrison,52,P,Pitcher,Active,Milwaukee Brewers
+158,682641,Luis Matos,21,RF,Outfielder,Active,Milwaukee Brewers
+158,650859,Luis Rengifo,13,3B,Infielder,Active,Milwaukee Brewers
+158,686217,Sal Frelick,10,RF,Outfielder,Active,Milwaukee Brewers
+158,656730,Trevor Megill,29,P,Pitcher,Active,Milwaukee Brewers
+158,661388,William Contreras,24,C,Catcher,Active,Milwaukee Brewers

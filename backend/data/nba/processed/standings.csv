@@ -3,8 +3,8 @@ TeamID,TeamName,Conference,ConferenceRecord,Division,DivisionRecord,WINS,LOSSES,
 1610612765,Pistons,East,39-13,Central,12-4,60,22,0.732
 1610612738,Celtics,East,36-16,Atlantic,10-6,56,26,0.683
 1610612759,Spurs,West,36-16,Southwest,13-3,62,20,0.756
-1610612752,Knicks,East,35-17,Atlantic,14-3,53,29,0.646
 1610612743,Nuggets,West,36-16,Northwest,11-5,54,28,0.659
+1610612752,Knicks,East,35-17,Atlantic,14-3,53,29,0.646
 1610612747,Lakers,West,33-19,Pacific,10-7,53,29,0.646
 1610612739,Cavaliers,East,33-19,Central,11-5,52,30,0.634
 1610612761,Raptors,East,33-19,Atlantic,5-12,46,36,0.561

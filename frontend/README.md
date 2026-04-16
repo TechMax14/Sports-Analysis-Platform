@@ -82,6 +82,17 @@ Each league owns its own shell and internal routing.
 
 ---
 
+## MLB Features (Implemented)
+
+- MLB Home (tabbed tools)
+  - Matchups (Today)
+  - Schedule
+  - Standings
+  - Teams (stats & rosters)
+  - Pitching/Batting Stat Leaders
+
+---
+
 ## Updated Frontend File Structure
 
 ```txt
@@ -92,7 +103,7 @@ src/
 │   ├── theme.ts
 │   ├── index.css
 │   └── shell/
-│       ├── NavBar.tsx
+│       ├── TopNavBar.tsx
 │       ├── ToolGrid.tsx
 │       └── ToolSelector.tsx
 │
@@ -103,11 +114,11 @@ src/
 │   │   ├── home/
 │   │   │   ├── NbaHome.tsx
 │   │   │   └── tabs/
-│   │   │       ├── TodayTab.tsx
-│   │   │       ├── ScheduleTab.tsx
-│   │   │       ├── StandingsTab.tsx
-│   │   │       ├── TeamsTab.tsx
-│   │   │       └── StatLeadersTab.tsx
+│   │   │       ├── NbaTodayTab.tsx
+│   │   │       ├── NbaScheduleTab.tsx
+│   │   │       ├── NbaStandingsTab.tsx
+│   │   │       ├── NbaTeamsTab.tsx
+│   │   │       └── NbaStatLeadersTab.tsx
 │   │   ├── trends/
 │   │   │   ├── NbaTrends.tsx
 │   │   │   └── widgets/
@@ -125,6 +136,18 @@ src/
 │   ├── mlb/
 │   │   └── shell/
 │   │       └── MlbShell.tsx
+│   │   ├── home/
+│   │   │   ├── MlbHome.tsx
+│   │   │   └── tabs/
+│   │   │       ├── MlbTodayTab.tsx
+│   │   │       ├── MlbScheduleTab.tsx
+│   │   │       ├── MlbStandingsTab.tsx
+│   │   │       ├── MlbTeamsTab.tsx
+│   │   │       └── MlbLeadersTab.tsx
+│   │   ├── trends/        (planned)
+│   │   ├── advancedMetrics/       (planned)
+│   │   └── services/
+│   │       └── nbaApi.ts  (optional)
 │   │
 │   └── nhl/
 │       └── shell/

@@ -1,11 +1,11 @@
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@chakra-ui/react";
 import { useMemo } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import TodayTab from "./tabs/TodayTab";
-import ScheduleTab from "./tabs/ScheduleTab";
-import StandingsTab from "./tabs/StandingsTab";
-import TeamsTab from "./tabs/TeamsTab";
-import LeadersTab from "./tabs/StatLeadersTab";
+import TodayTab from "./tabs/NbaTodayTab";
+import ScheduleTab from "./tabs/NbaScheduleTab";
+import StandingsTab from "./tabs/NbaStandingsTab";
+import TeamsTab from "./tabs/NbaTeamsTab";
+import LeadersTab from "./tabs/NbaStatLeadersTab";
 
 const TAB_KEYS = [
   "matchups",

@@ -1,15 +1,10 @@
 # Sports Analysis Platform (SAP)
 
-The **Sports Analysis Platform (SAP)** is a full-stack sports analytics
-application designed to deliver clean, structured, and scalable insights
-across multiple professional sports leagues.
+The **Sports Analysis Platform (SAP)** is a full-stack sports analytics application designed to deliver clean, structured, and scalable insights across multiple professional sports leagues.
 
-The project is built with a **feature-first, league-agnostic
-architecture**, allowing new leagues (NFL, MLB, NHL, etc.) to be added
-without reworking existing systems.
+The project is built with a **feature-first, league-agnostic architecture**, allowing new leagues (NBA, MLB, NFL, NHL, and beyond) to be added without reworking the overall system.
 
-Currently, the platform focuses on **NBA analytics**, with
-infrastructure intentionally designed to support expansion.
+The platform currently includes a mature **NBA experience** and an initial **MLB experience** with a dedicated league shell, league-specific branding, and an MLB Home view now integrated into the frontend.
 
 ---
 
@@ -44,7 +39,48 @@ Team-level stats with roster breakdown and advanced metrics.
 
 Player game trends and matchup insights widgets.
 
-![Trends](screenshots/NBA/Trends/Trends.JPG)
+<div style="display: flex; gap: 10px;">
+  <img src="screenshots/NBA/Trends/Player%20Trends%20+%20Matchup%20Insights.JPG" width="48%" />
+  <img src="screenshots/NBA/Trends/Player%20Consistency%20Tracker.JPG" width="48%" />
+</div>
+
+---
+
+## MLB Home -- Matchups
+
+Daily matchup dashboard with schedule navigation and live status
+indicators.
+
+![Matchups](screenshots/MLB/Home/Today%27s%20Games.JPG)
+
+---
+
+## Division Standings
+
+Team-level stats with roster breakdown and advanced metrics.
+
+![Teams](screenshots/MLB/Home/Standings.JPG)
+
+---
+
+## Teams & Rosters
+
+Team-level stats with roster breakdown and advanced metrics.
+
+<div style="display: flex; gap: 10px;">
+  <img src="screenshots/MLB/Home/Teams.JPG" width="48%" />
+  <img src="screenshots/MLB/Home/Teams%20-%20Roster.JPG" width="48%" />
+</div>
+---
+
+## League Stat Leaders
+
+Season leaders, for both Pitching and Batting, with stat toggles and filtering controls.
+
+<div style="display: flex; gap: 10px;">
+  <img src="screenshots/MLB/Home/Leaders%20-%20Batting.JPG" width="48%" />
+  <img src="screenshots/MLB/Home/Leaders%20-%20Pitching.JPG" width="48%" />
+</div>
 
 ---
 
@@ -55,6 +91,7 @@ Player game trends and matchup insights widgets.
 - Avoid premature databases while iterating quickly
 - Maintain a scalable structure for multiple leagues
 - Keep frontend and backend responsibilities clearly defined
+- Support league-by-league expansion without breaking existing features
 
 ---
 
@@ -73,8 +110,8 @@ Player game trends and matchup insights widgets.
 - Python
 - Flask
 - pandas
-- nba_api
 - CSV-based data storage
+- League-specific data ingestion pipelines
 
 ---
 
@@ -89,21 +126,26 @@ SPORTS-ANALYSIS-PLATFORM/
 │   ├── src/
 │   │   ├── common/            # Shared backend utilities
 │   │   └── leagues/
-│   │       └── nba/           # NBA-specific backend logic
+│   │       ├── nba/           # NBA-specific backend logic
+│   │       └── mlb/           # MLB-specific backend logic
 │   └── README.md
 │
 ├── frontend/
 │   ├── src/
-│   │   ├── app/               # App shell & routing
+│   │   ├── app/               # App-level shell, routing, and shared navigation
 │   │   ├── features/          # League feature modules
+│   │   │   ├── nba/
+│   │   │   └── mlb/
 │   │   ├── shared/            # Reusable UI & hooks
 │   │   └── services/          # API client
 │   └── README.md
 │
 ├── screenshots/
-│   └── NBA/
-│       ├── Home/
-│       └── Trends/
+│   ├── NBA/
+│   │   ├── Home/
+│   │   └── Trends/
+│   └── MLB/
+│       └── Home/
 │
 ├── docker-compose.yml
 └── README.md
@@ -115,10 +157,16 @@ SPORTS-ANALYSIS-PLATFORM/
 
 SAP follows a **decoupled pipeline + API + UI architecture**.
 
+The frontend now uses a clearer separation between:
+
+- **App-level navigation** for league switching
+- **League-level shells** for league branding, tools, and content
+- **Feature modules** for each sport's pages and widgets
+
 ## Data Flow
 
 ```txt
-External APIs (nba_api)
+External APIs / league data sources
         ↓
 Data Pipeline (backend/main.py)
         ↓
@@ -172,7 +220,7 @@ docker compose build --no-cache api
 docker compose up -d
 ```
 
-Or you want to run just `main.py`:
+Or if you want to run just `main.py`:
 
 ```bash
 docker compose exec api python main.py
@@ -186,8 +234,7 @@ Processed datasets live in:
 
     backend/data/
 
-This folder is mounted into the API container, so data persists across
-container restarts.
+This folder is mounted into the API container, so data persists across container restarts.
 
 ---
 
@@ -211,7 +258,9 @@ npm run dev
 
 ---
 
-# 📈 Current Features (NBA)
+# 📈 Current Features
+
+## NBA
 
 - Daily Matchups
 - Full Schedule
@@ -221,6 +270,13 @@ npm run dev
 - Player Game Trend Widget
 - Matchup Insights Widget
 - Hot Streak Stat Tracker Widget
+
+## MLB
+
+- MLB Home view
+- League-specific shell and branded header
+- Sidebar-based navigation structure
+- Foundation for MLB trends and advanced metrics views
 
 ---
 
@@ -232,16 +288,21 @@ npm run dev
 - CSVs as the source of truth
 - Predictable API contracts
 - Scales without rewrites
+- Favor simple, reusable layout patterns over premature abstraction
 
 ---
 
 # 🔮 Planned Enhancements
 
+- Expanded MLB leaderboard constraints
+- Plate appearance support for MLB hitter workflows
+- Innings pitched support for MLB pitcher workflows
 - Automated pipeline scheduling
 - Historical season snapshots
 - Box score drill-downs
 - Cross-league comparisons
-- NFL implementation (nflfastR / Python)
+- NFL implementation
+- NHL implementation
 
 ---
 
@@ -251,5 +312,5 @@ This project is currently for personal development and portfolio use.
 
 ---
 
-**Sports Analysis Platform**\
+**Sports Analysis Platform**  
 Built with scalability, clarity, and long-term growth in mind.

@@ -1,31 +1,31 @@
 TEAM_ID,TEAM_NAME,TEAM_ABBREVIATION,LEAGUE,DIVISION,W,L,PCT,GB,HOME,AWAY,RS,RA,RUN_DIFF,STREAK,LAST_10,DIV_RANK,WC_RANK
-142,Twins,MIN,AL,AL Central,11,7,.611,-,7,,98,77,21,W4,,1,
-114,Guardians,CLE,AL,AL Central,10,8,.556,1.0,4,,72,76,-4,L1,,2,1
-116,Tigers,DET,AL,AL Central,8,9,.471,2.5,6,,72,61,11,W4,,3,6
-118,Royals,KC,AL,AL Central,7,10,.412,3.5,5,,55,67,-12,L2,,4,9
-145,White Sox,CWS,AL,AL Central,6,11,.353,4.5,3,,54,87,-33,L1,,5,11
-139,Rays,TB,AL,AL East,9,7,.563,-,4,,78,85,-7,W4,,1,
-147,Yankees,NYY,AL,AL East,9,8,.529,0.5,4,,77,61,16,L1,,2,3
-110,Orioles,BAL,AL,AL East,9,9,.500,1.0,6,,77,78,-1,L2,,3,5
-141,Blue Jays,TOR,AL,AL East,7,9,.438,2.0,6,,66,89,-23,W1,,4,8
-111,Red Sox,BOS,AL,AL East,6,11,.353,3.5,3,,68,81,-13,L2,,5,12
-140,Rangers,TEX,AL,AL West,9,8,.529,-,3,,68,58,10,L1,,1,
-133,Athletics,ATH,AL,AL West,9,8,.529,-,3,,66,74,-8,W1,,2,2
-108,Angels,LAA,AL,AL West,9,9,.500,0.5,3,,90,89,1,W1,,3,4
-136,Mariners,SEA,AL,AL West,8,10,.444,1.5,7,,70,62,8,L1,,4,7
-117,Astros,HOU,AL,AL West,7,11,.389,2.5,6,,102,113,-11,W1,,5,10
-134,Pirates,PIT,NL,NL Central,10,7,.588,-,5,,86,68,18,L1,,1,
-113,Reds,CIN,NL,NL Central,10,7,.588,-,5,,56,71,-15,W1,,2,2
-138,Cardinals,STL,NL,NL Central,9,8,.529,1.0,6,,75,94,-19,W1,,3,4
-158,Brewers,MIL,NL,NL Central,8,8,.500,1.5,5,,87,73,14,L6,,4,6
-112,Cubs,CHC,NL,NL Central,8,9,.471,2.0,4,,83,73,10,W1,,5,9
-144,Braves,ATL,NL,NL East,11,7,.611,-,7,,100,59,41,W1,,1,
-146,Marlins,MIA,NL,NL East,9,9,.500,2.0,7,,85,80,5,L1,,2,5
-143,Phillies,PHI,NL,NL East,8,9,.471,2.5,5,,70,86,-16,L1,,3,7
-120,Nationals,WSH,NL,NL East,8,9,.471,2.5,1,,99,108,-9,W1,,4,8
-121,Mets,NYM,NL,NL East,7,11,.389,4.0,3,,63,71,-8,L7,,5,10
-119,Dodgers,LAD,NL,NL West,13,4,.765,-,8,,97,57,40,W2,,1,
-135,Padres,SD,NL,NL West,11,6,.647,2.0,7,,78,61,17,W6,,2,1
-109,D-backs,AZ,NL,NL West,11,8,.579,3.0,5,,83,87,-4,W2,,3,3
-137,Giants,SF,NL,NL West,6,11,.353,7.0,3,,52,74,-22,L3,,4,11
-115,Rockies,COL,NL,NL West,6,11,.353,7.0,4,,71,78,-7,L5,,5,12
+142,Twins,MIN,AL,AL Central,11,8,.579,-,7,,103,86,17,L1,,1,
+114,Guardians,CLE,AL,AL Central,10,9,.526,1.0,4,,75,81,-6,L2,,2,2
+116,Tigers,DET,AL,AL Central,9,9,.500,1.5,7,,74,62,12,W5,,3,4
+118,Royals,KC,AL,AL Central,7,11,.389,3.5,5,,56,69,-13,L3,,4,10
+145,White Sox,CWS,AL,AL Central,6,12,.333,4.5,3,,57,95,-38,L2,,5,12
+139,Rays,TB,AL,AL East,10,7,.588,-,4,,86,88,-2,W5,,1,
+147,Yankees,NYY,AL,AL East,10,8,.556,0.5,5,,82,65,17,W1,,2,1
+110,Orioles,BAL,AL,AL East,9,9,.500,1.5,6,,77,78,-1,L2,,3,5
+141,Blue Jays,TOR,AL,AL East,7,10,.412,3.0,6,,67,91,-24,L1,,4,9
+111,Red Sox,BOS,AL,AL East,7,11,.389,3.5,3,,77,86,-9,W1,,5,11
+133,Athletics,ATH,AL,AL West,10,8,.556,-,4,,72,79,-7,W2,,1,
+140,Rangers,TEX,AL,AL West,9,9,.500,1.0,3,,73,64,9,L2,,2,3
+108,Angels,LAA,AL,AL West,9,10,.474,1.5,3,,94,94,0,L1,,3,6
+136,Mariners,SEA,AL,AL West,8,11,.421,2.5,7,,76,69,7,L2,,4,7
+117,Astros,HOU,AL,AL West,8,11,.421,2.5,7,,105,114,-9,W2,,5,8
+134,Pirates,PIT,NL,NL Central,11,7,.611,-,6,,88,68,20,W1,,1,
+113,Reds,CIN,NL,NL Central,11,7,.611,-,6,,64,74,-10,W2,,2,2
+138,Cardinals,STL,NL,NL Central,10,8,.556,1.0,7,,80,97,-17,W2,,3,4
+158,Brewers,MIL,NL,NL Central,9,8,.529,1.5,6,,89,74,15,W1,,4,5
+112,Cubs,CHC,NL,NL Central,9,9,.500,2.0,4,,94,75,19,W2,,5,6
+144,Braves,ATL,NL,NL East,12,7,.632,-,8,,106,62,44,W2,,1,
+146,Marlins,MIA,NL,NL East,9,10,.474,3.0,7,,88,86,2,L2,,2,7
+143,Phillies,PHI,NL,NL East,8,10,.444,3.5,5,,72,97,-25,L2,,3,8
+120,Nationals,WSH,NL,NL East,8,10,.444,3.5,1,,99,110,-11,L1,,4,9
+121,Mets,NYM,NL,NL East,7,12,.368,5.0,3,,65,79,-14,L8,,5,10
+119,Dodgers,LAD,NL,NL West,14,4,.778,-,9,,105,59,46,W3,,1,
+135,Padres,SD,NL,NL West,12,6,.667,2.0,8,,85,67,18,W7,,2,1
+109,D-backs,AZ,NL,NL West,11,8,.579,3.5,5,,83,87,-4,W2,,3,3
+137,Giants,SF,NL,NL West,6,12,.333,8.0,3,,55,82,-27,L4,,4,11
+115,Rockies,COL,NL,NL West,6,12,.333,8.0,4,,72,81,-9,L6,,5,12
