@@ -110,6 +110,7 @@ def get_player_hitting_stats(player_id: int, season: int) -> dict:
 
         return {
             "G_HIT": stat.get("gamesPlayed"),
+            "PA": stat.get("plateAppearances"),
             "AB": stat.get("atBats"),
             "R": stat.get("runs"),
             "H": stat.get("hits"),
