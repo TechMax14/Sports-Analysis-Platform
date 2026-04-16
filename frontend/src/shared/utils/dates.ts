@@ -40,3 +40,43 @@ export function monthRangeISO(anchorISO: string) {
   const end = new Date(y, m, 0);
   return { start: getLocalISODate(start), end: getLocalISODate(end) };
 }
+
+export function formatDisplayDate(isoDate: string) {
+  const [y, m, d] = isoDate.split("-").map(Number);
+  const dt = new Date(y, m - 1, d);
+
+  return dt.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+}
+
+export function formatGameDateTimeET(
+  isoDate?: string,
+  isoDateTime?: string | null,
+) {
+  const raw = isoDateTime || isoDate;
+  if (!raw) return "TBD";
+
+  const dt = new Date(raw);
+  if (Number.isNaN(dt.getTime())) return "TBD";
+
+  return (
+    dt.toLocaleString("en-US", {
+      timeZone: "America/New_York",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    }) + " ET"
+  );
+}
+
+export function formatDisplayDateNumeric(isoDate: string) {
+  const [y, m, d] = isoDate.split("-").map(Number);
+  const mm = String(m).padStart(2, "0");
+  const dd = String(d).padStart(2, "0");
+  return `${mm}/${dd}/${y}`;
+}

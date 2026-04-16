@@ -2,9 +2,10 @@
 from datetime import datetime
 import argparse
 import numpy as np
+import pandas as pd
 from pathlib import Path
 
-from src.common.paths import CSV, NBA_PROCESSED
+from src.common.paths import CSV, NBA_PROCESSED, MLB_PROCESSED
 from src.common.cache import ensure_fresh
 from src.common.image_urls import get_nba_player_image_url
 
@@ -19,24 +20,44 @@ from src.leagues.nba.pipeline.player_stats     import fetch_player_stats_per_gam
 from src.leagues.nba.pipeline.nba_season       import current_nba_season
 from src.leagues.nba.pipeline.player_game_logs import build_player_game_logs_csv
 
+from src.leagues.mlb.pipeline.standings import fetch_mlb_standings
+from src.leagues.mlb.pipeline.schedule import fetch_mlb_schedule
+from src.leagues.mlb.pipeline.teams import fetch_mlb_teams
+from src.leagues.mlb.pipeline.rosters import fetch_all_rosters
+from src.leagues.mlb.pipeline.roster_master import build_mlb_roster_master
+from src.leagues.mlb.pipeline.leaders import build_mlb_leaders
+
 CURRENT_YEAR = datetime.now().year
 
 # ---------------- TTL defaults (tune anytime) ----------------
+# TTL is time-to-live in seconds, used to determine when to rebuild data.
 TTL = {
-    "nba_core":        12 * 60 * 60,   # 12h
-    "nba_schedule":    30 * 60,        # 30m
-    "nba_standings":   60 * 60,        # 1h
-    "nba_top_players": 6 * 60 * 60,    # 6h
-    "nba_pgl":         12 * 60 * 60,   # 12h (player game logs)
+    "nba_core":          12 * 60 * 60,   # 12h
+    "nba_schedule":      30 * 60,        # 30m
+    "nba_standings":     60 * 60,        # 1h
+    "nba_top_players":   6 * 60 * 60,    # 6h
+    "nba_pgl":           12 * 60 * 60,   # 12h (player game logs)
+
+    "mlb_standings":     60 * 60,        # 1h - standings can change daily during season, but no rush to update more often than that
+    "mlb_schedule":      30 * 60,        # 30m - schedule can change with postponements, but generally not more often than that
+    "mlb_teams":         24 * 60 * 60,   # 24h
+    "mlb_rosters":       6 * 60 * 60,    # 6h 
+    "mlb_roster_master": 12 * 60 * 60,
+    "mlb_leaders":       6 * 60 * 60,
 }
 
-def cache_marker(name: str) -> Path:
-    # small marker files live in a cache folder
-    cache_dir = NBA_PROCESSED / ".cache"
+def cache_marker(league: str, name: str) -> Path:
+    if league == "nba":
+        cache_dir = NBA_PROCESSED / ".cache"
+    elif league == "mlb":
+        cache_dir = MLB_PROCESSED / ".cache"
+    else:
+        raise ValueError(f"Unsupported league: {league}")
+
     cache_dir.mkdir(parents=True, exist_ok=True)
     return cache_dir / f"{name}.done"
 
-# ---------------- BUILDERS ----------------
+# ---------------- NBA BUILDERS ----------------
 def build_nba_core():
     NBA_PROCESSED.mkdir(parents=True, exist_ok=True)
 
@@ -101,12 +122,59 @@ def build_nba_top_players():
     top.to_csv(CSV["nba_top_players"], index=False)
     print("✅ Wrote:", CSV["nba_top_players"].name)
 
+# ---------------- MLB BUILDERS ----------------
+def build_mlb_standings():
+    MLB_PROCESSED.mkdir(parents=True, exist_ok=True)
+    standings = fetch_mlb_standings()
+    standings.to_csv(CSV["mlb_standings"], index=False)
+    print("✅ Wrote:", CSV["mlb_standings"].name)
+
+def build_mlb_schedule():
+    MLB_PROCESSED.mkdir(parents=True, exist_ok=True)
+    schedule = fetch_mlb_schedule()
+    schedule.to_csv(CSV["mlb_games"], index=False)
+    print("✅ Wrote:", CSV["mlb_games"].name)
+
+def build_mlb_teams():
+    MLB_PROCESSED.mkdir(parents=True, exist_ok=True)
+    teams = fetch_mlb_teams()
+    teams.to_csv(CSV["mlb_teams"], index=False)
+    print("✅ Wrote:", CSV["mlb_teams"].name)
+
+def build_mlb_rosters():
+    MLB_PROCESSED.mkdir(parents=True, exist_ok=True)
+
+    teams_df = pd.read_csv(CSV["mlb_teams"])
+    rosters = fetch_all_rosters(teams_df)
+
+    rosters.to_csv(CSV["mlb_rosters"], index=False, encoding="utf-8-sig")
+    print("✅ Wrote:", CSV["mlb_rosters"].name)
+
+def build_mlb_roster_master_csv():
+    MLB_PROCESSED.mkdir(parents=True, exist_ok=True)
+
+    rosters_df = pd.read_csv(CSV["mlb_rosters"], encoding="utf-8")
+    season = CURRENT_YEAR
+
+    roster_master = build_mlb_roster_master(rosters_df, season)
+    roster_master.to_csv(CSV["mlb_roster_master"], index=False, encoding="utf-8-sig")
+    print("✅ Wrote:", CSV["mlb_roster_master"].name)
+
+def build_mlb_leaders_csv():
+    MLB_PROCESSED.mkdir(parents=True, exist_ok=True)
+
+    roster_master_df = pd.read_csv(CSV["mlb_roster_master"], encoding="utf-8")
+    leaders_df = build_mlb_leaders(roster_master_df, season=CURRENT_YEAR, top_n=10)
+
+    leaders_df.to_csv(CSV["mlb_leaders"], index=False, encoding="utf-8-sig")
+    print("✅ Wrote:", CSV["mlb_leaders"].name)
+    
 # ---------------- ORCHESTRATOR ----------------
 def run_nba(groups: list[str], force: bool):
     # core
     if "core" in groups or "all" in groups:
         rebuilt = ensure_fresh(
-            marker_path=cache_marker("nba_core"),
+            marker_path=cache_marker("nba", "nba_core"),
             ttl_seconds=TTL["nba_core"],
             build_fn=build_nba_core,
             force=force,
@@ -116,7 +184,7 @@ def run_nba(groups: list[str], force: bool):
     # player game logs
     if "pgl" in groups or "all" in groups:
         rebuilt = ensure_fresh(
-            marker_path=cache_marker("nba_pgl"),
+            marker_path=cache_marker("nba", "nba_pgl"),
             ttl_seconds=TTL["nba_pgl"],
             build_fn=build_nba_player_game_logs,
             force=force,
@@ -126,7 +194,7 @@ def run_nba(groups: list[str], force: bool):
     # schedule
     if "schedule" in groups or "all" in groups:
         rebuilt = ensure_fresh(
-            marker_path=cache_marker("nba_schedule"),
+            marker_path=cache_marker("nba", "nba_schedule"),
             ttl_seconds=TTL["nba_schedule"],
             build_fn=build_nba_schedule,
             force=force,
@@ -136,7 +204,7 @@ def run_nba(groups: list[str], force: bool):
     # standings
     if "standings" in groups or "all" in groups:
         rebuilt = ensure_fresh(
-            marker_path=cache_marker("nba_standings"),
+            marker_path=cache_marker("nba", "nba_standings"),
             ttl_seconds=TTL["nba_standings"],
             build_fn=build_nba_standings,
             force=force,
@@ -146,21 +214,78 @@ def run_nba(groups: list[str], force: bool):
     # top players
     if "top" in groups or "all" in groups:
         rebuilt = ensure_fresh(
-            marker_path=cache_marker("nba_top_players"),
+            marker_path=cache_marker("nba", "nba_top_players"),
             ttl_seconds=TTL["nba_top_players"],
             build_fn=build_nba_top_players,
             force=force,
         )
         print("NBA top players:", "rebuilt" if rebuilt else "fresh (skipped)")
 
+# REMEMBER TO ADD NEW LEAGUES TO DOCKERFILE WHEN READY
+def run_mlb(groups: list[str], force: bool):
+    if "rosters" in groups or "all" in groups:
+        rebuilt = ensure_fresh(
+            marker_path=cache_marker("mlb", "mlb_rosters"),
+            ttl_seconds=TTL["mlb_rosters"],
+            build_fn=build_mlb_rosters,
+            force=force,
+        )
+        print("MLB rosters:", "rebuilt" if rebuilt else "fresh (skipped)")
+
+    if "roster_master" in groups or "all" in groups:
+        rebuilt = ensure_fresh(
+            marker_path=cache_marker("mlb", "mlb_roster_master"),
+            ttl_seconds=TTL["mlb_roster_master"],
+            build_fn=build_mlb_roster_master_csv,
+            force=force,
+        )
+        print("MLB roster master:", "rebuilt" if rebuilt else "fresh (skipped)")
+
+    if "leaders" in groups or "all" in groups:
+        rebuilt = ensure_fresh(
+            marker_path=cache_marker("mlb", "mlb_leaders"),
+            ttl_seconds=TTL["mlb_leaders"],
+            build_fn=build_mlb_leaders_csv,
+            force=force,
+        )
+        print("MLB leaders:", "rebuilt" if rebuilt else "fresh (skipped)")
+
+    if "teams" in groups or "all" in groups:
+        rebuilt = ensure_fresh(
+            marker_path=cache_marker("mlb", "mlb_teams"),
+            ttl_seconds=TTL["mlb_teams"],
+            build_fn=build_mlb_teams,
+            force=force,
+        )
+        print("MLB teams:", "rebuilt" if rebuilt else "fresh (skipped)")
+
+    if "schedule" in groups or "all" in groups:
+        rebuilt = ensure_fresh(
+            marker_path=cache_marker("mlb", "mlb_schedule"),
+            ttl_seconds=TTL["mlb_schedule"],
+            build_fn=build_mlb_schedule,
+            force=force,
+        )
+        print("MLB schedule:", "rebuilt" if rebuilt else "fresh (skipped)")
+
+    if "standings" in groups or "all" in groups:
+        rebuilt = ensure_fresh(
+            marker_path=cache_marker("mlb", "mlb_standings"),
+            ttl_seconds=TTL["mlb_standings"],
+            build_fn=build_mlb_standings,
+            force=force,
+        )
+        print("MLB standings:", "rebuilt" if rebuilt else "fresh (skipped)")
+    
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--league", choices=["nba", "nfl", "all"], default="nba")
+    parser.add_argument("--league", choices=["nba", "nfl", "mlb", "all"], default="all")
     parser.add_argument(
         "--group",
         nargs="+",
         default=["all"],
-        help="Groups: core, schedule, standings, top, pgl, all",
+        help="Groups vary by league: core, schedule, standings, teams, roster, roster_master, leaders, top, pgl, all",
     )
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
@@ -170,6 +295,9 @@ def main():
 
     if league in ("nba", "all"):
         run_nba(groups, force=args.force)
+
+    if league in ("mlb", "all"):
+        run_mlb(groups, force=args.force)
 
     # NFL hooks later:
     if league in ("nfl", "all"):

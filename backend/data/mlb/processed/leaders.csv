@@ -1,0 +1,121 @@
+﻿CATEGORY,STAT_CODE,STAT_LABEL,RANK,PLAYER_ID,PLAYER_NAME,TEAM_ID,TEAM_NAME,POSITION_GROUP,STAT_VALUE,SEASON
+Batting,AVG,Batting Average,1,691740,Daniel Susac,137,San Francisco Giants,Hitter,0.583,2026
+Batting,AVG,Batting Average,2,687221,Dalton Rushing,119,Los Angeles Dodgers,Hitter,0.538,2026
+Batting,AVG,Batting Average,3,622761,Jorge Mateo,144,Atlanta Braves,Hitter,0.438,2026
+Batting,AVG,Batting Average,4,669743,Alex Call,119,Los Angeles Dodgers,Hitter,0.417,2026
+Batting,AVG,Batting Average,5,802415,Chandler Simpson,139,Tampa Bay Rays,Hitter,0.407,2026
+Batting,AVG,Batting Average,6,681624,Andy Pages,119,Los Angeles Dodgers,Hitter,0.397,2026
+Batting,AVG,Batting Average,7,642086,Dominic Smith,144,Atlanta Braves,Hitter,0.395,2026
+Batting,AVG,Batting Average,8,545121,Ildemaro Vargas,109,Arizona Diamondbacks,Hitter,0.383,2026
+Batting,AVG,Batting Average,9,664702,Myles Straw,141,Toronto Blue Jays,Hitter,0.375,2026
+Batting,AVG,Batting Average,10,543877,Christian Vázquez,117,Houston Astros,Hitter,0.37,2026
+Batting,HR,Home Runs,1,691023,Jordan Walker,138,St. Louis Cardinals,Hitter,8.0,2026
+Batting,HR,Home Runs,2,664040,Brandon Lowe,134,Pittsburgh Pirates,Hitter,7.0,2026
+Batting,HR,Home Runs,3,656941,Kyle Schwarber,143,Philadelphia Phillies,Hitter,6.0,2026
+Batting,HR,Home Runs,4,670541,Yordan Alvarez,117,Houston Astros,Hitter,6.0,2026
+Batting,HR,Home Runs,5,683002,Gunnar Henderson,110,Baltimore Orioles,Hitter,6.0,2026
+Batting,HR,Home Runs,6,592450,Aaron Judge,147,New York Yankees,Hitter,6.0,2026
+Batting,HR,Home Runs,7,682928,CJ Abrams,120,Washington Nationals,Hitter,6.0,2026
+Batting,HR,Home Runs,8,808959,Munetaka Murakami,145,Chicago White Sox,Hitter,5.0,2026
+Batting,HR,Home Runs,9,596142,Gary Sánchez,158,Milwaukee Brewers,Hitter,5.0,2026
+Batting,HR,Home Runs,10,641343,Jake Bauers,158,Milwaukee Brewers,Hitter,5.0,2026
+Batting,OBP,On-Base Percentage,1,691740,Daniel Susac,137,San Francisco Giants,Hitter,0.615,2026
+Batting,OBP,On-Base Percentage,2,687221,Dalton Rushing,119,Los Angeles Dodgers,Hitter,0.571,2026
+Batting,OBP,On-Base Percentage,3,669743,Alex Call,119,Los Angeles Dodgers,Hitter,0.563,2026
+Batting,OBP,On-Base Percentage,4,668885,Austin Martin,142,Minnesota Twins,Hitter,0.51,2026
+Batting,OBP,On-Base Percentage,5,700250,Ben Rice,147,New York Yankees,Hitter,0.5,2026
+Batting,OBP,On-Base Percentage,6,624428,Adam Frazier,108,Los Angeles Angels,Hitter,0.48,2026
+Batting,OBP,On-Base Percentage,7,670541,Yordan Alvarez,117,Houston Astros,Hitter,0.475,2026
+Batting,OBP,On-Base Percentage,8,665750,Leody Taveras,110,Baltimore Orioles,Hitter,0.472,2026
+Batting,OBP,On-Base Percentage,9,807799,Masataka Yoshida,111,Boston Red Sox,Hitter,0.472,2026
+Batting,OBP,On-Base Percentage,10,622761,Jorge Mateo,144,Atlanta Braves,Hitter,0.471,2026
+Batting,OPS,OPS,1,687221,Dalton Rushing,119,Los Angeles Dodgers,Hitter,1.879,2026
+Batting,OPS,OPS,2,691740,Daniel Susac,137,San Francisco Giants,Hitter,1.365,2026
+Batting,OPS,OPS,3,700250,Ben Rice,147,New York Yankees,Hitter,1.245,2026
+Batting,OPS,OPS,4,596142,Gary Sánchez,158,Milwaukee Brewers,Hitter,1.227,2026
+Batting,OPS,OPS,5,670541,Yordan Alvarez,117,Houston Astros,Hitter,1.175,2026
+Batting,OPS,OPS,6,622761,Jorge Mateo,144,Atlanta Braves,Hitter,1.159,2026
+Batting,OPS,OPS,7,669743,Alex Call,119,Los Angeles Dodgers,Hitter,1.146,2026
+Batting,OPS,OPS,8,681624,Andy Pages,119,Los Angeles Dodgers,Hitter,1.131,2026
+Batting,OPS,OPS,9,682928,CJ Abrams,120,Washington Nationals,Hitter,1.121,2026
+Batting,OPS,OPS,10,642086,Dominic Smith,144,Atlanta Braves,Hitter,1.099,2026
+Batting,RBI,Runs Batted In,1,681624,Andy Pages,119,Los Angeles Dodgers,Hitter,20.0,2026
+Batting,RBI,Runs Batted In,2,682928,CJ Abrams,120,Washington Nationals,Hitter,19.0,2026
+Batting,RBI,Runs Batted In,3,686948,Drake Baldwin,144,Atlanta Braves,Hitter,18.0,2026
+Batting,RBI,Runs Batted In,4,596115,Trevor Story,111,Boston Red Sox,Hitter,17.0,2026
+Batting,RBI,Runs Batted In,5,689414,Liam Hicks,146,Miami Marlins,Hitter,16.0,2026
+Batting,RBI,Runs Batted In,6,670541,Yordan Alvarez,117,Houston Astros,Hitter,16.0,2026
+Batting,RBI,Runs Batted In,7,665833,Oneil Cruz,134,Pittsburgh Pirates,Hitter,16.0,2026
+Batting,RBI,Runs Batted In,8,642086,Dominic Smith,144,Atlanta Braves,Hitter,15.0,2026
+Batting,RBI,Runs Batted In,9,691023,Jordan Walker,138,St. Louis Cardinals,Hitter,15.0,2026
+Batting,RBI,Runs Batted In,10,650490,Yandy Díaz,139,Tampa Bay Rays,Hitter,15.0,2026
+Batting,SB,Stolen Bases,1,805300,Jakob Marsee,146,Miami Marlins,Hitter,8.0,2026
+Batting,SB,Stolen Bases,2,608070,José Ramírez,114,Cleveland Guardians,Hitter,8.0,2026
+Batting,SB,Stolen Bases,3,677951,Bobby Witt Jr.,118,Kansas City Royals,Hitter,8.0,2026
+Batting,SB,Stolen Bases,4,665833,Oneil Cruz,134,Pittsburgh Pirates,Hitter,7.0,2026
+Batting,SB,Stolen Bases,5,802415,Chandler Simpson,139,Tampa Bay Rays,Hitter,7.0,2026
+Batting,SB,Stolen Bases,6,683083,Nasim Nuñez,120,Washington Nationals,Hitter,7.0,2026
+Batting,SB,Stolen Bases,7,668930,Brice Turang,158,Milwaukee Brewers,Hitter,6.0,2026
+Batting,SB,Stolen Bases,8,665862,Jazz Chisholm Jr.,147,New York Yankees,Hitter,6.0,2026
+Batting,SB,Stolen Bases,9,676609,José Caballero,147,New York Yankees,Hitter,6.0,2026
+Batting,SB,Stolen Bases,10,672695,Geraldo Perdomo,109,Arizona Diamondbacks,Hitter,6.0,2026
+Batting,SLG,Slugging Percentage,1,687221,Dalton Rushing,119,Los Angeles Dodgers,Hitter,1.308,2026
+Batting,SLG,Slugging Percentage,2,596142,Gary Sánchez,158,Milwaukee Brewers,Hitter,0.815,2026
+Batting,SLG,Slugging Percentage,3,691740,Daniel Susac,137,San Francisco Giants,Hitter,0.75,2026
+Batting,SLG,Slugging Percentage,4,700250,Ben Rice,147,New York Yankees,Hitter,0.745,2026
+Batting,SLG,Slugging Percentage,5,670541,Yordan Alvarez,117,Houston Astros,Hitter,0.7,2026
+Batting,SLG,Slugging Percentage,6,681624,Andy Pages,119,Los Angeles Dodgers,Hitter,0.698,2026
+Batting,SLG,Slugging Percentage,7,682928,CJ Abrams,120,Washington Nationals,Hitter,0.695,2026
+Batting,SLG,Slugging Percentage,8,691023,Jordan Walker,138,St. Louis Cardinals,Hitter,0.691,2026
+Batting,SLG,Slugging Percentage,9,622761,Jorge Mateo,144,Atlanta Braves,Hitter,0.688,2026
+Batting,SLG,Slugging Percentage,10,642086,Dominic Smith,144,Atlanta Braves,Hitter,0.684,2026
+Pitching,ERA,ERA,1,628452,Raisel Iglesias,144,Atlanta Braves,Pitcher,0.0,2026
+Pitching,ERA,ERA,2,667463,John King,146,Miami Marlins,Pitcher,0.0,2026
+Pitching,ERA,ERA,3,694037,Daniel Palencia,112,Chicago Cubs,Pitcher,0.0,2026
+Pitching,ERA,ERA,4,657044,Ryan Thompson,109,Arizona Diamondbacks,Pitcher,0.0,2026
+Pitching,ERA,ERA,5,622608,Antonio Senzatela,115,Colorado Rockies,Pitcher,0.0,2026
+Pitching,ERA,ERA,6,663574,Tony Santillan,113,Cincinnati Reds,Pitcher,0.0,2026
+Pitching,ERA,ERA,7,686973,Louis Varland,141,Toronto Blue Jays,Pitcher,0.0,2026
+Pitching,ERA,ERA,8,660271,Shohei Ohtani,119,Los Angeles Dodgers,Two-Way,0.0,2026
+Pitching,ERA,ERA,9,668390,Cole Winn,140,Texas Rangers,Pitcher,0.0,2026
+Pitching,ERA,ERA,10,596001,Jakob Junis,140,Texas Rangers,Pitcher,0.0,2026
+Pitching,SO,Strikeouts,1,694819,Jacob Misiorowski,158,Milwaukee Brewers,Pitcher,33.0,2026
+Pitching,SO,Strikeouts,2,592332,Kevin Gausman,141,Toronto Blue Jays,Pitcher,31.0,2026
+Pitching,SO,Strikeouts,3,650911,Cristopher Sánchez,143,Philadelphia Phillies,Pitcher,31.0,2026
+Pitching,SO,Strikeouts,4,667755,José Soriano,108,Los Angeles Angels,Pitcher,31.0,2026
+Pitching,SO,Strikeouts,5,669022,MacKenzie Gore,140,Texas Rangers,Pitcher,30.0,2026
+Pitching,SO,Strikeouts,6,693645,Cam Schlittler,147,New York Yankees,Pitcher,30.0,2026
+Pitching,SO,Strikeouts,7,671737,Taj Bradley,142,Minnesota Twins,Pitcher,29.0,2026
+Pitching,SO,Strikeouts,8,668909,Gavin Williams,114,Cleveland Guardians,Pitcher,29.0,2026
+Pitching,SO,Strikeouts,9,690997,Nolan McLean,121,New York Mets,Pitcher,28.0,2026
+Pitching,SO,Strikeouts,10,677960,Ryan Weathers,147,New York Yankees,Pitcher,28.0,2026
+Pitching,SV,Saves,1,623149,Paul Sewald,109,Arizona Diamondbacks,Pitcher,6.0,2026
+Pitching,SV,Saves,2,668674,Lucas Erceg,118,Kansas City Royals,Pitcher,5.0,2026
+Pitching,SV,Saves,3,641941,Emilio Pagán,113,Cincinnati Reds,Pitcher,5.0,2026
+Pitching,SV,Saves,4,670280,David Bednar,147,New York Yankees,Pitcher,5.0,2026
+Pitching,SV,Saves,5,664854,Ryan Helsley,110,Baltimore Orioles,Pitcher,5.0,2026
+Pitching,SV,Saves,6,695243,Mason Miller,135,San Diego Padres,Pitcher,5.0,2026
+Pitching,SV,Saves,7,661395,Jhoan Duran,143,Philadelphia Phillies,Pitcher,5.0,2026
+Pitching,SV,Saves,8,605447,Jordan Romano,108,Los Angeles Angels,Pitcher,4.0,2026
+Pitching,SV,Saves,9,621242,Edwin Díaz,119,Los Angeles Dodgers,Pitcher,4.0,2026
+Pitching,SV,Saves,10,676617,Riley O'Brien,138,St. Louis Cardinals,Pitcher,4.0,2026
+Pitching,W,Wins,1,667755,José Soriano,108,Los Angeles Angels,Pitcher,4.0,2026
+Pitching,W,Wins,2,571927,Steven Matz,139,Tampa Bay Rays,Pitcher,3.0,2026
+Pitching,W,Wins,3,676879,Aaron Ashby,158,Milwaukee Brewers,Pitcher,3.0,2026
+Pitching,W,Wins,4,671737,Taj Bradley,142,Minnesota Twins,Pitcher,3.0,2026
+Pitching,W,Wins,5,519242,Chris Sale,144,Atlanta Braves,Pitcher,3.0,2026
+Pitching,W,Wins,6,694973,Paul Skenes,134,Pittsburgh Pirates,Pitcher,3.0,2026
+Pitching,W,Wins,7,647336,Michael Soroka,109,Arizona Diamondbacks,Pitcher,3.0,2026
+Pitching,W,Wins,8,605488,Jeffrey Springs,133,Athletics,Pitcher,3.0,2026
+Pitching,W,Wins,9,607067,Colin Rea,112,Chicago Cubs,Pitcher,2.0,2026
+Pitching,W,Wins,10,663436,Davis Martin,145,Chicago White Sox,Pitcher,2.0,2026
+Pitching,WHIP,WHIP,1,695243,Mason Miller,135,San Diego Padres,Pitcher,0.24,2026
+Pitching,WHIP,WHIP,2,670329,Rico Garcia,110,Baltimore Orioles,Pitcher,0.33,2026
+Pitching,WHIP,WHIP,3,676617,Riley O'Brien,138,St. Louis Cardinals,Pitcher,0.43,2026
+Pitching,WHIP,WHIP,4,628452,Raisel Iglesias,144,Atlanta Braves,Pitcher,0.45,2026
+Pitching,WHIP,WHIP,5,596001,Jakob Junis,140,Texas Rangers,Pitcher,0.5,2026
+Pitching,WHIP,WHIP,6,666974,Yennier Cano,110,Baltimore Orioles,Pitcher,0.53,2026
+Pitching,WHIP,WHIP,7,623149,Paul Sewald,109,Arizona Diamondbacks,Pitcher,0.55,2026
+Pitching,WHIP,WHIP,8,656876,Drew Rasmussen,139,Tampa Bay Rays,Pitcher,0.56,2026
+Pitching,WHIP,WHIP,9,622608,Antonio Senzatela,115,Colorado Rockies,Pitcher,0.57,2026
+Pitching,WHIP,WHIP,10,656641,Jacob Latz,140,Texas Rangers,Pitcher,0.58,2026

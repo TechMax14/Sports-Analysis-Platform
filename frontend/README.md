@@ -141,7 +141,7 @@ src/
 │   └── apiClient.ts
 │
 └── assets/
-    └── logo.png
+    └── [LEAGUE]logo.png
 ```
 
 ---

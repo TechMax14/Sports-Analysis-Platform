@@ -1,4 +1,3 @@
-# backend/app.py
 from __future__ import annotations
 
 from datetime import date as _date
@@ -20,15 +19,28 @@ from src.leagues.nba.trends.hot_streaks import get_hot_streaks_payload
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
+
 def _records_strict(df: pd.DataFrame):
     records = df.where(pd.notnull(df), None).to_dict(orient="records")
-    # extra safety pass
     for r in records:
         for k, v in r.items():
             if isinstance(v, float) and math.isnan(v):
                 r[k] = None
-    # strict JSON: NaN becomes an error unless we've cleaned it
     return json.dumps(records, allow_nan=False)
+
+
+def load_mlb_games_df() -> pd.DataFrame:
+    path = CSV["mlb_games"]
+    if not path.exists():
+        raise FileNotFoundError(f"{path.name} not found")
+
+    df = pd.read_csv(path, encoding="utf-8")
+
+    if "GAME_DATE" in df.columns:
+        df["GAME_DATE"] = pd.to_datetime(df["GAME_DATE"], errors="coerce").dt.strftime("%Y-%m-%d")
+
+    return df
+
 
 @app.get("/api/health")
 def health():
@@ -65,7 +77,6 @@ def nba_schedule_range():
         return Response("[]", mimetype="application/json", status=500)
 
 
-# Optional: raw games CSV (handy for debugging / reuse)
 @app.get("/api/nba/games")
 def nba_games():
     return csv_resp("nba_games")
@@ -150,17 +161,16 @@ def nba_player_search():
         print("nba_player_search error:", e)
         return jsonify([])
 
+
 # ---------------- NBA: player game logs ----------------
 @app.get("/api/nba/players/<int:player_id>/gamelog")
 def nba_player_gamelog(player_id: int):
-    # last N games
     last = request.args.get("last") or 5
     try:
         last_n = max(1, min(int(last), 50))
     except Exception:
         last_n = 5
 
-    # Optional filters (future-proof, can ignore in frontend for now)
     opp = (request.args.get("opp") or "").strip().upper() or None
     home = request.args.get("home")
     away = request.args.get("away")
@@ -189,7 +199,6 @@ def nba_player_gamelog(player_id: int):
         if df.empty:
             return jsonify([])
 
-        # Optional filters
         if opp and "OPP_TEAM_ABBR" in df.columns:
             df["OPP_TEAM_ABBR"] = df["OPP_TEAM_ABBR"].astype(str).str.upper()
             df = df[df["OPP_TEAM_ABBR"] == opp]
@@ -199,20 +208,15 @@ def nba_player_gamelog(player_id: int):
         if away_b is True and "IS_AWAY" in df.columns:
             df = df[df["IS_AWAY"] == True]
 
-        # Sort newest first
         if "GAME_DATE" in df.columns:
             df["GAME_DATE"] = pd.to_datetime(df["GAME_DATE"], errors="coerce")
             sort_cols = ["GAME_DATE"]
             if "GAME_ID" in df.columns:
                 sort_cols.append("GAME_ID")
             df = df.sort_values(sort_cols, ascending=[False] * len(sort_cols))
-
-            # Convert back to ISO string for frontend
             df["GAME_DATE"] = df["GAME_DATE"].dt.strftime("%Y-%m-%d")
 
-
         df = df.head(last_n)
-
         df = df.where(pd.notnull(df), None)
         df = df.replace([np.nan, np.inf, -np.inf], None)
         return jsonify(df.to_dict(orient="records"))
@@ -220,6 +224,7 @@ def nba_player_gamelog(player_id: int):
     except Exception as e:
         print("nba_player_gamelog error:", e)
         return jsonify([])
+
 
 @app.get("/api/nba/trends/matchup-insights")
 def nba_matchup_insights():
@@ -232,9 +237,6 @@ def nba_matchup_insights():
     except Exception as e:
         print("nba_matchup_insights error:", e)
         return jsonify({})
-
-if __name__ == "__main__":
-    app.run(debug=True)
 
 
 @app.get("/api/nba/trends/hot-streaks")
@@ -254,7 +256,7 @@ def nba_hot_streaks():
 
         payload = get_hot_streaks_payload(
             team_id=team_id,
-            stat=stat,  # type: ignore[arg-type]
+            stat=stat,
             threshold=threshold,
             team_window=team_window,
             include_inactive=include_inactive,
@@ -275,3 +277,77 @@ def nba_hot_streaks():
                 },
             }
         )
+
+
+# ---------------- MLB: schedule ----------------
+@app.get("/api/mlb/schedule/daily")
+def mlb_daily_schedule():
+    target = request.args.get("date") or _date.today().isoformat()
+    try:
+        df = load_mlb_games_df()
+        day_df = df[df["GAME_DATE"] == target].copy()
+
+        sort_cols = [c for c in ["GAME_DATE", "GAME_DATETIME", "GAME_ID"] if c in day_df.columns]
+        if sort_cols:
+            day_df = day_df.sort_values(sort_cols)
+
+        return Response(_records_strict(day_df), mimetype="application/json")
+    except Exception as e:
+        print("mlb_daily_schedule error:", e)
+        return Response("[]", mimetype="application/json", status=500)
+
+
+@app.get("/api/mlb/schedule/range")
+def mlb_schedule_range():
+    start = request.args.get("start")
+    end = request.args.get("end")
+    if not start or not end:
+        return jsonify([])
+
+    try:
+        df = load_mlb_games_df()
+        out = df[(df["GAME_DATE"] >= start) & (df["GAME_DATE"] <= end)].copy()
+
+        sort_cols = [c for c in ["GAME_DATE", "GAME_DATETIME", "GAME_ID"] if c in out.columns]
+        if sort_cols:
+            out = out.sort_values(sort_cols)
+
+        return Response(_records_strict(out), mimetype="application/json")
+    except Exception as e:
+        print("mlb_schedule_range error:", e)
+        return Response("[]", mimetype="application/json", status=500)
+
+
+# ---------------- MLB: CSV-backed endpoints ----------------
+@app.get("/api/mlb/games")
+def mlb_games():
+    return csv_resp("mlb_games")
+
+
+@app.get("/api/mlb/standings")
+def mlb_standings():
+    return csv_resp("mlb_standings")
+
+
+@app.get("/api/mlb/teams")
+def mlb_teams():
+    return csv_resp("mlb_teams")
+
+
+@app.get("/api/mlb/leaders")
+def mlb_leaders():
+    return csv_resp("mlb_leaders")
+
+
+@app.get("/api/mlb/teams/<int:team_id>/roster")
+def mlb_team_roster(team_id: int):
+    return csv_resp("mlb_roster_master", "TEAM_ID", team_id)
+
+
+@app.get("/api/mlb/teams/<int:team_id>/roster-basic")
+def mlb_team_roster_basic(team_id: int):
+    return csv_resp("mlb_rosters", "TEAM_ID", team_id)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)

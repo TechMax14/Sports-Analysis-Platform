@@ -8,7 +8,7 @@ interface Props {
 
 const ToolGrid = ({ selectedTool }: Props) => {
   if (selectedTool === "NBA Home") return <NbaHome />;
-  if (selectedTool === "Today’s Trends") return <NbaTrends />;
+  if (selectedTool === "Today's Trends") return <NbaTrends />;
   if (selectedTool === "League History")
     return <div>Coming Soon: Historic League Data</div>;
   return null;
